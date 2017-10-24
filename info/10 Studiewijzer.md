@@ -95,15 +95,17 @@ Elke week worden je opdrachten beoordeeld op de volgende factoren:
 
 De <strong>deadlines</strong> van de verschillende opdrachten staan in de tabel hieronder. Mis je de deadline, dan hebben wij geen tijd meer om het na te kijken en wordt het lastig het vak nog te halen. Stuur daarom altijd vóór de deadline in wat je hebt.
 
-| Opdracht      | Deadline             |
-| ------------- | -------------------- |
-| Problem Set 0 | Maandag 04 sep 23:59 |
-| Problem Set 1 | Vrijdag 08 sep 23:59 |
-| Problem Set 2 | Vrijdag 15 sep 23:59 |
-| Problem Set 3 | Vrijdag 22 sep 23:59 |
-| Problem set 4 | Vrijdag 06 okt 23:59 |
-| Problem set 5 | Vrijdag 13 okt 23:59 |
-| Problem set 6 | Vrijdag 20 okt 23:59 |
+| Opdracht                 | Deadline              |
+| ------------------------ | --------------------- |
+| Problem Set 0            | Dinsdag  31 okt 23:59 |
+| Problem Set 1            | Vrijdag  03 nov 23:59 |
+| Problem Set 2            | Vrijdag  10 nov 23:59 |
+| Problem Set 3            | Vrijdag  17 nov 23:59 |
+| Problem set 4            | Vrijdag  01 dec 23:59 |
+| Problem set 5 - monopoly | Woensdag 06 dec 23:59 |
+| Problem set 5 - virus    | Vrijdag  08 dec 23:59 |
+| Problem set 6 - klimaat  | Woensdag 13 dec 23:59 |
+| Problem set 6 - auto     | Vrijdag  15 dec 23:59 |
 
 ### Becijfering van de opdrachten
 
