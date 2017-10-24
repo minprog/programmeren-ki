@@ -1,8 +1,8 @@
 course:
-    title: Programmeren IK
-    short: ProgIK
-    submit: ProgIK2017
-    mail: progik@mprog.nl
+    title: Programmeren KI
+    short: ProgKI
+    submit: ProgKI2017
+    mail: progki@mprog.nl
 
 acknowledgements:
     - 'Christine Alvarado, Zachary Dodds, Geoff Kuenning, Ran Libeskind-Hadas. CS for All. http://www.cs.hmc.edu/csforall/ License: CC-BY-NC.'
