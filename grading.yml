@@ -1,0 +1,98 @@
+grades:
+    scratch:
+        type: float
+        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
+        hide_calculated: true
+    c:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    crypto:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    fifteen:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    python:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    simuleren:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    data:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    tentamen1:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 31.0 * 9 + 1).round(1)
+        hide_calculated: false
+    resit:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 24.0 * 9 + 1).round(1)
+
+calculation:
+    resit:
+        resit: 25
+        psets: 75
+    normal:
+        tentamen1: 40
+        psets: 60
+
+psets:
+    submits:
+        hw1: 1
+        hw2: 1
+        hw3: 1
+        hw4: 1
+        hw5: 1
+        hw6: 1
+        hw7: 1
+
+tentamen1:
+    required: true
+    submits:
+        quiz: 1
+
+resit:
+    required: true
+    submits:
+        resit: 1

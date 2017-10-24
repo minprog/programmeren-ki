@@ -1,0 +1,5 @@
+name: data
+files:
+    everyone:
+        - auto.ipynb
+        - klimaat.ipynb

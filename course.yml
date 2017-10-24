@@ -1,0 +1,11 @@
+course:
+    title: Programmeren IK
+    short: ProgIK
+    submit: ProgIK2017
+    mail: progik@mprog.nl
+
+acknowledgements:
+    - 'Christine Alvarado, Zachary Dodds, Geoff Kuenning, Ran Libeskind-Hadas. CS for All. http://www.cs.hmc.edu/csforall/ License: CC-BY-NC.'
+    - 'Christine Alvarado, Zachary Dodds, Geoff Kuenning, Ran Libeskind-Hadas. Harvey Mudd CS5 Gold. https://www.cs.hmc.edu/twiki/bin/view/ModularCS1  License: CC-BY-NC.'
+
+license: <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
