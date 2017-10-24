@@ -1,6 +1,6 @@
 # Programmeren KI<br><span class="small">Studiewijzer</span>
 
-*Versie: September 2017*
+*Versie: November 2017*
 
 Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in twee programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma’s die er op draaien. De opdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
