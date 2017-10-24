@@ -54,7 +54,9 @@ Om deze cursus te kunnen halen, verwachten we een aantal dingen van je.
 
 * We verwachten dat je ongeveer 21 uur per week aan dit vak besteedt. Programmeren leer je door te doen, en dat kost veel tijd. Houd hier rekening mee!
 
-* We verwachten dat je 6 uur per week aanwezig bent bij je computerpractica. Mocht je een practicum missen door ziekte, dan vragen wij je dit tijdig te melden, zodat je dit later kan inhalen.
+* We verwachten dat je 6 uur per week aanwezig bent bij je computerpractica. Mocht je een practicum missen door ziekte, dan vragen wij je dit tijdig te melden.
+
+* We verwachten dat je 2 uur per week aanwezig bent bij het hoorcollege.
 
 * We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten van de volgende week beter te maken, zodat je niet alleen leert programmeren, maar ook goed programmeren.
 
@@ -80,11 +82,11 @@ Problem set 0 telt niet mee voor het cijfer, je krijgt hier enkel een pass of fa
 
 ## Voorbereiding
 
-Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten dat je dit college hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege.
+Vóór aanvang van week 1 t/m 3 en 5 is er een videocollege. We verwachten dat je dit college hebt bekeken en bent begonnen aan de opdracht voor het eerste werkcollege.
 
 ## Opdrachten
 
-De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuis werken is noodzakelijk. We rekenen op ongeveer 20 uur werk per opdracht, en je hebt 6 uur aan practica per week.
+De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuis werken is noodzakelijk. We rekenen op ongeveer 20 uur werk per opdracht, en je hebt 6 uur aan laptopcolleges per week.
 
 Elke week worden je opdrachten beoordeeld op de volgende factoren:
 
