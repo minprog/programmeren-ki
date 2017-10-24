@@ -7,7 +7,7 @@ Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je 
 ## Contact
 
 Stuur een mail naar <progki@mprog.nl> of spreek je assistent of docenten aan.
-Voor uitzonderingen en persoonlijke afspraken moet je altijd een mail sturen.
+Voor uitzonderingen en persoonlijke afspraken moet je altijd een mail sturen naar <progki@mprog.nl>.
 
 Martijn Stegeman  
 *coördinator*  
