@@ -1,4 +1,4 @@
-# Programmeren IK<br><span class="small">Studiewijzer</span>
+# Programmeren KI<br><span class="small">Studiewijzer</span>
 
 *Versie: September 2017*
 
@@ -6,7 +6,7 @@ Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je 
 
 ## Contact
 
-Stuur een mail naar <progik@mprog.nl> of spreek je assistent of docenten aan.
+Stuur een mail naar <progki@mprog.nl> of spreek je assistent of docenten aan.
 Voor uitzonderingen en persoonlijke afspraken moet je altijd een mail sturen.
 
 Martijn Stegeman  
@@ -16,8 +16,6 @@ mail: <stegeman@uva.nl>
 Jelle van Assema  
 *docent*
 
-Bob Diertens  
-*docent*
 
 ## Voorkennis
 
@@ -60,7 +58,7 @@ Om deze cursus te kunnen halen, verwachten we een aantal dingen van je.
 
 * We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten van de volgende week beter te maken, zodat je niet alleen leert programmeren, maar ook goed programmeren.
 
-Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen contact opneemt (<progik@mprog.nl>). Als het gaat om persoonlijke problemen of andere onvermijdelijke zaken, zijn we altijd bereid te zoeken naar oplossingen.
+Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen contact opneemt (<progki@mprog.nl>). Als het gaat om persoonlijke problemen of andere onvermijdelijke zaken, zijn we altijd bereid te zoeken naar oplossingen.
 
 ## Activiteiten
 
@@ -155,4 +153,4 @@ In eerdere jaren is één student uitgesloten van deelname na het kopiëren van 
 Zie ook:
 
 * de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
-* de onderwijs- en examenregeling van Informatiekunde.
+* de onderwijs- en examenregeling van Kunstmatige Intelligentie.
