@@ -99,7 +99,7 @@ De <strong>deadlines</strong> van de verschillende opdrachten staan in de tabel 
 
 | Opdracht                 | Deadline              |
 | ------------------------ | --------------------- |
-| Problem Set 0            | Dinsdag  31 okt 23:59 |
+| Problem Set 0            | Dinsdag  31 okt 18:00 |
 | Problem Set 1            | Vrijdag  03 nov 23:59 |
 | Problem Set 2            | Vrijdag  10 nov 23:59 |
 | Problem Set 3            | Vrijdag  17 nov 23:59 |
