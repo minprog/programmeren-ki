@@ -14,7 +14,6 @@ layout: 2016/fall
 . Recreate one of Mario's pyramids, in `mario.c`.
 . Provide a user with either cash or credit in `greedy.c` or `credit.c`.
 . Submit your code.
-. Submit a form.
 
 == Getting Started
 
