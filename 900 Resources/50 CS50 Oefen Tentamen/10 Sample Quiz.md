@@ -1,9 +1,20 @@
-# CS50 Oefen Tentamen
+# ProgKI Oefententamen
 
-Voor het eerste deeltentamen vind je hier twee tentamens om te oefenen.
+Voor het eerste deeltentamen vind je hier een oefententamen. 
 
-* [CS50 oefen tentamen 1](samplequiz1.pdf)
-* [CS50 oefen tentamen 2](samplequiz2.pdf) (sla de volgende vragen over: 8 t/m 14, 16 t/m 18 en 26 t/m 27)
+* [ProgKI oefententamen](ProgKI_oefententamen_1.pdf)
+
+Antwoorden voor dit oefententamen komen op donderdag 23 november op deze pagina online.
+
+
+# CS50 Oefententamens
+
+Hier zijn ook nog een aantal tentamens van CS50 die je als extra kan maken:
+
+* [CS50 oefententamen 1](samplequiz1.pdf)
+* [CS50 oefententamen 2](samplequiz2.pdf) (sla de volgende vragen over: 8 t/m 14, 16 t/m 18 en 26 t/m 27)
+
+Voor deze tentamens komen geen antwoorden online.
 
 <!--
 ## Quiz
