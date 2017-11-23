@@ -6,6 +6,7 @@ Voor het eerste deeltentamen vind je hier een oefententamen.
 
 Antwoorden voor dit oefententamen komen op donderdag 23 november op deze pagina online.
 
+* [ProgKI oefententamen antwoorden](ProgKI_oefententamen_1__nakijk.pdf)
 
 # CS50 Oefententamens
 
