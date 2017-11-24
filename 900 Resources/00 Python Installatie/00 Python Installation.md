@@ -4,11 +4,13 @@ Vanaf nu gaan we niet meer werken in de CS50 IDE. Aangezien je Python nodig gaat
 
 ## Om te beginnen
 
-Om te kunnen programmeren op jouw eigen computer heb je twee verschillende programma's nodig: de taal zelf, en een goede editor.
+Om straks de Python problem sets te maken op jouw eigen computer heb je een aantal verschillende programma's nodig: de taal zelf, een goede editor, en CheckPy!
 
 1. **Python3**, de nieuwste versie van Python. We gaan deze kaal installeren en je vervolgens leren hoe je packages kan downloaden en installeren. Zo ben je meteen een stuk flexibeler! :)
 
 2. **Visual Studio Code**, een *editor* om code in te schrijven. Dit is in feite een soort tekstverwerker, maar dan speciaal bedoeld voor programmacode. Zo is er onder andere syntax highlighting en als bijkomend voordeel lijkt deze editor heel erg op de CS50 IDE! Wanneer je straks klaar bent met dit vak, ben je vrij jouw eigen editor te kiezen.
+
+3. **CheckPy**, een programma om jouw Python code te testen. Denk check50, maar nu voor Python! :)
 
 ## Stap 1: Python 3
 
