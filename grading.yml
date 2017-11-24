@@ -61,7 +61,7 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: [1, ((points - 2) / 28.0 * 9 + 1).round(1)].max
+        calculation: [1, (points / 28.0 * 9 + 1 - (2 / 30.0 * 9 + 1)).round(1)].max
         hide_calculated: false
     tentamen2:
         type: float
