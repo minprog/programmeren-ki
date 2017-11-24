@@ -1,4 +1,4 @@
-# Installeren
+# Python Installeren
 
 Vanaf nu gaan we niet meer werken in de CS50 IDE. Aangezien je Python nodig gaat hebben tijdens de rest van jouw studie is het handig dit te installeren op jouw eigen computer. Hieronder vind je de instructies.
 
@@ -39,7 +39,7 @@ Om zelf de tests te kunnen draaien moet je checkpy installeren. Laat het nou net
 Ubuntu:
 
 	sudo python3 -m pip install checkpy --user
-	
+
 Mac/Windows:
 
 	python3 -m pip install checkpy
