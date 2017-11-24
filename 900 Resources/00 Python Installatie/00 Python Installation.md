@@ -29,7 +29,7 @@ Zodra de download klaar is, moet je het gedownloade bestand uitvoeren. Volg dan 
 
 ## Stap 2: Visual Studio Code
 
-Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualstudio.com/). Ook hier geldt dat je het bestand nog moet uitvoeren en installeren. Je hoeft niks aan te passen aan de installatie-opties. Heb je een Mac? Dan wordt het programma in je Downloads-map gezet. Je kunt het vanuit daar gewoon slepen naar de applications folder.
+Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualstudio.com/). Ook hier geldt dat je het bestand nog moet uitvoeren en installeren. Je hoeft niks aan te passen aan de installatie-opties. Heb je een Mac? Dan wordt het programma in jouw Downloads-map gezet. Je kunt het vanuit daar gewoon slepen naar de applications folder.
 
 **Tip:** In het dropdown menu *view* kan je de integrated terminal aanklikken!
 
