@@ -6,14 +6,14 @@ In deze opdracht ga je de mario opdracht van CS50 maken in Python.
 
 ## Gebruik
 
-	python mario.py
+	python3 mario.py
 	Height: 3
 	  ##
 	 ###
 	####
 
 
-	python mario.py
+	python3 mario.py
 	Height: -1
 	Height: 24
 	Height: 2

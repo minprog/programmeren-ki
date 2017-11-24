@@ -4,19 +4,19 @@ In deze opdracht ga je de find opdracht van CS50 maken in Python. We vragen je b
 
 ## Gebruik
 
-	python find.py
+	python3 find.py
 	usage: python find.py needle haystack
 
-	python find.py 3
+	python3 find.py 3
 	usage: python find.py needle haystack
 
-	python find.py 3 1 2 3
+	python3 find.py 3 1 2 3
 	Found the needle in the haystack
 
-	python find.py 3 1 2
+	python3 find.py 3 1 2
 	Did not find the needle in the haystack
 
-	python find.py 3 5 3 4 2 1
+	python3 find.py 3 5 3 4 2 1
 	Found the needle in the haystack
 
 ## Specificatie
@@ -31,7 +31,7 @@ In deze opdracht ga je de find opdracht van CS50 maken in Python. We vragen je b
 
 * Schrijf functies!
 * Een lijst kun je in Python sorteren met de `sorted()` functie. Zo komt er uit `sorted([3,2,1])` de lijst `[1,2,3]`.
-* Delen van een lijst kan je in Python makkelijk pakken (slicen). Zo geeft `l[1:3]` een nieuwe lijst met alle elementen van lijst `l` vanaf het eerste element tot het derde. `l[1:]` geeft een lijst van het eerste element t/m het laatste en `l[:2]` tot het tweede element. 
+* Delen van een lijst kan je in Python makkelijk pakken (slicen). Zo geeft `l[1:3]` een nieuwe lijst met alle elementen van lijst `l` vanaf het eerste element tot het derde. `l[1:]` geeft een lijst van het eerste element t/m het laatste en `l[:2]` tot het tweede element.
 * Test jouw programma grondig, ook zonder `checkpy`. Je kan heel simpel dubbelchecken of de needle in de haystack zit d.m.v. de volgende regel python code `needle in haystack`. Dit laat Python d.m.v. linear search door de haystack gaan (als haystack een lijst is) en geeft `True` of `False` afhankelijk van of de needle in de haystack zit.
 
 

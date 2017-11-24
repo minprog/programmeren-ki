@@ -7,20 +7,20 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 
 ## Gebruik
 
-	python fifteen.py
+	python3 fifteen.py
 	usage: python fifteen.py size
 
-	python fifteen.py 10
+	python3 fifteen.py 10
 	usage: python fifteen.py size
 
-	python fifteen.py 4
+	python3 fifteen.py 4
 	15 14 13 12
 	11 10 09 08
 	07 06 05 04
 	03 01 02 __
 	Tile to move: 2
 
-	python fifteen.py 3
+	python3 fifteen.py 3
 	08 07 06
 	05 04 03
 	02 01 __
@@ -29,7 +29,7 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 
 ## Voorbeeld spelverloop
 
-	python fifteen.py 3
+	python3 fifteen.py 3
 	08 07 06
 	05 04 03
 	02 01 __

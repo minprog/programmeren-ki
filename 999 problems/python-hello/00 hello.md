@@ -4,7 +4,7 @@ In deze opdracht ga je de hello opdracht van CS50 maken in Python.
 
 ## Gebruik
 
-	python hello.py
+	python3 hello.py
 	Hello, world!
 
 ## Specificatie

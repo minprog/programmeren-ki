@@ -4,15 +4,15 @@ In deze opdracht ga je de caesar opdracht van CS50 maken in Python.
 
 ## Gebruik
 
-	python caesar.py 1
+	python3 caesar.py 1
 	plaintext:  HELLO
 	ciphertext: IFMMP
 
-	python caesar.py 13
+	python3 caesar.py 13
 	plaintext:  Hello, world!
 	ciphertext: Uryyb, jbeyq!
 
-	python caesar.py
+	python3 caesar.py
 	usage: python caesar.py key
 
 ## Specificatie

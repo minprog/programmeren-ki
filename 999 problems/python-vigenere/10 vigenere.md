@@ -4,10 +4,10 @@ In deze opdracht ga je de vigenere opdracht van CS50 maken in Python.
 
 ## Gebruik
 
-	python vigenere.py
+	python3 vigenere.py
 	usage: python vigenere.py keyword
 
-	python vigenere.py bacon
+	python3 vigenere.py bacon
 	plaintext: Meet me at the park at eleven am
 	ciphertext: Negh zf av huf pcfx bt gzrwep oz
 
