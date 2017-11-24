@@ -40,7 +40,7 @@ Om zelf de tests te kunnen draaien moet je checkpy installeren. Laat het nou net
 
 Ubuntu:
 
-	sudo python3 -m pip install checkpy --user
+	python3 -m pip install checkpy --user
 
 Mac/Windows:
 
