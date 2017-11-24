@@ -61,7 +61,13 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: (points / 31.0 * 9 + 1).round(1)
+        calculation: [1, ((points - 2) / 28.0 * 9 + 1).round(1)].max
+        hide_calculated: false
+    tentamen2:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 32.0 * 9 + 1).round(1)
         hide_calculated: false
     resit:
         type: float
@@ -71,28 +77,29 @@ grades:
 
 calculation:
     resit:
-        resit: 25
-        psets: 75
+        resit: 40
+        psets: 60
     normal:
-        tentamen1: 40
+        tentamens: 40
         psets: 60
 
 psets:
+    minimum: 5.5
     submits:
-        hw1: 1
-        hw2: 1
-        hw3: 1
-        hw4: 1
-        hw5: 1
-        hw6: 1
-        hw7: 1
+        c: 1
+        crypto: 1
+        fifteen: 1
+        python: 1
+        simuleren: 1
+        data: 1
 
-tentamen1:
-    required: true
+tentamens:
+    minimum: 5.5
     submits:
-        quiz: 1
+        tentamen1: 1
+        tentamen2: 1
 
 resit:
-    required: true
+    minimum: 5.5
     submits:
         resit: 1
