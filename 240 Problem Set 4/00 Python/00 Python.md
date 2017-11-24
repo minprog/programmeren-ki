@@ -15,6 +15,6 @@ In deze module gaan we beginnen aan Python. Dit doen we door alle voorgaande CS5
 2. <span class="label label-primary">Opdracht</span> Encrypt een string met de vigenere cipher in [vigenere.py](/problems/python-vigenere)
 3. <span class="label label-primary">Opdracht</span> Vind de needle in de haystack in [find.py](/problems/python-find)
 
-### Deel 4 (~7 uur)
+### Deel 3 (~7 uur)
 
 1. <span class="label label-primary">Opdracht</span> Speel een spelletje in [fifteen.py](/problems/python-fifteen)
