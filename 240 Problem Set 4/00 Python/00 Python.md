@@ -1,5 +1,11 @@
 # Python
 
+## tl;dr
+* Watch [lecture 4](https://progki.mprog.nl/lectures/week-4)
+* [Install Python](https://progik.mprog.nl/resources/python-installatie)
+* Implement problem set 1 to 3 in Python
+* Submit your code
+
 In deze module gaan we beginnen aan Python. Dit doen we door alle voorgaande CS50 opdrachten te maken in Python. Voordat je op de opdrachten duikt, kijk even naar de [installatie instructies](https://progik.mprog.nl/resources/python-installatie). Vanaf nu gaan we namelijk niet meer werken op de CS50 IDE.
 
 ### Deel 1 (~4 uur)
