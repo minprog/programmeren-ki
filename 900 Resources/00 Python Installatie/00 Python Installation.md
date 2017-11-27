@@ -48,7 +48,6 @@ Mac:
 
 Windows (in het vervolg overal waar je python3 ziet staan, type py -3):
 
-
 	py -3 -m pip install checkpy
 
 Als je stap 2 hebt uitgevoerd, en de integrated terminal optie hebt aangevinkt in Visual Studio Code, dan heb je daar een terminal tot je beschikking. Anders kan je altijd een terminal openen door te zoeken naar terminal op jouw Mac. Onder windows is er geen terminal, maar wel een powershell. Deze heeft net even andere commando's maar dat went vanzelf. Deze kun je openen door op de windows toets te drukken en te zoeken naar powershell.
