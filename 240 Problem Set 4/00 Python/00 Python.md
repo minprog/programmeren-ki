@@ -12,6 +12,8 @@ In deze module gaan we beginnen aan Python. Dit doen we door alle voorgaande CS5
 
 ## What to Do
 
+> let op! We gebruiken de cs50 module van Python niet.
+
 ### Deel 1 (~4 uur)
 
 0. <span class="label label-primary">Opdracht</span> Zeg de wereld gedag in [hello.py](/problems/python-hello)
