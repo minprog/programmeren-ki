@@ -2,7 +2,7 @@
 
 ## tl;dr
 * Watch [lecture 4](https://progki.mprog.nl/lectures/week-4)
-* [Install Python](https://progik.mprog.nl/resources/python-installatie)
+* [Install Python](https://progki.mprog.nl/resources/python-installatie)
 * Implement problem set 1 to 3 in Python
 * Submit your code
 
