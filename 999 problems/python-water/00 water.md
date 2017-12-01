@@ -19,6 +19,8 @@ In deze opdracht ga je de water opdracht van CS50 maken in Python.
 * Op de tweede regel moet er geprint worden hoeveel flessen water daarbij worden verbruikt.
 * Je mag aannemen dat de gebruiker enkel integers invult.
 
+> let op! We gebruiken de cs50 module van Python niet.
+
 ## Tips
 
 * Open visual studio code, en maak een nieuw bestand aan genaamd `water.py`. Let hierbij op de `.py`, dan krijg je ook syntax highlighting ;)
