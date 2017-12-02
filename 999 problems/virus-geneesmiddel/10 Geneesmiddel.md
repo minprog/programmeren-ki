@@ -13,7 +13,7 @@ Schrijf alle code voor deze opdracht in een file genaamd `medicine.py`.
 Je kan de code van de vorige opdracht importeren. Je hoeft geen code te copy pasten!
 
 
-### Tussenstap 1: Resistentie
+## Tussenstap 1: Resistentie
 Allereerst gaan we kijken of een virusgenoom resistent is.
 
 * Schrijf een functie `isResistent(virus)`.
@@ -26,7 +26,7 @@ Allereerst gaan we kijken of een virusgenoom resistent is.
 * Kijk eens naar de functie `string.find()`!
 
 
-### Tussenstap 2: Simuleren met een geneesmiddel
+## Tussenstap 2: Simuleren met een geneesmiddel
 Nu kunnen we het effect gaan bestuderen van de introductie van een geneesmiddel.
 We dienen het geneesmiddel toe zodra de diagnose is gesteld, bij de 100ste tijdstap.
 Laat per tijdstap eerst virussen afsterven, daarna bereken je pas de reproductie kans en laat je ze reproduceren.
@@ -47,7 +47,7 @@ Laat per tijdstap eerst virussen afsterven, daarna bereken je pas de reproductie
 * Maak eventueel een plot, gebeurt er wat je verwacht?
 
 
-### Tussenstap 3: Genezing?
+## Tussenstap 3: Genezing?
 Met de volgende parameters:
 
 * tijdstappen = 500

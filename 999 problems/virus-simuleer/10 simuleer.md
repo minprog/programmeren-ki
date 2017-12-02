@@ -8,7 +8,7 @@ In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en ste
 We bouwen deze opdracht stap voor stap op, tot een gehele simulatie.
 
 
-### Tussenstap 1: Virusgenoom
+## Tussenstap 1: Virusgenoom
 
 Als model voor een virusgenoom gaan we gebruik maken van een DNA string welke bestaat uit de vier nucleotiden ATGC.
 A (Adenine) is altijd verbonden met T (Thymine), G (Guanine) is altijd verbonden met C (Cytosine).
@@ -33,7 +33,7 @@ Effectief laten we telkens het aanhangende nucleotide weg, dat maakt de represen
 * Gebruik een [list comprehension](/theory/comprehensions) en de `"".join()` methode van een string.
 
 
-### Tussenstap 2: Muteren
+## Tussenstap 2: Muteren
 
 Zodra een virus wordt geboren heeft deze een kans te muteren.
 Muteren is het veranderen van één willekeurig nucleotide voor een willekeurige ander.
@@ -50,7 +50,7 @@ Bijvoorbeeld van AGTC naar ATTC.
 * Gebruik list slicing.
 
 
-### Tussenstap 3: Afsterven
+## Tussenstap 3: Afsterven
 
 Virussen sterven uiteindelijk ook, dit gebeurt met een bepaalde kans per tijdstap in de simulatie.
 
@@ -67,7 +67,7 @@ Virussen sterven uiteindelijk ook, dit gebeurt met een bepaalde kans per tijdsta
 * Gebruik een list comprehension!
 
 
-### Tussenstap 4: Reproductie
+## Tussenstap 4: Reproductie
 
 Een virus heeft een kans zich voort te planten op elke tijdstap in de simulatie.
 Als een virus zich voortplant dan heeft het kind exact dezelfde DNA string als de ouder.
@@ -83,7 +83,7 @@ Behalve als het kind muteert, dan is er één basepaar anders.
 * Geen regellimiet dit keer, maar als je jezelf wilt uitdagen: 2 regels is mogelijk.
 
 
-### Tussenstap 5: Populatie grootte
+## Tussenstap 5: Populatie grootte
 
 Naarmate er meer virusdeeltjes aanwezig zijn, wordt de kans op reproductie kleiner.
 Er is simpelweg niet genoeg ruimte voor alle virusdeeltjes.
@@ -99,7 +99,7 @@ De kans op reproductie is gelijk aan `(1 - (grootte_van_virus_populatie / maxima
 * Je mag hier **twee regels code** gebruiken (dat is inclusief de regel `def reproductionProbability(viruses, maxReproductionProb, maxPopulation):`).
 
 
-### Tussenstap 6: Simuleren
+## Tussenstap 6: Simuleren
 
 Nu we een representatie hebben voor virussen, en deze kunnen laten muteren, doen sterven, en laten reproduceren, kunnen we gaan simuleren.
 Laat per tijdstap eerst virussen afsterven, daarna bereken je pas de reproductie kans en laat je ze reproduceren.
