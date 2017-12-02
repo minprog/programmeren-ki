@@ -7,6 +7,7 @@ In deze module ga je oefenen met simulaties. Zo ga je straks een monopoly spel s
 ## Monopoly (~9 uur)
 
 In de eerste helft ga je het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten is. Dit is speltheorie in de praktijk.
+
 Gedurende deze opdrachten schrijf je functies en stukjes code die langzaam opbouwen naar een versimpelde simulatie van monopoly. Neem straks even de tijd om te kijken waar je naar toe werkt. 
 
 In deze opdracht leer je modules schrijven en importeren. Ga je grafieken plotten uit jouw eigen gegenereerde data door middel van Python. Daarbij kom je ook in aanraking met ingewikkeldere datastructuren zoals dictionaries. 
@@ -18,6 +19,7 @@ In deze opdracht leer je modules schrijven en importeren. Ga je grafieken plotte
 ## Virus (~10 uur)
 
 In de tweede helft ga je het gedrag van virussen simuleren. Een beetje bio-informatica!
+
 Gedurende deze opdrachten schrijf je functies die langzaam opbouwen naar een simulatie van virussen in een patient. Neem straks even de tijd om te kijken waar je naar toe werkt.
 
 Hier ga je ontzettend veel leren over strings en manipulaties daarop. Wordt je uitgedaagd om korte code te schrijven door [list comprehensions](/theory/comprehensions) toe te passen. Tijd om dieper in de features van Python te duiken!
