@@ -24,7 +24,7 @@ Gedurende deze opdrachten schrijf je functies die langzaam opbouwen naar een sim
 
 Hier ga je ontzettend veel leren over strings en manipulaties daarop. Wordt je uitgedaagd om korte code te schrijven door [list comprehensions](/theory/comprehensions) toe te passen. Kortom, tijd om dieper in de features van Python te duiken!
 
-> run `python3 -m pip install checkpy --upgrade --user` om checkpy te updaten voor deze opdracht
+> Run `python3 -m pip install checkpy --upgrade --user` om checkpy te updaten voor deze opdracht. Vervolgens `checkpy -d jelleas/progiktests` om de tests opnieuw te downloaden.
 
 1. <span class="label label-primary">Opdracht</span> [Simuleer virussen](/problems/virus-simuleer)
 2. <span class="label label-primary">Opdracht</span> [Introduceer een geneesmiddel](/problems/virus-geneesmiddel)
