@@ -22,7 +22,7 @@ In dit deel van de problem set bouw je straks een simulatie voor virusdeeltjes i
 
 Gedurende deze opdrachten schrijf je functies die langzaam opbouwen naar een simulatie van virussen in een patient. Neem straks even de tijd om goed te kijken waar je naar toe werkt.
 
-Hier ga je ontzettend veel leren over strings en manipulaties daarop. Wordt je uitgedaagd om korte code te schrijven door [list comprehensions](/theory/comprehensions) toe te passen. Tijd om dieper in de features van Python te duiken!
+Hier ga je ontzettend veel leren over strings en manipulaties daarop. Wordt je uitgedaagd om korte code te schrijven door [list comprehensions](/theory/comprehensions) toe te passen. Kortom, tijd om dieper in de features van Python te duiken!
 
 > run `python3 -m pip install checkpy --upgrade --user` om checkpy te updaten voor deze opdracht
 
