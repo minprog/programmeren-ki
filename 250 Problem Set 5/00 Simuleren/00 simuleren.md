@@ -18,7 +18,7 @@ In deze opdracht leer je modules schrijven en importeren. Ga je grafieken plotte
 
 ## Virus (~10 uur)
 
-In dit deel van de problem set bouw je straks een simulatie voor virusdeeltjes in een patient. Hoe deze zich reproduceren, muteren en uiteindelijk reageren op een geneesmiddel. Een beetje bio-informatica!
+In dit deel van de problem set bouw je straks een simulatie voor virusdeeltjes in een patient. Daarbij implementeer je hoe deze virusdeeltjes zich reproduceren, muteren en uiteindelijk reageren op een geneesmiddel. Een beetje bio-informatica!
 
 Gedurende deze opdrachten schrijf je functies die langzaam opbouwen naar een simulatie van virussen in een patient. Neem straks even de tijd om goed te kijken waar je naar toe werkt.
 
