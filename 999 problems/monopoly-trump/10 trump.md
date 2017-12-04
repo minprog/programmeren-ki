@@ -1,5 +1,7 @@
 # Monopoly: Trump
 
+> Let op! Als je van het weekend de code al hebt gedownload, doe dit dan opnieuw! Wegens technische problemen is deze aangepast :)
+
 ![](MonopolyBordInternationaal.jpg){:.inline}{: style="width:50%"}
 
 Bij banken, verzekeraars en het centraal planbureau worden modellen opgesteld die
