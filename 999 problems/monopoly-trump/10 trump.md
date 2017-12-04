@@ -25,15 +25,9 @@ hebben we nog wat suggesties voor extra opgaves gemaakt.
 Bij deze opdracht leveren we wat code mee, zodat jij niet al het werk hoeft te doen. De code kun je [hier downloaden](https://github.com/Jelleas/monopoly/archive/master.zip).
 Let er even op, het is een .zip bestand. Deze moet je dus uitpakken in de map waarin je wilt gaan werken.
 
-Zodra je dat hebt gedaan zie je drie python bestanden: `monopoly.py`, `monopolyData.py`, en `monopolyVisualisation.py`. De code binnen deze files hoef je niet te begrijpen. We zullen je er geen vragen over stellen, maar werp er wel een korte blik op.
-Toch even voor een snelle uitleg, monopolyVisualisation is een Python module die de visualisatie verzorgt, en monopolyData een module die de data levert voor de
+Zodra je dat hebt gedaan zie je drie python bestanden: `monopoly.py` en `monopolyData.py`. De code binnen deze files hoef je niet te begrijpen. We zullen je er geen vragen over stellen, maar werp er wel een korte blik op.
+Toch even voor een snelle uitleg: monopolyData een module die de data levert voor de
 waardes en namen van de vakjes op het bord. `monopoly.py` geeft jou de mogelijkheid om een pion over het bord te laten lopen.
-
-Zullen we het even testen? Doe maar eens:
-
-	python monopoly.py
-
-Als alles goed is, zie je een pionnetje 10 stappen over het Monopolybord bewegen. Dit is wat we jou meegeven, een representatie voor een bord, een representatie voor een pion, en de  mogelijkheid om een pion over het bord te laten bewegen. Ook kun je dit visualiseren, zo kan jij zometeen makkelijk nagaan of jouw simulatie wel klopt.
 
 Hoe werkt dit alles? In monopoly.py geven we je twee nieuwe types. Dat zijn `Board`, en `Piece`. Dit zijn zelfgemaakte (door ons) types waarmee jij zometeen kan werken.
 Je kan een `Board` aanmaken met de volgende regel code:
@@ -54,21 +48,7 @@ behorende bij een Piece, namelijk `move(distance)`. Je kan een `Piece` laten bew
 de pion 7 vakjes. Door het gebruik van deze methode verandert de waarde van het attribuut location ook.
 
 Met de combinatie van een `Board` en een `Piece` kunnen we het spel simuleren. Je kan namelijk de waarde opvragen van het vakje waar de `Piece` op staat d.m.v.
-`board.values[piece.location]` en de naam d.m.v. `board.names[piece.location]`. Wil je de stand van het bord zien? Gebruik dan de `draw` functie van `monopoly.py`.
-Deze kun je als volgt gebruiken:
-
-	import time
-	if __name__ == "__main__":
-		monopoly.draw(board, piece)
-		time.sleep(1)
-
-Bij een aanroep naar `draw()` is het belangrijk dat deze enkel wordt uitgevoerd als je jouw python programma direct uitvoert. Oftewel als main module, de regel: `if __name__ == "__main__"` is daarom nodig. Je ziet ook `time.sleep(1)` staan, deze is nodig omdat jouw computer anders te snel doorraast om het pionnetje nog te zien. Dit laat jouw programma 1 seconde wachten voordat het weer verder gaat. Mocht je meerdere `Piece`s hebben, dan kun je dit doen:
-
-	if __name__ == "__main__":
-		monopoly.draw(board, piece1, piece2, piece3)
-		time.sleep(1)
-
-> Geen zorgen, checkpy kan nu met `if __name__ == "__main__":` overweg!
+`board.values[piece.location]` en de naam d.m.v. `board.names[piece.location]`.
 
 ## Opdracht: Trump mode
 
@@ -138,7 +118,7 @@ We hebben nu een bord, een pion, dobbelstenen, en een manier om bezit bij te hou
 Onze vraag is, hoe vaak moet je dobbelen voordat je alles in bezit hebt? Hoewel je oneindig veel geld hebt, mag je enkel een vakje kopen als je erop staat!
 
 Zorg dat je dit niet één keer simuleert, maar een gezond aantal keer, zeg 1000, 10000 keer? Mag best een paar seconden
-duren, maar niet te lang (`checkpy` kapt je af na 10 seconden)!
+duren, maar niet te lang (`checkpy` kapt je af na X seconden)!
 
 Als output moet je programma het aantal keren dobbelen dat gemiddeld nodig was printen in de eerste regel van de output.
 
