@@ -27,7 +27,7 @@ hebben we nog wat suggesties voor extra opgaves gemaakt.
 Bij deze opdracht leveren we wat code mee, zodat jij niet al het werk hoeft te doen. De code kun je [hier downloaden](https://github.com/Jelleas/monopoly/archive/master.zip).
 Let er even op, het is een .zip bestand. Deze moet je dus uitpakken in de map waarin je wilt gaan werken.
 
-Zodra je dat hebt gedaan zie je drie python bestanden: `monopoly.py` en `monopolyData.py`. De code binnen deze files hoef je niet te begrijpen. We zullen je er geen vragen over stellen, maar werp er wel een korte blik op.
+Zodra je dat hebt gedaan zie je twee python bestanden: `monopoly.py` en `monopolyData.py`. De code binnen deze files hoef je niet te begrijpen. We zullen je er geen vragen over stellen, maar werp er wel een korte blik op.
 Toch even voor een snelle uitleg: monopolyData een module die de data levert voor de
 waardes en namen van de vakjes op het bord. `monopoly.py` geeft jou de mogelijkheid om een pion over het bord te laten lopen.
 
