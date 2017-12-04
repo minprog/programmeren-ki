@@ -12,9 +12,9 @@ Nu je matplotlib hebt geïnstalleerd, kunnen we de module importeren, en kunnen 
 
     y_values = [3,5,8,10,12,15,18,20]
     plt.plot(y_values)
-    plt.show()
+    plt.savefig("my_graph.png")
 
-Op de eerste regel wordt matplotlib geïmporteerd. Of beter gezegd, de submodule `pyplot` van `matplotlib` wordt geïmporteerd. Dat is een module die je laat plotten door een sequentie van functie aanroepen. Dit komt je misschien bekend voor als je al eens hebt gewerkt met de programmeertaal Matlab. Het is gebruikelijk dat je lange imports afkort, en `plt` is de gebruikelijke afkorting voor `matplotlib.pyplot`. Dit scheelt je enorm veel typen! Verder zie je op de regels daarop volgend een lijstje, dan wordt dat lijstje geplot, en vervolgens laten we de plot zien. Run je bovenstaande stukje code dan zie je de volgende grafiek verschijnen:
+Op de eerste regel wordt matplotlib geïmporteerd. Of beter gezegd, de submodule `pyplot` van `matplotlib` wordt geïmporteerd. Dat is een module die je laat plotten door een sequentie van functie aanroepen. Dit komt je misschien bekend voor als je al eens hebt gewerkt met de programmeertaal Matlab. Het is gebruikelijk dat je lange imports afkort, en `plt` is de gebruikelijke afkorting voor `matplotlib.pyplot`. Dit scheelt je enorm veel typen! Verder zie je op de regels daarop volgend een lijstje, dan wordt dat lijstje geplot, en vervolgens slaan we de plot op. Run je bovenstaande stukje code dan wordt de volgende grafiek opgeslagen in my_graph.png:
 
   ![](simple_graph.png)
 
@@ -27,7 +27,7 @@ Als allereerste wil je waarschijnlijk meer plotten dan enkel y waardes, zo kun j
     x_values = [10,20,30,40,50,60,70,80]
     y_values = [3,5,8,10,12,15,18,20]
     plt.plot(x_values, y_values)
-    plt.show()
+    plt.savefig("my_graph.png")
 
   ![](x_graph.png)
 
@@ -41,7 +41,7 @@ Label en titels kun je als volgt toevoegen:
     plt.ylabel("Willekeurige waardes")
     plt.title("Oefengrafiek")
     plt.plot(x_values, y_values)
-    plt.show()
+    plt.savefig("my_graph.png")
 
   ![](label_graph.png)
 
@@ -57,7 +57,7 @@ Meerdere grafieken plotten doe je door de `plot()` functie meerdere keren aan te
     plt.title("Oefengrafiek")
     plt.plot(x_values, y_values)
     plt.plot(x_values, more_y_values)
-    plt.show()
+    plt.savefig("my_graph.png")
 
   ![](multiple_graph.png)
 
@@ -74,7 +74,7 @@ Een legenda toevoegen doe je door een extra argument `label` mee te geven aan de
     line1 = plt.plot(x_values, y_values, label = "Kronkelige lijn")
     line2 = plt.plot(x_values, more_y_values, label = "Rechte lijn")
     plt.legend()
-    plt.show()
+    plt.savefig("my_graph.png")
 
   ![](legenda_graph.png)
 
