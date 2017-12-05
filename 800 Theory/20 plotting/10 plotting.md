@@ -2,7 +2,17 @@
 
 Python heeft een handige plot module genaamd `matplotlib` om makkelijk grafieken te maken. Voor je deze module kunt gebruiken zal je deze eerst moeten installeren. Dat doe je door middel van `pip`. Pip staat voor Pip Installs Python, en dit is een Python module waarmee je andere Python modules makkelijk kan downloaden en installeren. Het werkt vrij simpel. Om matplotlib te installeren voer je het volgende commando in de terminal in:
 
-    python -m pip install matplotlib
+Onder Ubuntu:
+
+    python3 -m pip install matplotlib --user
+
+Onder Mac:
+
+    python3 -m pip install matplotlib
+
+Onder Windows:
+
+    py -3 -m pip install matplotlib
 
 Dit commando ziet er misschien wat ingewikkeld uit, maar het bestaat eigenlijk uit twee delen. `python -m pip` is simpelweg een manier om pip uit te voeren, je roept Python aan en verteld d.m.v. de module flag (`-m`) om de pip module uit te voeren. Dan gaan de overgebleven argumenten (dat zijn `install matplotlib`) naar de pip module. En zoals je dan verwacht, installeert pip de module matplotlib.
 
