@@ -18,12 +18,34 @@ Dit commando ziet er misschien wat ingewikkeld uit, maar het bestaat eigenlijk u
 
 Nu je matplotlib hebt geïnstalleerd, kunnen we de module importeren, en kunnen we gaan plotten. Laten we met een voorbeeld beginnen:
 
+
+Onder Ubuntu:
+
+	
+
     import matplotlib.pyplot as plt
-    plt.switch_backend("Agg")
 
     y_values = [3,5,8,10,12,15,18,20]
     plt.plot(y_values)
     plt.savefig("my_graph.png")
+
+Onder Mac/Windows:
+
+	import matplotlib.pyplot as plt
+
+    import matplotlib.pyplot as plt
+
+    y_values = [3,5,8,10,12,15,18,20]
+    plt.plot(y_values)
+    plt.savefig("my_graph.png")
+
+> Verschil moet er zijn helaas. Op Ubuntu moet je matplotlib als volgt importeren: 
+
+		import matplotlib
+		matplotlib.use("Agg")
+		import matplotlib.pyplot as plt` 
+
+	Niet alle Ubuntu installaties hebben een package (Tk) die de simpele import van matplotlib mogelijk maakt. Daarom moet je onder Ubuntu iets meer code typen om matplotlib te importeren. Zorg ervoor dat de import van matplotlib op Ubuntu bovenaan jouw code staat! 
 
 Op de eerste regel wordt matplotlib geïmporteerd. Of beter gezegd, de submodule `pyplot` van `matplotlib` wordt geïmporteerd. Dat is een module die je laat plotten door een sequentie van functie aanroepen. Dit komt je misschien bekend voor als je al eens hebt gewerkt met de programmeertaal Matlab. Het is gebruikelijk dat je lange imports afkort, en `plt` is de gebruikelijke afkorting voor `matplotlib.pyplot`. Dit scheelt je enorm veel typen! Regel 2 zorgt ervoor dat Matplotlib geen tk nodig heeft, een package die misschien niet geïnstalleerd staat op jouw computer. Verder zie je op de regels daarop volgend een lijstje, dan wordt dat lijstje geplot, en vervolgens slaan we de plot op. Run je bovenstaande stukje code dan wordt de volgende grafiek opgeslagen in my_graph.png:
 
@@ -34,7 +56,6 @@ We gaan in deze intro focussen op interessante functies voor binnen dit vak. Je 
 Als allereerste wil je waarschijnlijk meer plotten dan enkel y waardes, zo kun je ook bijbehorende x waardes willen plotten. Dat doe je door meer argumenten te geven aan de `plot()` functie. Bijvoorbeeld:
 
     import matplotlib.pyplot as plt
-    plt.switch_backend("Agg")
 
     x_values = [10,20,30,40,50,60,70,80]
     y_values = [3,5,8,10,12,15,18,20]
@@ -46,7 +67,6 @@ Als allereerste wil je waarschijnlijk meer plotten dan enkel y waardes, zo kun j
 Label en titels kun je als volgt toevoegen:
 
     import matplotlib.pyplot as plt
-    plt.switch_backend("Agg")
 
     x_values = [10,20,30,40,50,60,70,80]
     y_values = [3,5,8,10,12,15,18,20]
@@ -61,7 +81,6 @@ Label en titels kun je als volgt toevoegen:
 Meerdere grafieken plotten doe je door de `plot()` functie meerdere keren aan te roepen. Dus als volgt:
 
     import matplotlib.pyplot as plt
-    plt.switch_backend("Agg")
 
     x_values = [10,20,30,40,50,60,70,80]
     y_values = [3,5,8,10,12,15,18,20]
@@ -78,7 +97,6 @@ Meerdere grafieken plotten doe je door de `plot()` functie meerdere keren aan te
 Een legenda toevoegen doe je door een extra argument `label` mee te geven aan de `plot()` functie, en vervolgens de `legend()` functie aan te roepen.
 
     import matplotlib.pyplot as plt
-    plt.switch_backend("Agg")
 
     x_values = [10,20,30,40,50,60,70,80]
     y_values = [3,5,8,10,12,15,18,20]
