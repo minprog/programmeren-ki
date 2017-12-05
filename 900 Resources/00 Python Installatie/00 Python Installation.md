@@ -16,13 +16,7 @@ Om straks de Python problem sets te maken op jouw eigen computer heb je een aant
 
 Ben je een eerstejaars KI-er en heb je Ubuntu geinstalleerd staan. Voer dan in Ubuntu de volgende commando's in de terminal in:
 
-	sudo apt install zlib1g-dev libssl-dev
-	wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tar.xz
-	tar -vxf Python-3.6.3.tar.xz
-	cd Python-3.6.3
-	./configure
-	make
-	sudo make install
+	sudo apt install python3 python3-pip
 
 Ben je geen eerstejaars KI-er en heb je geen Ubuntu tot je beschikking, doe dan het volgende: Download [Python](https://www.python.org/downloads/). Kies daar voor Python versie 3.6.x (op het moment van schrijven is dat versie 3.6.2)!
 
