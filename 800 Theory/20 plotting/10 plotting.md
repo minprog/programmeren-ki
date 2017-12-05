@@ -24,13 +24,13 @@ Nu je matplotlib hebt geïnstalleerd, kunnen we de module importeren, en kunnen 
     plt.plot(y_values)
     plt.savefig("my_graph.png")
 
-> Verschil moet er zijn helaas. Op Ubuntu moet je matplotlib als volgt importeren: 
+> Let op! Verschil moet er zijn helaas. Op **Ubuntu** moet je matplotlib als volgt importeren: 
 
-		import matplotlib
-		matplotlib.use("Agg")
-		import matplotlib.pyplot as plt` 
+	import matplotlib
+	matplotlib.use("Agg")
+	import matplotlib.pyplot as plt` 
 
-> Niet alle Ubuntu installaties hebben een package (Tk) die de simpele import van matplotlib mogelijk maakt. Daarom moet je onder Ubuntu iets meer code typen om matplotlib te importeren. Zorg ervoor dat de import van matplotlib op Ubuntu bovenaan jouw code staat! 
+> Want niet alle Ubuntu installaties hebben een package (Tk) die de simpele import van matplotlib mogelijk maakt. Daarom moet je onder Ubuntu iets meer code typen om matplotlib te importeren. Zorg ervoor dat de import van matplotlib op Ubuntu bovenaan jouw code staat! 
 
 Op de eerste regel wordt matplotlib geïmporteerd. Of beter gezegd, de submodule `pyplot` van `matplotlib` wordt geïmporteerd. Dat is een module die je laat plotten door een sequentie van functie aanroepen. Dit komt je misschien bekend voor als je al eens hebt gewerkt met de programmeertaal Matlab. Het is gebruikelijk dat je lange imports afkort, en `plt` is de gebruikelijke afkorting voor `matplotlib.pyplot`. Dit scheelt je enorm veel typen! Regel 2 zorgt ervoor dat Matplotlib geen tk nodig heeft, een package die misschien niet geïnstalleerd staat op jouw computer. Verder zie je op de regels daarop volgend een lijstje, dan wordt dat lijstje geplot, en vervolgens slaan we de plot op. Run je bovenstaande stukje code dan wordt de volgende grafiek opgeslagen in my_graph.png:
 
