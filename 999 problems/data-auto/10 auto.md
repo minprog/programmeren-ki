@@ -9,7 +9,7 @@ We gaan de data van de rit analyseren en visueel maken door deze over een map va
 De sensordata is beschikbaar in het bestand `autorit.data`, deze kan je [hier](autorit.data) downloaden.
 
 ### Tussenstap 1: Preprocessing
-Maak een nieuw notebook aan genaamd `auto`. Zorg dat het databestand in dezelfde map staat als het net aangemaakt notebook. Dubbel check het even! Zodra je dat hebt gedaan, ga je de data preprocessen in het notebook. Maak een cell aan in het notebook dat het databestand opent, inleest, en wegschrijft als `auto.csv`. Zorg dat de eerste rij bestaat uit de kolomnamen, en de rijen daarop volgend uit alle waardes. Waardes scheid je door een komma, want anders zijn het ook geen Comma Seperated Values. 
+Maak een nieuw notebook aan genaamd `auto`. Zorg dat het databestand in dezelfde map staat als het net aangemaakt notebook. Dubbel check het even! Zodra je dat hebt gedaan, ga je de data preprocessen in het notebook. Maak een cell aan in het notebook dat het databestand opent, inleest, en wegschrijft als `auto.csv`. Zorg dat de eerste rij bestaat uit de kolomnamen, en de rijen daarop volgend uit alle waardes. Waardes scheid je door een komma, want anders zijn het ook geen Comma Seperated Values.
 
 Het data bestand begint met de namen van de 36 kolommen, elk op één regel. Dan zijn er 761 datapunten met elke 36 waardes. Deze datapunten staan elk op twee regels, gevolgd door een witregel. De waardes zijn gescheiden door een `;`. Open het bestand maar eens met een tekst editor om een beeld te krijgen van het formaat. De eerste regel van het nieuwe `.csv` bestand, genaamd `auto.csv`, moet bestaan uit alle kolomnamen, gescheiden door een komma. De volgende 761 regels moeten alle datapunten zijn, elk op één regel, waar alle waardes gescheiden zijn door een komma.
 
@@ -82,7 +82,7 @@ De code ziet er misschien wat ingewikkeld uit, maar het is niks meer dan een pla
 
 ### Tussenstap 3: Afgelegde afstand
 
-Maak een nieuwe cell dat uitprint wat de geschatte afgelegde afstand in kilometers van de auto is. Gebruik hiervoor de snelheid op elke tijdstap, en neem aan dat er één meetpunt per seconde is gedaan (we negeren de kleine schommelingen even).
+Maak een nieuwe cell dat uitprint wat de geschatte afgelegde afstand in kilometers (op 2 decimalen nauwkeurig) van de auto is. Gebruik hiervoor de snelheid op elke tijdstap, en neem aan dat er één meetpunt per seconde is gedaan (we negeren de kleine schommelingen even).
 
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
