@@ -1,10 +1,16 @@
 # File Input & Output
-In Python kan je op verschillende manieren werken met (data)bestanden. Maar je zal ongetwijfeld de `open()` functie nodig hebben. Deze functie opent een bestand voor lezen of voor schrijven. Zodra je dat hebt gedaan kun je uit het bestand lezen, en eventueel naar het bestand schrijven. Zodra je klaar bent met het bestand moet je dit weer sluiten d.m.v. `close()`. Omdat je dat laatste nog weleens wilt vergeten heeft Python een speciaal construct in het leven geroepen: de `with` statement. Deze statement sluit het geopende bestand nadat je er klaar mee bent meteen, automatisch en voor niks. Zo kan je dit nooit vergeten! Het ziet er als volgt uit:
+Alles op jouw computer is een sequentie van 1en en 0en. Bestanden op jouw computer zijn dus ook niet meer dan dat. Echter op basis van het type bestand springen we anders om met de 1en en 0en in het bestand. Open je bijvoorbeeld een .txt bestand met een teksteditor dan probeert de teksteditor de 1en en 0en te ontcijferen alsof het tekst is. Probeer je bijvoorbeeld een .jpeg of een .png te openen met een teksteditor, dan probeert de teksteditor dat nog steeds en krijg je een heel hoop chaos op jouw scherm. Het is dat die teksteditor het nog steeds kan, maar de 1en en 0en van het plaatje slaan nergens op als je ze interpreteert als tekst! 
+
+Om een beetje orde te scheppen en hints te geven wat we precies moeten doen met een bestand hebben we extensies zoals .txt en .jpeg. Dit zijn enkel hints voor de verschillende programma's op jouw computer om hoe ze met het bestand moeten omspringen. De inhoud van het bestand veranderdt niet afhankelijk van de extensie! Je mag prima een .txt bestand opslaan als een .jpeg, maar dan zal je deze vervolgens expliciet moeten openen met een teksteditor de volgende keer als je het bestand wilt openen ;)
+
+Voor deze cursus gebruiken we een niet bestaand (of in ieder geval niet bekend) formaat .data. Wat daarin staat is puur tekst, je kan het dus ook openen met een teksteditor. Het vervelende is dat zo'n formaat afwijkt van conventie, en je daarom niet gemakkelijk mainstream tools kan gebruiken. Dit zal je vaker tegenkomen als je met data gaat werken. Het is daarom belangrijk dat je leert hoe je op laag niveau (dichtbij de 1en en 0en) leert omgaan met bestanden. Zodat je zelf vervelende formaten kunt omschrijven naar andere bekendere formaten zoals bijvoorbeeld .csv. 
+
+In Python kan je op verschillende manieren werken met bestanden, maar je zal ongetwijfeld de `open()` functie nodig hebben. Deze functie opent een bestand voor lezen of voor schrijven. Zodra je dat hebt gedaan kun je uit het bestand lezen, en eventueel naar het bestand schrijven. Zodra je klaar bent met het bestand moet je dit weer sluiten d.m.v. `close()`. Omdat je dat laatste nog weleens wilt vergeten heeft Python een speciaal construct in het leven geroepen: de `with` statement. Deze statement sluit het geopende bestand nadat je er klaar mee bent meteen, automatisch en voor niks. Zo kan je dit nooit vergeten! Het ziet er als volgt uit:
 
     with open("myfile.txt") as f:
         # do magic
 
-Laten we beginnen met wat voorbeelden. Zo kan je bijvoorbeeld een regel uit jouw bestand lezen en printen naar het scherm:
+Laten we beginnen met wat voorbeelden. Zo kan je bijvoorbeeld een regel uit jouw bestand lezen en printen naar het scherm met:
 
     with open("myfile.txt") as f:
         line = f.readline()
@@ -15,7 +21,7 @@ Wil je het woord `"hello"` wegschrijven dan doe je dat zo:
     with open("myotherfile.txt", "w") as f:
         f.write("hello")
 
-Let erop dat je een extra argument meegeeft aan open, in dit geval de letter `"w"` van write. Standaard opent Python een bestand in leesmodus en kun je er dus niet naar schrijven. Allebei tegelijk nu, inlezen vanuit de ene bestand, en schrijven naar de ander:
+Let erop dat je een extra argument meegeeft aan open, in dit geval de letter `"w"` van write. Standaard opent Python een bestand in leesmodus en kun je er dus niet naar schrijven. Allebei tegelijk nu, inlezen vanuit het ene bestand, en schrijven naar de ander:
 
     with open("inputfile.txt") as fIn, open("outputfile.txt", "w") as fOut:
         line = fIn.readline()
