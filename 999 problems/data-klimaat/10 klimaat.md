@@ -45,8 +45,6 @@ Je hebt binnen jouw Python 3 notebook toegang tot je gehele Python 3 installatie
 
 Ubuntu:
 
-    import matplotlib
-    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     %matplotlib inline
     plt.plot(range(10))
@@ -98,8 +96,6 @@ Laten we beginnen met een voorbeeld. Maak een cell aan en zet daarin de volgende
 
 Ubuntu:
 
-    import matplotlib
-    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     %matplotlib inline
     import pandas as pd

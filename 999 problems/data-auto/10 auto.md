@@ -22,8 +22,6 @@ Om je een beetje op weg te helpen geven we je hier een stukje code om de autorit
 
 Ubuntu:
 
-    import matplotlib
-    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     %matplotlib inline
     import pandas as pd
