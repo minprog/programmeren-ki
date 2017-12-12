@@ -45,18 +45,18 @@ Je hebt binnen jouw Python 3 notebook toegang tot je gehele Python 3 installatie
 
 Ubuntu:
 
-	import matplotlib
-  matplotlib.use("Agg")
-  import matplotlib.pyplot as plt
-  %matplotlib inline
-  plt.plot(range(10))
-  plt.savefig("some_plot.png")
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    %matplotlib inline
+    plt.plot(range(10))
+    plt.savefig("some_plot.png")
 
 Mac / Windows:
 
-	import matplotlib.pyplot as plt
-	plt.plot(range(10))
-	plt.savefig("some_plot.png")
+    import matplotlib.pyplot as plt
+    plt.plot(range(10))
+    plt.savefig("some_plot.png")
 
 Zo heb je meteen de grafiek onder jouw code! (Maakt het nakijken ook een stuk makkelijker ;)
 
@@ -98,11 +98,11 @@ Laten we beginnen met een voorbeeld. Maak een cell aan en zet daarin de volgende
 
 Ubuntu:
 
-	import matplotlib
-	matplotlib.use("Agg")
-	import matplotlib.pyplot as plt
-  %matplotlib inline
-	import pandas as pd
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    %matplotlib inline
+    import pandas as pd
 
     # read data
     data = pd.read_csv("klimaat.csv")
@@ -115,7 +115,7 @@ Ubuntu:
 
 Mac / Windows:
 
-	import pandas as pd
+    import pandas as pd
     import matplotlib.pyplot as plt
 
     # read data
