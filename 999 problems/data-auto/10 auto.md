@@ -25,6 +25,7 @@ Ubuntu:
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
+    %matplotlib inline
     import pandas as pd
 
     # read data

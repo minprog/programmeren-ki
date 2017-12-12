@@ -46,10 +46,11 @@ Je hebt binnen jouw Python 3 notebook toegang tot je gehele Python 3 installatie
 Ubuntu:
 
 	import matplotlib
-	matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-    plt.plot(range(10))
-    plt.savefig("some_plot.png")
+  matplotlib.use("Agg")
+  import matplotlib.pyplot as plt
+  %matplotlib inline
+  plt.plot(range(10))
+  plt.savefig("some_plot.png")
 
 Mac / Windows:
 
@@ -74,7 +75,7 @@ Schrijf een cell (code) dat `klimaat.data` omzet naar `klimaat.csv`. Houd het si
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
 
-### Tussenstap 3: Pandas Intro 
+### Tussenstap 3: Pandas Intro
 
 Nu we `klimaat.csv` hebben kunnen we gebruik maken van bestaande modules om de data in te lezen en te verwerken. Scheelt een hoop werk! Wij gaan werken met **pandas**, een populaire dataverwerking module voor Python. Pandas wordt echter niet meegeleverd met Python. We zullen deze moeten downloaden en installeren. Geen paniek! Dit kan weer simpelweg door middel van **pip** (Pip Installs Python). Het enige wat we hoeven te doen om pandas te installeren is de volgende regel uit te voeren in de terminal:
 
@@ -96,12 +97,13 @@ Bovenstaande regel voert Python uit en vertelt Python om de module pip uit te vo
 Laten we beginnen met een voorbeeld. Maak een cell aan en zet daarin de volgende code:
 
 Ubuntu:
-	
+
 	import matplotlib
 	matplotlib.use("Agg")
 	import matplotlib.pyplot as plt
+  %matplotlib inline
 	import pandas as pd
-    
+
     # read data
     data = pd.read_csv("klimaat.csv")
 
