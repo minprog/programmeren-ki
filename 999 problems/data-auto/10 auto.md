@@ -81,13 +81,13 @@ De code ziet er misschien wat ingewikkeld uit, maar het is niks meer dan een pla
 
 ### Tussenstap 3: Afgelegde afstand
 
-Maak een nieuwe cell dat uitprint wat de geschatte afgelegde afstand in kilometers (op 2 decimalen nauwkeurig) van de auto is. Gebruik hiervoor de snelheid op elke tijdstap, en neem aan dat er één meetpunt per seconde is gedaan (we negeren de kleine schommelingen even).
+Maak een nieuwe cell dat op één regel uitprint wat de geschatte afgelegde afstand in kilometers (op 2 decimalen nauwkeurig) van de auto is. Gebruik hiervoor de snelheid op elke tijdstap, en neem aan dat er één meetpunt per seconde is gedaan (we negeren de kleine schommelingen even).
 
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
 ### Tussenstap 4: Sneller dan 50 km/u
 
-Maak een nieuwe cell dat de afgelegde route van de auto laat zien. Kleur de stukken waar de auto 50 km/u of sneller rijdt rood, en de stukken waar de auto langzamer dan 50km/u rijdt blauw. Print op de eerste regel uit hoeveel seconden de auto sneller heeft gereden dan 50 km/u. Let op, de snelheid in `autorit.csv` is in m/s.
+Maak een nieuwe cell dat de afgelegde route van de auto laat zien. Kleur de stukken waar de auto 50 km/u of sneller rijdt rood, en de stukken waar de auto langzamer dan 50km/u rijdt blauw. Print op één regel uit hoeveel seconden de auto sneller heeft gereden dan 50 km/u. Let op, de snelheid in `autorit.csv` is in m/s.
 
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
