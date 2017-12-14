@@ -2,8 +2,10 @@
 
 Voor het tweede deeltentamen vind je hier een tentamen om mee te oefenen:
 
-* [python oefententamen](python_oefententamen.pdf)
+* [python oefententamen 1](python_oefententamen.pdf)
+* [python oefententamen 2](python_oefententamen2.pdf)
 
 De antwoorden van dit tentamen vind je hier:
 
-* [python oefententamen nakijkvel](python_oefententamen_nakijk.pdf)
+* [python oefententamen nakijkvel 1](python_oefententamen_nakijk.pdf)
+* De antwoorden van het tweede oefententamen komen de dag voor het tentamen online :)
