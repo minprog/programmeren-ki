@@ -69,15 +69,15 @@ grades:
             points: integer
         calculation: "[1, ((4.5 / 14) * points + (10 - (32 * (4.5 / 14)))).round(1)].max"
         hide_calculated: false
-    resit:
+    hertentamen:
         type: float
         subgrades:
             points: integer
-        calculation: (points / 24.0 * 9 + 1).round(1)
+        calculation: (points / 32.0 * 9 + 1).round(1)
 
 calculation:
     resit:
-        resit: 40
+        hertentamens: 40
         psets: 60
     normal:
         tentamens: 40
@@ -99,7 +99,7 @@ tentamens:
         tentamen1: 1
         tentamen2: 1
 
-resit:
+hertentamens:
     minimum: 5.5
     submits:
-        resit: 1
+        hertentamen: 1
