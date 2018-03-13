@@ -1,4 +1,4 @@
-# Programmeren KI<br><span class="small">Studiewijzer</span>
+# Programmeren KI<br><span class="small">Introductie in Programmeren</span><br><span class="small">Studiewijzer</span>
 
 *Versie: November 2017*
 
