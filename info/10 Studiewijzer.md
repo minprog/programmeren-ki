@@ -95,6 +95,16 @@ Elke week worden je opdrachten beoordeeld op de volgende factoren:
 * Ontwerp --- hoe ordelijk is je code?
 * Stijl --- hoe leesbaar is je code?
 
+Als de opdracht goed te beoordelen is, krijg je voor elk van die factoren een cijfer 1--5:
+
+1. matig, her en der duidelijk geprobeerd maar niet systematisch
+2. redelijk, behoorlijk wat ruimte voor verbetering
+3. goed, aantal duidelijke punten voor verbetering
+4. zeer goed, weinig ruimte voor verbetering, paar kleine problemen
+5. excellent, perfect, geen problemen of echt een kleine omissie
+
+In het geval van *correctheid* wordt het cijfer automatisch bepaald op basis van het percentage tests dat succesvol afgerond wordt.
+
 De <strong>deadlines</strong> van de verschillende opdrachten staan in de tabel hieronder. Mis je de deadline, dan hebben wij geen tijd meer om het na te kijken en wordt het lastig het vak nog te halen. Stuur daarom altijd vóór de deadline in wat je hebt.
 
 | Opdracht                 | Deadline              |
