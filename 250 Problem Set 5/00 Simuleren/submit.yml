@@ -1,9 +1,0 @@
-name: simuleren
-files:
-    everyone:
-        - trump.py
-        - money.py
-        - infection.py
-        - medicine.py
-    optional:
-      - multiplayer.py

@@ -1,0 +1,4 @@
+name: fifteen
+files:
+    required:
+        - fifteen.c

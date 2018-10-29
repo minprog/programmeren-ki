@@ -1,0 +1,4 @@
+name: find_py
+files:
+    required:
+        - find.py

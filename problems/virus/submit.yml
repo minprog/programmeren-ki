@@ -1,0 +1,4 @@
+name: virus
+files:
+    required:
+        - virus.ipynb

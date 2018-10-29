@@ -1,0 +1,4 @@
+name: hello_py
+files:
+    required:
+        - hello.py

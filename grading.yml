@@ -1,73 +1,70 @@
 grades:
     scratch:
         type: float
-        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
+        calculation: (correctness / 5.0 * 9 + 1).round(1)
         hide_calculated: true
-    c:
+    hello: &grade
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        automatic:
+            correctness: (check_score * 5).round
+            style: style_score
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    crypto:
+    water: *grade
+    mario_less: *grade
+    mario_more: *grade
+    cash: *grade
+    credit: *grade
+    initials: *grade
+    initials_more: *grade
+    caesar: *grade
+    vigenere: *grade
+    crack: *grade
+    find_less: *grade
+    find_more: *grade
+    fifteen: *grade
+    hello_py: *grade
+    mario_py: *grade
+    cash_py: *grade
+    caesar_py: *grade
+    vigenere_py: *grade
+    find_py: *grade
+    fifteen_py: *grade
+    tweet: *grade
+    virus: &cor_grade
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        automatic:
+            correctness: (check_score * 5).round
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    fifteen:
+    climate: *cor_grade
+    sudoku:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-        hide_calculated: true
-    python:
-        type: float
-        subgrades:
-            scope: integer
-            correctness: integer
-            design: integer
-            style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-        hide_calculated: true
-    simuleren:
-        type: float
-        subgrades:
-            scope: integer
-            correctness: integer
-            design: integer
-            style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-        hide_calculated: true
-    data:
-        type: float
-        subgrades:
-            scope: integer
-            correctness: integer
-            design: integer
-            style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
     tentamen1:
         type: float
         subgrades:
             points: integer
-        calculation: "[1, ((9.0/26.0) * points - (10.0/26.0)).round(1)].max"
+        calculation: (points / 26.0 * 9 + 1).round(1)
         hide_calculated: false
     tentamen2:
         type: float
         subgrades:
             points: integer
-        calculation: "[1, ((4.5 / 14) * points + (10 - (32 * (4.5 / 14)))).round(1)].max"
+        calculation: (points / 32.0 * 9 + 1).round(1)
         hide_calculated: false
     hertentamen:
         type: float
@@ -86,12 +83,7 @@ calculation:
 psets:
     minimum: 5.5
     submits:
-        c: 1
-        crypto: 1
-        fifteen: 1
-        python: 1
-        simuleren: 1
-        data: 1
+        hello: 1
 
 tentamens:
     minimum: 5.5

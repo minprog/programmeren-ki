@@ -1,0 +1,4 @@
+name: crack
+files:
+    everyone:
+        - crack.c

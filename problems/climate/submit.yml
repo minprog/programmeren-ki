@@ -1,0 +1,4 @@
+name: climate
+files:
+    required:
+        - climate.ipynb

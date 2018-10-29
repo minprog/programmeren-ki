@@ -1,0 +1,4 @@
+name: mario_py
+files:
+    required:
+        - mario.py

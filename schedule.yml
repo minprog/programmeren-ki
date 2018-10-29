@@ -1,37 +1,33 @@
 Week 1:
-    'Preparations [first lecture]': '/preparation/week-1'
-    'Lab 1: Scratch [monday]': '/labs/lab-1'
-    'Homework 1: Codecademy [rest of week]': '/homework/homework-1'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'First lecture': '/lectures/week-0'
+    'Scratch [due wednesday 23:59]': '/problems/scratch'
+    'Second lecture': '/lectures/week-1'
+    'Getting started': '/resources/getting-started'
+    'Hello [due friday 23:59]': '/problems/hello'
+    'Water [due friday 23:59]': '/problems/water'
+    'Mario [due friday 23:59]': '/problems/mario'
+    'Cash [due friday 23:59]': '/problems/cash'
 Week 2:
-    'Preparations [reading]': '/preparation/week-2'
-    'Lab 2: Python [monday]': '/labs/lab-2'
-    'Homework 2: Picobot [rest of week]': '/homework/homework-2'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Third lecture': '/lectures/week-2'
+    'Initials [due friday 23:59]': '/problems/initials'
+    'Caesar [due friday 23:59]': '/problems/caesar'
+    'Vigenère [due friday 23:59]': '/problems/vigenere'
 Week 3:
-    'Preparations [reading]': '/preparation/week-3'
-    'Lab 3: Lists and Strings [monday]': '/labs/lab-3'
-    'Homework 3: Recursion [rest of week]': '/homework/homework-3'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Fourth lecture': '/lectures/week-3'
+    'Find [due friday 23:59]': '/problems/find'
+    'Fifteen [due friday 23:59]': '/problems/fifteen'
 Week 4:
-    'Preparations [reading]': '/preparation/week-4'
-    'Lab 4: Turtle Graphics [monday]': '/labs/lab-4'
-    'Homework 4: Functions [rest of week]': '/homework/homework-4'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Preparations [example exam]': 'resources/c-oefententamens'
 Week 5:
-    'Preparations [reading]': '/preparation/week-5'
-    'Lab 5: List comprehensions and Sound [monday]': '/labs/lab-5'
-    'Homework 5: Algorithm design [rest of week]': '/homework/homework-5'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Hello.py [due friday 23:59]': '/problems/hello_py'
+    'Mario.py or Cash.py [due friday 23:59]': '/problems/mario_py'
+    'Caesar.py or Vigenere.py [due friday 23:59]': '/problems/caesar_py'
+    'Find.py or Fifteen.py [due friday 23:59]': '/problems/find_py'
+    'Tweet [due friday 23:59]': '/problems/tweet'
 Week 6:
-    'Preparations [reading]': '/preparation/week-6'
-    'Lab 6: Starting Wordgames [monday]': '/labs/lab-6'
-    'Homework 6: Finishing Wordgames [rest of week]': '/homework/homework-6'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Virus [due friday 23:59]': '/problems/virus'
+    'Climate [due friday 23:59]': '/problems/climate'
 Week 7:
-    'Preparations [reading]': '/preparation/week-7'
-    'Lab 7: Getting started with Notebook [monday]': '/labs/lab-7'
-    'Homework 7: Investigating WDI data [rest of week]': '/homework/homework-7'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Sudoku [due friday 23:59]': '/problems/sudoku'
 Week 8:
-    'Quiz prep': '/reference/quiz'
+    'Preparations [example exam]': 'resources/python-oefententamens'

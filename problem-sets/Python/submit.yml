@@ -1,0 +1,12 @@
+name: python
+files:
+    everyone:
+        - hello.py
+        - tweet.py
+    choose:
+        - mario.py
+        - greedy.py
+        - caesar.py
+        - vigenere.py
+        - find.py
+        - fifteen.py

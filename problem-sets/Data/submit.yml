@@ -1,0 +1,5 @@
+name: data
+files:
+    everyone:
+        - climate.ipynb
+        - virus.ipynb
