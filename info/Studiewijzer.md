@@ -48,7 +48,7 @@ Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten 
 
 ## Deadlines
 
-Je zult alle opdrachten moeten inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan 1 punt minder. Mis je deze extensie van de deadline ook, dan kan je binnen één week de opdracht inleveren. Je krijgt dan twee punten minder. Later dan een week is er geen ruimte meer om opdrachten in te leveren. Je kan dan in principe het vak niet meer halen dit jaar.
+Je zult alle opdrachten moeten inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan 1 punt minder. Mis je deze extensie van de deadline ook, dan kan je binnen één week na de deadline de opdracht inleveren. Je krijgt dan twee punten minder. Later dan een week is er geen ruimte meer om opdrachten in te leveren. Je kan dan in principe het vak niet meer halen dit jaar.
 
 ## Opdrachten
 
