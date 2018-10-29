@@ -48,7 +48,7 @@ Bottles: 120
 
 [source,text]
 ----
-check50 uva/progik/2018/water
+check50 uva/progki/2018/water
 ----
 
 == Staff Solution

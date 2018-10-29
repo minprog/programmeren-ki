@@ -1,4 +1,4 @@
 name: caesar
 files:
-    everyone:
+    required:
         - caesar.c

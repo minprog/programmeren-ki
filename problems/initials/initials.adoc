@@ -57,7 +57,7 @@ RTB
 
 [source]
 ----
-check50 uva/progik/2018/initials/less
+check50 uva/progki/2018/initials/less
 ----
 
 == Staff's Solution

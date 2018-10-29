@@ -76,7 +76,7 @@ Retry: [underline]#0.41#
 
 [source,text]
 ----
-check50 uva/progik/2018/cash
+check50 uva/progki/2018/cash
 ----
 
 == Staff Solution

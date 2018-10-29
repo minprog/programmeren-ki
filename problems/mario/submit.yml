@@ -1,4 +1,4 @@
 name: mario_less
 files:
-    everyone:
+    required:
         - mario.c

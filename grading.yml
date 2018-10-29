@@ -3,7 +3,7 @@ grades:
         type: float
         calculation: (correctness / 5.0 * 9 + 1).round(1)
         hide_calculated: true
-    hello: &grade
+    mario_less: &grade
         type: float
         subgrades:
             correctness: integer
@@ -14,13 +14,9 @@ grades:
             style: style_score
         calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    water: *grade
-    mario_less: *grade
     mario_more: *grade
     cash: *grade
     credit: *grade
-    initials: *grade
-    initials_more: *grade
     caesar: *grade
     vigenere: *grade
     crack: *grade

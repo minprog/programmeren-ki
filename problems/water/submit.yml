@@ -1,4 +1,0 @@
-name: water
-files:
-    everyone:
-        - water.c

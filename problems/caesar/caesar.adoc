@@ -131,7 +131,7 @@ Usage: ./caesar k
 
 [source]
 ----
-check50 uva/progik/2018/caesar
+check50 uva/progki/2018/caesar
 ----
 
 == Staff's Solution

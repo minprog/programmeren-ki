@@ -1,4 +1,4 @@
 name: vigenere
 files:
-    everyone:
+    required:
         - vigenere.c
