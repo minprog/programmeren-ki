@@ -96,7 +96,7 @@ INVALID
 
 [source,text]
 ----
-check50 uva/progik/2018/credit
+check50 uva/progki/2018/credit
 ----
 
 == Staff Solution
