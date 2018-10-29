@@ -1,15 +1,15 @@
 Week 1:
     'First lecture': '/lectures/week-0'
-    'Scratch [due wednesday 23:59]': '/problems/scratch'
+    'Scratch [due tuesday 23:59]': '/problems/scratch'
     'Second lecture': '/lectures/week-1'
     'Getting started': '/resources/getting-started'
-    'Hello [due friday 23:59]': '/problems/hello'
-    'Water [due friday 23:59]': '/problems/water'
+    'Hello': '/problems/hello'
+    'Water': '/problems/water'
     'Mario [due friday 23:59]': '/problems/mario'
     'Cash [due friday 23:59]': '/problems/cash'
 Week 2:
     'Third lecture': '/lectures/week-2'
-    'Initials [due friday 23:59]': '/problems/initials'
+    'Initials': '/problems/initials'
     'Caesar [due friday 23:59]': '/problems/caesar'
     'Vigenère [due friday 23:59]': '/problems/vigenere'
 Week 3:
