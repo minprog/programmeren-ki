@@ -81,7 +81,7 @@ Elke week worden je opdrachten beoordeeld op de volgende factoren op een schaal 
 * Ontwerp --- hoe ordelijk is je code?
 * Stijl --- hoe leesbaar is je code?
 
-Correctness wordt automatisch nagekeken door middel van `check50`. Dat is een tool die jij zelf ook bij elke opdracht kan gebruiken. Zo weet je precies van te voren wat jouw correctness cijfer is. Het deel `style` kijken we deels automatisch na. De eerste 3 punten worden bepaald door `style50`. Ook `style50` kan je zelf inzetten bij alle opdrachten.
+Correctness wordt automatisch nagekeken door middel van `check50`. Dat is een tool die jij zelf ook bij elke opdracht kan gebruiken. Zo weet je precies van te voren wat jouw correctness cijfer is. Het deel style kijken we deels automatisch na. De eerste 3 punten worden bepaald door `style50`. Ook `style50` kan je zelf inzetten bij alle opdrachten.
 
 Dit is de formule voor de cijfers:
 
