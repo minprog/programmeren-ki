@@ -71,8 +71,8 @@ Hier vind je hoeveel percent elke opdracht meetelt voor het eindcijfer. In totaa
 | Caesar.py     | 2%                   |
 | Find.py       | 2%                   |
 | Tweet         | 4%                   |
-| Climate       | 5%                   |
-| Sudoku        | 5%                   |
+| Climate       | 4%                   |
+| Sudoku        | 6%                   |
 | Adventure     | 10%                  |
 
 ### Becijfering van de opdrachten
