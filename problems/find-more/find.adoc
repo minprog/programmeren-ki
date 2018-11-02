@@ -330,7 +330,7 @@ you should see `1`, since `128` is, again, not among the 1,000 numbers outputted
 
 [source]
 ----
-check50 uva/progik/2018/find
+check50 uva/progki/2018/find
 ----
 
 == Staff's Solution

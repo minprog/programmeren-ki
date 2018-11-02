@@ -125,7 +125,7 @@ To test your implementation of `fifteen`, you can certainly try playing it. (Kno
 
 [source]
 ----
-check50 uva/progik/2018/fifteen
+check50 uva/progki/2018/fifteen
 ----
 
 == Staff's Solution
