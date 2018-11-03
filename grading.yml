@@ -11,8 +11,8 @@ grades:
             style: integer
         automatic:
             correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+            style: style_score / 5 * 3
+        calculation: ((3 * correctness + 3 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
     mario_more: *grade
     cash: *grade
@@ -39,7 +39,7 @@ grades:
             style: integer
         automatic:
             correctness: (check_score * 5).round
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 3 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
     climate: *cor_grade
     sudoku:
@@ -48,7 +48,7 @@ grades:
             correctness: integer
             design: integer
             style: integer
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 3 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
     tentamen1:
         type: float
