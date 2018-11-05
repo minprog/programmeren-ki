@@ -1,7 +1,9 @@
 grades:
     scratch:
         type: float
-        calculation: (correctness / 5.0 * 9 + 1).round(1)
+        calculation: -((correctness+2)/5)
+        automatic:
+            correctness: (check_score * 5).round
         hide_calculated: true
     mario_less: &grade
         type: float
@@ -9,10 +11,12 @@ grades:
             correctness: integer
             design: integer
             style: integer
+            penalty: integer
         automatic:
             correctness: (check_score * 5).round
             style: (style_score / 5.0 * 3).round.to_i
-        calculation: ((3 * correctness + 3 * design + 1 * style - 7) / 28.0 * 9 + 1).round(1)
+            penalty: 0
+        calculation: ((3 * correctness + 3 * design + 1 * style - 7) / 28.0 * 9 + 1).round(1) - penalty.abs
         hide_calculated: true
     mario_more: *grade
     cash: *grade
