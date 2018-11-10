@@ -15,7 +15,7 @@ grades:
         automatic:
             correctness: (check_score * 5).round
             style: (style_score / 5.0 * 3).round.to_i
-            penalty: 0
+            penalty: "0"
         calculation: ((3 * correctness + 3 * design + 1 * style - 7) / 28.0 * 9 + 1).round(1) - penalty.abs
         hide_calculated: true
     mario_more: *grade
