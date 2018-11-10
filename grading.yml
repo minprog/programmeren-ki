@@ -27,6 +27,9 @@ grades:
     find_less: *grade
     find_more: *grade
     fifteen: *grade
+    resize_less: *grade
+    resize_more: *grade
+    recover: *grade
     hello_py: *grade
     mario_py: *grade
     cash_py: *grade
