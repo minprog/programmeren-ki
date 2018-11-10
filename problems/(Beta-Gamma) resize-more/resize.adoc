@@ -16,7 +16,7 @@ $ [underline]#./resize 4 small.bmp large.bmp#
 
 == Background
 
-Be sure you're familiar with the structure of 24-bit uncompressed BMPs, as introduced in [Whodunit](/problems/whodunit).
+Be sure you're familiar with the structure of 24-bit uncompressed BMPs, as introduced in [Whodunit](/problems/beta-gamma-whodunit).
 
 == Distribution
 
