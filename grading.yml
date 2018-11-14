@@ -1,6 +1,8 @@
 grades:
     scratch:
         type: float
+        subgrades:
+            correctness: integer
         calculation: -((correctness+2)/5)
         automatic:
             correctness: (check_score * 5).round
