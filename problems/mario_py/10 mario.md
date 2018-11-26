@@ -37,4 +37,4 @@ Je mag er ook voor kiezen om cash te implementeren in Python, volg dan [deze lin
 
 ## Testen
 
-	check50 uva/progik/2018/py/mario
+	check50 uva/progki/2018/py/mario

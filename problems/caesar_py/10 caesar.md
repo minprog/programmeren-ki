@@ -34,4 +34,4 @@ Je mag er ook voor kiezen om vigenere te implementeren in Python, volg dan [deze
 
 ## Testen
 
-	check50 uva/progik/2018/py/caesar
+	check50 uva/progki/2018/py/caesar

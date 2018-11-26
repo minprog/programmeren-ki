@@ -77,4 +77,4 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 
 ## Testen
 
-	check50 uva/progik/2018/py/fifteen
+	check50 uva/progki/2018/py/fifteen

@@ -28,4 +28,4 @@ In deze opdracht ga je de cash opdracht van CS50 maken in Python.
 
 ## Testen
 
-	check50 uva/progik/2018/py/cash
+	check50 uva/progki/2018/py/cash

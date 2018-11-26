@@ -19,4 +19,4 @@ In deze opdracht ga je de hello opdracht van CS50 maken in Python. Lees allereer
 
 ## Testen
 
-	check50 uva/progik/2018/py/hello
+	check50 uva/progki/2018/py/hello
