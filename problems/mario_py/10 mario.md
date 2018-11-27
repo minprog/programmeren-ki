@@ -33,6 +33,7 @@ Je mag er ook voor kiezen om cash te implementeren in Python, volg dan [deze lin
 ## Tips
 
 * Python scheidt print output normaal gesproken automatisch met een spatie. Wil je dat niet gebruik dan het extra `sep` argument als volgt: `print("foo", "bar", sep="")`.
+* Wil je niet dat er standaard een newline (`\n`) wordt geprint? Maak dan gebruik van het optionele `end` argument als volgt: `print("foo", end="")`
 * Python is handig met strings, zo kun je strings vermenigvuldigen: `"a" * 3`
 
 ## Testen
