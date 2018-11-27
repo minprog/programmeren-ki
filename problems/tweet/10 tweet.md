@@ -71,4 +71,4 @@ Ook hier kun je handig gebruik maken van `set`s en `dict`s!
 
 ## Testen
 
-check50 uva/progik/2018/tweet
+check50 uva/progki/2018/tweet
