@@ -19,7 +19,7 @@ Week 3:
 Week 4:
     'Preparations [example exam]': 'resources/c-oefententamens'
 Week 5:
-    'Hello.py [due friday 23:59]': '/problems/hello_py'
+    'Hello.py': '/problems/hello_py'
     'Mario.py or Cash.py [due friday 23:59]': '/problems/mario_py'
     'Caesar.py or Vigenere.py [due friday 23:59]': '/problems/caesar_py'
     'Find.py or Fifteen.py [due friday 23:59]': '/problems/find_py'
