@@ -18,15 +18,15 @@ Krijg je de volgende error?
 
 Dit is op te lossen door jupyter notebook te installeren via:
 
-  	pip install jupyter --user
+	pip install jupyter --user
 
 Dan om het notebook te runnen is er op dit moment alleen deze work-around:
 
-  	jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
+	jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
 
 Vervolgens ga je in jouw browser naar:
 
-  	http://ide50-JOUW_USERNAAM_HIER.cs50.io:8080/tree
+	http://ide50-JOUW_USERNAAM_HIER.cs50.io:8080/tree
 
 Waar je JOUW_USERNAAM_HIER vervangt door jouw Edx usernaam. Jouw usernaam zie je ook uitgeprint in de terminal na het uitvoeren van het jupyter commando.
 
