@@ -6,11 +6,11 @@ De hele opdracht wederom in een Jupyter Notebook download je zo:
 	wget https://github.com/Jelleas/sudoku_ipynb/archive/master.zip
 	unzip master.zip
 	rm master.zip
-	mv virus-master virus
-	cd virus
+	mv sudoku_ipynb-master sudoku
+	cd sudoku
 
 ## Testen
 
 ### check50
 
-    check50 uva/progki/2018/virus
+    check50 uva/progki/2018/sudoku
