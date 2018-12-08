@@ -127,7 +127,7 @@ The `play` method contains the main loop that makes your game playable. One impo
 ==== `room.py`
 
 This is your `Room` class, where al code related to rooms will be collected.
-The `__init__()` method initializes each room with a given id, name and description.
+The `\_\_init\_\_()` method initializes each room with a given id, name and description.
 
 So the call from earlier;
 ----
@@ -216,7 +216,7 @@ Since we don't know how many connections each room has we'll have to slice till 
 
 The connections ar then cleaned up a by splitting them into two strings, one for the direction and another for the connected room_id. Finally we use the room_id from the room_data to find the correct room in the dictionary we created in step 2.
 
-Here you'll find your first TODO.
+Here you'll find your first **TODO**.
 
 == Step 1: Loading connections and moving around
 
@@ -540,7 +540,7 @@ Implement the win condition into your game and gracefully terminate the game aft
 
 Between the datafiles you can also find a `SmallSynomyms.txt` file. Within that file is a list of commands and single-letter abbreviated versions.
 
-If you want to reduce time spent typing commands; parse the file and implement a way to also move or exete commands using their synonyms.
+If you want to reduce time spent typing commands; parse the file and implement a way to also move or execute commands using their synonyms.
 
 == Specification
 
