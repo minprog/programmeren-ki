@@ -137,6 +137,10 @@ creates a room with `id` = 3, `name` = 'Inside building' and `description` = 'Yo
 
 It also contains two methods, one for adding connections and one for checking connections, but you still have to implement them!
 
+=== Word of advice
+
+Before you jump in and start programming, realize that you are going to be working on a big program. Consisting of multiple files, multiple ideas and a whole bunch of features. Chances are that you'll find yourself backtracking to code you have written earlier in the assignment as we introduce new features and functionality to the game. You might then have to rewrite pieces of your own code once you find it does not fit your current usecase. This is okay and intentional!
+
 == Step 0: Reading data files and the code
 
 === Parsing data files
@@ -217,10 +221,6 @@ Since we don't know how many connections each room has we'll have to slice till 
 The connections ar then cleaned up a by splitting them into two strings, one for the direction and another for the connected room_id. Finally we use the room_id from the room_data to find the correct room in the dictionary we created in step 2.
 
 Here you'll find your first **TODO**.
-
-=== Word of advice
-
-Before you jump in and start programming, realize that you are going to be working on a big program. Consisting of multiple files, multiple ideas and a whole bunch of features. Chances are that you'll find yourself backtracking to code you have written earlier in the assignment as we introduce new features and functionality to the game. You might then have to rewrite pieces of your own code once you find it does not fit your current usecase. This is okay and intentional!
 
 == Step 1: Loading connections and moving around
 
