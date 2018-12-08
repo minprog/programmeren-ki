@@ -1,0 +1,7 @@
+name: adventure
+files:
+    required:
+        - adventure.py
+        - room.py
+        - inventory.py
+        - item.py
