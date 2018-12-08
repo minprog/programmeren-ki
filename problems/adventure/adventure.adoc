@@ -98,7 +98,7 @@ Take a look at `adventure.py`. The file currently has three components:
 
 - an `import` statement
 - an `Adventure` class
-- an `if _ \_name__ == "_ \_main__"` part
+- an `if _ \_name_ _ == "_ \_main_ _"` part
 
 Instead of working from a single file, we've split up our classes into seperate files. This keeps our files short and tidy, but we'll still have to link them up. For that we'll have to import them as follows:
 
@@ -187,7 +187,7 @@ First we'll have to parse this data into our program. Since a room is a bit more
 
 In adventure.py you'll find the `load_rooms` method. We'll discuss how it is implemented shortly, but first let's see where it is used.
 
-We call the `load_rooms` method in the `_ \_init__()` of the Adventure class. We use it there because everytime we create a game, we want it to at least have a list of rooms. Any data an Adventure class needs to function properly is initialized here.
+We call the `load_rooms` method in the `_ \_init_ _()` of the Adventure class. We use it there because everytime we create a game, we want it to at least have a list of rooms. Any data an Adventure class needs to function properly is initialized here.
 
 Now let's look at `load_rooms` a little closer. We can divide the function into three parts.
 
@@ -221,7 +221,7 @@ Here you'll find your first **TODO**.
 == Step 1: Loading connections and moving around
 
 Now it's up to you to add the connections to each individual room object.
-To do so, you'll first have to head over to room.py and implement the add_route method for the `Room` class. You might need to add additional attributes to the `_ \_init__()` for a proper implementation.
+To do so, you'll first have to head over to room.py and implement the add_route method for the `Room` class. You might need to add additional attributes to the `_ \_init_ _()` for a proper implementation.
 
 Then you can use that method to update each room with their respective connections.
 
@@ -231,12 +231,12 @@ Now that we have a couple of rooms, we can almost start playing the game.
 
 First, implement the is_connected method in the `Room` class that can be used to see if the given command is a valid move. Use it to check if a given string has a connection for the room.
 
-Next up is the `move()` method in `Adventure`. We've already initialized the `current_room` attribute in the `_ \_init__()` and set it to the room with id 1.
+Next up is the `move()` method in `Adventure`. We've already initialized the `current_room` attribute in the `_ \_init_ _()` and set it to the room with id 1.
 Make sure to use and update that attribute in `move()` so you can keep track of where the player is.
 
 Hint: If an attempted move is not a valid connection, let the player know they tried an "Invalid command".
 
-You can test moving around by adding the following code to `if _ \_name__ == '_ \_main__'`:
+You can test moving around by adding the following code to `if _ \_name_ _ == '_ \_main_ _'`:
 ----
   adventure.move("WEST") # should move to the 'room 2' object
   print(adventure.current_room) # should print room 2: "End of road"
@@ -252,7 +252,7 @@ Make sure this works before going on!
 
 Time for your first steps into making this a game; have players give commands.
 
-Remove the code used to test moving around from the `if _ \_name__ == '_ \_main__'` and instead add `adventure.play()`.
+Remove the code used to test moving around from the `if _ \_name_ _ == '_ \_main_ _'` and instead add `adventure.play()`.
 Now when you run the script you should be met with a welcome message and be prompted for a command. But alas, not much happens when actually entering such a command!
 
 Start with letting the player know where they are in the game.
