@@ -40,7 +40,7 @@ grades:
     find_py: *grade
     fifteen_py: *grade
     tweet: *grade
-    virus: &cor_grade
+    climate: &cor_grade
         type: float
         subgrades:
             correctness: integer
@@ -50,15 +50,8 @@ grades:
             correctness: (check_score * 5).round
         calculation: ((3 * correctness + 3 * design + 1 * style - 7) / 28.0 * 9 + 1).round(1)
         hide_calculated: true
-    climate: *cor_grade
-    sudoku:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        calculation: ((3 * correctness + 3 * design + 1 * style - 7) / 28.0 * 9 + 1).round(1)
-        hide_calculated: true
+    sudoku: *cor_grade
+    adventure: *grade
     tentamen1:
         type: float
         subgrades:
