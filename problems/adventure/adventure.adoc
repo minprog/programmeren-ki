@@ -127,7 +127,7 @@ The `play` method contains the main loop that makes your game playable. One impo
 ==== `room.py`
 
 This is your `Room` class, where al code related to rooms will be collected.
-The `\__init\__()` method initializes each room with a given id, name and description.
+The `\__init__()` method initializes each room with a given id, name and description.
 
 So the call from earlier;
 ----
