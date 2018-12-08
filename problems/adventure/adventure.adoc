@@ -127,7 +127,7 @@ The `play` method contains the main loop that makes your game playable. One impo
 ==== `room.py`
 
 This is your `Room` class, where al code related to rooms will be collected.
-The `\_\_init__()` method initializes each room with a given id, name and description.
+The `_ \_init_ _` method initializes each room with a given id, name and description.
 
 So the call from earlier;
 ----
@@ -187,7 +187,7 @@ First we'll have to parse this data into our program. Since a room is a bit more
 
 In adventure.py you'll find the `load_rooms` method. We'll discuss how it is implemented shortly, but first let's see where it is used.
 
-We call the `load_rooms` method in the `__init__()` of the Adventure class. We use it there because everytime we create a game, we want it to at least have a list of rooms. Any data an Adventure class needs to function properly is initialized here.
+We call the `load_rooms` method in the `_ \_init__()` of the Adventure class. We use it there because everytime we create a game, we want it to at least have a list of rooms. Any data an Adventure class needs to function properly is initialized here.
 
 Now let's look at `load_rooms` a little closer. We can divide the function into three parts.
 
@@ -221,7 +221,7 @@ Here you'll find your first **TODO**.
 == Step 1: Loading connections and moving around
 
 Now it's up to you to add the connections to each individual room object.
-To do so, you'll first have to head over to room.py and implement the add_route method for the `Room` class. You might need to add additional attributes to the `__init__()` for a proper implementation.
+To do so, you'll first have to head over to room.py and implement the add_route method for the `Room` class. You might need to add additional attributes to the `_ \_init__()` for a proper implementation.
 
 Then you can use that method to update each room with their respective connections.
 
