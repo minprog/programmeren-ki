@@ -115,7 +115,7 @@ Wat Python hiermee bereikt is dat jij als programmeur zelf kan bepalen wat er mo
             self.y = y
 
         def __str__(self):
-            return f"coord: {x} {y}"
+            return f"coord: {x},{y}"
 
         def __add__(self, other):
             return Coordinate(self.x + other.x, self.y + other.y)
@@ -128,6 +128,6 @@ Met zowel de `__str__` en `__add__` methodes geïmplementeerd kunnen we vervolge
 
     coord1 = Coordinate(3, 5)
     coord2 = Coordinate(2, 8)
-    print(coord1)
-    print(coord2)
-    print(coord1 + coord2)
+    print(coord1) # print coord: 3,5
+    print(coord2) # print coord 2,8
+    print(coord1 + coord2) # print coord 5,13
