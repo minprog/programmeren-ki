@@ -6,22 +6,22 @@ Object oriented programming geeft jouw het gereedschap om data abstracties te cr
 
 In Python heb je classes, dat zijn beschrijvingen van objecten. Hierin definieer je precies wat een object kan en ook hoe. Zie het als een blauwdruk, waarbij bij elk detail meteen de uitwerking staat. Zie hieronder de class `Coordinate`.
 
-```
+
     class Coordinate:
         def __init__(self, x, y):
             self.x = x
             self.y = y
 
         def distance_to(self, other):
-            return (abs(self.x - other.x)**2 + abs(self.y - other.y)**2)**0.5
-```
+            return (abs(self.x - other.x)**2 + abs(self.y - other.y)**2)** 0.5
+
 
 Bovenstaande class introduceert een nieuw type in ons programma namelijk `Coordinate`. Vanaf nu kan je instanties ofwel objecten van het type `Coordinate` maken. Dit doe je als volgt:
 
-```
+
     coord1 = Coordinate(3, 5)
     coord2 = Coordinate(2, 8)
-```
+
 
 Hier gebeurt het volgende, zodra je de class `Coordinate` aanroept, roept Python de methode `__init__` voor je aan. Init is kort voor initialize, ofwel de methode die wordt aangeroepen bij het initialiseren van een object. De methode `__init__` accepteert hier 3 argumenten. Dit is waar Python een beetje hacky wordt, want het eerst argument `self` vult Python voor je in. Dat is een referentie/verwijzing naar het object. Dat dit argument `self` heet is conventie, we doen het allemaal, maar het hoeft niet. Naast `self` staan nog 2 argumenten, hier `x` en `y`. Logisch ook want we hebben het over een coordinaat! Omdat er 2 argumenten naast `self` zijn moet je deze bij het aanmaken van een `Coordinate` ook meegeven, zo wordt er voor `coord1` de waarde `3` meegegeven voor `x` en `5` voor `y`. Op de regels daarna wordt er nieuwe zogenaamde "instance variables" aangemaakt voor het `Coordinate`, `.x` en `.y` respectievelijk. Daaraan worden de waardes `3` en `5` bij `coord1` toegekend.
 
@@ -29,10 +29,10 @@ Hier gebeurt het volgende, zodra je de class `Coordinate` aanroept, roept Python
 
 Een instance variable is een variabele die enkel beschikbaar is voor die instantie. Zo hebben `coord1` en `coord2` allebei een instance variable genaamd `.x`, maar deze heeft een hele andere waarde. Test het volgende maar eens:
 
-```
+
     print(coord1.x)
     print(coord2.x)
-```
+
 
 Dat is ook hoe je bij de waardes van de `instance variable`s komt. Namelijk het object (de instance) en vervolgens een `.` en daarna de variabele naam.
 
@@ -46,14 +46,14 @@ Hiermee kunnen we niet alleen data groeperen onder één kap, maar ook de bijbeh
 
 Wat de method `distance_to` vervolgens doet is de afstand tussen de twee coordinaten berekenen. Daarom ook de naam `distance_to`! Je kan de method als volgt gebruiken:
 
-```
+
     coord1.distance_to(coord2)
-```
+
 
 Voor Python is dit equivalent aan:
 
-```
+
     Coordinate.distance_to(coord1, coord2)
-```
+
 
 Het eerste is enkel minder typen!
