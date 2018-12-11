@@ -88,7 +88,7 @@ Je kan via de class `Request` zelf bij de class variabele, maar ook via elke ins
 
 ## Hidden methods
 
-Python is gebouwd op Object Oriented Programming. Bijna alle constructies in een taal vertalen naar een method call. Bijvoorbeeld:
+Python is gebouwd op Object Oriented Programming. Bijna alle constructies in de taal vertalen naar een method call. Bijvoorbeeld:
 
 
     a = 1
