@@ -57,3 +57,30 @@ Voor Python is dit equivalent aan:
 
 
 Het eerste is enkel minder typen!
+
+## Class variables
+
+Daarnaast bestaan er class variables. Deze verschillen niet per object/instantie van een class, maar bestaan één keer voor alle objecten van een class.
+
+
+    class Request:
+        count = 0
+
+        def __init__(self, type, message):
+            # do something with type and message
+            Request.count += 1
+
+Zo heeft de class `Request` hierboven een class variable `count`. Deze wordt elke keer opgehoogd bij het initialiseren van een instantie van Request.
+
+
+    print(Request.count) # prints 0
+    request1 = Request("get", "homepage")
+    print(Request.count) # prints 1
+    print(request1.count) # prints 1
+    request2 = Request("get", "accountpage")
+    print(Request.count) # prints 2
+    print(request1.count) # prints 2
+    print(request2.count) # prints 2
+
+
+Je kan via de class `Request` zelf bij de class variabele, maar ook via elke instantie/object van de class, in het voorbeeld hierboven `request1` en `request2`. Het zijn verschillende wegen naar Rome, maar de uitkomst is hetzelfde, de waarde van de class variabele `count`!
