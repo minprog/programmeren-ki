@@ -84,3 +84,50 @@ Zo heeft de class `Request` hierboven een class variable `count`. Deze wordt elk
 
 
 Je kan via de class `Request` zelf bij de class variabele, maar ook via elke instantie/object van de class, in het voorbeeld hierboven `request1` en `request2`. Het zijn verschillende wegen naar Rome, maar de uitkomst is hetzelfde, de waarde van de class variabele `count`!
+
+
+## Hidden methods
+
+Python is gebouwd op Object Oriented Programming. Bijna alle constructies in een taal vertalen naar een method call. Bijvoorbeeld:
+
+
+    a = 1
+    b = 3
+    a = a + b
+    print(a)
+
+
+Is eigenlijk het volgende:
+
+
+    a = 1
+    b = 3
+    a = a.__add__(b)
+    print(a.__str__())
+
+
+Wat Python hiermee bereikt is dat jij als programmeur zelf kan bepalen wat er moet gebeuren als je bijvoorbeeld twee `Coordinate`s bij elkaar optelt, of hoe een `Coordinate` eruit moet zien als jij deze uitprint. Je moet alleen even opzoeken wat je precies moet implementeren en vervolgens rest de taak om het te implemteren. Bijvoorbeeld als volgt:
+
+
+    class Coordinate:
+        def __init__(self, x, y):
+            self.x = x
+            self.y = y
+
+        def __str__(self):
+            return f"coord: {x} {y}"
+
+        def __add__(self, other):
+            return Coordinate(self.x + other.x, self.y + other.y)
+
+        def distance_to(self, other):
+            return (abs(self.x - other.x)**2 + abs(self.y - other.y)**2)** 0.5
+
+Met zowel de `__str__` en `__add__` methodes geïmplementeerd kunnen we vervolgens het `+` teken en de functie `print()` gebruiken voor instanties/objecten van `Coordinate`.
+
+
+    coord1 = Coordinate(3, 5)
+    coord2 = Coordinate(2, 8)
+    print(coord1)
+    print(coord2)
+    print(coord1 + coord2)
