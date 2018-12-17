@@ -1,4 +1,4 @@
-# Python Oefententamens
+# Python Oefententamen
 
 Voor het tweede deeltentamen vind je hier een oefententamen:
 
