@@ -64,7 +64,7 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: (points / 32.0 * 9 + 1).round(1)
+        calculation: "[(0.4 * points + 0.4).round(1), 1].max"
         hide_calculated: false
     hertentamen:
         type: float
