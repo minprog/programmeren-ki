@@ -81,9 +81,20 @@ calculation:
         psets: 60
 
 psets:
-    minimum: 5.5
     submits:
-        hello: 1
+        mario: [5, mario_less, mario_more, resize_less, resize_more]
+        cash: [5, cash, credit, recover]
+        caesar: 5
+        vigenere: [5, vigenere, crack]
+        find: [4, find_less, find_more]
+        fifteen: 6
+        mario_py: [2, mario_py, cash_py]
+        caesar_py: [2, caesar_py, vigenere_py]
+        find_py: [2, find_py, fifteen_py]
+        tweet: 4
+        climate: 4
+        sudoku: 6
+        adventure: 10
 
 tentamens:
     minimum: 5.5
