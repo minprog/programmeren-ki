@@ -69,8 +69,8 @@ grades:
     hertentamen:
         type: float
         subgrades:
-            points: integer
-        calculation: (points / 32.0 * 9 + 1).round(1)
+            punten_deel1: integer
+            punten_deel2: integer
 
 calculation:
     resit:
