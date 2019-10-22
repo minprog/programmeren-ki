@@ -44,17 +44,17 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 
 1. (60%) Voor elke **opdracht** kun je punten scoren, tot een maximum van 35 voor de cursus. Je programma's worden kritisch bekeken door de assistenten en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht. Daarnaast zijn er bonusopgaven. Hieronder vind je meer informatie.
 
-2. (40%) Bij het **tentamen** in week 8 toetsen we of je voldoende begrip hebt opgebouwd door in de eerdere weken te programmeren. Het is dus belangrijk om de opdrachten niet alleen op te lossen maar hier ook goed van te leren. De toetsjes helpen je hier al een stuk bij.
+2. (40%) Bij het **tentamen** in week 8 toetsen we of je voldoende begrip hebt opgebouwd door in de eerdere weken te programmeren. Het is dus belangrijk om de opdrachten niet alleen op te lossen maar hier ook goed van te leren. De toetsjes helpen je hier al een stuk bij. Je moet minimaal een 5,5 halen voor het tentamen.
 
 
 ## Kalender
 
 | Weken  | Activiteit    | Taal       | Deadline   |
 | ------ | ------------- | ---------- | ---------- |
-| Week 1 | Opdrachten    | Scratch    | 02 sept    |
-|        | Opdrachten    | C          | 06 sept    |
-| Week 2 | Opdrachten    | C          | 13 sept    |
-| Week 3 | Opdrachten    | C          | 20 sept    |
+| Week 1 | Opdrachten  + Toetsje   | Scratch    | 02 sept    |
+|        | Opdrachten  + Toetsje  | C          | 06 sept    |
+| Week 2 | Opdrachten  + Toetsje  | C          | 13 sept    |
+| Week 3 | Opdrachten  + Toetsje  | C          | 20 sept    |
 | Week 4 | Opdrachten    |            |            |
 | Week 5 | Opdrachten    | Python     | 04 okt     |
 | Week 6 | Opdrachten    | Python     | 11 okt     |
@@ -62,13 +62,16 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 | Week 8 | Tentamen 2    |            |            |
 
 
-## Activiteiten
+## Tijdsbesteding
 
 De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt, moet je even over een drempel heen voordat je het begint te begrijpen.
 
 Er zijn elke week opdrachten en toetsjes. Om het vak te halen moet je alle opdrachten compleet werkend inleveren, alle toetsjes halen en met het tentamen meedoen. Daarnaast dien je gemiddeld minimaal een 5.5 voor de tentamens te halen, en natuurlijk het vak afsluiten met minimaal een 5.5 gemiddeld. Dat eerste is belangrijk omdat je bij de tentamens in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
 Elke week heb je drie laptopcolleges. Daar krijg jij goed de ruimte om inhoudelijke vragen te stellen. De klassen zijn zo ingedeeld zodat iedereen echt hulp kan krijgen. Aanwezigheid bij de laptopcolleges is verplicht. Er is geen ruimte om een laptopcollege in te halen, of een ander laptopcollege bij te wonen.
+
+
+## Toetsjes
 
 In de eerste vier weken ben je ook bezig met het basisboek programmeren. Jij krijgt van ons het boek en werkt deze zelfstandig door. Zodra jij er klaar voor bent kom je een toetsje maken voor elk hoofdstuk. In totaal zijn er 10 hoofdstukken en dus 10 toetsjes. Deze toetsjes maak je op locatie op papier. Dat kost je maar een paar minuten per toetsje, dus we raden je zeker aan om er gelijk meerdere te doen. Je dient alle 10 toetsen te halen voor het eerste deeltentamen, maar je krijgt hier geen cijfer voor. Haal je een toetsje een keer niet, dan mag je deze gewoon herkansen.
 
@@ -79,9 +82,13 @@ We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo k
 
 De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 20 uur voor de opdrachten van de week, en je hebt 6 uur aan practica per week.
 
+### Minimumeis
+
 Elke opdracht lever je af en werkend in. Dit houdt in dat jouw code **minimaal** alle tests van de opdracht doet slagen.
 
-Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van code kwaliteit. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Per module (opdrachten van de week) krijg je één t/m vijf punten. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
+### Punten
+
+Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van codekwaliteit. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Per module (opdrachten van de week) krijg je één t/m vijf punten. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
 
 5. uitzonderlijk goed resultaat met doordacht ontwerp
 4. goed resultaat op alle aangegeven aspecten
@@ -90,35 +97,22 @@ Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van code kwaliteit
 1. zichtbare aandacht voor een beperkt aantal aspecten
 {: start="5" reversed=""}
 
-Een 3 of een 4 is op deze schaal een goede score. In de praktijk blijkt het lastig te zijn, maar wel haalbaar, om een 5 te halen voor code kwaliteit.
+Een 3 of een 4 is op deze schaal een goede score. In de praktijk blijkt het lastig te zijn, maar wel haalbaar, om een 5 te halen voor codekwaliteit.
 
-Lever je alle hacker edition opdrachten van een module in, dan krijg je een extra punt.
+Lever je alle hacker-opdrachten van een module in, dan krijg je een extra punt.
 
-
-## Deadlines
+### Deadlines
 
 Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een halve punt minder. Mis je deze extensie van de deadline ook, dan kan je binnen drie dagen na de deadline de opdracht inleveren. Je krijgt dan één punt minder. Later dan drie dagen na de oorspronkelijke deadline is er geen ruimte meer om opdrachten in te leveren. In principe kan je het vak dan niet meer halen dit jaar.
 
 In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar progik@mprog.nl, waarna je wordt uitgenodigd voor een gesprek.
 
 
-## Eindcijfer
+## Tentamen
 
-Het eindcijfer is gebaseerd op de punten die je verdient bij de opdrachten (in totaal 60%) en de cijfers van de twee tentamens (40%). Je moet alle opdrachten werkend hebben ingeleverd en ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Je ontvangt binnenkort meer informatie over het tentamen.
 
-Het tentamencijfer wordt als volgt berekent:
-
-    tentamen_cijfer = (deeltentamen1 + deeltentamen2) / 2
-
-Het opdrachtencijfer rekenen we om naar een schaal van 1 t/m 10. Je kan per week 5 punten halen, en er zijn 6 weken, dus bereken je jouw opdrachtencijfer als volgt:
-
-    opdrachten_cijfer = (week1 + week2 + week3 + week5 + week6 + week7) / 30 * 9 + 1
-
-Tot slot, de formule voor het eindcijfer:
-
-    eindcijfer = tentamen_cijfer * 0.4 + opdrachten_cijfer * 0.6
-
-Er is na elk tentamen de ruimte om de beoordeling en de antwoorden van je tentamen te bespreken. Hierover ontvang je een e-mail zodra het tentamen is nagekeken.
+Er is na het tentamen een mogelijkheid om de beoordeling van de antwoorden op je tentamen te bespreken. Je ontvangt een e-mail om een afspraak in te plannen zodra het tentamen is nagekeken.
 
 
 ## Samenwerken, fraude en plagiaat
