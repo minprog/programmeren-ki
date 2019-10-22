@@ -2,4 +2,7 @@ name: scratch
 url: true
 files:
     required:
-        - scratch_file.sb2
+        - scratch_file.sb3
+check:
+    tool: check50
+    slug: minprog/cs50x/2019/scratch

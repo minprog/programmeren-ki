@@ -4,9 +4,6 @@
 
 In deze opdracht ga je de mario opdracht van CS50 maken in Python.
 
-## Liever cash.py?
-Je mag er ook voor kiezen om cash te implementeren in Python, volg dan [deze link](/problems/cash_py).
-
 ## Gebruik
 
 	python mario.py
@@ -25,10 +22,10 @@ Je mag er ook voor kiezen om cash te implementeren in Python, volg dan [deze lin
 
 ## Specificatie
 
-* Schrijf een programma genaamd `mario.py` dat de piramide van mario maakt gebruikmakend van hashes (`#`) voor blokken.
+* Schrijf een programma genaamd `mario.py` dat de piramide van mario maakt met hashes (`#`) voor blokken.
 * De gebruiker van het programma mag zelf de hoogte van de pyramide specificeren.
 * De hoogte van de pyramide mag niet groter dan 23 blokken hoog zijn, en niet kleiner dan 0. Wordt er een andere waarde ingevuld, dan moet je de gebruiker opnieuw om invoer vragen.
-* Je mag aannemen dat de gebruiker enkel integers invoert.
+* Je mag aannemen dat de gebruiker alleen integers invoert.
 
 ## Tips
 
@@ -38,4 +35,4 @@ Je mag er ook voor kiezen om cash te implementeren in Python, volg dan [deze lin
 
 ## Testen
 
-	check50 uva/progki/2018/py/mario
+	check50 minprog/cs50x/2019/py/mario

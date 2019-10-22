@@ -1,7 +1,7 @@
 ---
 ---
 
-= Find (for those more comfortable)
+= Find
 
 == tl;dr
 
@@ -19,10 +19,9 @@ Didn't find needle in haystack.
 
 [source,subs="macros"]
 ----
-$ wget https://github.com/cs50/distro/archive/find.zip
+$ wget https://progik.mprog.nl/course/problems/find-less/find.zip
 $ unzip find.zip
 $ rm find.zip
-$ mv problems-find find
 $ cd find
 $ ls
 Makefile    find.c      generate.c  helpers.c   helpers.h
@@ -330,14 +329,7 @@ you should see `1`, since `128` is, again, not among the 1,000 numbers outputted
 
 [source]
 ----
-check50 uva/progki/2018/find
-----
-
-== Staff's Solution
-
-[source]
-----
-~cs50/pset3/find
+check50 minprog/cs50x/2019/find
 ----
 
 == Hints

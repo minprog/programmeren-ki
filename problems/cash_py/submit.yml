@@ -1,4 +1,0 @@
-name: cash_py
-files:
-    required:
-        - cash.py

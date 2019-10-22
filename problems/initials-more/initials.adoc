@@ -1,7 +1,8 @@
 ---
+layout: 2016/fall
 ---
 
-= Initials (for those more comfortable)
+= Initials
 
 == tl;dr
 
@@ -10,7 +11,7 @@ Implement a program that, given a person's name, prints a person's initials, per
 [source]
 ----
 $ ./initials
-Regulus Arcturus Black
+Name: Regulus Arcturus Black
 RAB
 ----
 
@@ -35,29 +36,20 @@ Your program should behave per the examples below. Assumed that the underlined t
 [source,subs=quotes]
 ----
 $ [underline]#./initials#
-[underline]#Zamyla Chan#
+Name: [underline]#Zamyla Chan#
 ZC
 ----
 
 [source,subs=quotes]
 ----
 $ [underline]#./initials#
-[underline]##   robert   thomas bowden##
+Name: [underline]##   robert   thomas bowden##
 RTB
 ----
 
 == Testing
 
-=== `check50`
-
 [source]
 ----
-check50 uva/progki/2018/initials/more
-----
-
-== Staff's Solution
-
-[source]
-----
-~cs50/hacker2/initials
+check50 minprog/cs50x/2019/initials/more
 ----

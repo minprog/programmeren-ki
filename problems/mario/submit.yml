@@ -1,4 +1,0 @@
-name: mario_less
-files:
-    required:
-        - mario.c
