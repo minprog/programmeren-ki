@@ -12,7 +12,7 @@ Voor uitzonderingen en persoonlijke afspraken moet je altijd een mail sturen naa
 
 Martijn Stegeman (coördinator)  
 Jelle van Assema (docent)  
-Mees de Vries (co-docent)
+Mees de Vries (co-docent)  
 Yunus Demir  
 Daniel Jensen  
 Mathias Kirkeng  
