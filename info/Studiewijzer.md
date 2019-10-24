@@ -42,7 +42,7 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
 Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Dit wordt als volgt samengesteld:
 
-1. (60%) Voor elke **opdracht** kun je punten scoren, tot een maximum van 35 voor de cursus. Je programma's worden kritisch bekeken door de assistenten en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht. Daarnaast zijn er bonusopgaven. Hieronder vind je meer informatie.
+1. (60%) Voor elke **opdracht**, met uitzondering van de eerste opdracht Scratch, kun je punten scoren, tot een maximum van 30 voor de cursus. Je programma's worden kritisch bekeken door de assistenten en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht. Daarnaast zijn er bonusopdrachten. Hieronder vind je meer informatie.
 
 2. (40%) Bij het **tentamen** in week 8 toetsen we of je voldoende begrip hebt opgebouwd door in de eerdere weken te programmeren. Het is dus belangrijk om de opdrachten niet alleen op te lossen maar hier ook goed van te leren. De toetsjes helpen je hier al een stuk bij. Je moet minimaal een 5,5 halen voor het tentamen.
 
@@ -86,7 +86,7 @@ We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo k
 De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt 6 uur aan laptopcolleges per week.
 
 
-### Punten
+#### Punten
 
 Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van codekwaliteit. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Per module (opdrachten van de week) krijg je één t/m vijf punten. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
 
@@ -102,11 +102,16 @@ Een 3 of een 4 is op deze schaal een goede score. In de praktijk blijkt het last
 Lever je alle hacker-opdrachten van een module in, dan krijg je een extra punt.
 
 
-### Deadlines
+#### Deadlines
 
 Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een punt minder. Daarna worden opdrachten niet meer nagekeken en worden er 0 punten toegekend. Wel dien je de opdrachten alsnog werkend in te leveren.
 
 In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar progki@mprog.nl, waarna je wordt uitgenodigd voor een gesprek.
+
+
+#### Bonusopdrachten
+
+Bonusopdrachten kan je maken voor extra punten. Deze worden alleen automatisch nagekeken en niet op kwaliteitsaspecten. Je krijgt dus meteen alle punten voor de opdracht als je deze compleet werkend inlevert. Alle bonusopdrachten vind je [hier](/bonus/overview).
 
 
 ## Tentamen
