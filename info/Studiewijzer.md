@@ -51,12 +51,12 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 
 ## Kalender
 
-| Weken  | Activiteit             | Taal     | Deadline   |
+| Weken  | Activiteit             | Taal     | Opdracht deadline   |
 | ------ | ---------------------- | -------- | ---------- |
-| Week 1 | Opdrachten             | Scratch  | di 29 okt  |
+| Week 1 | Opdrachten + Toetsje   | Scratch  | di 29 okt  |
 | Week 2 | Opdrachten + Toetsje   | C        | di 5 nov   |
 | Week 3 | Opdrachten + Toetsje   | C        | di 12 nov  |
-| Week 4 | Opdrachten + Toetsje   | C        | di 19 nov  |
+| Week 4 | Opdrachten             | C        | di 19 nov  |
 | Week 5 | Opdrachten             | Python   | di 26 nov  |
 | Week 6 | Opdrachten             | Python   | di 3 dec   |
 | Week 7 | Opdrachten             | Python   | wo 11 dec  |
@@ -104,7 +104,7 @@ Lever je alle hacker-opdrachten van een module in, dan krijg je een extra punt.
 
 ### Deadlines
 
-Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een punt minder. Daarna worden opdrachten niet meer nagekeken en worden er 0 punten toegekend. Wel dien je de opdrachten alsnog werkend in te leveren. 
+Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een punt minder. Daarna worden opdrachten niet meer nagekeken en worden er 0 punten toegekend. Wel dien je de opdrachten alsnog werkend in te leveren.
 
 In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar progki@mprog.nl, waarna je wordt uitgenodigd voor een gesprek.
 
