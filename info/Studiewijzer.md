@@ -56,7 +56,7 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 | Week 1 | Opdrachten + Toetsje   | Scratch  | di 29 okt  |
 | Week 2 | Opdrachten + Toetsje   | C        | di 5 nov   |
 | Week 3 | Opdrachten + Toetsje   | C        | di 12 nov  |
-| Week 4 | Opdrachten             | C        | di 19 nov  |
+| Week 4 | Opdrachten + Toetsje   | C        | di 19 nov  |
 | Week 5 | Opdrachten             | Python   | di 26 nov  |
 | Week 6 | Opdrachten             | Python   | di 3 dec   |
 | Week 7 | Opdrachten             | Python   | wo 11 dec  |
@@ -71,7 +71,7 @@ Tijdens de week werk je aan de opdrachten en heb je drie laptopcolleges op dinsd
 
 Op maandag heb je een hoorcollege, hierin worden de nieuwe concepten behandeld en wordt de nieuwe opdracht geïntroduceerd. In de eerste weken van het vak hoort daar ook een videocollege van Harvard bij.
 
-De eerste drie weken kom je op woensdag of donderdag een kort toetsje maken. Dat bereid je voor door het basisboek programmeren door te werken en daar ben je een paar uur in de week mee bezig.
+De eerste vier weken kom je op woensdag of donderdag een kort toetsje maken. Dat bereid je voor door het basisboek programmeren door te werken en daar ben je een paar uur in de week mee bezig.
 
 
 ## Toetsjes
