@@ -46,7 +46,7 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 
 2. (40%) Bij het **tentamen** in week 8 toetsen we of je voldoende begrip hebt opgebouwd door in de eerdere weken te programmeren. Het is dus belangrijk om de opdrachten niet alleen op te lossen maar hier ook goed van te leren. De toetsjes helpen je hier al een stuk bij. Je moet minimaal een 5,5 halen voor het tentamen.
 
-3. (Pass/Fail) Met de **toetsjes** toetsen we of je de begrippen echt onder de knie hebt. De toetsjes focussen op concepten en daar ga je in de eerste weken van het vak heel veel mee oefenen door middel van het basisboek programmeren.
+3. (Pass/Fail) Met de **toetsjes** toetsen we of je de begrippen echt onder de knie hebt. De toetsjes focussen op concepten en daar ga je in de eerste weken van het vak veel mee oefenen door middel van het basisboek programmeren.
 
 
 ## Kalender
