@@ -106,7 +106,7 @@ Lever je alle hacker-opdrachten van een module in, dan krijg je een extra punt.
 
 Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een punt minder. Daarna worden opdrachten niet meer nagekeken en worden er 0 punten toegekend. Wel dien je de opdrachten alsnog werkend in te leveren.
 
-In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar progki@mprog.nl, waarna je wordt uitgenodigd voor een gesprek.
+In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar <progki@mprog.nl>, waarna je wordt uitgenodigd voor een gesprek.
 
 
 #### Bonusopdrachten
