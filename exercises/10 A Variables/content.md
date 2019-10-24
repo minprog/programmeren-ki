@@ -1,6 +1,6 @@
 # Exercises: Variables
 
-Watch these videos for an introduction to data types and operators. The videos introduce concepts that you can then practice using the exercices linked below.
+Watch these videos for an introduction to data types and operators. The videos introduce concepts that you can then practice using the exercises linked below.
 
 ![embed](https://www.youtube.com/embed/luDPUSmTcPc?autoplay=1&rel=0)
 

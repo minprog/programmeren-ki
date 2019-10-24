@@ -46,45 +46,45 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 
 2. (40%) Bij het **tentamen** in week 8 toetsen we of je voldoende begrip hebt opgebouwd door in de eerdere weken te programmeren. Het is dus belangrijk om de opdrachten niet alleen op te lossen maar hier ook goed van te leren. De toetsjes helpen je hier al een stuk bij. Je moet minimaal een 5,5 halen voor het tentamen.
 
+3. (Pass/Fail) Met de **toetsjes** toetsen we of je de begrippen echt onder de knie hebt. De toetsjes focussen op concepten en daar ga je in de eerste weken van het vak heel veel mee oefenen door middel van het basisboek programmeren.
+
 
 ## Kalender
 
-| Weken  | Activiteit    | Taal       | Deadline   |
-| ------ | ------------- | ---------- | ---------- |
-| Week 1 | Opdrachten  + Toetsje   | Scratch    | 02 sept    |
-|        | Opdrachten  + Toetsje  | C          | 06 sept    |
-| Week 2 | Opdrachten  + Toetsje  | C          | 13 sept    |
-| Week 3 | Opdrachten  + Toetsje  | C          | 20 sept    |
-| Week 4 | Opdrachten    |            |            |
-| Week 5 | Opdrachten    | Python     | 04 okt     |
-| Week 6 | Opdrachten    | Python     | 11 okt     |
-| Week 7 | Opdrachten    | Python     | 18 okt     |
-| Week 8 | Tentamen 2    |            |            |
+| Weken  | Activiteit             | Taal     | Deadline   |
+| ------ | ---------------------- | -------- | ---------- |
+| Week 1 | Opdrachten             | Scratch  | di 29 okt  |
+| Week 2 | Opdrachten + Toetsje   | C        | di 5 nov   |
+| Week 3 | Opdrachten + Toetsje   | C        | di 12 nov  |
+| Week 4 | Opdrachten + Toetsje   | C        | di 19 nov  |
+| Week 5 | Opdrachten             | Python   | di 26 nov  |
+| Week 6 | Opdrachten             | Python   | di 3 dec   |
+| Week 7 | Opdrachten             | Python   | wo 11 dec  |
+| Week 8 | Tentamen               |          |            |
 
 
 ## Tijdsbesteding
 
 De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt, moet je even over een drempel heen voordat je het begint te begrijpen.
 
-Er zijn elke week opdrachten en toetsjes. Om het vak te halen moet je alle opdrachten compleet werkend inleveren, alle toetsjes halen en met het tentamen meedoen. Daarnaast dien je gemiddeld minimaal een 5.5 voor de tentamens te halen, en natuurlijk het vak afsluiten met minimaal een 5.5 gemiddeld. Dat eerste is belangrijk omdat je bij de tentamens in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Tijdens de week werk je aan de opdrachten en heb je drie laptopcolleges op dinsdag, woensdag en donderdag. Daar krijg jij goed de ruimte om inhoudelijke vragen te stellen. De klassen zijn zo ingedeeld zodat iedereen echt hulp kan krijgen. De opdrachten krijg je niet af in de laptopcolleges alleen, ze kosten gemiddeld zo'n 15 uur aan werk. Houd ook hier rekening mee dat je best wat meer tijd kwijt kan zijn, of wellicht in de eerste weken wat minder door eerdere programmeerervaring.
 
-Elke week heb je drie laptopcolleges. Daar krijg jij goed de ruimte om inhoudelijke vragen te stellen. De klassen zijn zo ingedeeld zodat iedereen echt hulp kan krijgen. Aanwezigheid bij de laptopcolleges is verplicht. Er is geen ruimte om een laptopcollege in te halen, of een ander laptopcollege bij te wonen.
+Op maandag heb je een hoorcollege, hierin worden de nieuwe concepten behandeld en wordt de nieuwe opdracht geïntroduceerd. In de eerste weken van het vak hoort daar ook een videocollege van Harvard bij.
+
+De eerste drie weken kom je op woensdag of donderdag een kort toetsje maken. Dat bereid je voor door het basisboek programmeren door te werken en daar ben je een paar uur in de week mee bezig.
 
 
 ## Toetsjes
 
-In de eerste vier weken ben je ook bezig met het basisboek programmeren. Jij krijgt van ons het boek en werkt deze zelfstandig door. Zodra jij er klaar voor bent kom je een toetsje maken voor elk hoofdstuk. In totaal zijn er 10 hoofdstukken en dus 10 toetsjes. Deze toetsjes maak je op locatie op papier. Dat kost je maar een paar minuten per toetsje, dus we raden je zeker aan om er gelijk meerdere te doen. Je dient alle 10 toetsen te halen voor het eerste deeltentamen, maar je krijgt hier geen cijfer voor. Haal je een toetsje een keer niet, dan mag je deze gewoon herkansen.
+In de eerste vier weken ben je ook bezig met het basisboek programmeren. Jij krijgt van ons het boek en werkt deze zelfstandig door. Deze toetsjes maak je op locatie op papier. Dat kost je maar 20 minuten per toetsje. Je dient alle toetsjes te halen, maar je krijgt hier geen cijfer voor. Haal je een toetsje een keer niet, dan mag je deze gewoon herkansen.
 
-We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo kunnen we je gelijk helpen! Voor de toetsmomenten deel je jezelf in via deze **calendly link coming soon**. Het zijn sloten van 20 minuten, dus je hebt zeker genoeg tijd om drie toetsjes in één slot te doen.
+We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo kunnen we je gelijk helpen! Voor de toetsmomenten deel je jezelf in via deze **link coming soon**.
 
 
 ## Opdrachten
 
-De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 20 uur voor de opdrachten van de week, en je hebt 6 uur aan practica per week.
+De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt 6 uur aan laptopcolleges per week.
 
-### Minimumeis
-
-Elke opdracht lever je af en werkend in. Dit houdt in dat jouw code **minimaal** alle tests van de opdracht doet slagen.
 
 ### Punten
 
@@ -101,16 +101,17 @@ Een 3 of een 4 is op deze schaal een goede score. In de praktijk blijkt het last
 
 Lever je alle hacker-opdrachten van een module in, dan krijg je een extra punt.
 
+
 ### Deadlines
 
-Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een halve punt minder. Mis je deze extensie van de deadline ook, dan kan je binnen drie dagen na de deadline de opdracht inleveren. Je krijgt dan één punt minder. Later dan drie dagen na de oorspronkelijke deadline is er geen ruimte meer om opdrachten in te leveren. In principe kan je het vak dan niet meer halen dit jaar.
+Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een punt minder. Daarna worden opdrachten niet meer nagekeken en worden er 0 punten toegekend. Wel dien je de opdrachten alsnog werkend in te leveren. 
 
-In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar progik@mprog.nl, waarna je wordt uitgenodigd voor een gesprek.
+In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar progki@mprog.nl, waarna je wordt uitgenodigd voor een gesprek.
 
 
 ## Tentamen
 
-Je ontvangt binnenkort meer informatie over het tentamen.
+In week 8 toetsen we of je voldoende begrip hebt opgebouwd door in de eerdere weken te programmeren. Het is dus belangrijk om de opdrachten niet alleen op te lossen maar hier ook goed van te leren. De toetsjes helpen je hier al een stuk bij.
 
 Er is na het tentamen een mogelijkheid om de beoordeling van de antwoorden op je tentamen te bespreken. Je ontvangt een e-mail om een afspraak in te plannen zodra het tentamen is nagekeken.
 
