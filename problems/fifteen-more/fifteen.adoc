@@ -5,7 +5,7 @@
 
 == tl;dr
 
-Implement the Game of Fifteen, per the below.
+Implement the Game of Fifteen with God Mode, per the below.
 
 [source]
 ----
@@ -42,7 +42,7 @@ image:adapted.png[solvable configuration, width="25%"]
 
 [source,subs="macros"]
 ----
-$ wget https://progik.mprog.nl/course/problems/fifteen/fifteen.zip
+$ wget https://prog1.mprog.nl/course/problems/fifteen/fifteen.zip
 $ unzip fifteen.zip
 $ rm fifteen.zip
 $ cd fifteen
@@ -72,10 +72,12 @@ Read over the code and comments in `fifteen.c` and then answer the questions bel
 
 Implement the Game of Fifteen, per the comments in `fifteen.c`.
 
-. Implement `init`.
+. Implement `init` in such a way that the board is initialized to a pseudorandom but
+solvable configuration.
 . Implement `draw`.
 . Implement `move`.
 . Implement `won`.
+. Then, embed in the game a cheat, whereby, rather than typing an integer between `1` and `d*d–1`, where `d` is the board's height and width, the human can also type `GOD` to compel "the computer" to take control of the game and solve it (using any strategy, optimal or non-optimal), making, say, only four moves per second so that the human can actually watch. Presumably, you'll need to swap out `get_int()` for something more versatile. It's fine if your implementation of God Mode only works (bearably fast) for d ≤ 4; you need not worry about testing God Mode for d > 4. Oh and you can't implement God Mode by remembering how init initialized the board (as by remembering the sequence of moves that got your program to some pseudorandom but solvable state). Nice try.
 
 == Walkthrough
 
@@ -111,6 +113,24 @@ Feel free to tweak the appropriate argument to `usleep` to speed up animation. I
 
 You're welcome to write your own functions and even change the prototypes of functions we wrote. But you may not alter the flow of logic in `main` itself so that we can automate some tests of your program once submitted. In particular, `main` must only return `0` if and when the user has actually won the game; non-zero values should be returned in any cases of error, as implied by our distribution code.
 
+Where to begin implementing God Mode? Well, first read up on this Game of Fifteen. Wikipedia is probably a good starting point:
+
+http://en.wikipedia.org/wiki/N-puzzle
+
+Then dive a bit deeper, perhaps reading up on an algorithm called A*.
+
+http://en.wikipedia.org/wiki/A*_search_algorithm
+
+Consider using "Manhattan distance" (aka "city-block distance") as your implementation’s heuristic. If you find that A* takes up too much memory (particularly for d ≥ 4), though, you might want to take a look at iterative deepening A* (IDA*) instead:
+
+http://webdocs.cs.ualberta.ca/~tony/RecentPapers/pami94.pdf
+
+Or maybe the algorithm in this paper:
+
+http://larc.unt.edu/ian/pubs/saml.pdf
+
+You’re welcome to expand your search for ideas beyond those in these papers, but take care that your research does not lead you to actual code. Curling up with others' pseudocode is fine, but please click away if you stumble upon actual implementations (whether in C or other languages).
+
 == Testing
 
 To test your implementation of `fifteen`, you can certainly try playing it. (Know that you can force your program to quit by hitting ctrl-c.) Be sure that you (and we) cannot crash your program, as by providing bogus tile numbers. And know that, much like you automated input into `find`, so can you automate execution of this game. In fact, we have provided you with `3x3.txt` and `4x4.txt`, winning sequences of moves for a 3 × 3 board and a 4 × 4 board, respectively. To test your program with, say, the first of those inputs, execute the below.
@@ -126,7 +146,7 @@ Note that `check50` assumes that your board's blank space is implemented in `boa
 
 [source]
 ----
-check50 minprog/cs50x/2019/fifteen/less
+check50 minprog/cs50x/2019/fifteen/more
 ----
 
-> Let op! Als je de hacker versie van deze opdracht hebt gemaakt, lever deze opdracht dan in op de link:/problems/fifteen-more[hacker editie pagina van Fifteen].
+> Let op! Dit is de pagina van de hacker editie van Fifteen. Als je de niet-hacker versie van deze opdracht hebt gemaakt, lever deze opdracht dan in op de link:/problems/fifteen-less[niet-hacker editie pagina van Fifteen].
