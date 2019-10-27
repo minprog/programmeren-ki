@@ -44,8 +44,6 @@ Make sure you're prepared by following the instructions in "Getting Started", ab
 
 #### 2. Greedy
 
-- Watch the lecture on [Tools](/lectures/tools)
-
 - Implement [Greedy](/problems/greedy)
 
 #### 3. Mario
