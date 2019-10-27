@@ -53,7 +53,7 @@ Implement either of:
 
 - [Vigenere](/problems/vigenere), for most students
 
-- [Crack](/problems/crack), for those more comfortable
+- [Crack](/problems/crack), for those more comfortable (hacker edition)
 
 #### 5. Exercises
 

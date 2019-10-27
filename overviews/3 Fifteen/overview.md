@@ -39,11 +39,15 @@ Implement either of:
 
 - [Find](/problems/find-less), for those less comfortable
 
-- [Find](/problems/find-more), for those more comfortable
+- [Find (hacker edition)](/problems/find-more), for those more comfortable
 
 #### 3. Fifteen
 
-Implement [Fifteen](/problems/fifteen)
+Implement either of:
+
+- [Fifteen](/problems/fifteen-less), for those less comfortable
+
+- [Fifteen (hacker edition)](/problems/fifteen-more), for those more comfortable
 
 #### 4. Exercises
 

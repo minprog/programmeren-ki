@@ -3,18 +3,6 @@
 In this module, you'll learn about the C programming language. It's a great language that has been used to make small and large programs alike. You'll start with the small ones!
 
 
-## Help
-
-For information on (or help with) this module:
-
-1. Attend your mentor's section meeting.
-
-2. Ask questions during office hours using the "Ask" tool on this website.
-
-3. Visit (or e-mail) the course's heads.
-{: start="0"}
-
-
 ## Getting Started
 
 Your first program will be a classic. The goal of this exercise is to try out compiling your program, maybe fixing a typo and getting used to the editor. No need to submit!
@@ -56,28 +44,24 @@ Make sure you're prepared by following the instructions in "Getting Started", ab
 
 #### 2. Greedy
 
-Implement and submit either of:
+- Watch the lecture on [Tools](/lectures/tools)
 
-- [Greedy](/problems/greedy), which we expect most students to solve
-
-- [Credit](/problems/credit), the "hacker edition" aimed at students who already have quite some experience with programming
+- Implement [Greedy](/problems/greedy)
 
 #### 3. Mario
 
-- Watch the lecture on [Tools](/lectures/tools)
+- Implement [Mario](/problems/mario-less)
 
-- Implement and submit either of:
+#### 4. Credit
 
-    - [Mario](/problems/mario-less), for most students
+- Implement [Credit](/problems/credit)
 
-    - [Mario](/problems/mario-more), the hacker edition
-
-#### 4. Exercises
+#### 5. Exercises
 
 Study and take the test:
 
 - [Variables](/exercises/variables)
 
-#### 5. Submit
+#### 6. Submit
 
 You can submit your solutions on the problem pages linked above. Before submitting, keep in mind the course's policy on [academic honesty](/syllabus#samenwerken-fraude-en-plagiaat) (like plagiarism).
