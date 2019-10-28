@@ -1,6 +1,6 @@
 name: Introductie in Programmeren
 short_name: ProgKI
-language: en
+language: nl
 
 links:
     "<i class='fa fa-book'></i> CS50 Reference": https://reference.cs50.net
