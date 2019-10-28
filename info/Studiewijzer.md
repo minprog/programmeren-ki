@@ -51,16 +51,16 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 
 ## Kalender
 
-| Weken  | Opdracht | Deadline  | Toetsen     | 
-| ------ | -------- | --------- |------------ | 
-| Week 1 | Scratch  | di 29 okt | Toetsje A   | 
-| Week 2 | C        | di 5 nov  | Toetsje B/C | 
-| Week 3 | C        | di 12 nov | Toetsje D/E | 
-| Week 4 | C        | di 19 nov | Toetsje F/G | 
-| Week 5 | Python   | di 26 nov |             | 
-| Week 6 | Python   | di 3 dec  |             | 
-| Week 7 | Python   | wo 11 dec |             | 
-| Week 8 |          |           | Tentamen    | 
+| Weken  | Opdracht | Deadline  | Toetsen     |
+| ------ | -------- | --------- |------------ |
+| Week 1 | Scratch  | di 29 okt | Toetsje A   |
+| Week 2 | C        | di 5 nov  | Toetsje B/C |
+| Week 3 | C        | di 12 nov | Toetsje D/E |
+| Week 4 | C        | di 19 nov | Toetsje F/G |
+| Week 5 | Python   | di 26 nov |             |
+| Week 6 | Python   | di 3 dec  |             |
+| Week 7 | Python   | wo 11 dec |             |
+| Week 8 |          |           | Tentamen    |
 
 
 ## Tijdsbesteding
@@ -93,7 +93,7 @@ Als het niet lukt om een toets op bovenstaande manier te halen, kun je dit alsno
 
 De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt 6 uur aan laptopcolleges per week.
 
-Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht. Daarnaast zijn er bonusopdrachten. Hieronder vind je meer informatie.
+Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht.
 
 #### Punten
 
@@ -116,11 +116,6 @@ Lever je alle hacker-opdrachten van een module in, dan krijg je een extra punt.
 Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een punt minder. Daarna worden opdrachten niet meer nagekeken en worden er 0 punten toegekend. Wel dien je de opdrachten alsnog werkend in te leveren.
 
 In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar <progki@mprog.nl>, waarna je wordt uitgenodigd voor een gesprek.
-
-
-#### Bonusopdrachten
-
-Bonusopdrachten kan je maken voor extra punten. Deze worden alleen automatisch nagekeken en niet op kwaliteitsaspecten. Je krijgt dus meteen alle punten voor de opdracht als je deze compleet werkend inlevert. Alle bonusopdrachten vind je [hier](/bonus/overview).
 
 
 ## Tentamen
