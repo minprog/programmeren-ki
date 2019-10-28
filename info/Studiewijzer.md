@@ -85,7 +85,7 @@ In de eerste vier weken vinden toetsjes plaats waarin de stof van de vorige weke
 Als het niet lukt om een toets op bovenstaande manier te halen, kun je dit alsnog doen tijdens het normale tentamen.
 
 - De herkansing bestaat uit een combinatie van de niet-gehaalde toetsjes.
-- Om op deze manier te mogen herkansen moet je tijdens de cursus elke niet-gehaalde toets **minimaal 3 keer** geprobeerd hebben.
+- Om op deze manier te mogen herkansen moet je tijdens de cursus elke niet-gehaalde toets **3 keer** geprobeerd hebben.
 - Je krijgt bij deze laatste herkansing twee versies van elke niet-gehaalde toets zodat je meer gelegenheid hebt om te laten zien dat je het kan. Beide moeten zo goed mogelijk ingevuld worden.
 
 
