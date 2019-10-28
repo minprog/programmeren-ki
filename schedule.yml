@@ -1,33 +1,62 @@
-Week 1:
-    'First lecture': '/lectures/week-0'
-    'Scratch [due tuesday 23:59]': '/problems/scratch'
-    'Second lecture': '/lectures/week-1'
-    'Getting started': '/resources/getting-started'
-    'Hello': '/problems/hello'
-    'Water': '/problems/water'
-    'Mario [due friday 23:59]': '/problems/mario'
-    'Cash [due friday 23:59]': '/problems/cash'
-Week 2:
-    'Third lecture': '/lectures/week-2'
-    'Initials': '/problems/initials'
-    'Caesar [due friday 23:59]': '/problems/caesar'
-    'Vigenère [due friday 23:59]': '/problems/vigenere'
-Week 3:
-    'Fourth lecture': '/lectures/week-3'
-    'Find [due friday 23:59]': '/problems/find'
-    'Fifteen [due friday 23:59]': '/problems/fifteen'
-Week 4:
-    'Preparations [example exam]': 'resources/c-oefententamens'
-Week 5:
-    'Hello.py': '/problems/hello_py'
-    'Mario.py or Cash.py [due friday 23:59]': '/problems/mario_py'
-    'Caesar.py or Vigenere.py [due friday 23:59]': '/problems/caesar_py'
-    'Find.py or Fifteen.py [due friday 23:59]': '/problems/find_py'
-    'Tweet [due friday 23:59]': '/problems/tweet'
-Week 6:
-    'Climate [due friday 23:59]': '/problems/climate'
-    'Sudoku [due friday 23:59]': '/problems/sudoku'
-Week 7:
-    'Adventure [due friday 23:59]': '/problems/adventure'
-Week 8:
-    'Preparations [example exam]': 'resources/python-oefententamens'
+Module 0:
+    Introduction: /overviews/scratch
+    "Lecture: Computational Thinking": /lectures/computational-thinking
+    Implement Scratch: /problems/scratch
+Module 1:
+    Introduction: /overviews/c
+    Hello:
+        "Lecture: C": /lectures/c
+        Create a GitHub account: https://github.com/join
+        Implement Hello: https://lab.cs50.io/uva/cs50x/master/problems/hello/
+    Water:
+        Create your own CS50 IDE: https://ide.cs50.io/
+        Learn about the Command Line: /shorts/command-line
+        Implement Water: /problems/water
+    Greedy:
+        Greedy: /problems/greedy
+    Mario:
+        "Lecture: Tools": /lectures/tools
+        Mario: /problems/mario-less
+    Credit:
+        Credit: /problems/credit
+    Friday exercises:
+        Variables: /exercises/variables
+Module 2:
+    Introduction: /overviews/crypto
+    "Lecture: Arrays": /lectures/arrays
+    "Implement either of:":
+        Initials: /problems/initials-less
+        Initials (hacker): /problems/initials-more
+    "Implement:":
+        Caesar: /problems/caesar
+    "Implement either  of:":
+        Vigenere: /problems/vigenere
+        Crack (hacker): /problems/crack
+    Friday exercises:
+        Control flow: /exercises/control-flow
+        Unscratch: /exercises/unscratch
+Module 3:
+    Introduction: /overviews/fifteen
+    "Lecture: Algorithms": /lectures/algorithms
+    "Implement either  of:":
+        Find: /problems/find-less
+        Find (harder): /problems/find-more
+    "Implement:":
+        Fifteen: /problems/fifteen
+    Friday exercises:
+        Arrays: /exercises/arrays
+        Loops: /exercises/loops
+Module 4:
+    Introduction: /overviews/python
+    "Implement:":
+        Python: /problems/python
+    "Implement":
+        Tweet: /problems/tweet
+Module 5:
+    Introduction: /overviews/data
+    "Implement:":
+        Climate: /problems/climate
+    "Implement":
+        Virus: /problems/virus
+Module 6:
+    Sudoku: /overviews/sudoku
