@@ -1,6 +1,6 @@
 # Programmeren<br><span class="small">Studiewijzer "Introductie in Programmeren"</span>
 
-*Versie: November 2018 UNDER CONSTRUCTION*
+*Versie: november-december 2019*
 
 Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in twee programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma's die er op draaien. De opdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
@@ -42,49 +42,58 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
 Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Dit wordt als volgt samengesteld:
 
-1. (60%) Voor elke **opdracht**, met uitzondering van de eerste opdracht Scratch, kun je punten scoren, tot een maximum van 30 voor de cursus. Je programma's worden kritisch bekeken door de assistenten en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht. Daarnaast zijn er bonusopdrachten. Hieronder vind je meer informatie.
+1. (60%) Voor de **opdrachten** kun je punten verdienen, tot een maximum van 30 voor de cursus. Je programma's worden kritisch bekeken door de assistenten en op basis hiervan krijg je punten voor de kwaliteit van de inzending.
 
-2. (40%) Bij het **tentamen** in week 8 toetsen we of je voldoende begrip hebt opgebouwd door in de eerdere weken te programmeren. Het is dus belangrijk om de opdrachten niet alleen op te lossen maar hier ook goed van te leren. De toetsjes helpen je hier al een stuk bij. Je moet minimaal een 5,5 halen voor het tentamen.
+2. (0%) Met de **toetsjes** laat je zien dat je de concepten van het programmeren echt onder de knie hebt. Tegelijk zijn ze er om in de eerste weken goed bij te blijven. Je moet alle 7 toetsjes gehaald hebben om het vak af te kunnen ronden.
 
-3. (Pass/Fail) Met de **toetsjes** toetsen we of je de begrippen echt onder de knie hebt. De toetsjes focussen op concepten en daar ga je in de eerste weken van het vak veel mee oefenen door middel van het basisboek programmeren.
+3. (40%) Bij het **tentamen** laat je nog een keer in gecontroleerde omstandigheden zien dat je programmeerproblemen kunt oplossen en inzicht hebt in de onderliggende ideeën. Je moet minimaal een 5,5 halen voor het tentamen.
 
 
 ## Kalender
 
-| Weken  | Activiteit             | Taal     | Opdracht deadline   |
-| ------ | ---------------------- | -------- | ---------- |
-| Week 1 | Opdrachten + Toetsje   | Scratch  | di 29 okt  |
-| Week 2 | Opdrachten + Toetsje   | C        | di 5 nov   |
-| Week 3 | Opdrachten + Toetsje   | C        | di 12 nov  |
-| Week 4 | Opdrachten + Toetsje   | C        | di 19 nov  |
-| Week 5 | Opdrachten             | Python   | di 26 nov  |
-| Week 6 | Opdrachten             | Python   | di 3 dec   |
-| Week 7 | Opdrachten             | Python   | wo 11 dec  |
-| Week 8 | Tentamen               |          |            |
+| Weken  | Opdracht | Deadline  | Toetsen     | 
+| ------ | -------- | --------- |------------ | 
+| Week 1 | Scratch  | di 29 okt | Toetsje A   | 
+| Week 2 | C        | di 5 nov  | Toetsje B/C | 
+| Week 3 | C        | di 12 nov | Toetsje D/E | 
+| Week 4 | C        | di 19 nov | Toetsje F/G | 
+| Week 5 | Python   | di 26 nov |             | 
+| Week 6 | Python   | di 3 dec  |             | 
+| Week 7 | Python   | wo 11 dec |             | 
+| Week 8 |          |           | Tentamen    | 
 
 
 ## Tijdsbesteding
 
 De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt, moet je even over een drempel heen voordat je het begint te begrijpen.
 
-Tijdens de week werk je aan de opdrachten en heb je drie laptopcolleges op dinsdag, woensdag en donderdag. Daar krijg jij goed de ruimte om inhoudelijke vragen te stellen. De klassen zijn zo ingedeeld zodat iedereen echt hulp kan krijgen. De opdrachten krijg je niet af in de laptopcolleges alleen, ze kosten gemiddeld zo'n 15 uur aan werk. Houd ook hier rekening mee dat je best wat meer tijd kwijt kan zijn, of wellicht in de eerste weken wat minder door eerdere programmeerervaring.
-
-Op maandag heb je een hoorcollege, hierin worden de nieuwe concepten behandeld en wordt de nieuwe opdracht geïntroduceerd. In de eerste weken van het vak hoort daar ook een videocollege van Harvard bij.
-
-De eerste vier weken kom je op woensdag of donderdag een kort toetsje maken. Dat bereid je voor door het basisboek programmeren door te werken en daar ben je een paar uur in de week mee bezig.
+- Hoorcollege en videocollege: 2-4 uur
+- Toetsjes: 2-4 uur in de eerste weken
+- Opdrachten: 15 uur gemiddeld
+	- waarvan 6 uur werken tijdens het verplichte practicum/laptopcollege
 
 
 ## Toetsjes
 
-In de eerste vier weken ben je ook bezig met het basisboek programmeren. Jij krijgt van ons het boek en werkt deze zelfstandig door. Deze toetsjes maak je op locatie op papier. Dat kost je maar 20 minuten per toetsje. Je dient alle toetsjes te halen, maar je krijgt hier geen cijfer voor. Haal je een toetsje een keer niet, dan mag je deze gewoon herkansen.
+In de eerste vier weken vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en aangescherpt. Voor een deel van de toetsjes studeer je in het "Basisboek Programmeren" waarvan prints worden verspreid tijdens het hoorcollege en eventueel bij de laptopcolleges. Andere onderwerpen bereid je voor met oefeningen op de website.
 
-We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo kunnen we je gelijk helpen! Voor de toetsmomenten deel je jezelf in via deze **link coming soon**.
+- Alle toetsjes moeten uiteindelijk gehaald worden om de cursus te voltooien.
+- Elke toets moet steeds op de aangekondigde toetsdatum gedaan worden (donderdag).
+- Een niet-gehaalde toets kan op een volgende aangekondigde toetsdag herkanst worden (meestal maandag en woensdag).
+- Tijdens deze eerste vijf weken van de cursus mag je elke toets maximaal drie keer doen.
+
+Als het niet lukt om een toets op bovenstaande manier te halen, kun je dit alsnog doen tijdens het normale tentamen.
+
+- De herkansing bestaat uit een combinatie van de niet-gehaalde toetsjes.
+- Om mee te mogen doen moet je tijdens de cursus elke niet-gehaalde toets **minimaal 3 keer** geprobeerd hebben.
+- Je krijgt bij deze laatste herkansing twee versies van elke niet-gehaalde toets zodat je meer gelegenheid hebt om te laten zien dat je het kan. Beide moeten zo goed mogelijk ingevuld worden.
 
 
 ## Opdrachten
 
 De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt 6 uur aan laptopcolleges per week.
 
+Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht. Daarnaast zijn er bonusopdrachten. Hieronder vind je meer informatie.
 
 #### Punten
 
