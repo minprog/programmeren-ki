@@ -58,7 +58,7 @@ Make sure you're prepared by following the instructions in "Getting Started", ab
 
 Study and take the test:
 
-- [Variables](/exercises/variables)
+- [Variables](/exercises/a-variables)
 
 #### 6. Submit
 
