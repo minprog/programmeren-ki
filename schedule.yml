@@ -1,9 +1,11 @@
 Module 0:
-    Introduction: /overviews/scratch
+    Overview & Grading: /overviews/scratch
     "Lecture: Computational Thinking": /lectures/computational-thinking
     Implement Scratch: /problems/scratch
+    Toetsje:
+        A Variables: /exercises/variables
 Module 1:
-    Introduction: /overviews/c
+    Overview & Grading: /overviews/c
     Hello:
         "Lecture: C": /lectures/c
         Create a GitHub account: https://github.com/join
@@ -22,7 +24,7 @@ Module 1:
     Friday exercises:
         Variables: /exercises/variables
 Module 2:
-    Introduction: /overviews/crypto
+    Overview & Grading: /overviews/crypto
     "Lecture: Arrays": /lectures/arrays
     "Implement either of:":
         Initials: /problems/initials-less
@@ -36,7 +38,7 @@ Module 2:
         Control flow: /exercises/control-flow
         Unscratch: /exercises/unscratch
 Module 3:
-    Introduction: /overviews/fifteen
+    Overview & Grading: /overviews/fifteen
     "Lecture: Algorithms": /lectures/algorithms
     "Implement either  of:":
         Find: /problems/find-less
@@ -47,16 +49,17 @@ Module 3:
         Arrays: /exercises/arrays
         Loops: /exercises/loops
 Module 4:
-    Introduction: /overviews/python
+    Overview & Grading: /overviews/python
     "Implement:":
         Python: /problems/python
     "Implement":
         Tweet: /problems/tweet
 Module 5:
-    Introduction: /overviews/data
+    Overview & Grading: /overviews/data
     "Implement:":
         Climate: /problems/climate
     "Implement":
         Virus: /problems/virus
 Module 6:
+    Overview & Grading: /overviews/data
     Sudoku: /overviews/sudoku
