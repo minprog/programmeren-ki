@@ -1,9 +1,10 @@
 Module 0:
     Overview & Grading: /overviews/scratch
-    "Lecture: Computational Thinking": /lectures/computational-thinking
-    Implement Scratch: /problems/scratch
+    Opdracht:
+        "Lecture: Computational Thinking": /lectures/computational-thinking
+        Implement Scratch: /problems/scratch
     Toetsje:
-        A Variables: /exercises/variables
+        A Variables: /exercises/a-variables
 Module 1:
     Overview & Grading: /overviews/c
     Hello:
