@@ -6,6 +6,10 @@ Module 0:
     Toetsje:
         Afspraak maken: https://toetsje.mprog.nl/progki/
         A Variables: /exercises/a-variables
+    Voorbereiding Module 1:
+        "Lecture: C": /lectures/c
+        Create a GitHub account: https://github.com/join
+        Implement Hello: https://lab.cs50.io/uva/cs50x/master/problems/hello/
 Module 1:
     Overview & Grading: /overviews/c
     Hello:
