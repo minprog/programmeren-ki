@@ -51,7 +51,7 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 
 ## Kalender
 
-| Weken  | Opdracht | Deadline  | Toetsen     |
+|        | Opdracht | Deadline  | Toetsen     |
 | ------ | -------- | --------- |------------ |
 | Week 1 | Scratch  | di 29 okt | Toetsje A   |
 | Week 2 | C        | di 5 nov  | Toetsje B/C |
