@@ -10,8 +10,6 @@ Change owed: 0.41
 4
 ~~~~
 
-Although we would normally expect you to choose this version of the problem, aimed at students who are "less comfortable" with programming, you may choose to do [credit](/problems/credit), intended for "more comfortable" students, instead!
-
 ## Background
 
 ![Coin Changer Toy](changer.jpg){: style="width:50%"}

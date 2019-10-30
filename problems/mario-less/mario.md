@@ -22,8 +22,6 @@ Height: 3
 ####
 ~~~~
 
-Although we would normally expect you to choose this version of the problem, aimed at students who are "less comfortable" with programming, you may instead choose to do the [version of Mario](/problems/mario-more) intended for "more comfortable" students!
-
 ## Background
 
 Toward the end of World 1-1 in Nintendo's Super Mario Brothers, Mario must ascend a "half-pyramid" of blocks before leaping (if he wants to maximize his score) toward a flag pole. Below is a screenshot.
