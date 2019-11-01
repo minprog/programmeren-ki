@@ -66,18 +66,11 @@ grades:
     toetsje E: *test
     toetsje F: *test
     toetsje G: *test
-    tentamen1:
+    tentamen:
         type: float
         subgrades:
             points: integer
         calculation: ((9/28.0) * points + (10 - 297/28.0)).round(1)
-        is_test: true
-        hide_calculated: false
-    tentamen2:
-        type: float
-        subgrades:
-            points: integer
-        calculation: (points / 26.0 * 9 + 1).round(1)
         is_test: true
         hide_calculated: false
 
@@ -136,5 +129,4 @@ tentamens:
     exam: true
     minimum: 5.5
     submits:
-        tentamen1: 1
-        tentamen2: 1
+        tentamen: 1
