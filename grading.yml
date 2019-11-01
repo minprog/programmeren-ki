@@ -100,7 +100,7 @@ modules:
         - adventure_more
 
 calculation:
-    final:
+    eindcijfer:
         tests: 0
         mods: 60
         tentamens: 40
