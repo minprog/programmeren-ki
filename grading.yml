@@ -59,11 +59,13 @@ grades:
     m4: *manual
     m5: *manual
     m6: *manual
-    test_a: *test
-    test_b: *test
-    test_c: *test
-    test_d: *test
-    test_e: *test
+    toetsje A: *test
+    toetsje B: *test
+    toetsje C: *test
+    toetsje D: *test
+    toetsje E: *test
+    toetsje F: *test
+    toetsje G: *test
     tentamen1:
         type: float
         subgrades:
@@ -126,9 +128,9 @@ mods:
 tests:
     required: true
     submits:
-        test_a: 1
-        test_b: 1
-        test_c: 1
+        toetsje A: 1
+        toetsje B: 1
+        toetsje C: 1
 
 tentamens:
     exam: true
