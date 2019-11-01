@@ -36,7 +36,7 @@ templates:
 
 grades:
     scratch: *fullyauto
-    cash: *fullyauto
+    greedy: *fullyauto
     mario_less: *fullyauto
     credit: *fullyauto
     initials_more: *fullyauto
@@ -81,7 +81,7 @@ grades:
 
 modules:
     m1:
-        - cash
+        - greedy
         - credit
         - mario_less
     m2:

@@ -1,4 +1,4 @@
-name: cash
+name: greedy
 files:
     required:
         - greedy.c
