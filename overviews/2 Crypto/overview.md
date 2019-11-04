@@ -37,9 +37,7 @@ Watch the lecture on [Arrays](/lectures/arrays)
 
 #### 2. Initials
 
-Implement either of:
-
-- [Initials](/problems/initials-more)
+- Implement [Initials](/problems/initials-more)
 
 #### 3. Caesar
 
