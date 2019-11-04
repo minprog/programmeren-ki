@@ -39,9 +39,7 @@ Watch the lecture on [Arrays](/lectures/arrays)
 
 Implement either of:
 
-- [Initials](/problems/initials-less), for most students
-
-- [Initials](/problems/initials-more), for those more comfortable
+- [Initials](/problems/initials-more)
 
 #### 3. Caesar
 
@@ -59,9 +57,9 @@ Implement either of:
 
 Study and take the test:
 
-- [Control Flow](/exercises/control-flow)
+- [Control Flow](/exercises/b-control-flow)
 
-- [Unscratch](/exercises/unscratch)
+- [Unscratch](/exercises/c-unscratch)
 
 #### 6. Submit
 
