@@ -30,17 +30,15 @@ Module 1:
 Module 2:
     Overview & Grading: /overviews/crypto
     "Lecture: Arrays": /lectures/arrays
-    "Implement either of:":
-        Initials: /problems/initials-less
-        Initials (hacker): /problems/initials-more
-    "Implement:":
+    "Implement":
+        Initials: /problems/initials-more
         Caesar: /problems/caesar
     "Implement either  of:":
         Vigenere: /problems/vigenere
         Crack (hacker): /problems/crack
-    Friday exercises:
-        Control flow: /exercises/control-flow
-        Unscratch: /exercises/unscratch
+    Toetsjes:
+        B Control flow: /exercises/b-control-flow
+        C Unscratch: /exercises/c-unscratch
 Module 3:
     Overview & Grading: /overviews/fifteen
     "Lecture: Algorithms": /lectures/algorithms
