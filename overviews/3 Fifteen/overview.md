@@ -53,9 +53,9 @@ Implement either of:
 
 Study and take the test:
 
-- [Arrays](/exercises/arrays)
+- [D Arrays](/exercises/d-arrays)
 
-- [Loops](/exercises/loops)
+- [E Loops](/exercises/e-loops)
 
 #### 5. Submit
 

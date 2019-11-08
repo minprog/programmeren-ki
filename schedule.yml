@@ -45,13 +45,14 @@ Module 3:
     "Lecture: Algorithms": /lectures/algorithms
     "Implement either  of:":
         Find: /problems/find-less
-        Find (harder): /problems/find-more
-    "Implement:":
-        Fifteen: /problems/fifteen
+        Find (hacker): /problems/find-more
+    "Implement either  of:":
+        Fifteen: /problems/fifteen-less
+        Fifteen (hacker): /problems/fifteen-more
     Toetsjes:
         Afspraak maken: https://toetsje.mprog.nl/progki/
-        Arrays: /exercises/arrays
-        Loops: /exercises/loops
+        D Arrays: /exercises/d-arrays
+        E Loops: /exercises/e-loops
 Module 4:
     Overview & Grading: /overviews/python
     "Implement:":
