@@ -10,9 +10,3 @@ acknowledgements:
     - 'Based on CS50 from http://cs50.tv/2017/fall/ -- Copyright 2011--2018, David J. Malan.'
 
 license: <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
-feedback_templates:
-    te_weinig_geprobeerd:
-        explanation: "Zal de student vragen om meer te proberen van de opdracht en deze opnieuw in te leveren. Enkel indrukken als er dermate weinig is gemaakt zodat jij geen zinvolle design/style feedback kan geven. Twijfel je? Vraag het!"
-        feedback: "Je hebt onvoldoende onderdelen van de opdracht geprobeerd. Wij kunnen daarom geen zinvolle feedback geven voor design & style en dus geen cijfer. Maak meer van de opdracht en lever opnieuw in. Je hebt hiervoor tot 6 dagen na de oorspronkelijke deadline."
-        grade: 0
