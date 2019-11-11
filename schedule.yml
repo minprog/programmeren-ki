@@ -40,6 +40,20 @@ Module 2:
         Afspraak maken: https://toetsje.mprog.nl/progki/
         B Control flow: /exercises/b-control-flow
         C Unscratch: /exercises/c-unscratch
+Module 2a:
+    Overview & Grading: /overviews/crypto
+    "Lecture: Arrays": /lectures/arrays
+    "Implement":
+        Initials: /problems/initials-more
+        Caesar: /problems/caesar
+    "Implement either  of:":
+        Vigenere: /problems/vigenere
+        Crack (hacker): /problems/crack
+    Toetsjes:
+        Afspraak maken: https://toetsje.mprog.nl/progki/
+        D Arrays: /exercises/d-arrays
+        E Loops: /exercises/e-loops
+    Volgende opdracht: /overviews/fifteen
 Module 3:
     Overview & Grading: /overviews/fifteen
     "Lecture: Algorithms": /lectures/algorithms
