@@ -17,7 +17,7 @@ to
 
 Alternatively, and perhaps better in case we find our magic number `20` scattered throughout our code, is to use a constant variable like so:
 
-    #define MAX_NAME_LENGTH 20
+    const int MAX_NAME_LENGTH = 20;
 
     if (strlen(name) < MAX_NAME_LENGTH)
     {
