@@ -6,7 +6,7 @@ templates:
         automatic:
             correctness: (check_score * 5).floor
         calculation: -(correctness/5)
-        hide_calculated: true
+        # hide_calculated: true
     # 2: &automatic
     #     type: float
     #     subgrades:
