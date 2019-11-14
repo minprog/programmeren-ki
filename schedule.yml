@@ -33,7 +33,7 @@ Module 2:
     "Implement":
         Initials: /problems/initials-more
         Caesar: /problems/caesar
-    "Implement either  of:":
+    "Implement either of:":
         Vigenere: /problems/vigenere
         Crack (hacker): /problems/crack
     Toetsjes:
@@ -61,7 +61,7 @@ Module 3:
     "Implement either  of:":
         Find: /problems/find-less
         Find (hacker): /problems/find-more
-    "Implement either  of:":
+    "Implement either of:":
         Fifteen: /problems/fifteen-less
         Fifteen (hacker): /problems/fifteen-more
     Toetsjes:
