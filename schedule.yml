@@ -68,12 +68,29 @@ Module 3:
         Afspraak maken: https://toetsje.mprog.nl/progki/
         D Arrays: /exercises/d-arrays
         E Loops: /exercises/e-loops
+Module 3a:
+    Overview & Grading: /overviews/fifteen
+    "Lecture: Algorithms": /lectures/algorithms
+    "Implement either  of:":
+        Find: /problems/find-less
+        Find (hacker): /problems/find-more
+    "Implement either  of:":
+        Fifteen: /problems/fifteen-less
+        Fifteen (hacker): /problems/fifteen-more
+    Toetsjes:
+        Afspraak maken: https://toetsje.mprog.nl/progki/
+        F Functions: /exercises/f-functions
+        G Algorithms: /exercises/g-algorithms
 Module 4:
     Overview & Grading: /overviews/python
     "Implement:":
         Python: /problems/python
     "Implement":
         Tweet: /problems/tweet
+    Toetsjes:
+        Afspraak maken: https://toetsje.mprog.nl/progki/
+        F Functions: /exercises/f-functions
+        G Algorithms: /exercises/g-algorithms
 Module 5:
     Overview & Grading: /overviews/data
     "Implement:":
