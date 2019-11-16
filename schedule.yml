@@ -83,9 +83,10 @@ Module 3a:
         G Algorithms: /exercises/g-algorithms
 Module 4:
     Overview & Grading: /overviews/python
+    "Lecture: Python": /lectures/python
     "Implement:":
         Python: /problems/python
-    "Implement":
+    "Implement: ":
         Tweet: /problems/tweet
     Toetsjes:
         Afspraak maken: https://toetsje.mprog.nl/progki/
@@ -95,7 +96,7 @@ Module 5:
     Overview & Grading: /overviews/data
     "Implement:":
         Climate: /problems/climate
-    "Implement":
+    "Implement: ":
         Virus: /problems/virus
 Module 6:
     Overview & Grading: /overviews/data
