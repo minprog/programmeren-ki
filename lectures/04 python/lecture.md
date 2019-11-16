@@ -1,6 +1,6 @@
 # Lecture: Python
 
-![embed](https://youtu.be/mvlTSMUNQN4?t=580)
+![embed](https://www.youtube.com/embed/mvlTSMUNQN4?t=580)
 
 
 ## Sample code
