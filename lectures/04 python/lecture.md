@@ -1,8 +1,7 @@
 # Lecture: Python
 
-![embed](https://www.youtube.com/embed/mvlTSMUNQN4?start=600)
+![embed](https://www.youtube.com/embed/mvlTSMUNQN4?start=580)
 
-https://youtu.be/mvlTSMUNQN4?t=580
 ## Sample code
 
 Code from lecture can be found on [Github](https://github.com/cs50/lectures/tree/2018/fall/6).
