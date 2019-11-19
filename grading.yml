@@ -124,6 +124,10 @@ tests:
         toetsje A: 1
         toetsje B: 1
         toetsje C: 1
+        toetsje D: 1
+        toetsje E: 1
+        toetsje F: 1
+        toetsje G: 1
 
 tentamens:
     exam: true
