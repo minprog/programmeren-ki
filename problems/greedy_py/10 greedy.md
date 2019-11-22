@@ -20,7 +20,7 @@ In deze opdracht ga je de greedy opdracht van CS50 maken in Python.
 * Schrijf een programma genaamd `greedy.py` dat de gebruiker vraagt hoeveel wisselgeld er gegeven moet worden, en vervolgens het minimale aantal munten uitspuwt om dat wisselgeld te geven.
 * Er zijn vier munten: quarters (0.25$), dimes (0.10$), nickels (0.05$) en pennies (0.01$).
 * Als de gebruiker een negatief getal invult, dan moet je de gebruiker opnieuw vragen om invoer.
-* Je mag aannemen dat de gebruiker enkel floats invult.
+* Als de gebruiker andere onzinnige input invult, zoals woorden in plaats van een getal, dan moet je de gebruiker opnieuw vragen om invoer. Dat gaat bijvoorbeeld automatisch met de functie `get_float` uit de `cs50` library.
 
 ## Tips
 
