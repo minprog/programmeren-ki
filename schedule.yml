@@ -93,11 +93,16 @@ Module 4:
         F Functions: /exercises/f-functions
         G Algorithms: /exercises/g-algorithms
 Module 5:
-    Overview & Grading: /overviews/data
-    "Implement:":
-        Climate: /problems/climate
-    "Implement: ":
-        Virus: /problems/virus
+    Overview & Grading: /overviews/hangman
+    Preparation:
+        "Lecture: OOP": /lectures/oop
+    Labs:
+        Implement Queue: /problems/queue
+        Implement Game of Cards: /problems/cards
+    Hangman:
+        "Implement either of:":
+            Classic Hangman: /problems/hangman-classic
+            Evil Hangman (Hacker): /problems/hangman-evil
 Module 6:
     Overview & Grading: /overviews/data
     Sudoku: /overviews/sudoku

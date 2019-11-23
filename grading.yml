@@ -49,6 +49,15 @@ grades:
     fifteen_more: *fullyauto
     python: *fullyauto
     tweet: *fullyauto
+    queue:
+        type: pass
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: -1
+        calculation: -1
+        hide_calculated: true
+    cards: *fullyauto
     hangman_less: *fullyauto
     hangman_more: *fullyauto
     adventure_less: *fullyauto
@@ -93,6 +102,8 @@ modules:
         - python
         - tweet
     m5:
+        - queue
+        - cards
         - hangman_less
         - hangman_more
     m6:
