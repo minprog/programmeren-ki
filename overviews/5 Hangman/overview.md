@@ -23,9 +23,9 @@ And we'll also take these into account from last week: [comments](/quality/comme
 
 #### 2. Labs
 
-1. Practice with [Queue](https://lab.cs50.io/minprog/programmeren-2/master/problems/queue/lab) and submit your solution.
+1. Practice with [Queue](/problems/queue) and submit your solution.
 
-1. Practice with [Game of Cards](https://lab.cs50.io/minprog/programmeren-2/master/problems/cards/lab) and submit your solution.
+1. Practice with [Game of Cards](/problems/cards) and submit your solution.
 
 #### 3. Hangman
 
