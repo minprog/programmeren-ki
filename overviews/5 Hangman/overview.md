@@ -3,18 +3,6 @@
 In this module, you'll implement a game while learning about object-oriented programming. This style of programming isn't available in C, but in Python, many people use it!
 
 
-## Help
-
-For information on (or help with) this module:
-
-1. Attend your mentor's section meeting.
-
-2. Ask questions during office hours using the "Ask" tool on this website.
-
-3. Visit (or e-mail) the course's heads.
-{: start="0"}
-
-
 ## Grading
 
 As soon as you have submitted working solutions for all problems below, your mentor will assess your programs, assign a grade for "quality", and provide you with some written feedback. This week, your programs will be primarily graded on:
