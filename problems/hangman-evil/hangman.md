@@ -296,6 +296,7 @@ Now if for some reason you (or someone else) tries to create a program that crea
 
 Note that `check50` for this problem expects that such assertions are present in your code. In particular, you should **also** handle invalid input for the `guess()` method, as specified by `check50`.
 
+**WATCH OUT**. Do not implement step 8 before `check50` is completely satisfied with your assertions for the `guess()` method.
 
 ### 6. Implementing user interaction
 

@@ -291,6 +291,9 @@ Now if for some reason you (or someone else) tries to create a program that crea
 Note that `check50` for this problem expects that such assertions are present in your code. In particular, you should **also** handle invalid input for the `guess()` method, as specified by `check50`.
 
 
+**WATCH OUT**. Do not implement step 8 before `check50` is completely satisfied with your assertions for the `guess()` method.
+
+
 ### 8. Implementing user interaction
 
 While the `Hangman` class has all you need to play Hangman, someone who does not know your program won't understand that you have to write things like `game = Hangman(8, 6)` to start a game and `game.guess("e")` to guess a letter. So, let's make a **user interface**.
