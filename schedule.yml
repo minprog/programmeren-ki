@@ -103,6 +103,8 @@ Module 5:
         "Implement either of:":
             Classic Hangman: /problems/hangman-classic
             Evil Hangman (Hacker): /problems/hangman-evil
+    Herkansingstoetsje:
+        Afspraak maken: https://toetsje.mprog.nl/progki/
 Module 6:
     Overview & Grading: /overviews/data
     Sudoku: /overviews/sudoku
