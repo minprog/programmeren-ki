@@ -1,4 +1,4 @@
-name: hangman-less
+name: hangman_less
 files:
     required:
         - hangman.py
