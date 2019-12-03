@@ -40,7 +40,7 @@ Your assignment is to write a computer program which plays a game of Hangman usi
 
 	1.  Choose a random dictionary word of the requested length.
 
-	2.  Print out how many guesses the user has remaining, along with any letters the player has guessed and the current blanked-out version of the word.
+	2.  Print out how many **wrong** guesses the user has remaining, along with any letters the player has guessed and the current blanked-out version of the word.
 
 	3.  Prompt the user for a single letter guess, reprompting until the user enters a letter that she hasn't guessed yet. Make sure that the input is exactly one character long and that it's a letter of the alphabet.
 
@@ -88,7 +88,7 @@ Download the lexicons via:
 Create a file called `hangman.py` and add a `Lexicon` class. This class should have two methods: `__init__()` to initialize, and `get_words()` to extract a list of words with a  specific length to play Hangman:
 
     import random
-    
+
     class Lexicon:
 
         def __init__(self):
@@ -135,7 +135,7 @@ You can now test using `check50` for the first time!
 
 So now we have a class to manage the word list. We can also create a class that manages playing a game of Hangman. Let's think about what is needed to "play" a game.
 
--   First of all, a game is played based on a particular word length. Also, we decide upfront how many guesses will be allowed. These two are the only pieces of information that a Hangman game object needs to get started. This means that we know how it may be eventually initialized:
+-   First of all, a game is played based on a particular word length. Also, we decide upfront how many **wrong** guesses will be allowed. These two are the only pieces of information that a Hangman game object needs to get started. This means that we know how it may be eventually initialized:
 
         game = Hangman(length=8, num_guesses=5)
 
@@ -212,14 +212,14 @@ Does it all seem reasonable? Feel free to add a `print` somewhere to debug your 
 A user should be able to win or lose the game, and our computer version should be able to check if a game has been won or lost. Let's add a few methods to the `Hangman` class:
 
     def won(self):
-        # Return True if the game is finished and the player has won, 
+        # Return True if the game is finished and the player has won,
         # otherwise False.
         # TODO
 
 When has the game been won? Think about it. You should be able to program this method without introducing new `self` variables, but instead, calculating if the game has been won by checking out the letters in `self.guessed`.
 
     def lost(self):
-        # Return True if the game is finished and the player has lost, 
+        # Return True if the game is finished and the player has lost,
         # otherwise False.
         # TODO
 
@@ -302,7 +302,7 @@ Your user interface should at least:
 
 1. Prompt the user for how many letters the Hangman word should have. If the input is not a positive integer, or there is no word with that many letters, repeat the prompt until you get correct input.
 
-2. Prompt the user for how many guesses she should get until she loses. This should be a positive integer.
+2. Prompt the user for how many **wrong** guesses she should get until she loses. This should be a positive integer.
 
 4. Play the game: repeatedly do the following
 
