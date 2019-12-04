@@ -67,7 +67,7 @@ Implement an object-oriented version of Crowther's Adventure game using the clas
 	$ rm adventure.zip
 	$ cd adventure
 	$ ls
-	adventure.py  data/ 
+	adventure.py  data/
 
 
 ## Understanding
@@ -360,7 +360,7 @@ The adventure game has a special feature called `FORCED` movements. If a player 
 
 ## Step 7: Synonyms
 
-Implement Synonyms. Note that your adventure game does not implement all commands in the synonyms data file! Implement it in such a way that everything still works as expected, and do not accept commands like `I` or `INVENTORY`! In this case, it's advisable to not write a full class to manage synonyms, but use a standard dictionary instead.
+Implement Synonyms. Note that your adventure game does not implement all commands in the synonyms data file! Implement it in such a way that everything still works as expected. In this case, it's advisable to not write a full class to manage synonyms, but use a standard dictionary instead.
 
 
 ## Step 8: Check your work
