@@ -130,9 +130,7 @@ Take a look at `adventure.py`. The file has three main components.
 
 	- The `__init__` method ensures that all is set for playing an adventure game. In particular, it uses the other methods to load game data, build a structure of rooms, and point `current_room` to the first room in the map.
 
-	- The `parse_rooms` method opens and parses the data files, and the `load_rooms` method creates `Room` objects with that data. We'll explain more in step 1, below.
-
-	- The `game_over` method will eventually decide (calculate) if the game has been won or lost by the player.
+	- The `load_rooms` method opens and parses the data files, and creates `Room` objects with that data. We'll explain more in step 1, below.
 
 	- Moving around in the game is handled by the `move` method, by setting the "current" room to a different one.
 
