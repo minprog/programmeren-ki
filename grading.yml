@@ -120,8 +120,8 @@ calculation:
 #     modules: 100
 
 mods:
+    drop: :lowest
     submits:
-        scratch: 0
         m1: 1
         m2: 1
         m3: 1
