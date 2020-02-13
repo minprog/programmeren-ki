@@ -82,6 +82,13 @@ grades:
         calculation: "[((5/6.0)*points - (5/3.0)).round(1), 1].max"
         is_test: true
         hide_calculated: false
+    hertentamen:
+        type: float
+        subgrades:
+            points: integer
+        calculation: "[((5/6.0)*points - (5/3.0)).round(1), 1].max"
+        is_test: true
+        hide_calculated: false
 
 modules:
     m1:
@@ -115,6 +122,10 @@ calculation:
         tests: 0
         mods: 60
         tentamens: 40
+    resit:
+        tests: 0
+        mods: 60
+        hertentamen: 40
 # resit:
 #     tests: 0
 #     modules: 100
@@ -145,3 +156,9 @@ tentamens:
     minimum: 5.5
     submits:
         tentamen: 1
+
+hertentamen:
+    exam: true
+    minimum: 5.5
+    submits:
+        hertentamen: 1
