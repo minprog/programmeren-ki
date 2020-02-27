@@ -1,6 +1,8 @@
 # Programmeren<br><span class="small">Studiewijzer "Introductie in Programmeren"</span>
 
-*Versie: november-december 2019*
+__Let op__ Deze versie is nog in ontwikkeling en niet definitief
+
+*Versie: november-december 2020*
 
 Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in twee programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma's die er op draaien. De opdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
@@ -25,33 +27,64 @@ Sirik Scherer
 
 Bij deze cursus verwachten we dat je je voldoende hebt ingespannen voor het vak "Problem Solving and Search", maar je hoeft dit niet gehaald te hebben. We hebben voor veel van de opdrachten een versie voor studenten die weinig tot redelijke ervaring hebben met programmeren, en een versie voor studenten die veel ervaring hebben. Let op: als je al eerder, bij een andere opleiding, een inleidend programmeervak hebt gevolgd is dit vak niet voor jou en moet je vrijstelling aanvragen bij de examencommissie.
 
+## Wat ga je doen
+Een week ziet er typisch zo uit:
+
+|               | Maandag   | Dinsdag      | Woensdag      | Donderdag    | Vrijdag      |
+| ------------- | ----------| ------------ | ------------  | ------------ | ------------ |
+| __Deadlines__ |           | Deadline Code| Nieuwe module | Deadline verbeterd|         |
+| __Activiteiten__ |        | Lab          | Code review   | Toetsjes     |  Lab         |
+
+**Let op**: Hoewel iedereen dezelfde activiteiten in de week heeft, kan het zo zijn dat bijvoorbeeld jouw labs op een andere dag vallen. Kijk dus altijd even in jouw persoonlijke rooster op datanose.nl
+
+Iedere week is er een nieuwe module, een verzameling aan opdrachten, om aan te werken. Daar hoort vaak een videocollege bij dat je kijkt voordat je aan de opdrachten begint. Vervolgens duik je in de opdracht en ga je sowieso twee keer naar het lab. Daar werk je verder aan de module en help je elkaar.
+
+Voor individuele hulp van een ervaren assistent plan je via AWESOME AFPSRAAKPLANNER een afspraak. Zodat je de vragen kan stellen waar je zelf niet uitkomt. De studentassistent heeft zo goed de tijd om jou te helpen.
+
+Gedurende de week schrijf je jezelf in voor een toetsje op AWESOME TOETSPLANNER. Daarvoor oefen je zelf met het basisboek programmeren wat je van ons krijgt.
+
+Na de moduledeadline, kom je samen met je mentor en een kleine groep studenten bijeen. Om de stof te bespreken, maar ook elkaars uitwerkingen te reviewen. Vlak na deze meeting is de tweede deadline, waar je de module opnieuw inlevert. Zo heb je goed de kans om de codekwaliteit van je programma’s te verbeteren.
+
+Je staat vrij om bij meerdere labs in de week aan te sluiten zolang er plek is. Ga er naar zoveel als je nodig hebt. Kijk daarbij niet te veel naar anderen, want iedereen ervaart dit vak anders. Ook mag je via AWESOME AFSPRAAKPLANNER zo veel inviduele afspraken inplannen als je nodig hebt.
 
 ## Verwachtingen
 
 Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
 1. alle hoorcolleges bijwoont en alle videocolleges bekijkt,
-1. aanwezig bent bij alle geroosterde practica,
-1. indien nodig deelneemt aan een extra werkgroep,
+1. aanwezig bent in het lab en indien nodig deelneemt aan een extra lab,
+1. andere studenten helpt en om hulp vraagt aan andere studenten
+1. hulp op afspraak aanvraagt via AWESOME AFPSRAAKPLANNER
+1. deelneemt aan een wekelijkse code review
+
+Ook verwachten we dat je de volgende resultaten boekt:
+
 1. alle opdrachten volledig werkend instuurt vóór de deadline,
 1. alle toetsjes maakt en haalt, en
 1. het tentamen maakt en haalt.
 
 
-## Eindcijfer
+## Ontwerp
 
-Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Dit wordt als volgt samengesteld:
+Dit vak zit vol individuele opdrachten. Zodat jij goed kan oefenen met programmeren. De opdrachten becijferen we, zodat we je gedurende het vak feedback kunnen geven over je voortgang. Uiteindelijk zijn de opdrachten natuurlijk niet het doel, maar de vaardigheden die je opbouwt bij het zelfstandig maken van de opdrachten.
 
-1. (60%) Voor de **opdrachten** kun je punten verdienen, tot een maximum van 30 voor de cursus. Je programma's worden kritisch bekeken door de assistenten en op basis hiervan krijg je punten voor de kwaliteit van de inzending.
+Zo zul je gedurende het vak leren debuggen, het opsporen en oplossen van fouten in je code. Zul je gaan itereren op het ontwerp en de opmaak van je code. En ga je vooral veel ervaring opbouwen met programmeren. Zo kun je aan het einde van het vak snel kleine taakjes programmeren omdat je flink hebt geoefend.
 
-2. (0%) Met de **toetsjes** laat je zien dat je de concepten van het programmeren echt onder de knie hebt. Tegelijk zijn ze er om in de eerste weken goed bij te blijven. Je moet alle 7 toetsjes gehaald hebben om het vak af te kunnen ronden.
+Om dit alles te leren is het belangrijk dat je de opdrachten individueel maakt. Je moet zelf jouw eigen programma ontwerpen en daarbij jouw eigen hordes meemaken en overkomen. Soms kom je een flinke horde tegen en dat kan frustrerend zijn! Zeker als je diep in de opdracht zit en al lange tijd bezig bent met een stuk code. Toch zul je merken dat juist dan even afstand nemen, of even overleggen met je buurvrouw, of je code uitleggen aan een [rubbereendje](https://en.wikipedia.org/wiki/Rubber_duck_debugging), je verder zal helpen.
 
-3. (40%) Bij het **tentamen** laat je nog een keer in gecontroleerde omstandigheden zien dat je programmeerproblemen kunt oplossen en inzicht hebt in de onderliggende ideeën. Je moet minimaal een 5,5 halen voor het tentamen.
+Iedereen is gedurende het vak dezelfde opdrachten aan het maken. Misschien geloof je het nu nog niet, maar iedere uitwerking van de opdracht is anders. Zeker in de latere weken van het vak lopen implementaties sterk uiteen. Wat een logische aanpak is voor jou, is dat helemaal niet voor een ander. Toch zul je veelal tegen dezelfde problemen aanlopen bij een opdracht, want daar zijn de opdrachten natuurlijk op ontworpen. Dat maakt dat je elkaar goed kan helpen in het lab.
 
+Want als je anderen helpt moet je echt duiken in het programma en het denkproces van een ander. Zo leer je niet alleen andere aanpakken kennen, maar ook andere manieren van denken over dezelfde stof. Om te helpen zul je jouw kennis moeten overbrengen en expliciet moeten maken. Dat is lastig en daardoor is helpen dan ook een effectief middel om zelf te leren.
+
+Natuurlijk kan je ook hulp verwachten van je medestudenten. Je bent vast niet de eerste met deze error op je scherm. Vraag daarom vooral je buurman om even met je mee te kijken, want misschien komen jullie er samen wel uit. Daarbij gaat het er niet om dat de error is verholpen, maar dat jullie beiden snappen wat er misging en waarom het nu is opgelost.
+
+Soms is het lastig om te begrijpen waarom iets nu wel werkt, of misschien helemaal niet werkt. Daarom staat er iedere dag een team van ervaren assistenten voor je klaar om je persoonlijk te helpen. Daarvoor maak je een afspraak via AWESOME AFPSRAAKPLANNER. Heb je al met meerdere studenten geprobeerd een bug op te lossen, maar komen jullie er samen echt niet uit? Neem deze studenten dan ook mee naar de afspraak, dan komen jullie samen verder.  
+
+Naast de opdrachten werk je gedurende het vak aan het basisboek programmeren. Daardoor gaan de basisonderdelen van eigenlijk iedere programmeertaal in je vingers zitten. Zo kennen loops en functies geen geheimen meer voor je. Dat je dit beheerst toon je aan door een serie aan toetsjes te maken gedurende het vak. Deze toetsjes kijken we direct met je na en zo krijg je meteen feedback van ons. Dit schept de kans om samen de toets te bespreken en je te helpen bij eventueel gemaakte fouten. Het kan best wel eens zijn dat je een keer een toetsje niet haalt en dat is geen probleem. Je mag namelijk ieder toetsje drie keer maken.
 
 ## Kalender
 
-|        | Opdracht | Deadline  | Toetsen     |
+|        | Opdracht | Deadline  | Toetsjes    |
 | ------ | -------- | --------- |------------ |
 | Week 1 | Scratch  | di 29 okt | Toetsje A   |
 | Week 2 | C        | di 5 nov  | Toetsje B/C |
@@ -63,6 +96,7 @@ Let op dat je aan bovenstaande verwachtingen moet voldoen om een eindcijfer te k
 | Week 8 |          |           | Tentamen    |
 
 
+
 ## Tijdsbesteding
 
 De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt, moet je even over een drempel heen voordat je het begint te begrijpen.
@@ -70,50 +104,49 @@ De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er re
 - Hoorcollege en videocollege: 2-4 uur
 - Toetsjes: 2-4 uur in de eerste weken
 - Opdrachten: 15 uur gemiddeld
-	- waarvan 6 uur werken tijdens het verplichte practicum/laptopcollege
+	- waarvan 4 uur werken tijdens het verplichte lab
 
+De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in het lab, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt minimaal 4 uur lab per week.
 
 ## Toetsjes
 
-In de eerste vier weken vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en aangescherpt. Voor een deel van de toetsjes studeer je in het "Basisboek Programmeren" waarvan prints worden verspreid tijdens het hoorcollege en eventueel bij de laptopcolleges. Andere onderwerpen bereid je voor met oefeningen op de website.
+Wekelijks vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en aangescherpt. Voor een deel van de toetsjes studeer je in het "Basisboek Programmeren" waarvan prints worden verspreid in het lab. Andere toetsjes bereid je voor met oefeningen op de website.
 
-- Alle toetsjes moeten uiteindelijk gehaald worden om de cursus te voltooien.
-- Elke toets moet steeds op de aangekondigde toetsdatum gedaan worden (donderdag).
-- Een niet-gehaalde toets kan op een volgende aangekondigde toetsdag herkanst worden (meestal maandag en woensdag).
-- Tijdens deze eerste vijf weken van de cursus mag je elke toets maximaal drie keer doen.
+- Alle toetsjes moeten binnen een week gehaald worden om de cursus te voltooien.
+- Elke toets moet steeds op de aangekondigde toetsdatum gedaan worden (meestal vrijdag).
+- Een niet-gehaalde toets kan op een volgende aangekondigde toetsdag herkanst worden (meestal maandag).
+- Tijdens de duur van de cursus mag je elke toets maximaal drie keer doen.
 
-Als het niet lukt om een toets op bovenstaande manier te halen, kun je dit alsnog doen tijdens het normale tentamen.
+Als het niet lukt om een toets op bovenstaande manier te halen, vindt na afloop van het vak een laatste herkansing plaats.
 
-- De herkansing bestaat uit een combinatie van de niet-gehaalde toetsjes.
-- Om op deze manier te mogen herkansen moet je tijdens de cursus elke niet-gehaalde toets **3 keer** geprobeerd hebben.
+- De herkansing bestaat uit een combinatie van de nog niet gehaalde toetsjes.
+- Om mee te mogen doen **moet** je tijdens de cursus elke niet-gehaalde toets minimaal 3 keer geprobeerd hebben. Dus je moet alle kansen genomen hebben.
 - Je krijgt bij deze laatste herkansing twee versies van elke niet-gehaalde toets zodat je meer gelegenheid hebt om te laten zien dat je het kan. Beide moeten zo goed mogelijk ingevuld worden.
 
+Toetsen worden beoordeeld op correcte beantwoording, onder andere volgens de voorbeelden in de aangereikte materialen. Kleine problemen worden daarbij niet aangerekend, zoals een rekenfout (mits niet onderwerp van de toets) of een vergeten puntkomma. Grotere slordigheden wel, dus zorg dat je rust creëert om je antwoorden netjes en leesbaar te formuleren.
 
-## Opdrachten
+Voor alle toetsen krijg je ruim de tijd, binnen redelijkheid. Het is niet nodig of mogelijk om je aan te melden voor extra tijd in verband met een beperking! Die krijg je namelijk toch al. Laat wel weten als we nog andere voorzieningen kunnen treffen.
 
-De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt 6 uur aan laptopcolleges per week.
+## Cijfers
+Alle studenten moeten minimaal een geheel correcte oplossing voor elke opdracht inleveren en alle toetsjes halen om een voldoende te halen voor het vak, tenzij een *schriftelijke* uitzondering is gegeven door de vakdocenten.
 
-Je hebt hier zelf invloed op: elke week zijn de belangrijke factoren vermeld bij de opdracht.
+De modules kunnen 1--6 punten opleveren, en voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
 
-#### Punten
+6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
+5. zeer goede kwaliteit, beperkt ruimte voor verbetering
+4. degelijke kwaliteit op de genoemde aspecten, met ruimte voor verbetering
+3. net voldoende aandacht voor de genoemde aspecten, erg veel ruimte voor verbetering
+2. enige zichtbare aandacht voor een beperkt aantal aspecten
+1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
+{: start="6" reversed=""}
 
-Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van codekwaliteit. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Per module (opdrachten van de week) krijg je één t/m vijf punten. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
+Op basis van bovenstaand schema is de maximumscore voor deze cursus 24 punten (4 modules x 6 punten). Deze score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van alle "hacker"-onderdelen van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Toetsjes leveren geen punten op voor het eindcijfer, maar moeten wel gehaald worden.
 
-5. uitzonderlijk goed resultaat met doordacht ontwerp
-4. goed resultaat op alle aangegeven aspecten
-3. zichtbare aandacht voor alle aspecten, goed resultaat op sommige
-2. zichtbare aandacht voor de meeste aspecten
-1. zichtbare aandacht voor een beperkt aantal aspecten
-{: start="5" reversed=""}
-
-Een 3 of een 4 is op deze schaal een goede score. In de praktijk blijkt het lastig te zijn, maar wel haalbaar, om een 5 te halen voor codekwaliteit.
-
-Lever je alle hacker-opdrachten van een module in, dan krijg je een extra punt.
-
+De modules vormen 60% van het eindcijfer en het tentamen 40%.
 
 #### Deadlines
 
-Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een punt minder. Daarna worden opdrachten niet meer nagekeken en worden er 0 punten toegekend. Wel dien je de opdrachten alsnog werkend in te leveren.
+Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je maximaal 4 punten behalen voor de module. Je dient de module alsnog zo snel mogelijk werkend in te leveren. Uiteindelijk moet je alle modules werkend hebben ingeleverd om het vak succesvol af te sluiten.
 
 In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar <progki@mprog.nl>, waarna je wordt uitgenodigd voor een gesprek.
 
