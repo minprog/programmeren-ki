@@ -70,7 +70,7 @@ Dit vak zit vol individuele opdrachten. Zodat jij goed kan oefenen met programme
 
 Zo zul je gedurende het vak leren debuggen, het opsporen en oplossen van fouten in je code. Zul je gaan itereren op het ontwerp en de opmaak van je code. En ga je vooral veel ervaring opbouwen met programmeren. Zo kun je aan het einde van het vak snel kleine taakjes programmeren omdat je flink hebt geoefend.
 
-Om dit alles te leren is het belangrijk dat je de opdrachten individueel maakt. Je moet zelf jouw eigen programma ontwerpen en daarbij jouw eigen hordes meemaken en overkomen. Soms kom je een flinke horde tegen en dat kan frustrerend zijn! Zeker als je diep in de opdracht zit en al lange tijd bezig bent met een stuk code. Toch zul je merken dat juist dan even afstand nemen, of even overleggen met je buurvrouw, of je code uitleggen aan een [rubbereendje](https://en.wikipedia.org/wiki/Rubber_duck_debugging), je verder zal helpen.
+Om dit alles te leren is het belangrijk dat je de opdrachten [individueel maakt](/syllabus#samenwerken-fraude-en-plagiaat). Je moet zelf jouw eigen programma ontwerpen en daarbij jouw eigen hordes meemaken en overkomen. Soms kom je een flinke horde tegen en dat kan frustrerend zijn! Zeker als je diep in de opdracht zit en al lange tijd bezig bent met een stuk code. Toch zul je merken dat juist dan even afstand nemen, of even overleggen met je buurvrouw, of je code uitleggen aan een [rubbereendje](https://en.wikipedia.org/wiki/Rubber_duck_debugging), je verder zal helpen.
 
 Iedereen is gedurende het vak dezelfde opdrachten aan het maken. Misschien geloof je het nu nog niet, maar iedere uitwerking van de opdracht is anders. Zeker in de latere weken van het vak lopen implementaties sterk uiteen. Wat een logische aanpak is voor jou, is dat helemaal niet voor een ander. Toch zul je veelal tegen dezelfde problemen aanlopen bij een opdracht, want daar zijn de opdrachten natuurlijk op ontworpen. Dat maakt dat je elkaar goed kan helpen in het lab.
 
@@ -112,7 +112,7 @@ De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeel
 
 Wekelijks vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en aangescherpt. Voor een deel van de toetsjes studeer je in het "Basisboek Programmeren" waarvan prints worden verspreid in het lab. Andere toetsjes bereid je voor met oefeningen op de website.
 
-- Alle toetsjes moeten binnen een week gehaald worden om de cursus te voltooien.
+- Alle toetsjes moeten gehaald worden om de cursus te voltooien.
 - Elke toets moet steeds op de aangekondigde toetsdatum gedaan worden (meestal vrijdag).
 - Een niet-gehaalde toets kan op een volgende aangekondigde toetsdag herkanst worden (meestal maandag).
 - Tijdens de duur van de cursus mag je elke toets maximaal drie keer doen.
