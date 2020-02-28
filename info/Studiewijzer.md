@@ -9,7 +9,7 @@ Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je 
 
 ## Contact
 
-Voor kleine vragen of ziekmeldingen neem je tijdens het vak contact op met je mentor. Dat is de assistent die je begeleid gedurende het vak en met wie je wekelijks een afspraak hebt. 
+Voor kleine vragen of ziekmeldingen neem je tijdens het vak contact op met je mentor. Dat is de assistent die je gedurende het vak begeleidt gedurende en met wie je wekelijks een afspraak hebt. 
 
 Voor uitzonderingen en persoonlijke afspraken moet je altijd een mail sturen naar <progki@mprog.nl>.
 
