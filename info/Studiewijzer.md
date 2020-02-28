@@ -37,15 +37,40 @@ Een week ziet er typisch zo uit:
 
 **Let op**: Hoewel iedereen dezelfde activiteiten in de week heeft, kan het zo zijn dat bijvoorbeeld jouw labs op een andere dag vallen. Kijk dus altijd even in jouw persoonlijke rooster op datanose.nl
 
-Iedere week is er een nieuwe module, een verzameling aan opdrachten, om aan te werken. Daar hoort vaak een videocollege bij dat je kijkt voordat je aan de opdrachten begint. Vervolgens duik je in de opdracht en ga je sowieso twee keer naar het lab. Daar werk je verder aan de module en help je elkaar.
+Iedere week is er een nieuwe module, een verzameling aan opdrachten, om aan te werken. Daar hoort vaak een videocollege bij dat je kijkt voordat je aan de opdrachten van de module begint. Vervolgens duik je in de opdrachten en ga je sowieso twee keer naar het lab. Daar werk je verder aan de opdrachten en help je elkaar.
 
 Voor individuele hulp van een ervaren assistent plan je via AWESOME AFPSRAAKPLANNER een afspraak. Zodat je de vragen kan stellen waar je zelf niet uitkomt. De studentassistent heeft zo goed de tijd om jou te helpen.
 
-Gedurende de week schrijf je jezelf in voor een [toetsje](/syllabus#toetsjes) op AWESOME TOETSPLANNER. Daarvoor oefen je zelf met het basisboek programmeren wat je van ons krijgt.
+Je staat vrij om bij meerdere labs in de week aan te sluiten zolang er plek is. Ga er naar zoveel als je nodig hebt. Kijk daarbij niet te veel naar anderen, want iedereen ervaart dit vak anders. Ook mag je via AWESOME AFSPRAAKPLANNER zo veel inviduele afspraken inplannen als je nodig hebt.
 
 Na de moduledeadline, kom je samen met je mentor en een kleine groep studenten bijeen. Om de stof te bespreken, maar ook elkaars uitwerkingen te reviewen. Vlak na deze meeting is de tweede deadline, waar je de module opnieuw inlevert. Zo heb je goed de kans om de codekwaliteit van je programma’s te verbeteren.
 
-Je staat vrij om bij meerdere labs in de week aan te sluiten zolang er plek is. Ga er naar zoveel als je nodig hebt. Kijk daarbij niet te veel naar anderen, want iedereen ervaart dit vak anders. Ook mag je via AWESOME AFSPRAAKPLANNER zo veel inviduele afspraken inplannen als je nodig hebt.
+Gedurende de week schrijf je jezelf in voor een [toetsje](/syllabus#toetsjes) op AWESOME TOETSPLANNER. Daarvoor oefen je zelf met het basisboek programmeren wat je van ons krijgt.
+
+
+### Kalender
+
+|        | Opdracht | Deadline  | Toetsjes    |
+| ------ | -------- | --------- |------------ |
+| Week 1 | Scratch  | di 29 okt | Toetsje A   |
+| Week 2 | C        | di 5 nov  | Toetsje B/C |
+| Week 3 | C        | di 12 nov | Toetsje D/E |
+| Week 4 | C        | di 19 nov | Toetsje F/G |
+| Week 5 | Python   | di 26 nov |             |
+| Week 6 | Python   | di 3 dec  |             |
+| Week 7 | Python   | wo 11 dec |             |
+| Week 8 |          |           | Tentamen    |
+
+### Tijdsbesteding
+
+De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt, moet je even over een drempel heen voordat je het begint te begrijpen.
+
+- Hoorcollege en videocollege: 2-4 uur
+- Toetsjes: 2-4 uur in de eerste weken
+- Opdrachten: 15 uur gemiddeld
+	- waarvan minstens 4 uur in het lab
+
+De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in het lab, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt minimaal 4 uur lab per week.
 
 ## Verwachtingen
 
@@ -82,31 +107,6 @@ Soms is het lastig om te begrijpen waarom iets nu wel werkt, of misschien helema
 
 Naast de opdrachten werk je gedurende het vak aan het basisboek programmeren. Daardoor gaan de basisonderdelen van eigenlijk iedere programmeertaal in je vingers zitten. Zo kennen loops en functies geen geheimen meer voor je. Dat je dit beheerst toon je aan door een serie aan toetsjes te maken gedurende het vak. Deze toetsjes kijken we direct met je na en zo krijg je meteen feedback van ons. Dit schept de kans om samen de toets te bespreken en je te helpen bij eventueel gemaakte fouten. Het kan best wel eens zijn dat je een keer een toetsje niet haalt en dat is geen probleem. Je mag namelijk ieder toetsje drie keer maken.
 
-## Kalender
-
-|        | Opdracht | Deadline  | Toetsjes    |
-| ------ | -------- | --------- |------------ |
-| Week 1 | Scratch  | di 29 okt | Toetsje A   |
-| Week 2 | C        | di 5 nov  | Toetsje B/C |
-| Week 3 | C        | di 12 nov | Toetsje D/E |
-| Week 4 | C        | di 19 nov | Toetsje F/G |
-| Week 5 | Python   | di 26 nov |             |
-| Week 6 | Python   | di 3 dec  |             |
-| Week 7 | Python   | wo 11 dec |             |
-| Week 8 |          |           | Tentamen    |
-
-
-
-## Tijdsbesteding
-
-De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt, moet je even over een drempel heen voordat je het begint te begrijpen.
-
-- Hoorcollege en videocollege: 2-4 uur
-- Toetsjes: 2-4 uur in de eerste weken
-- Opdrachten: 15 uur gemiddeld
-	- waarvan 4 uur werken tijdens het verplichte lab
-
-De opdrachten vormen het leeuwendeel van het werk in het vak. Deze doe je gedeeltelijk in het lab, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 15 uur voor de opdrachten van de week, en je hebt minimaal 4 uur lab per week.
 
 ## Toetsjes
 
