@@ -41,7 +41,7 @@ Iedere week is er een nieuwe module, een verzameling aan opdrachten, om aan te w
 
 Voor individuele hulp van een ervaren assistent plan je via AWESOME AFPSRAAKPLANNER een afspraak. Zodat je de vragen kan stellen waar je zelf niet uitkomt. De studentassistent heeft zo goed de tijd om jou te helpen.
 
-Gedurende de week schrijf je jezelf in voor een toetsje op AWESOME TOETSPLANNER. Daarvoor oefen je zelf met het basisboek programmeren wat je van ons krijgt.
+Gedurende de week schrijf je jezelf in voor een [toetsje](/syllabus#toetsjes) op AWESOME TOETSPLANNER. Daarvoor oefen je zelf met het basisboek programmeren wat je van ons krijgt.
 
 Na de moduledeadline, kom je samen met je mentor en een kleine groep studenten bijeen. Om de stof te bespreken, maar ook elkaars uitwerkingen te reviewen. Vlak na deze meeting is de tweede deadline, waar je de module opnieuw inlevert. Zo heb je goed de kans om de codekwaliteit van je programma’s te verbeteren.
 
@@ -74,7 +74,7 @@ Om dit alles te leren is het belangrijk dat je de opdrachten individueel maakt. 
 
 Iedereen is gedurende het vak dezelfde opdrachten aan het maken. Misschien geloof je het nu nog niet, maar iedere uitwerking van de opdracht is anders. Zeker in de latere weken van het vak lopen implementaties sterk uiteen. Wat een logische aanpak is voor jou, is dat helemaal niet voor een ander. Toch zul je veelal tegen dezelfde problemen aanlopen bij een opdracht, want daar zijn de opdrachten natuurlijk op ontworpen. Dat maakt dat je elkaar goed kan helpen in het lab.
 
-Want als je anderen helpt moet je echt duiken in het programma en het denkproces van een ander. Zo leer je niet alleen andere aanpakken kennen, maar ook andere manieren van denken over dezelfde stof. Om te helpen zul je jouw kennis moeten overbrengen en expliciet moeten maken. Dat is lastig en daardoor is helpen dan ook een effectief middel om zelf te leren.
+Als je anderen helpt moet je echt duiken in het programma en het denkproces van een ander. Zo leer je niet alleen andere aanpakken kennen, maar ook andere manieren van denken over dezelfde stof. Om te helpen zul je jouw kennis moeten overbrengen en expliciet moeten maken. Dat is lastig en daardoor is helpen dan ook een effectief middel om zelf te leren.
 
 Natuurlijk kan je ook hulp verwachten van je medestudenten. Je bent vast niet de eerste met deze error op je scherm. Vraag daarom vooral je buurman om even met je mee te kijken, want misschien komen jullie er samen wel uit. Daarbij gaat het er niet om dat de error is verholpen, maar dat jullie beiden snappen wat er misging en waarom het nu is opgelost.
 
