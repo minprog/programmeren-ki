@@ -68,13 +68,13 @@ grades:
     m4: *manual
     m5: *manual
     m6: *manual
-    toetsje A: *test
-    toetsje B: *test
-    toetsje C: *test
-    toetsje D: *test
-    toetsje E: *test
-    toetsje F: *test
-    toetsje G: *test
+    toetsjeA: *test
+    toetsjeB: *test
+    toetsjeC: *test
+    toetsjeD: *test
+    toetsjeE: *test
+    toetsjeF: *test
+    toetsjeG: *test
     tentamen:
         type: float
         subgrades:
@@ -131,6 +131,7 @@ calculation:
 #     modules: 100
 
 mods:
+    show_progress: true
     drop: :lowest
     submits:
         m1: 1
@@ -142,16 +143,18 @@ mods:
 
 tests:
     required: true
+    show_progress: true
     submits:
-        toetsje A: 1
-        toetsje B: 1
-        toetsje C: 1
-        toetsje D: 1
-        toetsje E: 1
-        toetsje F: 1
-        toetsje G: 1
+        toetsjeA: 1
+        toetsjeB: 1
+        toetsjeC: 1
+        toetsjeD: 1
+        toetsjeE: 1
+        toetsjeF: 1
+        toetsjeG: 1
 
 tentamens:
+    show_progress: true
     exam: true
     minimum: 5.5
     submits:
