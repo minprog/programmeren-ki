@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/hangman.git
+	branch = main
+	commit = 6b216790e808c2e9736d4c57876ccbba20f9e9cc
+	parent = 5cba54c42c95ac53b12011a12287a4a938912289
+	method = merge
+	cmdver = 0.4.1
