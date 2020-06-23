@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/adventure.git
+	branch = main
+	commit = a8ab7dd6b732b5fc27558ea6744324c251ab876c
+	parent = a5ecc911200a1c64ef2bc4024ad9fd1b7a078e6f
+	method = merge
+	cmdver = 0.4.1
