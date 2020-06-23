@@ -2,6 +2,13 @@
 
 == tl;dr
 
+. Check out the theory section
+.. link:/theory/python-101[Python 101]
+.. link:/theory/string[string]
+.. link:/theory/list[list]
+.. link:/theory/dict[dict]
+.. link:/theory/set[set]
+.. link:/theory/tuple[tuple]
 . Port `hello.c` to `hello.py`.
 . Port `mario.c` to `mario.py`.
 . Port `greedy.c` to `greedy.py`
