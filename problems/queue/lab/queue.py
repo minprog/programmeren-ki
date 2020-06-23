@@ -1,2 +1,0 @@
-# Implements a queue
-

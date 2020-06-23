@@ -1,7 +1,0 @@
-name: hangman_less
-files:
-    required:
-        - hangman.py
-check:
-    tool: check50
-    slug: minprog/cs50x/2019/hangman/classic
