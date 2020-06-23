@@ -1,0 +1,7 @@
+name: filter_less
+files:
+  required:
+    - helpers.c
+check:
+  tool: check50
+  slug: cs50/problems/2019/fall/filter/less

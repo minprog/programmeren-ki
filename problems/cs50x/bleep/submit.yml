@@ -1,0 +1,7 @@
+name: bleep
+files:
+    required:
+        - bleep.py
+check:
+    tool: check50
+    slug: minprog/cs50x/2019/bleep

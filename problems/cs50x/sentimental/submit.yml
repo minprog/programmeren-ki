@@ -1,0 +1,10 @@
+name: sentimental
+files:
+    required:
+        - hello.py
+        - mario.py
+        - greedy.py
+        - vigenere.py
+check:
+    tool: check50
+    slug: minprog/cs50x/2019/sentimental

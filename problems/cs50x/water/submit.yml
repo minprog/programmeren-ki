@@ -1,0 +1,7 @@
+name: water
+files:
+    required:
+        - water.c
+check:
+    tool: check50
+    slug: minprog/cs50x/2019/water

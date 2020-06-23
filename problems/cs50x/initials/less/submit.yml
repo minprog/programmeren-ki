@@ -1,0 +1,7 @@
+name: initials_less
+files:
+    required:
+        - initials.c
+check:
+    tool: check50
+    slug: minprog/cs50x/2019/initials/less
