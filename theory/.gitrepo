@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/theory.git
+	branch = main
+	commit = 7579192c60623c11e3504b682ab27df7202e45c3
+	parent = 0f925311b82900b344e0c3c802f2418cd0dbeb58
+	method = merge
+	cmdver = 0.4.1
