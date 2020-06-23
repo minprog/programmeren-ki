@@ -1,0 +1,5 @@
+= Lecture 8 - Web Programming
+
+video::zzDUnnj2p8I[youtube,height=540,width=960,options=notitle]
+
+Lecture notes can be found link:https://cs50.harvard.edu/college/2018/fall/weeks/7/notes/[here].
