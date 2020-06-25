@@ -1,114 +1,18 @@
 Module 0:
-    Overview & Grading: /overviews/scratch
-    Opdracht:
-        "Lecture: Computational Thinking": /lectures/computational-thinking
-        Implement Scratch: /problems/scratch
-    Toetsje:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
-        A Variables: /exercises/a-variables
-    Voorbereiding Module 1:
-        "Lecture: C": /lectures/c
-        Create a GitHub account: https://github.com/join
-        Implement Hello: https://lab.cs50.io/uva/cs50x/master/problems/hello/
+    - scratch
 Module 1:
-    Overview & Grading: /overviews/c
-    Hello:
-        "Lecture: C": /lectures/c
-        Create a GitHub account: https://github.com/join
-        Implement Hello: https://lab.cs50.io/uva/cs50x/master/problems/hello/
-    Get your IDE:
-        Create your own CS50 IDE: https://ide.cs50.io/
-        Learn about the Command Line: /shorts/command-line
-        Water: /problems/water
-    Assignments:
-        Greedy: /problems/greedy
-        Mario: /problems/mario-less
-        Credit: /problems/credit
-    Toetsje:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
-        A Variables: /exercises/a-variables
+    - c
+    # exercise placeholder
 Module 2:
-    Overview & Grading: /overviews/crypto
-    "Lecture: Arrays": /lectures/arrays
-    "Implement":
-        Initials: /problems/initials-more
-        Caesar: /problems/caesar
-    "Implement either of:":
-        Vigenere: /problems/vigenere
-        Crack (hacker): /problems/crack
-    Toetsjes:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
-        B Control flow: /exercises/b-control-flow
-        C Unscratch: /exercises/c-unscratch
-Module 2a:
-    Overview & Grading: /overviews/crypto
-    "Lecture: Arrays": /lectures/arrays
-    "Implement":
-        Initials: /problems/initials-more
-        Caesar: /problems/caesar
-    "Implement either  of:":
-        Vigenere: /problems/vigenere
-        Crack (hacker): /problems/crack
-    Toetsjes:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
-        D Arrays: /exercises/d-arrays
-        E Loops: /exercises/e-loops
-    Volgende module:
-        Overview & Grading: /overviews/fifteen
+    - crypto
+    # exercise placeholder
 Module 3:
-    Overview & Grading: /overviews/fifteen
-    "Lecture: Algorithms": /lectures/algorithms
-    "Implement either  of:":
-        Find: /problems/find-less
-        Find (hacker): /problems/find-more
-    "Implement either of:":
-        Fifteen: /problems/fifteen-less
-        Fifteen (hacker): /problems/fifteen-more
-    Toetsjes:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
-        D Arrays: /exercises/d-arrays
-        E Loops: /exercises/e-loops
-Module 3a:
-    Overview & Grading: /overviews/fifteen
-    "Lecture: Algorithms": /lectures/algorithms
-    "Implement either  of:":
-        Find: /problems/find-less
-        Find (hacker): /problems/find-more
-    "Implement either of:":
-        Fifteen: /problems/fifteen-less
-        Fifteen (hacker): /problems/fifteen-more
-    Toetsjes:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
-        F Functions: /exercises/f-functions
-        G Algorithms: /exercises/g-algorithms
+    - fifteen
+    # exercise placeholder
 Module 4:
-    Overview & Grading: /overviews/python
-    "Lecture: Python": /lectures/python
-    "Implement:":
-        Python: /problems/python
-    "Implement: ":
-        Tweet: /problems/tweet
-    Toetsjes:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
-        F Functions: /exercises/f-functions
-        G Algorithms: /exercises/g-algorithms
+    - python
+    - tweet
 Module 5:
-    Overview & Grading: /overviews/hangman
-    Preparation:
-        "Lecture: OOP": /lectures/oop
-    Labs:
-        Implement Queue: /problems/queue
-        Implement Game of Cards: /problems/cards
-    Hangman:
-        "Implement either of:":
-            Classic Hangman: /problems/hangman-classic
-            Evil Hangman (Hacker): /problems/hangman-evil
-    Herkansingstoetsje:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
+    - hangman
 Module 6:
-    Overview & Grading: /overviews/adventure
-    "Implement either of:":
-        Adventure: /problems/adventure-less
-        Adventure (Hacker): /problems/adventure-more
-    Herkansingstoetsje:
-        Afspraak maken: https://toetsje.mprog.nl/progki/
+    - adventure
