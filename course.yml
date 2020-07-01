@@ -3,10 +3,10 @@ short_name: ProgKI
 language: nl
 
 links:
-    '<img src="/course/assets/icons/book.svg" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> CS50 Reference': https://man.cs50.io/
-    '<img src="/course/assets/icons/terminal.svg" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> CS50 IDE': https://ide.cs50.io/
-    '<img src="/course/assets/icons/ed-gray.png" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> Vragenforum': https://us.edstem.org/courses/341
-    '<img src="/course/assets/icons/camera-video-fill.svg" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> Assistentie': https://calendly.com/mprog-parttime/assistentie
+    '[book] Reference': https://man.cs50.io/
+    '[terminal] IDE': https://ide.cs50.io/
+    '[question-square] Forum': https://us.edstem.org/courses/341
+    '[camera-video] Assistentie': https://calendly.com/mprog-parttime/assistentie
 
 acknowledgements:
     - 'Based on CS50 from http://cs50.tv/2017/fall/ -- Copyright 2011--2019, David J. Malan.'
