@@ -6,7 +6,7 @@ Bij deze oefening ga je kleine algoritmes schrijven. De meeste hiervan zullen je
 
 Had je de video van Doug nog niet gezien? Hij geeft een overzicht van de verschillende soorten loops in C en waarvoor we ze gebruiken.
 
-![embed](https://www.youtube.com/embed/WgX8e_O7eG8?autoplay=1&rel=0)
+![embed](https://www.youtube.com/embed/WgX8e_O7eG8)
 
 
 ## Loops
