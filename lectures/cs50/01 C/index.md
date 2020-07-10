@@ -2,6 +2,8 @@
 
 ![embed](https://www.youtube.com/embed/e9Eds2Rc_x8)
 
+[Open in CS50 video player](https://video.cs50.io/e9Eds2Rc_x8?screen=ClQXfUurzgU)
+
 ## C
 
 *   Today we'll learn a new language, **C**: a programming language that has all the features of Scratch and more, but perhaps a little less friendly since it's purely in text:

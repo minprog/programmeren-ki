@@ -2,6 +2,8 @@
 
 ![embed](https://www.youtube.com/embed/8PrOp9t0PyQ)
 
+[Open in CS50 video player](https://video.cs50.io/8PrOp9t0PyQ?screen=gCTTN_sINNI)
+
 ## Compiling
 
 *   Last time, we learned to write our first program in C. We learned the syntax for the `main` function in our program, the `printf` function for printing to the terminal, how to create strings with double quotes, and how to include `stdio.h` for the `printf` function.

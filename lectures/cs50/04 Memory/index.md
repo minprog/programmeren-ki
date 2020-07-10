@@ -2,6 +2,8 @@
 
 ![embed](https://www.youtube.com/embed/cF6YkH-8vFk)
 
+[Open in CS50 video player](https://video.cs50.io/cF6YkH-8vFk?screen=61UgdI37tK0)
+
 ## Hexadecimal
 
 *   In week 0, we learned binary, a counting system with 0s and 1s.

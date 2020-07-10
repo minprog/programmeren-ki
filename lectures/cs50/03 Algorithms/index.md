@@ -2,6 +2,8 @@
 
 ![embed](https://www.youtube.com/embed/fykrlqbV9wM)
 
+[Open in CS50 video player](https://video.cs50.io/fykrlqbV9wM?screen=sPRcgqR8CJw)
+
 ## Searching
 
 *   Last time, we talked about memory in a computer, or RAM, and how our data can be stored as individual variables or as arrays of many items, or elements.
