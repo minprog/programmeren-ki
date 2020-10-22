@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/shorts.git
 	branch = main
-	commit = 1146322b8c3c5e10f56f1affb3f051b63d8772cf
-	parent = f3650f6cb373e4d0f7a837c8724a85c69c0f4ab8
+	commit = cfb41ffcf294c697d52a45081399d6a053af2fb4
+	parent = bd5c4a25985e4c0eed6c62377d84a552f3ec082f
 	method = merge
 	cmdver = 0.4.1
