@@ -4,4 +4,4 @@ files:
         - helpers.c
 check:
     tool: check50
-    slug: minprog/cs50x/2019/find
+    slug: minprog/cs50x/2020/find

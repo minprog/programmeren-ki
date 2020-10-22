@@ -93,7 +93,7 @@ ciphertext: Negh zf av huf pcfx bt gzrwep oz
 
 [source]
 ----
-check50 minprog/cs50x/2019/vigenere
+check50 -l minprog/cs50x/2020/vigenere
 ----
 
 === Style
@@ -106,3 +106,6 @@ style50 vigenere.c
 == Hints
 
 Not sure where to begin? As luck would have it, this program's pretty similar to link:../caesar/caesar.html[`caesar`]! Only this time, you need to decide which character in _k_ to use as you iterate from character to character in _p_.
+
+== Analysis
+Finally, create a PDF with the notes from your analysis from Phase 1 of the steps, and add that to the form below.

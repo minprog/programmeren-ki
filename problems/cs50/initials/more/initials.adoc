@@ -51,5 +51,5 @@ RTB
 
 [source]
 ----
-check50 minprog/cs50x/2019/initials/more
+check50 -l minprog/cs50x/2020/initials/more
 ----

@@ -3,6 +3,8 @@
 
 = Game of Fifteen
 
+> *How to get started* This problem is neatly divided into four separate functions that you have to implement. For each of those functions, you do a problem analysis with your partner. Keep in mind (after reading all of the explanations below) that there is one very important thing connecting those functions: the *data structure* that is called +board+. So first thing you do is deeply understand what the board is and how it stores almost everything that is important for implementing this game. Then, for each function, consider how the function's purpose relates to the board.
+
 == tl;dr
 
 Implement the Game of Fifteen, per the below.
@@ -42,7 +44,7 @@ image:adapted.png[solvable configuration, width="25%"]
 
 [source,subs="macros"]
 ----
-$ wget https://prog1.mprog.nl/course/problems/fifteen-less/fifteen.zip
+$ wget https://github.com/minprog/cs50x/raw/2020/fifteen/less/fifteen.zip
 $ unzip fifteen.zip
 $ rm fifteen.zip
 $ cd fifteen
@@ -126,7 +128,7 @@ Note that `check50` assumes that your board's blank space is implemented in `boa
 
 [source]
 ----
-check50 minprog/cs50x/2019/fifteen/less
+check50 -l minprog/cs50x/2020/fifteen/less
 ----
 
 > Let op! Als je de hacker versie van deze opdracht hebt gemaakt, lever deze opdracht dan in op de link:/problems/fifteen-more[hacker editie pagina van Fifteen].

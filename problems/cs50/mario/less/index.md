@@ -30,7 +30,14 @@ Toward the end of World 1-1 in Nintendo's Super Mario Brothers, Mario must ascen
 
 ## Steps
 
-Let's deconstruct our problem and take it one step at a time. We will incrementally build our solution, starting from the most basic version that we can think of. It may not be obvious that these are the right steps to take, but in this particular problem, you will indeed be guided towards a correct solution.
+It is nearly impossible to separate (decompose) parts of this problem. The only thing that you can **ignore** at first is getting user input and ensuring that it is valid. As you can see in the specification below, input is restricted to certain numbers.
+
+So to apply the Problem Solving Steps, you can take a slightly simpler problem: print a Mario-type pyramid *given a reasonable height*. And when your analysis is done, and you have implemented a program that can print a pyramid of say, height 4, then you can add user input and input validation.
+
+So when you're ready, call your partner and head to step 1 of the Problem Solving Steps!
+
+
+<!--Let's deconstruct our problem and take it one step at a time. We will incrementally build our solution, starting from the most basic version that we can think of. It may not be obvious that these are the right steps to take, but in this particular problem, you will indeed be guided towards a correct solution.
 
 ###  1. Hash
 
@@ -121,6 +128,8 @@ To get started, you might duplicate the loop that prints hash marks on a single 
 ### 7. Testing
 
 Odds are that you have tested your program only for size 5 until now. So this is the time to check if you can again change the variable `size` to another number and that your program still works correctly. Compare to the examples atop this document! If stuck on a bug, be sure to ask for help.
+-->
+
 
 
 ## Specification
@@ -183,7 +192,7 @@ Before submitting, we expect you to take care that your program is as well-polis
 ### Correctness
 
 ~~~~
-check50 minprog/cs50x/2019/mario/less
+check50 -l minprog/cs50x/2020/mario/less
 ~~~~
 
 
@@ -204,4 +213,6 @@ style50 mario.c
 
 4. In the form below, browse for the file that you downloaded.
 
-5. Press "Submit for grading". Presto!
+5. Then, create a PDF with the notes from your analysis (see Phase 1 above), and add that to the form.
+
+6. Press "Submit for grading". Presto!

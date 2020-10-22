@@ -3,7 +3,10 @@ files:
     required:
         - dictionary.c
         - dictionary.h
+    optional:
         - Makefile
+        - some_other_file.c
+        - some_other_file.h
 check:
     tool: check50
-    slug: minprog/cs50x/2019/speller
+    slug: minprog/cs50x/2020/speller

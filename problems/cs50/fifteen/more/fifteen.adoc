@@ -42,7 +42,7 @@ image:adapted.png[solvable configuration, width="25%"]
 
 [source,subs="macros"]
 ----
-$ wget https://prog1.mprog.nl/course/problems/fifteen-more/fifteen.zip
+$ wget https://github.com/minprog/cs50x/raw/2020/fifteen/more/fifteen.zip
 $ unzip fifteen.zip
 $ rm fifteen.zip
 $ cd fifteen
@@ -121,7 +121,7 @@ Then dive a bit deeper, perhaps reading up on an algorithm called A*.
 
 http://en.wikipedia.org/wiki/A*_search_algorithm
 
-Consider using "Manhattan distance" (aka "city-block distance") as your implementation’s heuristic. If you find that A* takes up too much memory (particularly for d ≥ 4), though, you might want to take a look at iterative deepening A* (IDA*) instead:
+Consider using "Manhattan distance" (aka "city-block distance") as your implementation's heuristic. If you find that A* takes up too much memory (particularly for d ≥ 4), though, you might want to take a look at iterative deepening A* (IDA*) instead:
 
 http://webdocs.cs.ualberta.ca/~tony/RecentPapers/pami94.pdf
 
@@ -129,7 +129,7 @@ Or maybe the algorithm in this paper:
 
 http://ianparberry.com/pubs/saml.pdf
 
-You’re welcome to expand your search for ideas beyond those in these papers, but take care that your research does not lead you to actual code. Curling up with others' pseudocode is fine, but please click away if you stumble upon actual implementations (whether in C or other languages).
+You're welcome to expand your search for ideas beyond those in these papers, but take care that your research does not lead you to actual code. Curling up with others' pseudocode is fine, but please click away if you stumble upon actual implementations (whether in C or other languages).
 
 == Testing
 
@@ -146,7 +146,7 @@ Note that `check50` assumes that your board's blank space is implemented in `boa
 
 [source]
 ----
-check50 minprog/cs50x/2019/fifteen/more
+check50 -l minprog/cs50x/2020/fifteen/more
 ----
 
 > Let op! Dit is de pagina van de hacker editie van Fifteen. Als je de niet-hacker versie van deze opdracht hebt gemaakt, lever deze opdracht dan in op de link:/problems/fifteen-less[niet-hacker editie pagina van Fifteen].

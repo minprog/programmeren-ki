@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/cs50x.git
 	branch = 2020
-	commit = 1cae680435edb3e3f6fc32684fdbd2c62d6c2489
-	parent = f1d52a2dd0608f3ac9e13af58008606c23d21ca8
+	commit = db2b7fd3481cd82b68306249f6440c75725a450d
+	parent = 0d8c357983d4cf71bd6a5d2084bf06d67a9ba2f4
 	method = merge
 	cmdver = 0.4.1

@@ -3,6 +3,10 @@
 
 = Find
 
+> *How to get started.* In the walkthrough videos below, Zamyla provides you with concrete ideas for the algorithms to use. What you're going to do, on paper, is to translate Zamyla's pseudocode into a more concrete version in C. To do that, check out the function in helpers.c that you have to implement (including its parameters) and see how you can make an algorithm work with those parameters (which you may not change!). Of course, on paper, you can't try your algorithm immediately, but that's OK. Consider this some necessary practice in thinking about your problem before really starting to code. When you're satisfied that you created a good C version of the algorithm, save it as a PDF so you can submit it as your analysis result. And then get coding!
+
+> *Note.* You should not find sorting/searching algorithms online. The whole point of this assignment is to practice with translating pseudocode into C. If you do not know where to get started, ask for help! Always ask for help :-)
+
 == tl;dr
 
 Implement a program that finds a number among numbers, per the below.
@@ -19,7 +23,7 @@ Didn't find needle in haystack.
 
 [source,subs="macros"]
 ----
-$ wget https://prog1.mprog.nl/course/problems/find-less/find.zip
+$ wget https://github.com/minprog/cs50x/raw/2020/find/less/find.zip
 $ unzip find.zip
 $ rm find.zip
 $ cd find
@@ -328,7 +332,7 @@ you should see `1`, since `128` is, again, not among the 1,000 numbers outputted
 
 [source]
 ----
-check50 minprog/cs50x/2019/find
+check50 -l minprog/cs50x/2020/find
 ----
 
 == Hints

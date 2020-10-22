@@ -19,7 +19,7 @@ Didn't find needle in haystack.
 
 [source,subs="macros"]
 ----
-$ wget https://prog1.mprog.nl/course/problems/find-less/find.zip
+$ wget https://github.com/minprog/cs50x/raw/2020/find/more/find.zip
 $ unzip find.zip
 $ rm find.zip
 $ cd find
@@ -329,7 +329,7 @@ you should see `1`, since `128` is, again, not among the 1,000 numbers outputted
 
 [source]
 ----
-check50 minprog/cs50x/2019/find
+check50 -l minprog/cs50x/2020/find
 ----
 
 == Hints

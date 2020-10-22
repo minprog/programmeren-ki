@@ -24,7 +24,7 @@ Suffice it to say, the challenge ahead is to determine if two files are similar!
 
 [source,subs="macros"]
 ----
-$ wget http://cdn.cs50.net/2017/fall/psets/6/similarities/less/similarities.zip
+$ wget https://github.com/minprog/cs50x/raw/2020/similarities/less/similarities.zip
 $ unzip similarities.zip
 $ rm similarities.zip
 $ cd similarities
@@ -153,7 +153,7 @@ See http://cdn.cs50.net/2017/fall/psets/6/similarities/inputs/ for sample inputs
 === `check50`
 
 ```
-check50 minprog/cs50x/2019/similarities/less
+check50 -l minprog/cs50x/2020/similarities/less
 ```
 
 === `style50`

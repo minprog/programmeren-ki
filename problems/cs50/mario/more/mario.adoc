@@ -90,7 +90,7 @@ pass:[####  ####]
 
 [source]
 ----
-check50 minprog/cs50x/2019/mario/more
+check50 -l minprog/cs50x/2020/mario/more
 ----
 
 === Style

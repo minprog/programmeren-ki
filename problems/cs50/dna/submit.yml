@@ -1,0 +1,8 @@
+name: dna
+files:
+    required:
+        - analysis.pdf
+        - dna.py
+check:
+    tool: check50
+    slug: minprog/cs50x/2020/dna

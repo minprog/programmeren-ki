@@ -18,7 +18,7 @@ $ [underline]#./whodunit clue.bmp verdict.bmp#
 
 [source,subs="macros"]
 ----
-$ wget http://cdn.cs50.net/2017/fall/psets/4/whodunit.zip
+$ wget https://github.com/minprog/cs50x/raw/2020/whodunit/whodunit.zip
 $ unzip whodunit.zip
 $ rm whodunit.zip
 $ cd whodunit

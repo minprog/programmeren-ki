@@ -1,7 +1,8 @@
 name: vigenere
 files:
     required:
+        - analysis.pdf
         - vigenere.c
 check:
     tool: check50
-    slug: minprog/cs50x/2019/vigenere
+    slug: minprog/cs50x/2020/vigenere

@@ -39,7 +39,7 @@ TIME IN TOTAL:
 
 [source,subs="macros"]
 ----
-$ wget http://cdn.cs50.net/2017/fall/psets/5/speller.zip
+$ wget https://github.com/minprog/cs50x/raw/2020/speller/speller.zip
 $ unzip speller.zip
 $ rm speller.zip
 $ cd speller
@@ -61,109 +61,14 @@ Open up `dictionary.h`. Declared in that file are four functions; take note of w
 
 ==== `Makefile`
 
-Recall that `make` automates compilation of your code so that you don't have to execute `clang` manually along with a whole bunch of switches. However, as your programs grow in size, make won't be able to infer from context anymore how to compile your code; you'll need to start telling make how to compile your program, particularly when they involve multiple source (i.e., `.c`) files, as in the case of this problem. And so we'll utilize a `Makefile`, a configuration file that tells make exactly what to do. Open up `Makefile`, and let's take a tour of its lines.
+Recall that make automates compilation of your code so that you don’t have to execute clang manually along with a whole bunch of switches. However, as your programs grow in size, make won’t be able to infer from context anymore how to compile your code; you’ll need to start telling make how to compile your program, particularly when they involve multiple source (i.e., .c) files, as in the case of this problem. And so we’ll utilize a Makefile, a configuration file that tells make exactly what to do. Open up Makefile, and you should see four lines:
 
-The line below defines a variable called `CC` that specifies that make should use `clang` for compiling.
+1. The first line tells make to execute the subsequent lines whenever you yourself execute make speller (or just make).
+2. The second line tells make how to compile speller.c into machine code (i.e., speller.o).
+3. The third line tells make how to compile dictionary.c into machine code (i.e., dictionary.o).
+4. The fourth line tells make to link speller.o and dictionary.o in a file called speller.
 
-[source]
-----
-CC = clang
-----
-
-The line below defines a variable called `CFLAGS` that specifies, in turn, that `clang` should use some flags, most of which should look familiar.
-
-[source]
-----
-CFLAGS = -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -Qunused-arguments -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow
-----
-
-The line below defines a variable called `EXE`, the value of which will be our program's name.
-
-[source]
-----
-EXE = speller
-----
-
-The line below defines a variable called `HDRS`, the value of which is a space-separated list of header files used by `speller`.
-
-[source]
-----
-HDRS = dictionary.h
-----
-
-The line below defines a variable called `LIBS`, the value of which is should be a space-separated list of libraries, each of which should be prefixed with `-l`. (Recall our use of `-lcs50` earlier this term.) Odds are you won't need to enumerate any libraries for this problem, but we've included the variable just in case.
-
-[source]
-----
-LIBS =
-----
-
-The line below defines a variable called `SRCS`, the value of which is a space-separated list of C files that will collectively implement `speller`.
-
-[source]
-----
-SRCS = speller.c dictionary.c
-----
-
-The line below defines a variable called `OBJS`, the value of which is identical to that of `SRCS`, except that each file's extension is not `.c` but `.o`.
-
-[source]
-----
-OBJS = $(SRCS:.c=.o)
-----
-
-The lines below define a "target" using these variables that tells make how to compile `speller`.
-
-[source]
-----
-$(EXE): $(OBJS) Makefile
-    $(CC) $(CFLAGS) -o $@ $(OBJS) $(LIBS)
-----
-
-The line below specifies that our `.o` files all "depend on" `dictionary.h` and `Makefile` so that changes to either induce recompilation of the former when you run `make`.
-
-[source]
-----
-$(OBJS): $(HDRS) Makefile
-----
-
-Finally, the lines below define another target for cleaning up this problem's directory.
-
-[source]
-----
-clean:
-    rm -f core $(EXE) *.o
-----
-
-Know that you're welcome to modify this `Makefile` as you see fit. In fact, you should if you create any `.c` or `.h` files of your own. But be sure not to change any tabs (i.e., `\t`) to spaces, since `make` expects the former to be present below each target.
-
-The net effect of all these lines is that you can compile `speller` with a single command, even though it comprises quite a few files:
-
-[source]
-----
-make speller
-----
-
-Even better, you can also just execute:
-
-[source]
-----
-make
-----
-
-And if you ever want to delete speller plus any `core` or `.o` files, you can do so with a single command:
-
-[source]
-----
-make clean
-----
-
-In general, though, anytime you want to compile your code for this problem, it should suffice to run:
-
-[source]
-----
-make
-----
+> Be sure to compile speller by executing make speller (or just make). Executing make dictionary won’t work!
 
 ==== `speller.c`
 
@@ -366,7 +271,7 @@ To test your code less manually (though still not exhaustively), you may also ex
 
 [source]
 ----
-check50 minprog/cs50x/2019/speller
+check50 -l minprog/cs50x/2020/speller
 ----
 
 Note that `check50` will also check for memory leaks, so be sure you've run `valgrind` as well.
@@ -374,3 +279,7 @@ Note that `check50` will also check for memory leaks, so be sure you've run `val
 == Big Board
 
 If you'd like to put your code to the test against classmates' code (just for fun), upload your solution to our https://bigboard.quinner.nl/[Big Board] website before or after you submit!
+
+== Submit
+
+Just upload your `dictionary.{c|h}` and you're done!

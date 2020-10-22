@@ -19,4 +19,4 @@ In deze opdracht ga je de hello opdracht van CS50 maken in Python. Lees allereer
 
 ## Testen
 
-	check50 minprog/cs50x/2019/py/hello
+	check50 -l minprog/cs50x/2020/py/hello

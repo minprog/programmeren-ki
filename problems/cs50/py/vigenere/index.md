@@ -27,4 +27,4 @@ In deze opdracht ga je de vigenere opdracht van CS50 maken in Python.
 
 ## Testen
 
-	check50 minprog/cs50x/2019/py/vigenere
+	check50 -l minprog/cs50x/2020/py/vigenere

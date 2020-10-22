@@ -129,7 +129,7 @@ Usage: ./caesar k
 
 [source]
 ----
-check50 minprog/cs50x/2019/caesar
+check50 -l minprog/cs50x/2020/caesar
 ----
 
 === Style
@@ -189,3 +189,7 @@ Incidentally, you'll need to `#include` yet another header file in order to use 
 Besides `atoi`, you might find some handy functions documented at https://reference.cs50.net/[reference.cs50.net] under *ctype.h* and *stdlib.h*. For instance, `isalpha` might prove helpful when iterating over plaintext's characters.
 
 And, with regard to wrapping around from `Z` to `A` (or `z` to `a`), don't forget about `%`, C's modulo operator. You might also want to check out http://asciichart.com/, which reveals the ASCII codes for more than just alphabetical characters, just in case you find yourself printing some characters accidentally.
+
+== Analysis
+ 
+Finally, create a PDF with the notes from your analysis from Phase 1 of the steps, and add that to the form below.
