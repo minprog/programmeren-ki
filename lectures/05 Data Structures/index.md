@@ -1,232 +1,169 @@
 # Lecture: Data Structures
 
-![embed](https://www.youtube.com/embed/4IrUAqYKjIA)
+![embed](https://www.youtube.com/embed/YbdTBk5n9ds&start=671&end=9905&offset=-31666)
 
-[Open in CS50 video player](https://video.cs50.io/4IrUAqYKjIA?screen=k5rlx6U0sJQ)
-
-## Pointers
-
-*   Last time, we learned about pointers, `malloc`, and other useful tools for working with memory.
-
-*   Let's review this snippet of code:
-
-        int main(void)
-        {
-            int *x;
-            int *y;
-
-            x = malloc(sizeof(int));
-
-            *x = 42;
-            *y = 13;
-        }
-
-    *   Here, the first two lines of code in our `main` function are declaring two pointers, `x` and `y`. Then, we allocate enough memory for an `int` with `malloc`, and stores the address returned by `malloc` into `x`.
-
-    *   With `*x = 42;`, we go to the address pointed to by `x`, and stores the value `42` into that location.
-
-    *   The final line, though, is buggy since we don't know what the value of `y` is, since we never set a value for it. Instead, we can write:
-
-            y = x;
-            *y = 13;
-
-        *   And this will set `y` to point to the same location as `x` does, and then set that value to `13`.
-
-*   We take a look at a short clip, [Pointer Fun with Binky](https://www.youtube.com/watch?v=3uLKjb973HU), which also explains this snippet in an animated way!
-
+[Open in CS50 video player](https://video.cs50.io/YbdTBk5n9ds&start=671&end=9905&offset=-31666)
 
 ## Resizing arrays
 
-*   In week 2, we learned about arrays, where we could store the same kind of value in a list, side-by-side. But we need to declare the size of arrays when we create them, and when we want to increase the size of the array, the memory surrounding it might be taken up by some other data.
+*   Last time, we learned about pointers, `malloc`, and other useful tools for working with memory.
+*   In week 2, we learned about arrays, where we could store the same kind of value in a list, back-to-back in memory. When we need to insert an element, we need to increase the size of the array as well. But, the memory after it in our computer might already be used for some other data, like a string:  
+    ![boxes of garbage values, with boxes for values 1, 2, 3, and a string after in gray](array_of_length_3.png)
+*   One solution might be to allocate more memory where there's enough space, and move our array there. But we'll need to copy our array there, which becomes an operation with running time of _O_(_n_), since we need to copy each of the original _n_ elements first:  
+    ![boxes of original array with values 1, 2, 3 and a new array with copied values 1, 2, 3, and space for new value](array_of_length_4.png)
+    *   The lower bound of inserting an element into an array would be O(1) since we might already have space in the array for it.
 
-*   One solution might be to allocate more memory in a larger area that's free, and move our array there, where it has more space. But we'll need to copy our array, which becomes an operation with running time of _O_(_n_), since we need to copy each of _n_ elements in an array.
-
-*   We might write a program like the following, to do this in code:
-
-        #include <stdio.h>
-        #include <stdlib.h>
-
-        int main(void)
-        {
-            // Here, we allocate enough memory to fit three integers, and our variable
-            // list will point to the first integer.
-            int *list = malloc(3 * sizeof(int));
-            // We should check that we allocated memory correctly, since malloc might
-            // fail to get us enough free memory.
-            if (list == NULL)
-            {
-                return 1;
-            }
-
-            // With this syntax, the compiler will do pointer arithmetic for us, and
-            // calculate the byte in memory that list[0], list[1], and list[2] maps to,
-            // since integers are 4 bytes large.
-            list[0] = 1;
-            list[1] = 2;
-            list[2] = 3;
-
-            // Now, if we want to resize our array to fit 4 integers, we'll try to allocate
-            // enough memory for them, and temporarily use tmp to point to the first:
-            int *tmp = malloc(4 * sizeof(int));
-            if (tmp == NULL)
-            {
-                return 1;
-            }
-
-            // Now, we copy integers from the old array into the new array ...
-            for (int i = 0; i < 3; i++)
-            {
-                tmp[i] = list[i];
-            }
-
-            // ... and add the fourth integer:
-            tmp[3] = 4;
-
-            // We should free the original memory for list, which is why we need a
-            // temporary variable to point to the new array ...
-            free(list);
-
-            // ... and now we can set our list variable to point to the new array that
-            // tmp points to:
-            list = tmp;
-
-            // Now, we can print the new array:
-            for (int i = 0; i < 4; i++)
-            {
-                printf("%i\n", list[i]);
-            }
-
-            // And finally, free the memory for the new array.
-            free(list);
-        }
-
-*   It turns out that there's actually a helpful function, `realloc`, which will reallocate some memory:
-
-        #include <stdio.h>
-        #include <stdlib.h>
-
-        int main(void)
-        {
-            int *list = malloc(3 * sizeof(int));
-            if (list == NULL)
-            {
-                return 1;
-            }
-
-            list[0] = 1;
-            list[1] = 2;
-            list[2] = 3;
-
-            // Here, we give realloc our original array that list points to, and it will
-            // return a new address for a new array, with the old data copied over:
-            int *tmp = realloc(list, 4 * sizeof(int));
-            if (tmp == NULL)
-            {
-                return 1;
-            }
-            // Now, all we need to do is remember the location of the new array:
-            list = tmp;
-
-            list[3] = 4;
-
-            for (int i = 0; i < 4; i++)
-            {
-                printf("%i\n", list[i]);
-            }
-
-            free(list);
-        }
 
 
 ## Data structures
 
-*   **Data structures** are programming constructs that allow us to store information in different layouts in our computer's memory.
-
-*   To build a data structure, we'll need some tools we've seen:
-
+*   **Data structures** are more complex ways to organize data in memory, allowing us to store information in different layouts.
+*   To build a data structure, we'll need some tools:
     *   `struct` to create custom data types
     *   `.` to access properties in a structure
     *   `*` to go to an address in memory pointed to by a pointer
+    *   `->` to access properties in a structure pointed to by a pointer
+
 
 
 ## Linked Lists
 
-*   With a **linked list**, we can store a list of values that can easily be grown by storing values in different parts of memory:
-
+*   With a **linked list**, we can store a list of values that can easily be grown by storing values in different parts of memory:  
     ![grid representing memory, with three of the boxes labeled with empty boxes between them, each labeled 1 0x123, 2 0x456, and 3 0x789](linked_list.png)
-
-    *   This is different than an array since our values are no longer next to one another in memory.
-
-*   We can link our list together by allocating, for each element, enough memory for both the value we want to store, and the address of the next element:
-
+    *   We have the values `1`, `2`, and `3`, each at some address in memory like `0x123`, `0x456`, and `0x789`.
+    *   This is different than an array since our values are no longer next to one another in memory. We can use whatever locations in memory that are free.
+*   To track all of these values, we need link our list together by allocating, for each element, enough memory for both the value we want to store, and the address of the next element:  
     ![three boxes, each divided in two and labeled (1 0x123 and 0x456), (2 0x456 and 0x789), and (3 0x789 and NULL)](linked_list_with_addresses.png)
-
-    *   By the way, `NUL` refers to `\0`, a character that ends a string, and `NULL` refers to an address of all zeros, or a null pointer that we can think of as pointing nowhere.
-
-*   Unlike we can with arrays, we no longer randomly access elements in a linked list. For example, we can no longer access the 5th element of the list by calculating where it is, in constant time. (Since we know arrays store elements back-to-back, we can add 1, or 4, or the size of our element, to calculate addresses.) Instead, we have to follow each element's pointer, one at a time. And we need to allocate twice as much memory as we needed before for each element.
-
-*   In code, we might create our own struct called `node` (like a node from a graph in mathematics), and we need to store both an `int` and a pointer to the next `node` called `next`:
+    *   Next to our value of `1`, for example, we also store a pointer, `0x456`, to the next value. We'll call this a **node**, a component of our data structure that stores both a value and a pointer. In C, we'll implement our nodes with a struct.
+    *   For our last node with value `3`, we have the null pointer, since there's no next element. When we need to insert another node, we can just change that single null pointer to point to our new value.
+*   We have the tradeoff of needing to allocate twice as much memory for each element, in order to spend less time adding values. And we can no longer use binary search, since our nodes might be anywhere in memory. We can only access them by following the pointers, one at a time.
+*   In code, we might create our own struct called `node`, and we need to store both our value, an `int` called `number`, and a pointer to the next `node`, called `next`:
 
         typedef struct node
         {
-            int n;
+            int number;
             struct node *next;
         }
         node;
 
     *   We start this struct with `typedef struct node` so that we can refer to a `node` inside our struct.
-
 *   We can build a linked list in code starting with our struct. First, we'll want to remember an empty list, so we can use the null pointer: `node *list = NULL;`.
-
 *   To add an element, first we'll need to allocate some memory for a node, and set its values:
 
+        // We use sizeof(node) to get the right amount of memory to allocate, and
+        // malloc returns a pointer that we save as n
         node *n = malloc(sizeof(node));
-        // We want to make sure malloc succeeded in getting memory for us:
+
+        // We want to make sure malloc succeeded in getting memory for us
         if (n != NULL)
         {
             // This is equivalent to (*n).number, where we first go to the node pointed
             // to by n, and then set the number property. In C, we can also use this
-            // arrow notation:
-            n->number = 2;
-            // Then we need to store a pointer to the next node in our list, but the
-            // new node won't point to anything (for now):
+            // arrow notation
+            n->number = 1;
+            // Then we need to make sure the pointer to the next node in our list
+            // isn't a garbage value, but the new node won't point to anything (for now)
             n->next = NULL;
         }
 
-*   Now our list can point to this node: `list = n;`:
+*   Now our list needs to point to this node: `list = n;`:  
+    ![a box labeled list with arrow outwards pointing to two connected boxes, one with 1 and one empty)](list_with_one_node.png)
+*   To add to the list, we'll create a new node the same way by allocating more memory:
 
-    ![a box labeled list with arrow outwards pointing to two connected boxes, one with 2 and one empty)](list_with_one_node.png)
-
-*   To add to the list, we'll create a new node the same way, perhaps with the value 4. But now we need to update the pointer in our first node to point to it.
-
-*   Since our `list` pointer points only to the first node (and we can't be sure that the list only has one node), we need to "follow the breadcrumbs" and follow each node's next pointer:
-
-        // Create temporary pointer to what list is pointing to
-        node *tmp = list;
-        // As long as the node has a next pointer ...
-        while (tmp->next != NULL)
+        n = malloc(sizeof(node));
+        if (n != NULL)
         {
-            // ... set the temporary to the next node
-            tmp = tmp->next;
+            n->number = 2;
+            n->next = NULL;
         }
-        // Now, tmp points to the last node in our list, and we can update its next
-        // pointer to point to our new node.
 
-*   If we want to insert a node to the front of our linked list, we would need to carefully update our node to point to the one following it, before updating list. Otherwise, we'll lose the rest of our list:
+*   But now we need to update the pointer in our first node to point to our new `n`:
 
-        // Here, we're inserting a node into the front of the list, so we want its
-        // next pointer to point to the original list, before pointing the list to
-        // n:
-        n->next = list;
-        list = n;
+        list->next = n;
 
-*   And to insert a node in the middle of our list, we can go through the list, following each element one at a time, comparing its values, and changing the `next` pointers carefully as well.
+*   To add a third node, we'll do the same by following the `next` pointer in our list first, then setting the `next` pointer _there_ to point to the new node:
 
-*   With some volunteers on the stage, we simulate a list, with each volunteer acting as the `list` variable or a node. As we insert nodes into the list, we need a temporary pointer to follow the list, and make sure we don't lose any parts of our list. Our linked list only points to the first node in our list, so we can only look at one node at a time, but we can dynamically allocate more memory as we need to grow our list.
+        n = malloc(sizeof(node));
+        if (n != NULL)
+        {
+            n->number = 3;
+            n->next = NULL;
+        }
+        list->next->next = n;
 
-*   Now, even if our linked list is sorted, the running time of searching it will be _O_(_n_), since we have to follow each node to check their values, and we don't know where the middle of our list will be.
+*   Graphically, our nodes in memory look like this:  
+    ![a box labeled list with arrow pointing to node with 1 and arrow pointing to another node with 2 and arrow pointing to third node with 3 and no pointer, and box labeled n pointing to third node`](list_with_three_nodes.png)
+    *   `n` is a temporary variable, pointing to our new node with value 3.
+    *   We want the pointer in our node with value 2 to point to the new node as well, so we start from `list` (which points to the node with value 1), follow the `next` pointer to get to our node with value 2, and update the `next` pointer to point to `n`.
+*   As a result, searching a linked list will also have running time of O(_n_), since we need to look at all elements in order by following each pointer, even if the list is sorted. Inserting into a linked list can have running time of O(1), if we insert new nodes at the beginning of the list.
 
-*   We can combine all of our snippets of code into a complete program:
+
+
+## Implementing arrays
+
+*   Let's see how we might implement resizing an array:
+
+        #include <stdio.h>
+        #include <stdlib.h>
+
+        int main(void)
+        {
+            // Use malloc to allocate enough space for an array with 3 integers
+            int *list = malloc(3 * sizeof(int));
+            if (list == NULL)
+            {
+                return 1;
+            }
+
+            // Set the values in our array
+            list[0] = 1;
+            list[1] = 2;
+            list[2] = 3;
+
+            // Now if we want to store another value, we can allocate more memory
+            int *tmp = malloc(4 * sizeof(int));
+            if (tmp == NULL)
+            {
+                free(list);
+                return 1;
+            }
+
+            // Copy list of size 3 into list of size 4
+            for (int i = 0; i < 3; i++)
+            {
+                tmp[i] = list[i];
+            }
+
+            // Add new number to list of size 4
+            tmp[3] = 4;
+
+            // Free original list of size 3
+            free(list);
+
+            // Remember new list of size 4
+            list = tmp;
+
+            // Print list
+            for (int i = 0; i < 4; i++)
+            {
+                printf("%i\n", list[i]);
+            }
+
+            // Free new list
+            free(list);
+        }
+
+*   Recall that `malloc` allocates and frees memory from the heap area. It turns out that we can call another library function, `realloc`, to reallocate some memory that we allocated earlier:
+
+        int *tmp = realloc(list, 4 * sizeof(int));
+
+    *   And `realloc` copies our old array, `list`, for us into a bigger chunk of memory of the size we pass in. If there happens to be space after our existing chunk of memory, we'll get the same address back, but with the memory after it allocated to our variable as well.
+
+
+
+## Implementing linked lists
+
+*   Let's combine our snippets of code from earlier into a program that implements a linked list:
 
         #include <stdio.h>
         #include <stdlib.h>
@@ -241,146 +178,178 @@
 
         int main(void)
         {
-            // List of size 0, initially not pointing to anything
+            // List of size 0\. We initialize the value to NULL explicitly, so there's
+            // no garbage value for our list variable
             node *list = NULL;
 
-            // Add number to list
+            // Allocate memory for a node, n
             node *n = malloc(sizeof(node));
             if (n == NULL)
             {
                 return 1;
             }
+
+            // Set the value and pointer in our node
             n->number = 1;
             n->next = NULL;
-            // We create our first node, store the value 1 in it, and leave the next
-            // pointer to point to nothing. Then, our list variable can point to it.
+
+            // Add node n by pointing list to it, since we only have one node so far
             list = n;
 
-            // Add number to list
+            // Allocate memory for another node, and we can reuse our variable n to
+            // point to it, since list points to the first node already
             n = malloc(sizeof(node));
             if (n == NULL)
             {
+                free(list);
                 return 1;
             }
+
+            // Set the values in our new node
             n->number = 2;
             n->next = NULL;
-            // Now, we go our first node that list points to, and sets the next pointer
-            // on it to point to our new node, adding it to the end of the list:
+
+            // Update the pointer in our first node to point to the second node
             list->next = n;
 
-            // Add number to list
+            // Allocate memory for a third node
             n = malloc(sizeof(node));
             if (n == NULL)
             {
+                // Free both of our other nodes
+                free(list->next);
+                free(list);
                 return 1;
             }
             n->number = 3;
             n->next = NULL;
-            // We can follow multiple nodes with this syntax, using the next pointer
-            // over and over, to add our third new node to the end of the list:
-            list->next->next = n;
-            // Normally, though, we would want a loop and a temporary variable to add
-            // a new node to our list.
 
-            // Print list
-            // Here we can iterate over all the nodes in our list with a temporary
-            // variable. First, we have a temporary pointer, tmp, that points to the
-            // list. Then, our condition for continuing is that tmp is not NULL, and
-            // finally, we update tmp to the next pointer of itself.
+            // Follow the next pointer of the list to the second node, and update
+            // the next pointer there to point to n
+            list->next->next = n;
+
+            // Print list using a loop, by using a temporary variable, tmp, to point
+            // to list, the first node. Then, every time we go over the loop, we use
+            // tmp = tmp->next to update our temporary pointer to the next node. We
+            // keep going as long as tmp points to somewhere, stopping when we get to
+            // the last node and tmp->next is null.
             for (node *tmp = list; tmp != NULL; tmp = tmp->next)
             {
-                // Within the node, we'll just print the number stored:
                 printf("%i\n", tmp->number);
             }
 
-            // Free list
-            // Since we're freeing each node as we go along, we'll use a while loop
-            // and follow each node's next pointer before freeing it, but we'll see
-            // this in more detail in Problem Set 5.
+            // Free list, by using a while loop and a temporary variable to point
+            // to the next node before freeing the current one
             while (list != NULL)
             {
+                // We point to the next node first
                 node *tmp = list->next;
+                // Then, we can free the first node
                 free(list);
+                // Now we can set the list to point to the next node
                 list = tmp;
+                // If list is null, when there are no nodes left, our while loop will stop
             }
         }
 
+*   If we want to insert a node to the front of our linked list, we would need to carefully update our node to point to the one following it, before updating the list variable. Otherwise, we'll lose the rest of our list:
 
-## More data structures
+        // Here, we're inserting a node into the front of the list, so we want its
+        // next pointer to point to the original list. Then we can change the list to
+        // point to n.
+        n->next = list;
+        list = n;
 
-*   A **tree** is another data structure where each node points to two other nodes, one to the left (with a smaller value) and one to the right (with a larger value):
+*   At first, we'll have a node with value `1` pointing to the start of our list, a node with value `2`:  
+    ![boxes labeled list and 1 pointing to a box labeled 2, pointing at a box labeled 4, pointing at a box labeled 5](inserting_linked_list.png)
+    *   Now we can update our `list` variable to point to the node with value `1`, and not lose the rest of our list.
+*   Similarly, to insert a node in the middle of our list, we change the `next` pointer of the new node first to point to the rest of the list, then update the previous node to point to the new node.
+*   A linked list demonstrates how we can use pointers to build flexible data structures in memory, though we're only visualizing it in one dimension.
 
-    ![tree with node 4 at top center, left arrow to 3 below, right arrow to 6 below; 2 has left arrow to 1 below, right arrow to 3 below; 6 has left arrow to 5 below, right arrow to 7 below](binary_search_tree.png)
 
-    *   Notice that there are now two dimensions to this data structure, where some nodes are on different "levels" than others. And we can imagine implementing this with a more complex version of a node in a linked list, where each node has not one but two pointers, one to the value in the "middle of the left half" and one to the value in the "middle of the right half". And all elements to the left of a node are smaller, and all elemnts to the right are greater.
 
-    *   This is called a binary search tree because each node has at most two children, or nodes it is pointing to, and a search tree because it's sorted in a way that allows us to search correctly.
+## Trees
 
-    *   And like a linked list, we'll want to keep a pointer to just the beginning of the list, but in this case we want to point to the root, or top center node of the tree (the 4).
-
-*   Now, we can easily do binary search, and since each node is pointing to another, we can also insert nodes into the tree without moving all of them around as we would have to in an array. Recursively searching this tree would look something like:
+*   With a sorted array, we can use binary search to find an element, starting at the middle (yellow), then the middle of either half (red), and finally left or right (green) as needed:  
+    ![boxes labeled 1, green; 2, red; 3, green; 4, yellow; 5, green; 6, red; 7, green](sorted_array.png)
+    *   With an array, we can randomly access elements in O(1) time, since we can use arithmetic to go to an element at any index.
+*   A **tree** is another data structure where each node points to two other nodes, one to the left (with a smaller value) and one to the right (with a larger value):  
+    ![tree with node 4 at top center, left arrow to 3 below, right arrow to 6 below; 2 has left arrow to 1 below, right arrow to 3 below; 6 has left arrow to 5 below, right arrow to 7 below](tree.png)
+    *   Notice that we now visualize this data structure in two dimensions (even though the nodes in memory can be at any location).
+    *   And we can implement this with a more complex version of a node in a linked list, where each node has not one but two pointers to other nodes. All the values to the left of a node are smaller, and all the values of nodes to the right are greater, which allows this to be used as a **binary search tree**. And the data structure is itself defined recursively, so we can use recursive functions to work with it.
+    *   Each node has at most two **children**, or nodes it is pointing to.
+    *   And like a linked list, we'll want to keep a pointer to just the beginning of the list, but in this case we want to point to the **root**, or top center node of the tree (the 4).
+*   We can define a node with not one but two pointers:
 
         typedef struct node
         {
             int number;
             struct node *left;
             struct node *right;
-        } node;
+        }
+        node;
 
-        // Here, *tree is a pointer to the root of our tree.
-        bool search(node *tree)
+*   And write a function to recursively search a tree:
+
+        // tree is a pointer to a node that is the root of the tree we're searching in.
+        // number is the value we're trying to find in the tree.
+        bool search(node *tree, int number)
         {
-            // We need a base case, if the current tree (or part of the tree) is NULL,
-            // to return false:
+            // First, we make sure that the tree isn't NULL, if we've reached a node
+            // on the bottom, or if our tree is entirely empty
             if (tree == NULL)
             {
                 return false;
             }
-            // Now, depending on if the number in the current node is bigger or smaller,
-            // we can just look at the left or right side of the tree:
-            else if (50 < tree->number)
+            // If we're looking for a number that's less than the tree's number,
+            // search the left side, using the node on the left as the new root
+            else if (number < tree->number)
             {
-                return search(tree->left);
+                return search(tree->left, number);
             }
-            else if (50 > tree->number)
+            // Otherwise, search the right side, using the node on the right as the new root
+            else if (number > tree->number)
             {
-                return search(tree->right);
+                return search(tree->right, number);
             }
-            // Otherwise, the number must be equal to what we're looking for:
-            else
+            // Finally, we've found the number we're looking for, so we can return true.
+            // We can simplify this to just "else", since there's no other case possible
+            else if (number == tree->number)
             {
                 return true;
             }
         }
 
-*   The running time of searching a tree is _O_(log _n_), and inserting nodes while keeping the tree balanced is also _O_(log _n_). By spending a bit more memory and time to maintain the tree, we've now gained faster searching compared to a plain linked list.
+*   With a binary search tree, we've incurred the cost of even more memory, since each node now needs space for a value and two pointers. Inserting a new value would take O(log _n_) time, since we need to find the nodes that it should go between.
+*   If we add enough nodes, though, our search tree might start to look like a linked list:  
+    ![node with 1 pointing at node with 2 pointing at node with 3](imbalanced_tree.png)
+    *   We started our tree with a node with value of `1`, then added the node with value `2`, and finally added the node with value `3`. Even though this tree follows the constraints of a binary search tree, it's not as efficient as it could be.
+    *   We can make the tree balanced, or optimal, by making the node with value `2` the new root node. More advanced courses will cover data structures and algorithms that help us keep trees balanced as nodes are added.
 
-*   A data structure with almost a constant time search is a **hash table**, which is a combination of an array and a linked list. We have an array of linked lists, and each linked list in the array has elements of a certain category. For example, in the real world we might have lots of nametags, and we might sort them into 26 buckets, one labeled with each letter of the alphabet, so we can find nametags by looking in just one bucket.
 
-*   We can implement this in a hash table with an array of 26 pointers, each of which points to a linked list for a letter of the alphabet:
 
-    ![vertical array with 26 boxes, the first with an arrow pointing to a box labeled Albus, the second empty, the third with an arrow pointing to a box labeled Cedric ... the seventh with an arrow pointing to a box labeled Ginny with an arrow from that box pointing to a box labeled George...](hash_table.png)
+## More data structures
 
-*   Since we have random access with arrays, we can add elements quickly, and also index quickly into a bucket.
-
-*   A bucket might have multiple matching values, so we'll use a linked list to store all of them horizontally. (We call this a collision, when two values match in some way.)
-
-*   This is called a hash table because we use a hash function, which takes some input and maps it to a bucket it should go in. In our example, the hash function is just looking at the first letter of the name, so it might return `0` for "Albus" and `25` for "Zacharias".
-
-*   But in the worst case, all the names might start with the same letter, so we might end up with the equivalent of a single linked list again. We might look at the first two letters, and allocate enough buckets for 26*26 possible hashed values, or even the first three letters, and now we'll need 26*26*26 buckets. But we could still have a worst case where all our values start with the same three characters, so the running time for search is _O_(_n_). In practice, though, we can get closer to _O_(1) if we have about as many buckets as possible values, especially if we have an ideal hash function, where we can sort our inputs into unique buckets.
-
-*   We can use another data structure called a **trie** (pronounced like "try", and is short for "retrieval"):
-
+*   A data structure with almost a constant time, O(1) search is a **hash table**, which is essential an array _of_ linked lists. Each linked list in the array has elements of a certain category.
+*   For example, we might have lots of names, and we might sort them into an array with 26 positions, one for each letter of the alphabet:  
+    ![vertical array with 26 boxes, the first with an arrow pointing to a box labeled Albus, the second empty, the third with an arrow pointing to a box labeled Cedric ... the eighth with an arrow pointing to a box labeled Hermione with an arrow from that box pointing to a box labeled Harry with an arrow to a box labeled Hagrid ...](hash_table.png)
+    *   Since we have random access with arrays, we can set elements and index into a location, or bucket, in the array quickly.
+    *   A location might have multiple matching values, but we can add a value to another value since they're nodes in a linked list, as we see with Hermione, Harry, and Hagrid. We don't need to grow the size of our array or move any of our other values.
+*   This is called a hash table because we use a **hash function**, which takes some input and deterministically maps it to the location it should go in. In our example, the hash function just returns an index corresponding to the first letter of the name, such as `0` for "Albus" and `25` for "Zacharias".
+*   But in the worst case, all the names might start with the same letter, so we might end up with the equivalent of a single linked list again. We might look at the first two letters, and allocate enough buckets for 26*26 possible hashed values, or even the first three letters, requiring 26*26*26 buckets:  
+    ![vertical array with boxes labeled ... Haa, Hab, Hac ... Har ... Her ...](hash_table_three_letters.png)
+    *   Now, we're using more space in memory, since some of those buckets will be empty, but we're more likely to only need one step to look for a value, reducing our running time for search.
+*   To sort some standard playing cards, too, we might first start with putting them in piles by suit, of spades, diamonds, hearts, and clubs. Then, we can sort each pile a little more quickly.
+*   It turns out that the worst case running time for a hash table is O(_n_), since, as _n_ gets very large, each bucket will have on the order of _n_ values, even if we have hundreds or thousands of buckets. In practice, though, our running time will be faster since we're dividing our values into multiple buckets.
+*   In problem set 5, we'll be challenged to improve the real world running time of searching for values in our data structures, while also balancing our use of memory.
+*   We can use another data structure called a **trie** (pronounced like "try", and is short for "retrieval"). A trie is a tree with arrays as nodes:  
     ![array with letters from A-Z in 26 elements, with H pointing to another array with all 26 letters. this array's A and E each point to two more arrays of all 26 letters, and this continues in a tree until the bottom-most arrays have only one letter marked as valid](trie.png)
-
-    *   Imagine we want to store a dictionary of words efficiently, and be able to access each one in constant time. A trie is like a tree, but each node is an array. Each array will have each letter, A-Z, stored. For each word, the first letter will point to an array, where the next valid letter will point to another array, and so on, until we reach something indicating the end of a valid word. If our word isn't in the trie, then one of the arrays won't have a pointer or terminating character for our word. Now, even if our data structure has lots of words, the lookup time will be just the length of the word we're looking for, and this might be a fixed maximum so we have _O_(1) for searching and insertion. The cost for this, though, is 26 times as much memory as we need for each character.
-
-*   There are even higher-level constructs, **abstract data structures**, where we use our building blocks of arrays, linked lists, hash tables, and tries to implement a solution to some problem.
-
-*   For example, one abstract data structure is a **queue**, where we want to be able to add values and remove values in a first-in-first-out (FIFO) way. To add a value we might enqueue it, and to remove a value we would dequeue it. And we can implement this with an array that we resize as we add items, or a linked list where we append values to the end.
-
-*   An "opposite" data structure would be a **stack**, where items most recently added (pushed) are removed (popped) first, in a last-in-first-out (LIFO) way. Our email inbox is a stack, where our most recent emails are at the top.
-
-*   Another example is a **dictionary**, where we can map keys to values, or strings to values, and we can implement one with a hash table where a word comes with some other information (like its definition or meaning).
-
-*   We take a look at ["Jack Learns the Facts About Queues and Stacks"](https://www.youtube.com/watch?v=2wM6_PuBIxY), an animation about these data structures.
+    *   Each array will have each letter, A-Z, stored. For each word, the first letter will point to an array, where the next valid letter will point to another array, and so on, until we reach a boolean value indicating the end of a valid word, marked in green above. If our word isn't in the trie, then one of the arrays won't have a pointer or terminating character for our word.
+    *   In the trie above, we have the words Hagrid, Harry, and Hermione.
+    *   Now, even if our data structure has lots of words, the maximum lookup time will be just the length of the word we're looking for. This might be a fixed maximum, so we can have _O_(1) for searching and insertion.
+    *   The cost for this, though, is that we need lots of memory to store pointers and boolean values as indicators of valid words, even though lots of them won't be used.
+*   There are even higher-level constructs, **abstract data structures**, where we use our building blocks of arrays, linked lists, hash tables, and tries to _implement_ a solution to some problem.
+*   For example, one abstract data structure is a **queue**, like a line of people waiting, where the first value we put in are the first values that are removed, or first-in-first-out (FIFO). To add a value we **enqueue** it, and to remove a value we **dequeue** it. This data structure is abstract because it's an idea that we can implement in different ways: with an array that we resize as we add and remove items, or with a linked list where we append values to the end.
+*   An "opposite" data structure would be a **stack**, where items most recently added are removed first: last-in-first-out (LIFO). At a clothing store, we might take, or **pop**, the top sweater from a stack, and new sweaters would be added, or **pushed**, to the top as well.
+*   Another example of an abstract data structure is a **dictionary**, where we can map keys to values, such as words to their definitions. We can implement one with a hash table or an array, taking into account the tradeoff between time and space.
+*   We take a look at ["Jack Learns the Facts About Queues and Stacks"](https://www.youtube.com/watch?v=ItAG3s6KIEI), an animation about these data structures.
