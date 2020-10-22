@@ -50,17 +50,17 @@ grades:
     fifteen_less: *fullyauto
     retrospective-find: *check_off
 
-    pymario: *automatic
-    readability: *automatic
-    dna: *automatic
+    pymario: *fullyauto
+    readability: *fullyauto
+    dna: *fullyauto
 
-    queue: *checked
-    cards: *automatic
-    hangman-less: *automatic
-    hangman-more: *automatic
+    queue: *fullyauto
+    cards: *fullyauto
+    hangman-less: *fullyauto
+    hangman-more: *fullyauto
 
-    adventure-less: *automatic
-    adventure-more: *automatic
+    adventure-less: *fullyauto
+    adventure-more: *fullyauto
 
     c: *manual
     crypto: *manual
