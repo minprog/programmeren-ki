@@ -70,15 +70,15 @@ grades:
     hangman: *manual
     adventure: *manual
 
-    r-mispellings: *checked
-    r-python: *checked
-    r-hangman: *checked
-    r-adventure: *checked
+    r-mispellings: *check_off
+    r-python: *check_off
+    r-hangman: *check_off
+    r-adventure: *check_off
 
-    q-mispellings: *checked
-    q-python: *checked
-    q-hangman: *checked
-    q-adventure: *checked
+    q-mispellings: *check_off
+    q-python: *check_off
+    q-hangman: *check_off
+    q-adventure: *check_off
 
     engagement: *check_off
     screencast: *check_off
