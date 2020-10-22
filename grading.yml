@@ -4,27 +4,16 @@ templates:
         subgrades:
             correctness: integer
         automatic:
-            correctness: (check_score * 5).floor
-        calculation: -(correctness/5)
-        # hide_calculated: true
-    # 2: &automatic
-    #     type: float
-    #     subgrades:
-    #         correctness: integer
-    #         design: integer
-    #         style: integer
-    #     automatic:
-    #         correctness: (check_score * 5).floor
-    #         style: style_score
-    #     calculation: ((3 * correctness + 2 * design + 1 * style - 6) * 0.375 + 1).round(1)
-    #     hide_calculated: true
+            correctness: (correctness_score * 100).floor
+        calculation: -(correctness/100)
+        auto_publish: true
+        hide_subgrades: true
     3: &manual
         type: float
         subgrades:
             points: integer
-            hacker: integer
-            late: float
-        calculation: ((points + hacker - (late.abs)) / 5.0 * 9 + 1).round(1)
+            extra: integer
+        calculation: ([points + extra, 6].min / 6.0 * 9 + 1).round(1)
         hide_calculated: true
     4: &test
         type: pass
@@ -33,132 +22,123 @@ templates:
         calculation: "(passed.abs == 0 ? 0 : -1)"
         is_test: true
         hide_calculated: true
+    5: &check_off
+        type: pass
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_subgrades: true
 
 grades:
     scratch: *fullyauto
+    hardware: *check_off
+
+    hello: *fullyauto
+    water: *fullyauto
     greedy: *fullyauto
     mario_less: *fullyauto
     credit: *fullyauto
+    retrospective-c: *check_off
+
     initials_more: *fullyauto
     caesar: *fullyauto
-    vigenere: *fullyauto
     crack: *fullyauto
+    retrospective-crypto: *check_off
+    retrospective-caesar: *check_off
+
     find_less: *fullyauto
-    find_more: *fullyauto
     fifteen_less: *fullyauto
-    fifteen_more: *fullyauto
-    python: *fullyauto
-    tweet: *fullyauto
-    queue:
-        type: pass
-        subgrades:
-            correctness: integer
-        automatic:
-            correctness: -1
-        calculation: -1
-        hide_calculated: true
-    cards: *fullyauto
-    hangman_less: *fullyauto
-    hangman_more: *fullyauto
-    adventure_less: *fullyauto
-    adventure_more: *fullyauto
-    m1: *manual
-    m2: *manual
-    m3: *manual
-    m4: *manual
-    m5: *manual
-    m6: *manual
-    toetsje A: *test
-    toetsje B: *test
-    toetsje C: *test
-    toetsje D: *test
-    toetsje E: *test
-    toetsje F: *test
-    toetsje G: *test
-    tentamen:
-        type: float
-        subgrades:
-            points: integer
-        calculation: "[((5/6.0)*points - (5/3.0)).round(1), 1].max"
-        is_test: true
-        hide_calculated: false
-    hertentamen:
-        type: float
-        subgrades:
-            points: integer
-        calculation: "[((5/6.0)*points - (5/3.0)).round(1), 1].max"
-        is_test: true
-        hide_calculated: false
+    retrospective-find: *check_off
+
+    pymario: *automatic
+    readability: *automatic
+    dna: *automatic
+
+    queue: *checked
+    cards: *automatic
+    hangman-less: *automatic
+    hangman-more: *automatic
+
+    adventure-less: *automatic
+    adventure-more: *automatic
+
+    c: *manual
+    crypto: *manual
+    caesar_m: *manual
+    find: *manual
+    python: *manual
+    hangman: *manual
+    adventure: *manual
+
+    r-mispellings: *checked
+    r-python: *checked
+    r-hangman: *checked
+    r-adventure: *checked
+
+    q-mispellings: *checked
+    q-python: *checked
+    q-hangman: *checked
+    q-adventure: *checked
+
+    engagement: *check_off
+    screencast: *check_off
 
 modules:
-    m1:
+    c:
+        - hello
+        - water
         - greedy
-        - credit
         - mario_less
-    m2:
+        - credit
+    caesar_m:
         - initials_more
         - caesar
-        - vigenere
         - crack
-    m3:
+        - retrospective-c
+    find:
         - find_less
-        - find_more
         - fifteen_less
-        - fifteen_more
-    m4:
-        - python
-        - tweet
-    m5:
+        - retrospective-caesar
+    python:
+        - pymario
+        - readability
+        - dna
+        - q-python
+    hangman:
         - queue
         - cards
-        - hangman_less
-        - hangman_more
-    m6:
-        - adventure_less
-        - adventure_more
+        - hangman-less
+        - q-hangman
+    adventure:
+        - adventure-less
+        - q-adventure
 
 calculation:
     eindcijfer:
-        tests: 0
-        mods: 60
-        tentamens: 40
-    resit:
-        tests: 0
-        mods: 60
-        hertentamen: 40
-# resit:
-#     tests: 0
-#     modules: 100
+        opdrachten: 100
+        vragen: 0
+        retrospectives: 0
 
-mods:
-    drop: :lowest
+assignments:
+    show_progress: true
     submits:
-        m1: 1
-        m2: 1
-        m3: 1
-        m4: 1
-        m5: 1
-        m6: 1
+        mispellings: 1
+        python: 1
+        hangman: 1
+        adventure: 1
 
-tests:
-    required: true
+questions:
+    show_progress: true
     submits:
-        toetsje A: 1
-        toetsje B: 1
-        toetsje C: 1
-        toetsje D: 1
-        toetsje E: 1
-        toetsje F: 1
-        toetsje G: 1
+        q-mispellings: 1
+        q-python: 1
+        q-hangman: 1
+        q-adventure: 1
 
-tentamens:
-    exam: true
-    minimum: 5.5
+retrospectives:
+    show_progress: true
     submits:
-        tentamen: 1
-
-hertentamen:
-    exam: true
-    minimum: 5.5
-    submits:
-        hertentamen: 1
+        r-mispellings: 1
+        r-python: 1
+        r-hangman: 1
+        r-adventure: 1

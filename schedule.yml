@@ -1,20 +1,18 @@
 Welkom:
-    - syllabus
+  - syllabus
 Module 0:
-    - scratch
+  - scratch
+  - hardware
+  - variables
 Module 1:
-    - c
-    # exercise placeholder
+  - c
 Module 2:
-    - crypto
-    # exercise placeholder
+  - crypto
 Module 3:
-    - fifteen
-    # exercise placeholder
+  - fifteen
 Module 4:
-    - python
-    - tweet
+  - python
 Module 5:
-    - hangman
+  - hangman
 Module 6:
-    - adventure
+  - adventure
