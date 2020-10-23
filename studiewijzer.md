@@ -17,11 +17,12 @@ Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. D
 
 3. wekelijks een aantal keer vragen stellen of beantwoorden op [Ed](#vragen-stellen)
 4. alle [werkgroepen](#werkgroepen) bijwoonen en actief contact houden met je mentor
+{: start="3"}
 
 Tot slot moeten je ingeleverd uitwerkingen zonder twijfels jouw eigen intellectueel werk zijn:
 
 5. laag scoren op de ["plagiaatschaal"](#plagiaat)
-{: start="4"}
+{: start="5"}
 
 Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen.
 
