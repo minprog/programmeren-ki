@@ -16,7 +16,7 @@ Om het vak te halen moet je het volgende werk doen:
 Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
 3. wekelijks een aantal keer vragen stellen of beantwoorden op [Ed](#vragen-stellen)
-4. alle [werkgroepen](#werkgroepen) bijwoonen en actief contact houden met je mentor
+4. alle [werkgroepen](#werkgroepen) bijwonen en actief contact houden met je mentor
 {: start="3"}
 
 Tot slot moeten je ingeleverd uitwerkingen zonder twijfels jouw eigen intellectueel werk zijn:
