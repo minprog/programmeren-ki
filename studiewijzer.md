@@ -272,11 +272,13 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 
 ## Plagiaat
 
+**Dit is geen cursus Google.** Jouw taak is om de aangeboden stof diep te bestuderen en te leren toepassen. Pas als je complexere programmeeropdrachten gaat doen (na dit vak) is het logisch en zinvol om veel op internet te zoeken bij het programmeren. Bij de opdrachten van dit vak gaat het om de basisbegrippen. Heb je hulp nodig, vraag die dan aan de assistenten en docenten.
+
 Alle inzendingen worden wekelijks gecontroleerd met behulp van een detectiesysteem dat zoekt naar overeenkomsten in programmacode. Dat kunnen overeenkomsten zijn binnen de groep, met studenten van vorige jaren, of zelfs met code van internet.
 
 Vinden we overeenkomsten, dan gaat de coördinator direct met je in gesprek om je voor te lichten en om af te spreken hoe je het vak zonder plagiëren kunt halen. Is er een **vermoeden van plagiaat**, dan moet dit gemeld worden bij de examencommissie.
 
-In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij.
+In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij. Mail je docenten!
 
 De [plagiaatregeling](http://uva.nl/plagiaat) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en is de basis voor bovenstaande regelingen.
 
