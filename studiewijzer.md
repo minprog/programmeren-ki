@@ -16,15 +16,18 @@ Om het vak te halen moet je het volgende werk doen:
 Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
 3. wekelijks een aantal keer vragen stellen of beantwoorden op [Ed](#vragen-stellen)
-4. alle [werkgroepen](#werkgroepen) bijwonen en actief contact houden met je mentor
+4. de analyse voor je opdrachten bespreken en aftekenen met een assistent via Zoom
+5. alle [werkgroepen](#werkgroepen) bijwonen en actief contact houden met je mentor
 {: start="3"}
 
-Tot slot moeten je ingeleverd uitwerkingen zonder twijfels jouw eigen intellectueel werk zijn:
+Tot slot moeten je ingeleverde uitwerkingen zonder twijfels jouw eigen intellectueel werk zijn:
 
-5. laag scoren op de ["plagiaatschaal"](#plagiaat)
-{: start="5"}
+6. laag scoren op de ["plagiaatschaal"](#plagiaat)
+{: start="6"}
 
 Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen.
+
+Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen.
 
 
 ## Eindcijfer
@@ -42,8 +45,6 @@ Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdr
 | Module 6  | 1/6 deel           |  
 
 Je moet aan alle bovenstaande verwachtingen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <progik@mprog.nl>).
-
-Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen.
 
 
 ## Team en mentor
