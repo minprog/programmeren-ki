@@ -124,7 +124,7 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 | module   | deadline oplossing | deadline verbeterd |  
 | -------- | ------------------ | ------------------ |
 | Module 0 | do 29 okt 17:59    | -                  |  
-| Module 1 | do  5 nov 17:59    | -                  |  
+| Module 1 | do  5 nov 17:59    | ma  9 nov 10:59    |  
 | Module 2 | do 12 nov 17:59    | ma 16 nov 10:59    |  
 | Module 3 | do 19 nov 17:59    | ma 23 nov 10:59    |  
 | Module 4 | do 26 nov 17:59    | ma 30 nov 10:59    |  
