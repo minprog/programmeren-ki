@@ -38,17 +38,13 @@ grades:
     greedy: *fullyauto
     mario_less: *fullyauto
     credit: *fullyauto
-    retrospective-c: *check_off
 
     initials_more: *fullyauto
     caesar: *fullyauto
     crack: *fullyauto
-    retrospective-crypto: *check_off
-    retrospective-caesar: *check_off
 
     find_less: *fullyauto
     fifteen_less: *fullyauto
-    retrospective-find: *check_off
 
     pymario: *fullyauto
     readability: *fullyauto
@@ -70,12 +66,13 @@ grades:
     hangman: *manual
     adventure: *manual
 
-    r-mispellings: *check_off
+    r-c: *check_off
+    r-crypto: *check_off
+    r-find: *check_off
     r-python: *check_off
     r-hangman: *check_off
     r-adventure: *check_off
 
-    q-mispellings: *check_off
     q-python: *check_off
     q-hangman: *check_off
     q-adventure: *check_off
@@ -91,25 +88,28 @@ modules:
         - mario_less
         - credit
     caesar_m:
+        - r-c
         - initials_more
         - caesar
         - crack
-        - retrospective-c
     find:
+        - r-caesar
         - find_less
         - fifteen_less
-        - retrospective-caesar
     python:
+        - r-find
         - pymario
         - readability
         - dna
         - q-python
     hangman:
+        - r-python
         - queue
         - cards
         - hangman-less
         - q-hangman
     adventure:
+        - r-hangman
         - adventure-less
         - q-adventure
 
@@ -118,6 +118,13 @@ calculation:
         opdrachten: 100
         vragen: 0
         retrospectives: 0
+
+intro:
+    show_progress: true
+    required: true
+    submits:
+        scratch: 1
+        hardware: 1
 
 opdrachten:
     show_progress: true
