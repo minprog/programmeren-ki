@@ -114,6 +114,7 @@ modules:
 
 calculation:
     eindcijfer:
+        intro: 1
         opdrachten: 100
         vragen: 0
         retrospectives: 0
