@@ -67,7 +67,7 @@ grades:
 
     r-c: *check_off
     r-crypto: *check_off
-    r-find: *check_off
+    r-fifteen: *check_off
     r-python: *check_off
     r-hangman: *check_off
     r-adventure: *check_off
@@ -92,11 +92,11 @@ modules:
         - caesar
         - crack
     fifteen:
-        - r-caesar
+        - r-crypto
         - find_less
         - fifteen_less
     python:
-        - r-find
+        - r-fifteen
         - pymario
         - readability
         - dna
