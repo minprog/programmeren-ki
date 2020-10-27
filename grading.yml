@@ -60,8 +60,7 @@ grades:
 
     c: *manual
     crypto: *manual
-    caesar_m: *manual
-    find: *manual
+    fifteen: *manual
     python: *manual
     hangman: *manual
     adventure: *manual
