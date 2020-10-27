@@ -87,12 +87,12 @@ modules:
         - greedy
         - mario_less
         - credit
-    caesar_m:
+    crypto:
         - r-c
         - initials_more
         - caesar
         - crack
-    find:
+    fifteen:
         - r-caesar
         - find_less
         - fifteen_less
@@ -143,6 +143,9 @@ vragen:
 retrospectives:
     show_progress: true
     submits:
+        r-c: 1
+        r-crypto: 1
+        r-find: 1
         r-python: 1
         r-hangman: 1
         r-adventure: 1
