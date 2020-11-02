@@ -44,7 +44,7 @@ $ unzip speller.zip
 $ rm speller.zip
 $ cd speller
 $ ls
-dictionaries/  dictionary.c  dictionary.h  keys/  Makefile  questions.txt  speller.c  texts/
+dictionaries/  dictionary.c  dictionary.h  keys/  Makefile  README.md  speller.c  texts/
 ----
 
 === Understanding
@@ -188,7 +188,9 @@ Alright, ready to go?
 
 == Walkthrough
 
-[role=embed-responsive-21by9]
+Note that the following embed is a playlist of multiple videos that you should all watch!
+
+[role="embed-responsive embed-responsive-21by9"]
 video::u9-1U1Rgo1o[youtube,list=PLhQjrBD2T382vvokQIExRCKZq-q8PzSVz]
 
 == Hints

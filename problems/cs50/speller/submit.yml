@@ -1,6 +1,7 @@
 name: speller
 files:
     required:
+        - README.md
         - dictionary.c
         - dictionary.h
     optional:

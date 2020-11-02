@@ -149,7 +149,13 @@ And so, before making change, you'll probably want to convert the user's input e
 
 ## Usage
 
-When finished, your program should behave per the example below.
+When finished, your program should behave per the examples below. Do check if each works correctly!
+
+~~~~
+$ ./greedy
+Change owed: 0.01
+1
+~~~~
 
 ~~~~
 $ ./greedy
@@ -166,7 +172,12 @@ Change owed: 0.41
 4
 ~~~~
 
-> Make sure to only calculate the result using the specified denominations of quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢).
+~~~~
+$ ./greedy
+Change owed: 1.00
+4
+~~~~
+
 
 ## Testing
 
