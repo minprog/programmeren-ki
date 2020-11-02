@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/quality.git
+	branch = main
+	commit = 9e79a3bd75c354bf44af8ec5b44b550776123af3
+	parent = 4c5687fc633686e380d885075707918afb5c8ddf
+	method = merge
+	cmdver = 0.4.1
