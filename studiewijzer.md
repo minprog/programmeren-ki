@@ -119,7 +119,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn, waarbij de correcte werking automatisch wordt getest met `check50`. Daarna volgt een deadline waarbij je je werkende programma's verbetert en nogmaals inlevert.
+De opdrachten van elke module moet op de vooraf bepaalde **oplossings**deadline volledig werkend ingeleverd zijn, waarbij de correcte werking automatisch wordt getest met `check50`. Daarna volgt een **verbeter**deadline waarbij je je werkende programma's volgens de precieze instructies netjes maakt en nogmaals inlevert.
 
 | module   | deadline oplossing | deadline verbeterd |  
 | -------- | ------------------ | ------------------ |
@@ -165,7 +165,7 @@ Het eindcijfer voor deze cursus wordt bepaald door het totaal aantal punten voor
 
 Bij veel modules bieden we ook een "extra opdracht" aan. Deze is bedoeld voor studenten die zich wat comfortabeler voelen met programmeren en extra uitdaging zoeken. Wil je die inleveren, zorg dan dat je éérst de andere opdrachten maakt en inlevert. Dat zijn namelijk de opdrachten waarvoor je een review doet en die beoordeeld zullen worden.
 
-Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzzels zijn waar je veel van leert. Je krijgt 1 punt extra voor een module als je vóór de deadline de extra opdracht hebt ingeleverd.
+Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzzels zijn waar je veel van leert. Je krijgt 1 punt extra voor een module als je vóór de oplossingsdeadline (op donderdag) de extra opdracht hebt ingeleverd.
 
 Het is niet mogelijk om via video-assistentie hulp te krijgen voor de extra opdrachten. Wel kun je er vragen over stellen via Ed. Het is aan te raden om te kijken of je er medestudenten bij kunt betrekken en samen de oplossing te ontwerpen voordat je deze zelf gaat implementeren in code.
 
