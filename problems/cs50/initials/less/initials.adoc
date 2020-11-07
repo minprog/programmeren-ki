@@ -4,6 +4,8 @@
 
 Implement a program that, given a person's name, prints a person's initials, per the below.
 
+Before you start coding, make sure that you deeply analyze the exact problem at hand and have a good idea about how your algorithm will solve the problem.
+
 [source]
 ----
 $ ./initials

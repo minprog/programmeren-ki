@@ -1,7 +1,6 @@
 name: caesar
 files:
     required:
-        - analysis.pdf
         - caesar.c
 check:
     tool: check50
