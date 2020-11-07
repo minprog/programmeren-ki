@@ -1,6 +1,7 @@
 name: initials_less
 files:
     required:
+        - analysis.pdf
         - initials.c
 check:
     tool: check50
