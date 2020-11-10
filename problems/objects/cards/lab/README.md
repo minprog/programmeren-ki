@@ -228,7 +228,7 @@ In other words, classes' data is kept private and only through their methods sho
 
 Don't forget to run `check50` again:
 
-    check50 --local minprog/cs50x/2019/cards
+    check50 -l minprog/objects/master/cards
 
 {% next %}
 

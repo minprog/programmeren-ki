@@ -2,3 +2,6 @@ name: queue
 files:
     required:
         - queue.py
+check:
+    tool: check50
+    slug: minprog/objects/master/queue
