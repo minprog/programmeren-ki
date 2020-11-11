@@ -88,8 +88,9 @@ modules:
         - credit
     crypto:
         - r-c
-        - initials_more
+        - initials_less
         - caesar
+        - vigenere
         - crack
     fifteen:
         - r-crypto
