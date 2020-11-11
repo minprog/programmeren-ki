@@ -39,7 +39,7 @@ grades:
     mario_less: *fullyauto
     credit: *fullyauto
 
-    initials_more: *fullyauto
+    initials_less: *fullyauto
     caesar: *fullyauto
     crack: *fullyauto
 
