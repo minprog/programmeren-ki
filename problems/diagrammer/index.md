@@ -4,16 +4,22 @@ Het uiteindelijke doel van deze opdracht is het maken van een tool die figuren k
 
 ![screenshot of the OmniGraffle user interface](omnigraffle.png)
 
-De tool die je hier gaat bouwen werkt niet met directe manipulatie maar kan via de command-line worden aangeroepen om transformaties op een figuur toe te passen. Zo zou je met hulp van die tool bijvoorbeeld een pipeline kunnen bouwen waarmee een hele map aan figuren stuk voor stuk aangepast worden, zoals bijvoorbeeld het verwijderen van het eerste object uit elke figuur.
+De tool die je hier gaat bouwen werkt niet met directe manipulatie maar kan via de command-line worden aangeroepen om transformaties op een figuur toe te passen. Zo zou je met hulp van die tool bijvoorbeeld een pipeline kunnen bouwen waarmee een hele map aan figuren stuk voor stuk aangepast worden, zoals bijvoorbeeld het verwijderen van het eerste object uit elke figuur. Zo zou de tool als volgt kunnen worden aangeroepen:
 
-De opdracht bestaat uit een aantal onderdelen:
+    diagrammer complex.fig simple.fig merge-layers
+    diagrammer large.fig small.fig scale 0.5
+
+Deze opdracht bestaat uit een aantal onderdelen waarin we toewerken naar de tool:
 
 1. Bouwen van een verzameling klassen die het canvas, de objecten en eigenschappen modelleren
 
 2. Schrijven van een methode om een figuur uit een string te kunnen inlezen en een figuur en alle objecten naar een string weg te schrijven
 
 3. Bouwen van een verzameling klassen die elk een transformatie kunnen uitvoeren op een figuur en de objecten daarin
+
 4. Schrijven van een hoofdprogramma waarmee een bestand wordt geopend, een transformatie toegepast, en het resultaat weer weggeschreven
+
+Het uiteindelijke doel van de opdracht is het oefenen met objectgeoriënteerd ontwerp, kennis maken met *inheritance*, en verder oefenen met Python en werken met klassen.
 
 
 ## Voorbereiding
