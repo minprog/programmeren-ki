@@ -6,8 +6,8 @@ Het uiteindelijke doel van deze opdracht is het maken van een tool die figuren k
 
 De tool die je hier gaat bouwen werkt niet met directe manipulatie maar kan via de command-line worden aangeroepen om transformaties op een figuur toe te passen. Zo zou je met hulp van die tool bijvoorbeeld een pipeline kunnen bouwen waarmee een hele map aan figuren stuk voor stuk aangepast worden, zoals bijvoorbeeld het verwijderen van het eerste object uit elke figuur. Zo zou de tool als volgt kunnen worden aangeroepen:
 
-    diagrammer complex.fig simple.fig merge-layers
-    diagrammer large.fig small.fig scale 0.5
+    diagrammer.py complex.fig simple.fig merge-layers
+    diagrammer.py large.fig small.fig scale 0.5
 
 Deze opdracht bestaat uit een aantal onderdelen waarin we toewerken naar de tool:
 
@@ -33,33 +33,3 @@ Allereerst is het belangrijk om te zorgen dat je weer even goed in Python zit en
 - Lees vervolgens zorgvuldig over het gebruik van "inheritance" bij het ontwerpen van klassen: [Think Python hoofdstuk 18](http://greenteapress.com/thinkpython/html/thinkpython019.html).
 
 In de eerste stap moet je een UML-diagram maken. In het korte college hierboven zie je voorbeelden hiervan, en ook in de Queue/Cards-oefeningen heb je hiermee kennis gemaakt. In het hoofdstuk uit Think Python staat onderaan een voorbeeld-diagram waarin inheritance is verwerkt (met een "open pijl"). Dit zou genoeg moeten zijn om een basic UML-diagram te kunnen tekenen.
-
-
-## 1. Modelleren van diagrammen
-
-Ontwerp een klassenstructuur waarmee de onderliggende data in het programma gemodelleerd worden. Hieronder vind je in meer algemene termen hoe de onderdelen genoemd worden. Aan jou de taak om hiervan een verzameling klassen te ontwerpen, met daarbij de belangrijkste attributen en de relaties tussen de verschillende klassen.
-
-- Er zijn in  vormen, namelijk: cirkels, vierkanten, rechthoeken, ovalen, sterren met vijf punten en pijlen.
-
-- De vormen zijn vast, maar er zijn per vorm enkele maten aan te geven. Een vierkant heeft bijvoorbeeld een "zijde" waarmee de hele vorm wordt vastgelegd. Een rechthoek heeft zowel een lengte als breedte.
-
-- Elke vorm heeft bovendien een positie die variabel is en bepaalt waar in het diagram de vorm geplaatst is.
-
-- Alle maten zijn in dezelfde eenheid gegeven, bijvoorbeeld pixels (maar de precieze aanduiding doet niet terzake).
-
-- Het belangrijkste deel van een figuur is een zogeheten Canvas, waar alle objecten zich op bevinden.
-
-- Elk Canvas heeft meerdere lagen (layers). Elk van de objecten in een diagram bevindt zich in feite op één van de lagen.
-
-- Elk object kan zichtbaar of onzichtbaar worden gemaakt.
-
-- Voor elk object kan een kleur van de rand en een kleur van de vulling worden ingesteld.
-
-- Elke laag kan in z'n geheel zichtbaar of onzichtbaar worden gemaakt.
-
-Maak een UML-diagram waarin je alle benodigde klassen definieert met de relaties en attributen. Bespreek je diagram in een groepje om te zorgen dat het compleet is en de relaties correct zijn aangegeven.
-
-
-## 2. Inlezen en wegschrijven
-
-Dit onderdeel volgt.

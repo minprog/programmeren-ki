@@ -1,0 +1,5 @@
+name: diagrammer-models
+files:
+    required:
+        - models.pdf
+        - diagrammer.py
