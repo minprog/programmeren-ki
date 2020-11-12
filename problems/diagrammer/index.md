@@ -31,7 +31,7 @@ Het uiteindelijke doel van de opdracht is het oefenen met objectgeoriënteerd on
 - Lees vervolgens zorgvuldig over het gebruik van "inheritance" bij het ontwerpen van klassen: [Think Python hoofdstuk 18](http://greenteapress.com/thinkpython/html/thinkpython019.html).
 
 
-## 1. Vormen en lagen
+## 1. Modelleren van diagrammen
 
 Ontwerp een klassenstructuur waarmee de onderliggende data in het programma gemodelleerd worden. Hieronder vind je in meer algemene termen hoe de onderdelen genoemd worden. Aan jou de taak om hiervan een verzameling klassen te ontwerpen, met daarbij de belangrijkste attributen en de relaties tussen de verschillende klassen.
 
@@ -54,3 +54,8 @@ Ontwerp een klassenstructuur waarmee de onderliggende data in het programma gemo
 - Elke laag kan in z'n geheel zichtbaar of onzichtbaar worden gemaakt.
 
 Maak een UML-diagram waarin je alle benodigde klassen definieert met de relaties en attributen. Bespreek je diagram in een groepje om te zorgen dat het compleet is en de relaties correct zijn aangegeven.
+
+
+## 2. Inlezen en wegschrijven
+
+Dit onderdeel volgt.
