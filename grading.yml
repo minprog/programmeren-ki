@@ -66,6 +66,8 @@ grades:
     hangman: *manual
     adventure: *manual
 
+    a-crypto: *check_off
+
     r-c: *check_off
     r-crypto: *check_off
     r-fifteen: *check_off
@@ -90,6 +92,7 @@ modules:
     crypto:
         - r-c
         - initials_less
+        - a-crypto
         - caesar
         - vigenere
         - crack
