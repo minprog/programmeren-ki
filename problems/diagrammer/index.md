@@ -30,6 +30,8 @@ Het uiteindelijke doel van de opdracht is het oefenen met objectgeoriënteerd on
 
 - Lees vervolgens zorgvuldig over het gebruik van "inheritance" bij het ontwerpen van klassen: [Think Python hoofdstuk 18](http://greenteapress.com/thinkpython/html/thinkpython019.html).
 
+In de eerste stap moet je een UML-diagram maken. In het korte college hierboven zie je voorbeelden hiervan, en ook in de Queue/Cards-oefeningen heb je hiermee kennis gemaakt. In het hoofdstuk uit Think Python staat onderaan een voorbeeld-diagram waarin inheritance is verwerkt (met een "open pijl"). Dit zou genoeg moeten zijn om een basic UML-diagram te kunnen tekenen.
+
 
 ## 1. Modelleren van diagrammen
 
