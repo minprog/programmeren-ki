@@ -82,6 +82,9 @@ grades:
     engagement: *check_off
     screencast: *check_off
 
+    diagrammer-models: *check_off
+    diagrammer-serializer: *check_off
+
 modules:
     c:
         - hello
