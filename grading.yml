@@ -13,7 +13,7 @@ templates:
         subgrades:
             points: integer
             extra: integer
-        calculation: ([points + extra, 6].min / 6.0 * 9 + 1).round(1)
+        calculation: ((points + extra) / 6.0 * 9 + 1).round(1)
         hide_calculated: true
     4: &test
         type: pass
