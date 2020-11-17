@@ -67,7 +67,7 @@ Het omzetten van een objectenstructuur van Diagrammer naar een JSON werkt op dez
 
 ## Testen
 
-Je twee functies zouden precies op elkaar moeten passen. Als je een JSON-string hebt, dan inleest naar objecten, en dan de objecten weer wegschrijft naar een JSON-string, dan zou deze precies gelijk moeten zijn (spaties en enters daargelaten). Kortom, er mag geen inhoud verloren gaan. Zorg dus dat je dit uitgebreid test, ook met diagrammen waar meerdere objecten in zitten, of die meerdere layers bevat.
+Je twee functies zouden precies op elkaar moeten passen. Als je een JSON-string hebt, dan inleest naar objecten, en dan de objecten weer wegschrijft naar een JSON-string, dan zou deze precies gelijk moeten zijn (spaties en enters daargelaten). Kortom, er mag geen inhoud verloren gaan. Zorg dus dat je dit uitgebreid test, ook met diagrammen waar meerdere objecten in zitten, of die meerdere layers bevatten.
 
 
 ## Inleveren
