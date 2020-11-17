@@ -2,11 +2,11 @@
 
 Dit is stap 2 van de opdracht.
 
-De `diagrammer`-tool moet straks bestanden kunnen inlezen en wegschrijven. Hiervoor gebruiken we de data-taal JSON, waarmee je precies genoeg uitdrukkingskracht hebt om combinaties van objecten en eigenschappen te omschrijven. Stel, je hebt het volgende diagram als objecten in het geheugen:
+De `diagrammer`-tool moet straks bestanden kunnen inlezen en wegschrijven. Hiervoor gebruiken we de data-taal JSON, waarmee je precies genoeg uitdrukkingskracht hebt om combinaties van objecten en eigenschappen te omschrijven. Stel, je hebt het volgende diagram met één layer en één object:
 
 ![](square.png)
 
-Dan zou de bijbehorende omschrijving in JSON er zo uit kunnen zien:
+Dan zou de bijbehorende omschrijving in JSON er als volgt uit kunnen zien. Diverse eigenschappen zoals zichtbaarheid en kleuren zijn weggelaten.
 
     {                                                <-- top-level object
         "diagrammer_version": 1.0,                   <-- versie van tool
@@ -32,9 +32,11 @@ Dan zou de bijbehorende omschrijving in JSON er zo uit kunnen zien:
         }
     }
 
+(Let op dat in JSON alle strings verplicht met dubbele aanhalingstekens `"` worden geschreven, in tegenstelling tot in Python, waar ook enkele aanhalingstekens zijn toegestaan.)
+
 In bovenstaande structuur zie je dat er twee lijsten voorkomen: `layers` en `objects`. Elk bestand heeft een lijst met `layers` en elke layer heeft een lijst met `objects`. Zo'n lijst bevat 0 of meer objecten, afhankelijk van de inhoud van het diagram.
 
-Onderstaande code bevat een "minified"-versie van het JSON-bestand om mee te testen.
+Onderstaande code bevat een "minified"-versie van het JSON-bestand om mee te testen. Daaronder enkele `print`-statements waaraan je kunt zie hoe je informatie uit de structuur kunt halen.
 
     import json
     diagram_source = '{"diagrammer_version":1,"canvas":{"layers":[{"objects":[{"type":"square","size":4,"position":{"x":0,"y":0}}]}]}}'
