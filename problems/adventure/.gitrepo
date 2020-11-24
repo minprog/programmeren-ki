@@ -5,8 +5,8 @@
 ;
 [subrepo]
 	remote = https://github.com/minprog/adventure.git
-	branch = main
-	commit = f4f8dc63d006126e6eb7ce3b5b3b1d6b3979efd5
-	parent = 405ef8cef79003cc80c0c92aae31c52021edad3a
+	branch = 2020
+	commit = a13b67fe68423f9b35dfadf72d413b0492e0f666
+	parent = e745b24c9538911c260b38e1bbaad469a0cc9595
 	method = merge
 	cmdver = 0.4.1
