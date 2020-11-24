@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/diagrammer.git
 	branch = master
-	commit = 6ea02aea1c2e37480a9f325917e75db6ce3f674c
-	parent = 64571eb6c7eb2a5f59c55acfdd7414dd34d8b6e6
+	commit = 3b276f7be5a49243ee3d67306f9097a98eebfe91
+	parent = 92a2dd78f36bb78c1132fb385cfcf443a5fed434
 	method = merge
 	cmdver = 0.4.1

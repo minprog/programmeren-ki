@@ -372,7 +372,7 @@ Net als in eerdere opdrachten moeten we ook hier omgaan met onverwachte input in
 Je kan je misschien wel voorstellen dat het schalen van een figuur met een factor 0.000001 voor problemen zal zorgen, dus dit is een voorbeeld van een assertion die de factor binnen een redelijk bereik houdt:
 
     assert type(factor) == int
-    assert 0 < factor < 100
+    assert 0.01 < factor < 100
 
 Assertions hoeven niet compleet te zijn, maar kunnen de meest obvious programmeerfouten voorkomen als de voorwaarden goed gekozen zijn. Edge cases die beschreven zijn bij de specifieke bewerkingen mogen in ieder geval niet resulteren in een error.
 
