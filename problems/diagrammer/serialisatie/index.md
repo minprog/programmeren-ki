@@ -1,4 +1,4 @@
-## Inlezen en wegschrijven
+# Inlezen en wegschrijven
 
 Dit is stap 2 van de opdracht.
 

@@ -22,6 +22,6 @@ Ontwerp een klassenstructuur waarmee de onderliggende data in het programma gemo
 
 - Elke laag kan in z'n geheel zichtbaar of onzichtbaar worden gemaakt.
 
-Maak een UML-diagram waarin je alle benodigde klassen definieert met de relaties en attributen. Bespreek je diagram in een groepje om te zorgen dat het compleet is en de relaties correct zijn aangegeven.
+Maak een UML-diagram waarin je alle benodigde klassen definieert met de relaties en attributen. Bespreek je diagram om te zorgen dat het compleet is en de relaties correct zijn aangegeven.
 
 Implementeer dan de benodigde klassen in een bestand genaamd `diagrammer.py`.

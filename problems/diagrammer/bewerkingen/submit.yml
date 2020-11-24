@@ -1,0 +1,4 @@
+name: diagrammer-operations
+files:
+    required:
+        - diagrammer.py
