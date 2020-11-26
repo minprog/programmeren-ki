@@ -49,7 +49,7 @@ Bij gebruikersfouten moet altijd een voor de gebruiker leesbaar bericht naar de 
 
 ## Testen
 
-Test je implementatie aan de hand van de voorbeelden uit [stap 3](bewerkingen). Dit maal doe je dit echter door diagrammer.py te gebruiken als een eindgebruiker dat zou doen. Test ook weer aan de hand van een aantal zelfverzonnen figuren. Test ook hoe het hoofdprogramma reageert op onjuiste opdrachten, bijvoorbeeld door parameters weg te laten of onjuiste parameters in te vullen.
+Test je implementatie aan de hand van de voorbeelden uit [stap 3](/problems/diagrammer/bewerkingen). Dit maal doe je dit echter door diagrammer.py te gebruiken als een eindgebruiker dat zou doen. Test ook weer aan de hand van een aantal zelfverzonnen figuren. Test ook hoe het hoofdprogramma reageert op onjuiste opdrachten, bijvoorbeeld door parameters weg te laten of onjuiste parameters in te vullen.
 
 
 ## Inleveren
