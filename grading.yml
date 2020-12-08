@@ -86,6 +86,7 @@ grades:
     diagrammer-models: *check_off
     diagrammer-serializer: *check_off
     diagrammer-operations: *check_off
+    diagrammer-integration: *manual
 
 modules:
     c:
