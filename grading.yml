@@ -146,7 +146,7 @@ opdrachten:
         fifteen: 1
         python: 1
         hangman: 1
-        adventure: 1
+        # adventure: 1
 
 vragen:
     show_progress: true
