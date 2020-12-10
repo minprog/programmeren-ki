@@ -126,7 +126,7 @@ modules:
 
 calculation:
     eindcijfer:
-        intro: 1
+        intro: 0
         opdrachten: 100
         # vragen: 0
         # retrospectives: 0
