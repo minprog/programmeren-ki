@@ -11,6 +11,8 @@ But your program cannot just print a single pyramid! Instead, the pyramid is *pa
 
 To do this, you programmed a general procedure for printing piramids based on a given height. And now it's your turn do define a parametrized figure and implement it as another program.
 
+Oh and by the way: your figure must be defined for at least sizes 4, 5, 6, 7 and 8. Your program must at least reject non-positive numbers. And the figures may not be hardcoded: all versions of the figure must be defined using the same set of rules.
+
 
 ## Designing your program
 

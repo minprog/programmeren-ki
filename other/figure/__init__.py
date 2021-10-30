@@ -30,11 +30,11 @@ def test0():
 def test_output():
     """handles drawing figures (we think)"""
     with logged_check_factory("./figure") as create_check:
-        create_check().stdin("1").stdout()
-        create_check().stdin("2").stdout()
         create_check().stdin("4").stdout()
+        create_check().stdin("5").stdout()
+        create_check().stdin("6").stdout()
+        create_check().stdin("7").stdout()
         create_check().stdin("8").stdout()
-        create_check().stdin("9").stdout()
 
 @check50.check(compiles)
 def test_reject_foo():
