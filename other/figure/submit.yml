@@ -1,0 +1,8 @@
+name: figure
+files:
+    required:
+        - design.txt
+        - figure.c
+check:
+    tool: check50
+    slug: minprog/programmeren-ki/2021/other/figure
