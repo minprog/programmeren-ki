@@ -1,5 +1,10 @@
 import check50
 import check50.c
+import check50.internal
+import contextlib
+import os
+import sys
+import re
 
 @check50.check()
 def exists():
