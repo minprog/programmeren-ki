@@ -170,15 +170,18 @@ Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangelever
 
 ### Extra opdrachten
 
-Er zijn drie "extra opdrachten" in de cursus. Deze zijn bedoeld voor studenten die zich wat comfortabeler voelen met programmeren en extra uitdaging zoeken. Wil je die inleveren, zorg dan dat je éérst de andere opdrachten maakt en inlevert. Dat zijn namelijk de opdrachten waarvoor je een review doet en die beoordeeld zullen worden.
+Er zijn vier "extra opdrachten" in de cursus. Deze zijn bedoeld voor studenten die zich wat comfortabeler voelen met programmeren en extra uitdaging zoeken. Wil je die inleveren, zorg dan dat je éérst de andere opdrachten maakt en inlevert. Dat zijn namelijk de opdrachten waarvoor je een review doet en die beoordeeld zullen worden.
 
 Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzzels zijn waar je veel van leert. Per extra opdracht kun je een extra punt verdienen voor het onderdeel individuele opdrachten. Maar als je niet genoeg tijd hebt gewoon overslaan! De volgende deadlines gelden:
 
 | extra opdracht | deadline            |
 |--------------- | ------------------: |
+| Figure         | vr  5 nov  17:59    |
 | Credit         | vr 12 nov  17:59    |
 | Crack          | vr 26 nov  17:59    |
 | Fifteen        | vr  3 dec  17:59    |
+
+Deze deadlines voor extra opdrachten zijn 100% strikt. Er worden geen uitzonderingen gegeven om welke reden dan ook.
 
 Het is niet mogelijk om bij de assistenten hulp te krijgen voor de extra opdrachten. Het is aan te raden om te kijken of je er medestudenten bij kunt betrekken en samen de oplossing te ontwerpen voordat je deze zelf gaat implementeren in code.
 
