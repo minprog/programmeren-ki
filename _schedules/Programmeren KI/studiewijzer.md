@@ -211,10 +211,10 @@ ISBN 9780789751980
 
 <details markdown="1"><summary markdown="span">Voor studenten met iets meer ervaring</summary>
 
-Programming in C, Fourth Edition  
-Stephen G. Kochan  
-Pearson Education, 2015  
-ISBN 9780321776419
+Beej's Guide to C Programming  
+Brian "Beej Jorgensen" Hall  
+2021  
+<http://www.beej.us/guide/bgc/html/split/>
 </details>
 
 <details markdown="1"><summary markdown="span">Voor meer uitleg over Python vanaf week 6</summary>
