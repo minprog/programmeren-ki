@@ -1,4 +1,0 @@
-name: mispellings
-files:
-    required:
-        - dictionary.c

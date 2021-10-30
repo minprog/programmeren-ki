@@ -1,4 +1,0 @@
-name: diagrammer-integration
-files:
-    required:
-        - diagrammer.py

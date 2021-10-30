@@ -1,7 +1,0 @@
-name: pymario
-files:
-    required:
-        - mario.py
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/py/mario

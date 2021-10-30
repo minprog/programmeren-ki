@@ -1,8 +1,0 @@
-name: greedy
-files:
-    required:
-        - analysis.pdf
-        - greedy.c
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/greedy

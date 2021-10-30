@@ -1,8 +1,0 @@
-name: mario_less
-files:
-    required:
-        - analysis.pdf
-        - mario.c
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/mario/less

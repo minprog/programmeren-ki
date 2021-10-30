@@ -1,5 +1,0 @@
-name: genetics
-files:
-    required:
-        - dna.py
-        - virus.ipynb

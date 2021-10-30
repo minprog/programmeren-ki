@@ -1,14 +1,14 @@
-long_name: Introductie in Programmeren
+long_name: Programmeren KI
 short_name: ProgKI
 language: nl
 
 links:
-    '[diagram-3] Steps': /steps
+    # '[vector-pen] Reviews': /modules
     '[terminal] IDE': https://ide.cs50.io/
-    '[chat-text] Ed': https://us.edstem.org/courses/2328
     '[book] Manual': https://man.cs50.io/
+    '[people-fill] Afspraak': 'https://balie.mprog.nl/planner/1-programmeerbalie'
 
 acknowledgements:
-    - 'Based on CS50 from https://cs50.harvard.edu/x/2020/ -- Copyright 2011--2020, David J. Malan.'
+    - 'Based on CS50 from https://cs50.harvard.edu/ -- Copyright 2011--2021, David J. Malan.'
 
 license: <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.

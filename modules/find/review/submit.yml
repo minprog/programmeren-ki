@@ -1,4 +1,0 @@
-name: find
-files:
-    required:
-        - helpers.c

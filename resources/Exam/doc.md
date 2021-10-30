@@ -1,3 +1,0 @@
-# Oefententamen
-
-[Link](oefententamen.pdf)

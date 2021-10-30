@@ -1,8 +1,0 @@
-name: initials_more
-files:
-    required:
-        - analysis.pdf
-        - initials.c
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/initials/more

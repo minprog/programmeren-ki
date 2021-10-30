@@ -1,5 +1,0 @@
-name: crypto
-files:
-    required:
-        - caesar.c
-        - vigenere.c

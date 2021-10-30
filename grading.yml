@@ -1,166 +1,221 @@
+# This is a separate section containing a few templates that we will use below.
+# The & feature is built into YAML, it is not a special feature of the website.
+# The section does not need to be called `templates` necessarily.
+
 templates:
-    1: &fullyauto
+    1: &automatic
         type: pass
         subgrades:
-            correctness: integer
+            done: boolean
         automatic:
-            correctness: (correctness_score * 100).floor
-        calculation: -(correctness/100)
+            done: -(correctness_score.floor)
+        calculation: done
         auto_publish: true
         hide_calculated: true
-    3: &manual
+    2: &manual
         type: float
         subgrades:
             points: integer
-            extra: integer
-        calculation: ((points + extra) / 6.0 * 9 + 1).round(1)
+        calculation: (points / 6.0 * 9 + 1).round(1)
         hide_calculated: true
-    4: &test
-        type: pass
-        subgrades:
-            passed: integer
-        calculation: "(passed.abs == 0 ? 0 : -1)"
-        is_test: true
-        hide_calculated: true
-    5: &check_off
+    3: &check
         type: pass
         subgrades:
             done: boolean
         calculation: done
         hide_calculated: true
 
+# GRADES - contains definitions of how grades are structured. The names of the
+# grades match the names of submits that may be defined in `submit.yml`
+# elsewhere, but you can also create grades without an accompanying submit.
+#
+# The following properties are supported:
+#
+# - `type` can be `integer`, `float` or `pass`, which influences presentation
+# and input
+#
+# - `subgrades` defines any extra numbers to be added to a grade, with their
+# types `integer`, `pass`, `boolean` or `float`
+#
+# - note: if any subgrades are defined, teaching assistants are only allowed to
+# enter those, and can't override the grade itself
+#
+# - `calculation` is an expression that is evaluated in the context of the
+# subgrades, which means you can use any subgrade by name in that expression, as
+# well as any standard Ruby objects and syntax
+#
+# - `automatic` is an expression that is evaluated in the context of any
+# automatic grading results (as defined in `submit.yml`) - allowing the use of
+# the variable `correctness_score`. It can only be used to fill in subgrades,
+# but you can then use the `calculation` to transfer the value of a subgrade
+# into the grade.
+#
+# - `hide_calculated` hides the calculated grade, only showing the entered
+# subgrades (to de-emphasize grades for students)
+#
+# - `hide_subgrades` hides the subgrades, for example if you want to do a simple
+# calculation but only show the resulting grade to students
+#
+# You can leave this out if grading isn't used or if each submit simply requires
+# entering a final grade, no subgrades and no calculations.
+
 grades:
-    scratch: *fullyauto
-    hardware: *check_off
+    scratch: *check
+    hello: *automatic
+    population: *automatic
+    mario_less: *automatic
+    cash: *automatic
+    strings: *check
+    scrabble: *automatic
+    readability: *automatic
+    caesar: *automatic
+    functions: *check
+    linear: *check
+    algorithms: *check
+    sort: *automatic
+    find_less: *automatic
+    big_o: *check
+    mario_py: *automatic
+    readability_py: *automatic
+    worldcup: *automatic
+    dna: *automatic
+    kopieer: *manual
+    climate:
+        type: float
+        subgrades:
+            points: float
+        calculation: (points / 6.0 * 9 + 1).round(1)
+        hide_calculated: true
 
-    hello: *fullyauto
-    water: *fullyauto
-    greedy: *fullyauto
-    mario_less: *fullyauto
-    credit: *fullyauto
+    credit: *automatic
+    crack: *automatic
+    fifteen_random: *automatic
 
-    initials_less: *fullyauto
-    caesar: *fullyauto
-    vigenere: *fullyauto
-    crack: *fullyauto
+    basics_variables: *check
+    basics_control_flow: *check
+    basics_arrays: *check
+    basics_functions: *check
 
-    find_less: *fullyauto
-    fifteen_less: *fullyauto
-    fifteen_more: *fullyauto
+    review_1: *manual
+    review_2: *manual
+    review_3: *manual
+    review_4: *manual
+    review_5: *manual
 
-    pymario: *fullyauto
-    readability: *fullyauto
-    dna: *fullyauto
+    retrospective_1: *check
+    retrospective_2: *check
+    retrospective_3: *check
+    retrospective_4: *check
+    retrospective_5: *check
 
-    queue: *fullyauto
-    cards: *fullyauto
-    hangman-less: *fullyauto
-    hangman-more: *fullyauto
+    oefententamen: *check
+    tentamen: *check
 
-    adventure-less: *fullyauto
-    adventure-more: *fullyauto
-
-    c: *manual
-    crypto: *manual
-    fifteen: *manual
-    python: *manual
-    hangman: *manual
-    adventure: *manual
-
-    a-crypto: *check_off
-
-    r-c: *check_off
-    r-crypto: *check_off
-    r-fifteen: *check_off
-    r-python: *check_off
-    r-hangman: *check_off
-    r-adventure: *check_off
-
-    q-python: *check_off
-    q-hangman: *check_off
-    q-adventure: *check_off
-
-    engagement: *check_off
-    screencast: *check_off
-
-    diagrammer-models: *check_off
-    diagrammer-serializer: *check_off
-    diagrammer-operations: *check_off
-    diagrammer-integration: *manual
-
-modules:
-    c:
-        - hello
-        - water
-        - greedy
-        - mario_less
-        - credit
-    crypto:
-        - r-c
-        - initials_less
-        - a-crypto
-        - caesar
-        - vigenere
-        - crack
-    fifteen:
-        - r-crypto
-        - find_less
-        - fifteen_less
-        - fifteen_more
-    python:
-        - r-fifteen
-        - pymario
-        - readability
-        - dna
-        - q-python
-    hangman:
-        - r-python
-        - queue
-        - cards
-        - hangman-less
-        - q-hangman
-    adventure:
-        - r-hangman
-        - adventure-less
-        - q-adventure
+# CALCULATIONS - define the final grades for the course and the weights between
+# subcomponents for each. Often, multiple final grades are differentiated by the
+# choice of grades that are used for the calculation, for example calculating
+# the "normal" final grade based on the "first exam", and the "resit" final
+# grade based on the result of the second exam. Currently, running "calculate
+# final grades" on the website will try to calculate all, which might result in
+# useless non-grades getting calculated.
+#
+# Weights specify proportionally to each other and do not need to add up to
+# anything in particular. If a weight of 0 is specified, the grade is not used
+# in the calculation, but the grade must be "passed" for the calculation to
+# succeed.
+#
+# You can leave this out if the site does not need to perform final grade
+# calculations.
 
 calculation:
     eindcijfer:
-        intro: 0
-        opdrachten: 100
-        # vragen: 0
-        # retrospectives: 0
+        opdrachten: 25
+        basisboek: 0
+        reviews: 75
+        retrospectives: 0
+        tentamens: 0
 
-intro:
-    show_progress: true
-    required: true
-    submits:
-        scratch: 1
-        hardware: 1
+# SUB-CALCULATIONS - define the components of the course that may be used in
+# final grade calculations. A few constraints can be specified.
+#
+# The following properties are supported:
+#
+# `submits` are the names of the grades/submits with accompanying weight for
+# each
+#
+# `show_progress: true` will list the results of the grades in a table on
+# students' progress pages
+#
+# `required: true` will only "pass" this part if all comprising grades are
+# passed (used with pass/fail tests)
+#
+# `minimum: 5.5` will only "pass" this part if the weighed average of the grades
+# is at least the specified minimum
+#
+# You can leave these out if unused in the `calculation` section.
+
+# toets:
+#     # show_progress: true
+#     submits:
+#         takehome: 1
 
 opdrachten:
     show_progress: true
     submits:
-        c: 1
-        crypto: 1
-        fifteen: 1
-        python: 1
-        hangman: 1
-        # adventure: 1
+        scratch: 1
+        hello: 1
+        population: 1
+        mario_less: 1
+        cash: 1
+        strings: 1
+        scrabble: 1
+        readability: 1
+        caesar: 1
+        functions: 1
+        linear: 1
+        # algorithms: 1
+        # sort: 1
+        find_less: 1
+        # big_o: 1
+        credit: :bonus
+        crack: :bonus
+        fifteen_random: :bonus
+        mario_py: 1
+        readability_py: 1
+        worldcup: 1
+        dna: 1
+        # kopieer: 1
 
-vragen:
+basisboek:
     show_progress: true
     submits:
-        q-python: 1
-        q-hangman: 1
-        q-adventure: 1
+        basics_variables: 1
+        basics_control_flow: 1
+        basics_arrays: 1
+        basics_functions: 1
+
+punten:
+    show_progress: true
+    submits:
+        review_1: 1
+        review_2: 1
+        review_3: 1
+        review_4: 1
+        review_5: 1
+        climate: 1
 
 retrospectives:
     show_progress: true
     submits:
-        r-c: 1
-        r-crypto: 1
-        r-fifteen: 1
-        r-python: 1
-        r-hangman: 1
-        r-adventure: 1
+        retrospective_1: 1
+        retrospective_2: 1
+        retrospective_3: 1
+        retrospective_4: 1
+        retrospective_5: 1
+
+tentamens:
+    show_progress: true
+    required: true
+    submits:
+        oefententamen: 0
+        tentamen: 1

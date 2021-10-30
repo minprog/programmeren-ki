@@ -1,0 +1,79 @@
+Welkom:
+    Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
+
+Week 1:
+    Huiswerk op maandag:
+        'Boek: Variabelen [boek]': /exercises/book/variables
+    Tijdens laptopcollege 1:
+        'Hello [zelf, 30 minuten]': /cs50/hello
+        Population [samen, 60 minuten]: /cs50/population
+    Huiswerk rest van de week:
+        Mario [individueel]: /cs50/mario/less
+        'Boek: Control Flow [boek]': /exercises/book/control-flow
+
+Week 2:
+    Werkcollege dinsdag:
+        'Review: Mario': /modules/review-1
+        'Tentamenopdracht': '#'
+    Huiswerk rest van de week:
+        Cash [individueel]: /cs50/cash
+        Credit [extra]: /cs50/credit
+    Voorbereiding:
+        'Videocollege: Arrays': /lectures/arrays
+
+Week 3:
+    Tijdens laptopcollege:
+        Scrabble [samen, 60 minuten]: /cs50/scrabble
+    Werkcollege dinsdag:
+        'Review: Cash': /modules/review-2
+        'Tentamenopdracht': '#'
+    Huiswerk rest van de week:
+        'Oefenen: Strings [zelf, 60 minuten]': /exercises/writing/strings
+        Readability [individueel]: /cs50/readability
+        'Boek: Strings en Arrays [boek]': /exercises/book/arrays
+
+Week 4:
+    Werkcollege dinsdag:
+        'Review: Readability': /modules/review-3
+        'Tentamenopdracht': '#'
+    Huiswerk:
+        'Oefenen: Functies [zelf, 2 uur]': /exercises/writing/functions
+        Caesar [individueel]: /cs50/caesar
+        'Boek: Functies [boek]': /exercises/book/functions
+        Crack [extra]: /cs50/crack
+    Voorbereiding:
+        'Videocollege: Algorithms': /lectures/algorithms
+
+Week 5:
+    Tijdens laptopcollege:
+        'Oefenen: Linear Search [samen, 45 minuten]': /exercises/writing/linear
+        Sort [samen, 45 minuten]: /cs50/sort
+    Werkcollege dinsdag:
+        'Review: Caesar': /modules/review-4
+        'Tentamenopdracht': '#'
+    Huiswerk:
+        Find [individueel]: /cs50/find/less
+        Fifteen [extra]: /cs50/fifteen/random
+    Voorbereiding:
+        'Videocollege: Python': /lectures/python-david
+
+Week 6:
+    Huiswerk:
+        Mario [zelf]: /cs50/py/mario
+        Readability [zelf]: /cs50/py/readability
+    Tijdens laptopcollege:
+        World Cup [samen]: /cs50/worldcup
+    Werkcollege dinsdag:
+        'Review: Find': /modules/review-5
+    Huiswerk:
+        DNA [individueel]: /cs50/dna
+
+Week 7:
+    Werkcollege dinsdag:
+        'Review: DNA': /modules/review-5
+    Huiswerk:
+        'Installeer Jupyter Notebook': /climate/install-local
+        'Oefening: File I/O [zelf]': /climate/io
+        'Climate [individueel]': /climate
+    Voorbereiding:
+        Oefententamen: '#'

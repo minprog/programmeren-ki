@@ -1,8 +1,0 @@
-name: filter_less
-files:
-  required:
-    - analysis.pdf
-    - helpers.c
-check:
-  tool: check50
-  slug: minprog/cs50x/2020/filter/less

@@ -1,9 +1,0 @@
-name: survey
-files:
-    required:
-        - survey.zip
-        - application.py
-        - form.html
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/survey

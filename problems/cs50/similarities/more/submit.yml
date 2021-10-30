@@ -1,9 +1,0 @@
-name: simil-more
-files:
-    required:
-        - helpers.py
-        - index.html
-        - matrix.html
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/similarities/more

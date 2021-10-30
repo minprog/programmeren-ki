@@ -1,8 +1,0 @@
-name: bleep
-files:
-    required:
-        - analysis.pdf
-        - bleep.py
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/bleep

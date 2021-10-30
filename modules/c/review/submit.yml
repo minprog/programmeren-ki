@@ -1,5 +1,0 @@
-name: c
-files:
-    required:
-        - mario.c
-        - greedy.c

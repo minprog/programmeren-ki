@@ -1,4 +1,0 @@
-name: diagrammer-serializer
-files:
-    required:
-        - diagrammer.py

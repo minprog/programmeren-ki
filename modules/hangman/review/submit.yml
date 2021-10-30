@@ -1,6 +1,0 @@
-name: hangman
-files:
-    required:
-        - queue.py
-        - cardgame.py
-        - hangman.py

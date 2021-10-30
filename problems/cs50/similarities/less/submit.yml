@@ -1,8 +1,0 @@
-name: simil-less
-files:
-    required:
-        - index.html
-        - helpers.py
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/similarities/less

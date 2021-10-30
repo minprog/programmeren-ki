@@ -1,5 +1,0 @@
-name: adventure
-files:
-    required:
-        - adventure.py
-        - room.py

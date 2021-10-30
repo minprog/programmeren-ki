@@ -1,5 +1,0 @@
-name: graphics
-files:
-    required:
-        - recover.c
-        - helpers.c
