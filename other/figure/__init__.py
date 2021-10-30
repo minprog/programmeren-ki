@@ -10,7 +10,6 @@ import re
 def exists():
     """figure.c exists"""
     check50.exists("figure.c")
-    check50.include("1.txt", "2.txt", "8.txt")
 
 @check50.check(exists)
 def compiles():
