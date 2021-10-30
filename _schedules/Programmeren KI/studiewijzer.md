@@ -78,6 +78,13 @@ Als jij niet op locatie kunt werken, of je bent ziek en je kunt helemaal niet aa
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
+**Assistentie:** tijdens de laptopcolleges, voor hulp bij programmeren.
+
+- je weet niet waar te beginnen
+- een onvindbare bug, of alles loopt vast
+- moeite met verzinnen oplossing
+- de tijd is beperkt dus moet eerlijk verdeeld worden
+
 **Programmeerbalie:** direct contact met een assistent, voor hulp bij programmeren.
 
 - hulp op locatie (lokaal A1.22) of via een videogesprek
