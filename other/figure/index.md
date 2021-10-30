@@ -7,11 +7,18 @@
 
 In the previous assignment, you have created a "pyramid" on-screen, as derived from Super Mario Bros. 
 
-But your program cannot just print a single pyramid! Instead, the pyramid is *parametrized*. Your program is able to print quite a few pyramids, all differing in height, and consequently also in width.
+But your program cannot just print a single pyramid! Instead, the pyramid is *parametrized*. Your program is able to print quite a few pyramids, all differing in height, and consequently also in width. But the pyramid's **form** is always the same.
 
-To do this, you programmed a general procedure for printing piramids based on a given height. And now it's your turn do define a parametrized figure and implement it as another program.
+To do this, you programmed a general procedure for printing pyramids based on a given height.
 
-Oh and by the way: your figure must be defined for at least sizes 4, 5, 6, 7 and 8. Your program must at least reject non-positive numbers. And the figures may not be hardcoded: all versions of the figure must be defined using the same set of rules.
+And now it is your turn do define a new parametrized figure and implement it as a program. To start, envision a new figure composed of just ASCII characters and define it for various heights.
+
+Here are a few requirements for the assignment:
+
+- The figure must not be a Pyramid, and it mustn't be the same as a figure from lecture.
+- Your figure must be defined for at least heights 4, 5, 6, 7 and 8.
+- Your program must at least reject non-positive numbers.
+- Figures may not be hardcoded: all versions of the figure must be defined using the same set of rules.
 
 
 ## Designing your program
@@ -42,7 +49,7 @@ Execute the below to evaluate the correctness of your code using `check50`. But 
 
     check50 -l minprog/programmeren-ki/2021/other/figure
 
-Check50 cannot check that your figure is printed according to consistent rules, but it will warn you if you have errors or if you do not perform input validation.
+Check50 cannot check that your figure is printed according to consistent rules, but it will warn you if you have errors or if you do not perform input validation. After submitting, your program will be checked visually for adherence to the requirements.
 
 
 ## How to submit
