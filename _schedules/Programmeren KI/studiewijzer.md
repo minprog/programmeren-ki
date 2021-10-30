@@ -53,7 +53,7 @@ Je zit bij dit vak in een team met twaalf à vijftien andere studenten. In het t
 
 Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je ontvangt van je mentor een uitnodiging voor een chatomgeving (Slack) waar je gedurende de week contact kunt onderhouden met je team.
 
-> Let op: een mentor is niet hetzelfde als een tutor. Je tutor is de assistent die jou begeleidt bij de opleiding informatiekunde en die ook werkgroepen academische vaardigheden geeft. Je mentor is de assistent die specifiek voor dit vak werkt.
+> Let op: een mentor is niet hetzelfde als een tutor. Je tutor is de assistent die jou begeleidt bij de opleiding kunstmatige intelligentie en die ook werkgroepen academische vaardigheden geeft. Je mentor is de assistent die specifiek voor dit vak werkt.
 
 Met je mentor heb je elke week een **werkgroep** waar alle teamleden aan deelnemen. Via Slack zal je mentor laten weten wanneer de eerste werkgroep is. Mochten we genoodzaakt zijn online-werkgroepen te houden dan ontvang je van je mentor een Zoom-link. Als je een probleem voorziet met het gebruik van een webcam dan moet je vooraf contact opnemen met de docenten om een oplossing te verzinnen, omdat je anders niet kunt meedoen.
 
