@@ -33,7 +33,7 @@ Write in `design.txt` a couple of examples of the figure that you have in mind. 
 
 As soon as you feel you have a good grasp of what the figure will look like at different heights, try to discover how small you could make the figure that it still looks like the larger versions and is still subject to the same **rules**.
 
-Then, write in `deisgn.txt` some pseudocode that implements this program. Odds are your pseudocode will use (or imply using!) one or more functions, conditions, Boolean expressions, loops, and/or variables.
+Then, write in `design.txt` some pseudocode that implements this program. Odds are your pseudocode will use (or imply using!) one or more functions, conditions, Boolean expressions, loops, and/or variables.
 
 
 ## Implementing
