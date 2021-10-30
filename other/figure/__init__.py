@@ -29,12 +29,12 @@ def test0():
 @check50.check(compiles)
 def test_output():
     """handles drawing figures (we think)"""
-    with logged_check_factory("raden") as create_check:
-        create_check().check50.run("./figure").stdin("1").stdout()
-        create_check().check50.run("./figure").stdin("2").stdout()
-        create_check().check50.run("./figure").stdin("4").stdout()
-        create_check().check50.run("./figure").stdin("8").stdout()
-        create_check().check50.run("./figure").stdin("9").stdout()
+    with logged_check_factory("./figure") as create_check:
+        create_check().stdin("1").stdout()
+        create_check().stdin("2").stdout()
+        create_check().stdin("4").stdout()
+        create_check().stdin("8").stdout()
+        create_check().stdin("9").stdout()
 
 @check50.check(compiles)
 def test_reject_foo():
@@ -84,12 +84,11 @@ class Stream:
         self.entries = []
 
 @contextlib.contextmanager
-def logged_check_factory(*names):
+def logged_check_factory(command):
     """
     A factory of checks that logs everything on stdin/stdout.
     The log is written to the data.output field of check50's json output.
     """
-    command = make_runnable(*names)
     stream = Stream()
 
     def create_check():
