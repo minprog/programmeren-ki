@@ -26,7 +26,7 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
 
 - Beoordeling individuele programmeeropdrachten (75%). Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback. Deze opdrachten doe je alleen, omdat je er een beoordeling voor krijgt. Je kunt wel altijd hulp krijgen van de docenten en assistenten.
 
-    **Cijfer:** Je kunt 7 x 6 punten halen, dus `cijfer = punten / 36 * 9 + 1`.
+    **Cijfer:** Je kunt 7 x 6 punten halen, dus `cijfer = punten / 42 * 9 + 1`.
 
 - Beoordeling tentamen (0%). We checken hier in gecontroleerde omstandigheden je programmeerskills. Het telt niet mee voor je eindcijfer, maar je moet een voldoende halen om het vak af te kunnen ronden.
 
