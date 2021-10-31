@@ -3,14 +3,14 @@ Welkom:
 
 Week 1:
     Huiswerk op maandag:
-        'Boek: Variabelen [boek]': /exercises/book/variables
+        'Basisboek: Variabelen': /exercises/book/variables
     Tijdens laptopcollege 1:
         'Hello [zelf, 30 minuten]': /cs50/hello
         Population [samen, 60 minuten]: /cs50/population
     Huiswerk rest van de week:
         Mario [individueel]: /cs50/mario/less
         Figure [extra]: /other/figure
-        'Boek: Control Flow [boek]': /exercises/book/control-flow
+        'Basisboek: Control Flow': /exercises/book/control-flow
 
 Week 2:
     Werkcollege dinsdag:
@@ -31,7 +31,7 @@ Week 3:
     Huiswerk rest van de week:
         'Oefenen: Strings [zelf, 60 minuten]': /exercises/writing/strings
         Readability [individueel]: /cs50/readability
-        'Boek: Strings en Arrays [boek]': /exercises/book/arrays
+        'Basisboek: Strings en Arrays': /exercises/book/arrays
 
 Week 4:
     Werkcollege dinsdag:
@@ -40,7 +40,7 @@ Week 4:
     Huiswerk:
         'Oefenen: Functies [zelf, 2 uur]': /exercises/writing/functions
         Caesar [individueel]: /cs50/caesar
-        'Boek: Functies [boek]': /exercises/book/functions
+        'Basisboek: Functies': /exercises/book/functions
         Crack [extra]: /cs50/crack
     Voorbereiding:
         'Videocollege: Algorithms': /lectures/algorithms
