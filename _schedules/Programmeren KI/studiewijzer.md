@@ -133,7 +133,7 @@ Dit is een overzicht van de deadlines per week:
 
 | module       | deadline werkend | deadline verbeterd |
 |:-------------|:-----------------|:-------------------|
-| Mario        | vr  7 nov  17:59 | di  9 nov  17:59   |
+| Mario        | vr  5 nov  17:59 | di  9 nov  17:59   |
 | Cash         | vr 12 nov  17:59 | di 16 nov  17:59   |
 | Readability  | vr 19 nov  17:59 | di 23 nov  17:59   |
 | Caesar       | vr 26 nov  17:59 | di 30 nov  17:59   |
