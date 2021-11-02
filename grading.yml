@@ -87,6 +87,7 @@ grades:
         calculation: (points / 6.0 * 9 + 1).round(1)
         hide_calculated: true
 
+    figure: *check
     credit: *automatic
     crack: *automatic
     fifteen_random: *automatic
