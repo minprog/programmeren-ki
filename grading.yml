@@ -162,29 +162,28 @@ calculation:
 opdrachten:
     show_progress: true
     submits:
-        scratch: 1
+        # scratch: 1
         hello: 1
         population: 1
         mario_less: 1
+        figure: :bonus
         cash: 1
+        credit: :bonus
         strings: 1
         scrabble: 1
         readability: 1
         caesar: 1
+        crack: :bonus
         functions: 1
         linear: 1
-        # algorithms: 1
-        # sort: 1
+        sort: 1
         find_less: 1
-        # big_o: 1
-        credit: :bonus
-        crack: :bonus
         fifteen_random: :bonus
         mario_py: 1
         readability_py: 1
         worldcup: 1
         dna: 1
-        # kopieer: 1
+        kopieer: 1
 
 basisboek:
     show_progress: true
@@ -204,18 +203,17 @@ punten:
         review_5: 1
         climate: 1
 
-retrospectives:
-    show_progress: true
-    submits:
-        retrospective_1: 1
-        retrospective_2: 1
-        retrospective_3: 1
-        retrospective_4: 1
-        retrospective_5: 1
+# retrospectives:
+#     show_progress: true
+#     submits:
+#         retrospective_1: 1
+#         retrospective_2: 1
+#         retrospective_3: 1
+#         retrospective_4: 1
+#         retrospective_5: 1
 
-tentamens:
+tentamen:
     show_progress: true
     required: true
     submits:
-        oefententamen: 0
         tentamen: 1
