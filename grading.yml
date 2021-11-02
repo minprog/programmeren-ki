@@ -60,7 +60,7 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
-    scratch: *check
+    # scratch: *check
     hello: *automatic
     population: *automatic
     mario_less: *automatic
@@ -79,7 +79,7 @@ grades:
     readability_py: *automatic
     worldcup: *automatic
     dna: *automatic
-    kopieer: *manual
+    kopieer: *check
     climate:
         type: float
         subgrades:
