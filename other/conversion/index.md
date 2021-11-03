@@ -5,7 +5,7 @@
 
 ## Temperaturen
 
-Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18C + 320) / 10` en andersom `C = (10F - 320) / 18`. Een conversietabel kan er zo uitzien:
+Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18C + 320) / 10` en andersom `C = (10F - 320) / 18`. Een conversietabel kan er als volgt uitzien. Deze is op basis van de temperatuur in Celcius, en loopt van 0° tot en met 20°, in stappen van 5°.
 
 |      C |   F|
 |-------:|---:|
@@ -16,37 +16,26 @@ Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18
 |     20 |  68|
 
 
-## Programma
+## Implementatiedetails
 
-Schrijf een programma dat de gebruiker vraagt om de eenheid van temperatuur, of C van Celsius of F van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapsgrootte. Waarna een nette tabel wordt uitgeprint met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
+Schrijf, in een bestand genaamd `conversion.c` in de directory `~/problems/conversion`, een programma dat de gebruiker vraagt om de eenheid van temperatuur: `C` van Celsius of `F` van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapgrootte. Daarna wordt een nette tabel uitgeprint, met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
 
-Vraag de gebruiker opnieuw om input als er iets anders dan C of F wordt gekozen voor de eenheid van temperatuur. Vraag de gebruiker ook opnieuw om input als er een stapgrootte kleiner dan 1 wordt ingevuld. 
+* Gebruik `get_char` en `get_int` om de gebruikersinvoer op te vragen en `printf` om de tabel te printen.
 
+* Het programma moet ook de kleine letters `c` of `f` accepteren als invoer. Vraag de gebruiker opnieuw om input als er iets anders dan `C` of `F` wordt gekozen, tot de gebruiker een juiste invoer geeft.
 
-## Implementation Details
+* Vraag de gebruiker ook opnieuw om input als de stapgrootte geen positief geheel getal is, tot de gebruiker een juiste invoer geeft.
 
-Implement, in a file called `conversion.c` in a `~/problems/conversion` directory, a program that first asks the user how much change is owed and then prints the minimum number of coins with which that change can be made.
+* Je moet de getallen (en letters) rechts uitlijnen. De functie `printf` kan dit voor je regelen! Gebruik `printf("%3d", getal)` om een willekeurig getal zo te printen dat het 3 ruimtes inneemt. Is het getal bijvoorbeeld 9, dan worden er twee spaties uitgeprint vóór de 9.
 
-*   Use `get_float` to get the user's input and `printf` to output your answer.
+* Zorg dat de uitvoer van je programma *exact* is zoals in de voorbeelden hieronder. Dat maakt automatisch testen mogelijk, maar daagt je ook uit om geen shortcuts te nemen.
 
-*   You need not try to check whether a user's input is too large to fit in a `float`. Using `get_float` alone will ensure that the user's input is indeed a floating-point (or integral) value but not that it is non-negative.
-
-*   If the user fails to provide a value of at least 0.01 grams, your program should re-prompt the user for a valid amount again and again until the user complies.
-
-*   So that we can automate some tests of your code, be sure that your program's output is exactly as specified in the examples, below. Don't forget to add `\n` after each line of output!
-
-*   Beware the inherent imprecision of floating-point values. Recall `floats.c` from class, wherein, if `x` is `2`, and `y` is `10`, `x / y` is not precisely two tenths! And so, before doing calculations, you'll probably want to convert the user's inputted amount in grams to milligrams to avoid tiny errors that might otherwise add up!
-
-    *   To do this, multiply the input amount by 1000 to get the number of milligrams. Take care to use `round()` to round your answer.
-    
-    *   And then save the number of milligrams in a variable of type `int`.
-
-To get started, read through the examples below, then watch the Walkthrough and finally follow the instructions under the Getting Started header.
+Om te starten met de opdracht bekijk je eerst de voorbeelden hieronder en dan volg je de instructies onder het kopje Getting Started.
 
 
-## Examples
+## Voorbeelden
 
-Ultimately, your program should behave per the examples below.
+Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ ./conversion
     Welke eenheid van temperatuur (C of F)? C
@@ -96,49 +85,40 @@ Ultimately, your program should behave per the examples below.
       9 | -12
 
 
-
-
-
-
-## Walkthrough
-
-TBD
-
-> Tip: zo print je een waarde uit met een vaste lengte `printf("%3d", getal)`. Is `getal` hier bijvoorbeeld `9`, dan worden er twee spaties uitgeprint voor de `9` om zo toch de opgegeven lengte 3 te krijgen.
-
-
-
 ## Getting Started
 
-First, create a new directory (i.e., folder) called `conversion` inside of your `problems` directory, by executing
+*   Maak de directory `~/problems/conversion` (Weet je nog hoe? Kijk anders bij Mario.)
 
-    ~/ $ mkdir ~/problems/conversion
+*   Maak een bestand `pseudocode.txt` in die directory, om je programma in stappen op te delen en die stappen ook weer op te delen. Begin hiermee:
 
-To start, you'll create a file called `pseudocode.txt` to help you analyze the problem. You will submit this analysis together with the final implementation in C.
+        * Invoer
+            * Celcius of Fahrenheit (geldige invoer: c/C/f/F)
+            * Begintemp (geldige invoer: ...)
+            * Eindtemp (geldige invoer: ...)
+            * Stap (geldige invoer: ...)
+        * Uitvoer
+            * Optie 1:
+                * Stap 1 van optie 1...
+            * Optie 2:
+                * Stap 1 van optie 2...
 
-Write in `pseudocode.txt` some pseudocode that implements this program, even if not (yet!) sure how to write it in code. There's no one right way to write pseudocode, but short English sentences suffice. Recall how we wrote pseudocode for finding Mike Smith! Odds are your pseudocode will use (or imply using!) one or more functions, conditions, Boolean expressions, loops, and/or variables.
+    Zorg dat je alle ontbrekende stappen zo precies mogelijk invult. Bespreek de pseudocode eventueel met een assistent en kijk of je nog iets mist.
 
 
-### How to Test Your Code
+### Hoe testen
 
-Does your code work as prescribed when you input
+Geeft je code de juiste output voor de verschillende combinaties van invoer die mogelijk zijn? En hou je ook goed rekening met foutieve invoer?
 
-*   `-1.00` (or other negative numbers)?
-*   `0.00`?
-*   `0.01` (or other positive numbers)?
-*   letters or words?
-*   no input at all, when you only hit Enter?
-
-You can also execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
+Je kunt ook het volgende commando geven in de Terminal om de correctheid van je programma na te gaan. Zorg dat je altijd zelf ook compileert, fouten oplost en handmatig test, want deze tool is bij volgende vakken niet beschikbaar!
 
     check50 -l minprog/programmeren-ki/2021/conversion
 
-Execute the below to evaluate the style of your code using `style50`.
+En je kunt alvast de stijl van je programma laten controleren op een paar aspecten die vaak misgaan. Die kun je dan verbeteren, maar dit is niet verplicht voor het inleveren van de opdracht.
 
     style50 conversion.c
 
 
-## How to submit
+## Hoe submitten
 
 As soon as you're done, submit your `conversion.c` implementation, below! 
 
