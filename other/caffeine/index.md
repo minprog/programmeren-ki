@@ -29,7 +29,7 @@ Your program will be based on four types of beverages, for which the (average, r
 | green tea    |    20 mg |
 | cocoa        |    10 mg |
 
-
+Like returning change, the caffeine problem is also easiest to solve in a greedy fashion. That means that to make a list of beverages to drink, you always start by selecting the beverage with the highest caffeine amount (that is still less than the amount required). And then repeat.
 
 
 ## Implementation Details
