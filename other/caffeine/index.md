@@ -42,7 +42,7 @@ Like returning change, the caffeine problem is easiest to solve in a greedy fash
 
 **Before you start coding, write some pseudocode to design your approach. Read this section, peruse the examples below, and then follow the instructions in the Getting Started section.**
 
-Implement, in a file called `caffeine.c` in a `~/problems/caffeine` directory, a program that first asks the user how much change is owed and then prints the minimum number of coins with which that change can be made.
+Implement, in a file called `caffeine.c` in a `~/problems/caffeine` directory, a program that first asks the user how much caffeine is required and then prints the list of drinks to take, and the total number of drinks that is in the list.
 
 *   Use `get_float` to get the user's input and `printf` to output your answer.
 
