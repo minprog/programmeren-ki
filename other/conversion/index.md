@@ -30,7 +30,7 @@ Schrijf, in een bestand genaamd `conversion.c` in de directory `~/problems/conve
 
 * Zorg dat de uitvoer van je programma *exact* is zoals in de voorbeelden hieronder. Dat maakt automatisch testen mogelijk, maar daagt je ook uit om geen shortcuts te nemen.
 
-Om te starten met de opdracht bekijk je eerst de voorbeelden hieronder en dan volg je de instructies onder het kopje Getting Started.
+**Je moet als eerste pseudocode gaan schrijven.** Bekijk daarom nu de voorbeelden hieronder en volg dan de instructies onder het kopje Getting Started.
 
 
 ## Voorbeelden
