@@ -1,6 +1,6 @@
 # Temperatuurtabellen
 
-> Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+> Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, maar ze mogen niks voorzeggen en zeker niet hun pseudocode of uitwerking laten zien. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
 
 
 ## Temperaturen
@@ -102,12 +102,12 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
             * Optie 2:
                 * Stap 1 van optie 2...
 
-    Zorg dat je alle ontbrekende stappen zo precies mogelijk invult. Bespreek de pseudocode eventueel met een assistent en kijk of je nog iets mist.
+    Zorg dat je alle stappen zo precies mogelijk invult en ontbrekende stappen erbij zet. Vul ook in wat geldige waarden zijn voor elke invoer. Bespreek de pseudocode eventueel met een assistent en kijk of je nog iets mist.
 
 
-### Hoe testen
+## Hoe testen
 
-Geeft je code de juiste output voor de verschillende combinaties van invoer die mogelijk zijn? En hou je ook goed rekening met foutieve invoer?
+Klaar? Geeft je code de juiste output voor de verschillende combinaties van invoer die mogelijk zijn? En hou je ook goed rekening met foutieve invoer? Als je denkt dat je klaar bent, dan zijn dat de eerste dingen om te checken.
 
 Je kunt ook het volgende commando geven in de Terminal om de correctheid van je programma na te gaan. Zorg dat je altijd zelf ook compileert, fouten oplost en handmatig test, want deze tool is bij volgende vakken niet beschikbaar!
 
