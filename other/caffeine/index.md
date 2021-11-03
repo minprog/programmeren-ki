@@ -67,26 +67,19 @@ Ultimately, your program should behave per the examples below.
     Amount in grams: 0.10
     1 espresso
     1 black tea
+    That makes 2 drinks in total
 
     $ ./caffeine
     Amount in grams: 0.01
     1 cocoa
-
-If the amount of caffeine is worth more than 2 cups of coffee (140 mg), an additional warning is displayed.
+    That makes 1 drink in total
 
     $ ./caffeine
     Amount in grams: 0.25
     3 espresso
     1 black tea
     1 cocoa
-    Warning! This might not be a healthy amount to consume.
-
-    $ ./caffeine
-    Amount in grams: 0.40
-    5 espresso
-    1 black tea
-    1 green tea
-    Warning! This might not be a healthy amount to consume.
+    That makes 5 drinks in total
 
 And if an amount less than 0.01 is entered, the program should ask again.
 
@@ -95,6 +88,7 @@ And if an amount less than 0.01 is entered, the program should ask again.
     Amount in grams: -1.0
     Amount in grams: 0.01
     1 cocoa
+    That makes 1 drink in total
 
 
 ## Getting Started
