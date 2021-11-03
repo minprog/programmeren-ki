@@ -1,0 +1,8 @@
+name: rna
+files:
+    required:
+        - pseudocode.txt
+        - rna.c
+check:
+    tool: check50
+    slug: minprog/programmeren-ki/2021/rna
