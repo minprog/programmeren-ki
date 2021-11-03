@@ -17,7 +17,8 @@ Week 2:
         'Review: Mario': /modules/review-1
         'Tentamenopdracht': '#'
     Huiswerk rest van de week:
-        Cash [individueel]: /cs50/cash
+        Temperatuurtabellen [individueel]: /other/conversion
+        Caffeine [individueel]: /other/caffeine
         Credit [extra]: /cs50/credit
     Voorbereiding:
         'Videocollege: Arrays': /lectures/arrays
@@ -26,16 +27,17 @@ Week 3:
     Tijdens laptopcollege:
         Scrabble [samen, 60 minuten]: /cs50/scrabble
     Werkcollege dinsdag:
-        'Review: Cash': /modules/review-2
+        'Review: Caffeine & Credit': /modules/review-2
         'Tentamenopdracht': '#'
     Huiswerk rest van de week:
         'Oefenen: Strings [zelf, 60 minuten]': /exercises/writing/strings
-        Readability [individueel]: /cs50/readability
+        RNA [individueel]: /other/rna
+        Cypher [individueel]: /other/cypher
         'Basisboek: Strings en Arrays': /exercises/book/arrays
 
 Week 4:
     Werkcollege dinsdag:
-        'Review: Readability': /modules/review-3
+        'Review: RNA & Cypher': /modules/review-3
         'Tentamenopdracht': '#'
     Huiswerk:
         'Oefenen: Functies [zelf, 2 uur]': /exercises/writing/functions
