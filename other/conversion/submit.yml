@@ -5,4 +5,4 @@ files:
         - conversion.c
 check:
     tool: check50
-    slug: minprog/programmeren-ki/2021/conversion
+    slug: minprog/programmeren-ki/2021/other/conversion

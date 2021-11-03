@@ -118,7 +118,7 @@ Does your code work as prescribed when you input
 
 You can also execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
 
-    check50 -l minprog/programmeren-ki/2021/caffeine
+    check50 -l minprog/programmeren-ki/2021/other/caffeine
 
 Execute the below to evaluate the style of your code using `style50`.
 

@@ -110,7 +110,7 @@ Klaar? Geeft je code de juiste output voor de verschillende combinaties van invo
 
 Je kunt ook het volgende commando geven in de Terminal om de correctheid van je programma na te gaan. Zorg dat je altijd zelf ook compileert, fouten oplost en handmatig test, want deze tool is bij volgende vakken niet beschikbaar!
 
-    check50 -l minprog/programmeren-ki/2021/conversion
+    check50 -l minprog/programmeren-ki/2021/other/conversion
 
 En je kunt alvast de stijl van je programma laten controleren op een paar aspecten die vaak misgaan. Die kun je dan verbeteren, maar dit is niet verplicht voor het inleveren van de opdracht.
 

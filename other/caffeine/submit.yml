@@ -5,4 +5,4 @@ files:
         - caffeine.c
 check:
     tool: check50
-    slug: minprog/programmeren-ki/2021/caffeine
+    slug: minprog/programmeren-ki/2021/other/caffeine
