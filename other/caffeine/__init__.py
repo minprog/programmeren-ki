@@ -23,7 +23,7 @@ def test010():
 @check50.check(compiles)
 def test001():
     """input of 0.01 yields output of 1 drink"""
-    check50.run("./caffeine").stdin("0.01").stdout("1 drink", "1\n").exit(0)
+    check50.run("./caffeine").stdin("0.01").stdout("1 drink ", "1\n").exit(0)
 
 
 @check50.check(compiles)
