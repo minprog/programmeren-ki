@@ -44,18 +44,6 @@ def testF193():
 
 
 @check50.check(compiles)
-def test_reject_incorrect_unit():
-    """rejects incorrect unit"""
-    check50.run("./conversion").stdin("v").reject()
-
-
-@check50.check(compiles)
-def test_reject_negative():
-    """rejects a negative input like -1 for starting temperature"""
-    check50.run("./conversion").stdin("F").stdin("-1").reject()
-
-
-@check50.check(compiles)
 def testF093_after_negative():
     """input of v, F, 0, 9, -3, 0, 3 yields a well-formatted table"""
     correct = open("F093.txt").read()
