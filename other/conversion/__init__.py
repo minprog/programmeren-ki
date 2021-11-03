@@ -19,7 +19,7 @@ def compiles():
 def testC0205():
     """input of C, 0, 20, 5 yields a well-formatted table"""
     correct = open("C0205.txt").read()
-    check50.run("./conversion").stdin("C").stdin("0").stdin("20").stdin("5").stdout(correct).exit(0)
+    check50.run("./conversion").stdin("C").stdin("0").stdin("20").stdin("5").stdout(correct, "table", False).exit(0)
 
 
 
