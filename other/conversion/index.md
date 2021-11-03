@@ -70,7 +70,6 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
       F |   C
 
      $ ./conversion 
-    Welke eenheid van temperatuur (C of F)? c
     Welke eenheid van temperatuur (C of F)? v
     Welke eenheid van temperatuur (C of F)? F
     Wat is de begintemperatuur? 0
