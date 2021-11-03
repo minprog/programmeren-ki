@@ -6,7 +6,7 @@ import check50.c
 def exists():
     """conversion.c exists"""
     check50.exists("conversion.c")
-    check50.include("C0205.txt")
+    check50.include("C0205.txt", "F0102.txt", "F10003.txt", "F193.txt", "F093.txt")
 
 
 @check50.check(exists)
