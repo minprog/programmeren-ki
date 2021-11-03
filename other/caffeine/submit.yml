@@ -1,8 +1,8 @@
-name: cash
+name: caffeine
 files:
     required:
         - pseudocode.txt
-        - cash.c
+        - caffeine.c
 check:
     tool: check50
-    slug: minprog/cs50x/2020/cash
+    slug: minprog/programmeren-ki/2021/caffeine
