@@ -18,19 +18,19 @@ Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18
 
 ## Implementatiedetails
 
+**Voordat je gaat programmeren ga je pseudocode schrijven. Lees onderstaande details, bekijk de voorbeelden hieronder, en volg dan de instructies onder het kopje Getting Started.**
+
 Schrijf, in een bestand genaamd `conversion.c` in de directory `~/problems/conversion`, een programma dat de gebruiker vraagt om de eenheid van temperatuur: `C` van Celsius of `F` van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapgrootte. Daarna wordt een nette tabel uitgeprint, met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
 
 * Gebruik `get_char` en `get_int` om de gebruikersinvoer op te vragen en `printf` om de tabel te printen.
 
-* Het programma moet ook de kleine letters `c` of `f` accepteren als invoer. Vraag de gebruiker opnieuw om input als er iets anders dan `C` of `F` wordt gekozen, tot de gebruiker een juiste invoer geeft.
+* Het programma moet ook de kleine letters `c` of `f` accepteren als invoer. Vraag de gebruiker opnieuw om input als er iets anders dan `C` of `F` wordt gekozen, tot de gebruiker een juiste invoer geeft. Weet je nog welke loop het beste past bij deze situatie?
 
 * Vraag de gebruiker ook opnieuw om input als de stapgrootte geen positief geheel getal is, tot de gebruiker een juiste invoer geeft.
 
 * Je moet de getallen (en letters) rechts uitlijnen. De functie `printf` kan dit voor je regelen! Gebruik `printf("%3d", getal)` om een willekeurig getal zo te printen dat het 3 ruimtes inneemt. Is het getal bijvoorbeeld 9, dan worden er twee spaties uitgeprint vóór de 9.
 
 * Zorg dat de uitvoer van je programma *exact* is zoals in de voorbeelden hieronder. Dat maakt automatisch testen mogelijk, maar daagt je ook uit om geen shortcuts te nemen.
-
-**Je moet als eerste pseudocode gaan schrijven.** Bekijk daarom nu de voorbeelden hieronder en volg dan de instructies onder het kopje Getting Started.
 
 
 ## Voorbeelden
