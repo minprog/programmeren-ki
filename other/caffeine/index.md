@@ -28,12 +28,13 @@ You're going to write a program that takes as input the number of grams of caffe
 
 Your program will be based on four types of beverages, for which the (rough, average, and rounded) caffeine amounts are listed in the following table. The amounts are for a normal portion of each drink and are specified in milligrams.
 
-| drink        | caffeine |
-| ------------ | -------: |
-| espresso     |    70 mg |
-| black tea    |    30 mg |
-| green tea    |    20 mg |
-| cocoa        |    10 mg |
+| drink                | caffeine |
+| -------------------- | -------: |
+| espresso             |    70 mg |
+| black tea            |    30 mg |
+| green tea            |    20 mg |
+| cocoa                |    10 mg |
+| piece of chocolate   |     1 mg |
 
 Like returning change, the caffeine problem is easiest to solve in a greedy fashion. That means that to make a list of beverages to drink, you always start by selecting the beverage with the highest caffeine amount (that is still less than the amount required). And then repeat.
 
@@ -81,7 +82,7 @@ Ultimately, your program should behave per the examples below.
     1 cocoa
     That makes 5 drinks in total
 
-And if an amount less than 0.01 is entered, the program should ask again.
+And if an amount of 0 or less is entered, the program should ask again.
 
     $ ./caffeine
     Amount in grams: 0.005

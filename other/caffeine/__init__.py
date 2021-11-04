@@ -32,17 +32,17 @@ def test025():
     check50.run("./caffeine").stdin("0.25").stdout(number(3), "3\n").stdout(number(1), "1\n").stdout(number(1), "1\n").stdout(number(5), "5\n").exit(0)
 
 
-# @check50.check(compiles)
-# def test420():
-#     """input of 4.2 yields output of 18"""
-#     from re import search
-#     expected = "18\n"
-#     actual = check50.run("./caffeine").stdin("4.2").stdout()
-#     if not search(number(18), actual):
-#         help = None
-#         if search(number(22), actual):
-#             help = "did you forget to round your input to the nearest cent?"
-#         raise check50.Mismatch(expected, actual, help=help)
+@check50.check(compiles)
+def test0251():
+    """input of 0.251 yields output of 6 drinks"""
+    from re import search
+    expected = "6 drinks"
+    actual = check50.run("./caffeine").stdin("0.251").stdout()
+    if not search(number(6), actual):
+        help = None
+        if search(number(5), actual):
+            help = "did you forget to round your input to the nearest milligram?"
+        raise check50.Mismatch(expected, actual, help=help)
 
 
 @check50.check(compiles)
