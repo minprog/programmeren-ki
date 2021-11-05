@@ -167,12 +167,12 @@ Er zijn vier "extra opdrachten" in de cursus. Deze zijn bedoeld voor studenten d
 
 Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzzels zijn waar je veel van leert. Per extra opdracht kun je een extra punt verdienen voor het onderdeel individuele opdrachten. Maar als je niet genoeg tijd hebt gewoon overslaan! De volgende deadlines gelden:
 
-| extra opdracht | deadline            |
-|--------------- | ------------------: |
-| Figure         | vr  5 nov  17:59    |
-| Credit         | vr 12 nov  17:59    |
-| Crack          | vr 26 nov  17:59    |
-| Fifteen        | vr  3 dec  17:59    |
+| extra opdracht  | deadline            |
+|---------------- | ------------------: |
+| Figure          | vr  5 nov  17:59    |
+| Goldbach        | vr 12 nov  17:59    |
+| nog niet bekend | vr 26 nov  17:59    |
+| nog niet bekend | vr  3 dec  17:59    |
 
 Deze deadlines voor extra opdrachten zijn 100% strikt. Er worden geen uitzonderingen gegeven om welke reden dan ook.
 
