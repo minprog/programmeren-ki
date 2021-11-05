@@ -40,16 +40,8 @@ def test025():
 
 @check50.check(compiles)
 def test0251():
-    """input of 0.251 yields output of 5 drinks"""
-    from re import search
-    expected = "5 drinks"
-    actual = check50.run("./caffeine").stdin("0.251").stdout()
-    if not search(number(5), actual):
-        help = None
-        if search(number(4), actual):
-            help = "did you forget to round your input to the nearest milligram?"
-        raise check50.Mismatch(expected, actual, help=help)
-
+    """input of 0.251 yields, among other things, a piece of chocolate"""
+    check50.run("./caffeine").stdin("0.251").stdout(number(3), "3\n").stdout(number(1), "1\n").stdout(number(1), "1\n").stdout(number(1), "1\n").stdout(number(5), "5\n").exit(0)
 
 @check50.check(compiles)
 def test_reject_negative():
