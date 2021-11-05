@@ -23,13 +23,13 @@ def test010():
 @check50.check(compiles)
 def test001():
     """input of 0.01 yields output of 1 drink"""
-    check50.run("./caffeine").stdin("0.01").stdout("1 drink ", "1 drink").exit(0)
+    check50.run("./caffeine").stdin("0.01").stdout("1 drink ", "That makes 1 drink in total").exit(0)
 
 
 @check50.check(compiles)
 def test0001():
     """input of 0.001 yields output of 0 drinks"""
-    check50.run("./caffeine").stdin("0.001").stdout("0 drinks ", "0 drinks").exit(0)
+    check50.run("./caffeine").stdin("0.001").stdout("0 drinks ", "That makes 0 drinks in total").exit(0)
 
 
 @check50.check(compiles)
@@ -40,13 +40,13 @@ def test025():
 
 @check50.check(compiles)
 def test0251():
-    """input of 0.251 yields output of 6 drinks"""
+    """input of 0.251 yields output of 5 drinks"""
     from re import search
     expected = "5 drinks"
     actual = check50.run("./caffeine").stdin("0.251").stdout()
-    if not search(number(6), actual):
+    if not search(number(5), actual):
         help = None
-        if search(number(5), actual):
+        if search(number(4), actual):
             help = "did you forget to round your input to the nearest milligram?"
         raise check50.Mismatch(expected, actual, help=help)
 
