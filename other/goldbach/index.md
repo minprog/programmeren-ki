@@ -40,7 +40,7 @@ Laat met een programma **goldbach.c** zien dat alle even getallen tot 1000 inder
 
 You can execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
 
-    check50 -l minprog/programmeren-ki/2021/other/caffeine
+    check50 wordt nog bekend gemaakt
 
 Om te kijken of je programma sneller wordt als je optimalisaties uitvoert, kun je de verwerkingstijd meten (lees de `real` time af in seconden):
 

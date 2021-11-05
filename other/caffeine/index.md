@@ -62,7 +62,7 @@ Implement, in a file called `caffeine.c` in a `~/problems/caffeine` directory, a
 
 ## Examples
 
-Ultimately, your program should behave per the examples below.
+Ultimately, your program should behave per the examples below. Notice the `drink`/`drinks` pluralization in the last line of output!
 
     $ ./caffeine
     Amount in grams: 0.10
@@ -85,11 +85,17 @@ Ultimately, your program should behave per the examples below.
 And if an amount of 0 or less is entered, the program should ask again.
 
     $ ./caffeine
-    Amount in grams: 0.005
     Amount in grams: -1.0
     Amount in grams: 0.01
     1 cocoa
     That makes 1 drink in total
+
+Pieces of chocolate do not count for the total number of drinks.
+
+    $ ./caffeine
+    Amount in grams: 0.001
+    1 piece of chocolate
+    That makes 0 drinks in total
 
 
 ## Getting Started
@@ -113,7 +119,7 @@ Does your code work as prescribed when you input
 
 *   `-1.00` (or other negative numbers)?
 *   `0.00`?
-*   `0.01` (or other positive numbers)?
+*   `0.001` (or other positive numbers)?
 *   letters or words?
 *   no input at all, when you only hit Enter?
 
