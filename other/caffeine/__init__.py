@@ -27,6 +27,12 @@ def test001():
 
 
 @check50.check(compiles)
+def test0001():
+    """input of 0.001 yields output of 0 drinks"""
+    check50.run("./caffeine").stdin("0.01").stdout("0 drinks ", "0 drinks").exit(0)
+
+
+@check50.check(compiles)
 def test025():
     """input of 0.25 yields output of 5 drinks"""
     check50.run("./caffeine").stdin("0.25").stdout(number(3), "3\n").stdout(number(1), "1\n").stdout(number(1), "1\n").stdout(number(5), "5\n").exit(0)
@@ -36,7 +42,7 @@ def test025():
 def test0251():
     """input of 0.251 yields output of 6 drinks"""
     from re import search
-    expected = "6 drinks"
+    expected = "5 drinks"
     actual = check50.run("./caffeine").stdin("0.251").stdout()
     if not search(number(6), actual):
         help = None
