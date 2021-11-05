@@ -51,11 +51,11 @@ Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je b
 
 Je zit bij dit vak in een team met twaalf à vijftien andere studenten. In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De **teamindeling** wordt na de eerste week bekend gemaakt.
 
-Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je ontvangt van je mentor een uitnodiging voor een chatomgeving (Slack) waar je gedurende de week contact kunt onderhouden met je team.
+Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan je helpen om vragen over de organisatie van het vak te beantwoorden, bijvoorbeeld door mee te kijken in deze studiewijzer.
 
 > Let op: een mentor is niet hetzelfde als een tutor. Je tutor is de assistent die jou begeleidt bij de opleiding kunstmatige intelligentie en die ook werkgroepen academische vaardigheden geeft. Je mentor is de assistent die specifiek voor dit vak werkt.
 
-Met je mentor heb je elke week een **werkgroep** waar alle teamleden aan deelnemen. Via Slack zal je mentor laten weten wanneer de eerste werkgroep is. Mochten we genoodzaakt zijn online-werkgroepen te houden dan ontvang je van je mentor een Zoom-link. Als je een probleem voorziet met het gebruik van een webcam dan moet je vooraf contact opnemen met de docenten om een oplossing te verzinnen, omdat je anders niet kunt meedoen.
+Met je mentor heb je elke week een **werkgroep** waar alle teamleden aan deelnemen. Deze vindt bijna altijd plaats tijdens het laptopcollege op dinsdag.
 
 
 ## Aanwezigheid
@@ -92,13 +92,6 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar, vooraf afspraak maken via [afsprakensysteem](https://balie.mprog.nl/planner/1-programmeerbalie)
 - beperkt ruimte voor inloop bij urgente vragen
-
-**Slack:** direct contact met je team.
-
-- onderlinge support
-- snelle vragen over deadlines, contact met samenwerkpartner
-- mentor doet mededelingen en is bereikbaar voor ziekmeldingen
-- je mentor is alleen beschikbaar tijdens beperkte werktijden
 
 **Spreekuur en e-mail:** contact met de docenten.
 
@@ -143,13 +136,13 @@ Dit is een overzicht van de deadlines per week:
 
 ### Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via een berichtje op Slack. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+Als je ziek bent dan meld je het in ieder geval meteen even aan via een mail naar **<mailto:progki@mprog.nl>**. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en haal je deze opdracht tijdens het weekend in. Dit mag alleen als je de andere opdrachten al hebt ingeleverd.
+- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan de docenten via een mail naar bovenstaand adres. Je doet dit natuurlijk vóór de deadline en niet pas daarna.
 
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dat meld je dit zo snel mogelijk via een mail. Naderhand bespreek je met een docent of je achterstand nog in te halen is, en hoe. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
 
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:progik@mprog.nl)!
+- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een mailtje!
 
 
 ## Opdrachtcijfers
@@ -311,7 +304,7 @@ De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronv
 
 ## Herkansingen
 
-Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met je mentor als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de docenten spreken je graag met je als je advies nodig hebt.
+Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met de docenten als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de docenten spreken je graag met je als je advies nodig hebt.
 
 <details markdown="1"><summary markdown="span">Ik heb alles werkend, maar sta een onvoldoende en wil herkansen</summary>
 
