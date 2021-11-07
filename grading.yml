@@ -60,25 +60,42 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
-    # scratch: *check
+
+    # week 1
     hello: *automatic
     population: *automatic
     mario_less: *automatic
-    cash: *automatic
-    strings: *check
+    figure: *check
+
+    # week 2
+    conversion: *automatic
+    caffeine: *automatic
+    goldbach: *check
+
+    # week 3:
     scrabble: *automatic
-    readability: *automatic
-    caesar: *automatic
+    rna: *automatic
+    cypher: *automatic
+    # ???: *check
+    strings: *check
+
+    # week 4:
     functions: *check
+
+    # week 5:
     linear: *check
     algorithms: *check
     sort: *automatic
     find_less: *automatic
     big_o: *check
+
+    # week 6:
     mario_py: *automatic
     readability_py: *automatic
     worldcup: *automatic
     dna: *automatic
+
+    # week 7:
     kopieer: *check
     climate:
         type: float
@@ -86,11 +103,6 @@ grades:
             points: float
         calculation: (points / 6.0 * 9 + 1).round(1)
         hide_calculated: true
-
-    figure: *check
-    credit: *automatic
-    crack: *automatic
-    fifteen_random: *automatic
 
     basics_variables: *check
     basics_control_flow: *check
@@ -163,18 +175,21 @@ calculation:
 opdrachten:
     show_progress: true
     submits:
-        # scratch: 1
         hello: 1
         population: 1
         mario_less: 1
         figure: :bonus
-        cash: 1
-        credit: :bonus
+
+        conversion: 1
+        caffeine: 1
+        goldbach: 1
+
         strings: 1
         scrabble: 1
-        readability: 1
-        caesar: 1
+        rna: 1
+        cypher: 1
         crack: :bonus
+
         functions: 1
         linear: 1
         sort: 1
