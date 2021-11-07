@@ -188,13 +188,13 @@ opdrachten:
         scrabble: 1
         rna: 1
         cypher: 1
-        crack: :bonus
+        # crack: :bonus
 
         functions: 1
         linear: 1
         sort: 1
         find_less: 1
-        fifteen_random: :bonus
+        # fifteen_random: :bonus
         mario_py: 1
         readability_py: 1
         worldcup: 1
