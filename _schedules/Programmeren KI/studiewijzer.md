@@ -122,17 +122,17 @@ Voor de opdrachten zijn er steeds twee uiterste deadlines:
 
 2. De deadline voor de **verbeterde** versie van je uitwerking. Tijdens de werkgroep zul je een code review doen met een medestudent, op basis waarvan je je uitwerking helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
 
-Dit is een overzicht van de deadlines per week:
+Dit is een overzicht van de deadlines per week. Op de deadline "werkend" moet je alle opdrachten van de week hebben ingeleverd.
 
 | module       | deadline werkend | deadline verbeterd |
 |:-------------|:-----------------|:-------------------|
-| Mario        | vr  5 nov  17:59 | di  9 nov  17:59   |
-| Cash         | vr 12 nov  17:59 | di 16 nov  17:59   |
-| Readability  | vr 19 nov  17:59 | di 23 nov  17:59   |
-| Caesar       | vr 26 nov  17:59 | di 30 nov  17:59   |
-| Find         | vr  3 dec  17:59 | di  7 dec  17:59   |
-| DNA          | vr 10 dec  17:59 | di 14 dec  17:59   |
-| Climate      | vr 17 dec  17:59 | -                  |
+| Week 1       | vr  5 nov  17:59 | di  9 nov  17:59   |
+| Week 2       | vr 12 nov  17:59 | di 16 nov  17:59   |
+| Week 3       | vr 19 nov  17:59 | di 23 nov  17:59   |
+| Week 4       | vr 26 nov  17:59 | di 30 nov  17:59   |
+| Week 5       | vr  3 dec  17:59 | di  7 dec  17:59   |
+| Week 6       | vr 10 dec  17:59 | di 14 dec  17:59   |
+| Week 7       | vr 17 dec  17:59 | -                  |
 
 ### Ziekte en inhalen
 
