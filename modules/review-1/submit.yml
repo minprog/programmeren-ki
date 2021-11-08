@@ -2,4 +2,3 @@ name: review_1
 files:
     required:
         - mario.c
-        - cash.c
