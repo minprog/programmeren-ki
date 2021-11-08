@@ -18,17 +18,17 @@ You will only review the mandatory assignments for this module. The extra assign
     - [Formatting](/quality/aspects/formatting)
     - [Comments](/quality/aspects/comments)
 
-3.  Then, you should sit next to your assigned partner. You will take turns as reviewer.
+3.  Then, you should sit next to your assigned partner. You will take turns as reviewer. Generally, one person talks, the other listens.
 
     -   Participant #1 gets access to participant #2's computer.
     
     -   Participant #2 will think aloud while trying to understand the code, and ask questions about what they do not understand.
     
-    -   Participant #2 should focus on listening and making notes, but may answer any questions.
+    -   Participant #2 focuses on listening and making notes, but may answer any questions.
     
     -   Participant #1 can also provide concrete advice if they feel that this is useful. Participant #2 freely decides what to do with this advice.
 
-    -   When done (after about 10 minutes), switch roles.
+    -   When done (after about 10 minutes), switch roles. Do NOT do the reviews of each other's code at the same time.
 
 4.  Finally, take 30--60 minutes or so to improve your programs by considering the feedback that you got in the review. Don't forget to re-read the explanations of the aspects once more. In addition, it is completely acceptable to improve your programs in other ways.
 
