@@ -49,7 +49,7 @@ Implement, in a file called `caffeine.c` in a `~/problems/caffeine` directory, a
 
     *   You need not try to check whether a user's input is too large to fit in a `float`. Using `get_float` alone will ensure that the user's input is indeed a floating-point (or integral) value but not that it is non-negative.
 
-    *   If the user fails to provide a value of at least 0.01 grams, your program should re-prompt the user for a valid amount again and again until the user complies. Recall what loop to use for this situation? ([Link to flow-control statements in the book](http://www.beej.us/guide/bgc/html/split/variables-and-statements.html#flow-control))
+    *   If the user fails to provide a value of at least 0.001 grams, your program should re-prompt the user for a valid amount again and again until the user complies. Recall what loop to use for this situation? ([Link to flow-control statements in the book](http://www.beej.us/guide/bgc/html/split/variables-and-statements.html#flow-control))
 
 *   Beware the inherent imprecision of floating-point values. Recall `floats.c` from class, wherein, if `x` is `2`, and `y` is `10`, `x / y` is not precisely two tenths! And so, before doing calculations, you'll probably want to convert the user's inputted amount in grams to milligrams to avoid tiny errors that might otherwise add up!
 

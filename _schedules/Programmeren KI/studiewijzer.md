@@ -136,7 +136,7 @@ Dit is een overzicht van de deadlines per week. Op de deadline "werkend" moet je
 
 ### Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan via een mail naar **<mailto:progki@mprog.nl>**. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+Als je ziek bent dan meld je het in ieder geval meteen even aan via een mail naar <mailto:progki@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
 - Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan de docenten via een mail naar bovenstaand adres. Je doet dit natuurlijk vóór de deadline en niet pas daarna.
 
