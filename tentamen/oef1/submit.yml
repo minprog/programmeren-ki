@@ -1,0 +1,4 @@
+name: toef1
+files:
+    optional:
+        - rechthoeken.c
