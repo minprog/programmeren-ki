@@ -71,6 +71,7 @@ grades:
     conversion: *automatic
     caffeine: *automatic
     goldbach: *check
+    toef1: *check
 
     # week 3:
     scrabble: *automatic
@@ -232,4 +233,5 @@ tentamen:
     show_progress: true
     required: true
     submits:
+        toef1: 0
         tentamen: 1
