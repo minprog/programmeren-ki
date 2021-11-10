@@ -32,7 +32,7 @@ templates:
         automatic:
             done: -(correctness_score.floor)
         hide_calculated: true
-    4: &extra
+    5: &extra
         type: float
         subgrades:
             done: boolean
