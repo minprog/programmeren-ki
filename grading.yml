@@ -32,6 +32,14 @@ templates:
         automatic:
             done: -(correctness_score.floor)
         hide_calculated: true
+    4: &extra
+        type: float
+        subgrades:
+            done: boolean
+        automatic:
+            done: -(correctness_score.floor)
+        calculation: done==-1 && 1.5 || 0
+        hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -73,12 +81,12 @@ grades:
     hello: *automatic
     population: *automatic
     mario_less: *automatic
-    figure: *check
+    figure: *extra
 
     # week 2
     conversion: *automatic
     caffeine: *automatic
-    goldbach: *check
+    goldbach: *extra
     toef1: *optional-check
 
     # week 3:
