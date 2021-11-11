@@ -38,15 +38,13 @@ Laat met een programma **goldbach.c** zien dat alle even getallen tot 1000 inder
 
 ## How to Test Your Code
 
-You can execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
-
-    check50 wordt nog bekend gemaakt
+Er is géén check50 beschikbaar om je code te checken, omdat het uit bovenstaande zeer duidelijk moet zijn wat de bedoeling is. Bij inleveren wordt je opdracht wel gecheckt op compileerbaarheid. Uiteindelijk zal je mentor de uitvoer van het programma beoordelen op correct/incorrect.
 
 Om te kijken of je programma sneller wordt als je optimalisaties uitvoert, kun je de verwerkingstijd meten (lees de `real` time af in seconden):
 
     time ./goldbach
 
-Execute the below to evaluate the style of your code using `style50`.
+En voor de netheid is het altijd goed om even `style50` te gebruiken:
 
     style50 caffeine.c
 
