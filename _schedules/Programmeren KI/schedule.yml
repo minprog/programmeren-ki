@@ -21,13 +21,10 @@ Week 2:
         'Videocollege: Arrays': /lectures/arrays
 
 Week 3:
-    Tijdens laptopcollege:
-        Scrabble [samen, 60 minuten]: /cs50/scrabble
-    Werkcollege dinsdag:
-        'Review: Caffeine & Credit': /modules/review-2
-        'Tentamenopdracht': '#'
-    Huiswerk rest van de week:
+    Tijdens eerste laptopcollege:
         'Oefenen: Strings [zelf, 60 minuten]': /exercises/writing/strings
+        Scrabble [samen, 60 minuten]: /cs50/scrabble
+    Huiswerk rest van de week:
         RNA [individueel]: /other/rna
         Cypher [individueel]: /other/cypher
         'Basisboek: Strings en Arrays': /exercises/book/arrays

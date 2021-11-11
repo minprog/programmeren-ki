@@ -1,0 +1,8 @@
+name: rna
+files:
+    required:
+        - pseudocode.txt
+        - cypher.c
+check:
+    tool: check50
+    slug: minprog/programmeren-ki/2021/cypher
