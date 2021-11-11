@@ -1,4 +1,4 @@
-name: rna
+name: cypher
 files:
     required:
         - pseudocode.txt
