@@ -25,7 +25,7 @@ Schrijf een programma dat op de command line een keten van DNA aanneemt van will
 
 *   Your program must be case-insensitive: capitalized letters must be interpreted the same as lowercase letters. RNA output, though, must be all capitalized.
 
-*   If your program is executed without any command-line arguments or with more than one command-line argument, your program should print an error message of your choice (with `printf`) and return from `main` a value of `1` (which tends to signify an error) immediately.
+*   If your program is executed without any command-line arguments or with more than one command-line argument, your program should print a Usage explanation (with `printf`, see below) and return from `main` a value of `1` (which tends to signify an error) immediately.
 
 *   If any of the characters of the command-line argument is not a valid DNA nucleotide letter, your program should print the message `Invalid DNA` and return from `main` a value of `1`.
 
