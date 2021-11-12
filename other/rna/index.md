@@ -52,10 +52,10 @@ Ultimately, your program should behave per the examples below.
 In case of user error, your program should respond appropriately, and return exit code 1.
 
     $ ./rna AAF
-    Ongeldige DNA-keten
+    Invalid DNA
 
     $ ./rna
-    Geen DNA-keten opgegeven
+    Usage: ./rna ATGC
 
 
 ## Getting Started
