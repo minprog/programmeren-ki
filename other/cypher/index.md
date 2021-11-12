@@ -34,6 +34,20 @@ Design and implement a program, `cypher`, that encrypts messages using the cyphe
 *   After outputting cyphertext, you should print a newline. Your program should then exit by returning `0` from `main`.
 
 
+## Getting Started
+
+*   Use a strategy of changing strings "in-place". This means that you store an input string in a variable, and then you consider each character in the string, changing it when applicable.
+
+    For example, to change every character in a string by 'a', you can use:
+    
+        for(int pos = 0; pos < strlen(s); pos++)
+        {
+            s[pos] = 'a';
+        }
+
+    As soon as you have made all changes, you can then display the string to your user using `printf`.
+
+
 ## How to test your code
 
 Execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
