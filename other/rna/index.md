@@ -69,6 +69,36 @@ To start, you'll create a file called `pseudocode.txt` to help you analyze the p
 Write in `pseudocode.txt` some pseudocode that implements this program, even if not (yet!) sure how to write it in code.
 
 
+## Counting command-line arguments
+
+Whatever your pseudocode, let's first write only the C code that checks whether the program was run with a single command-line argument before adding additional functionality.
+
+Specifically, modify `rna.c` in such a way that: if the user provides exactly one command-line argument, it prints `Success`; if the user provides no command-line arguments, or two or more, it prints `Usage: ./rna ATGC`. Remember, since this string is coming from the command line at runtime, and not via `get_string`, we don't have an opportunity to re-prompt the user. The behavior of the resulting program should be like the below.
+
+    $ ./rna ATGC
+    Success
+
+or
+
+    $ ./rna
+    Usage: ./rna ATGC
+
+or
+
+    $ ./rna ATGC ATGC
+    Usage: ./rna ATGC
+
+Later, you will also implement a check for invalid DNA. You are advised to first implement transcribing DNA to RNA, assuming that the input *is* valid.
+
+<details markdown="1"><summary markdown="span">Hints</summary>
+
+*   Recall that you can compile your program with `make`.
+*   Recall that you can print with `printf`.
+*   Recall that `argc` and `argv` give you information about what was provided at the command line.
+*   Recall that the name of the program itself (here, `./rna`) is in `argv[0]`.
+</details>
+
+
 ### How to Test Your Code
 
 Does your code work as prescribed when you input invalid DNA? Does it correctly translate DNA to RNA? You should be able to verify this yourself using the examples above. If you find it hard to be precise, make sure that you keep trying, because `check50` will not always be with you!
