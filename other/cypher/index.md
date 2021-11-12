@@ -13,9 +13,9 @@ Implement a program that encrypts messages using an inverted alphabet, per the b
 
 Let's dive into cryptography. There are plenty of ways to hide messages in plain sight. You might consider [writing messages using invisible ink](https://en.wikipedia.org/wiki/Invisible_ink). Or you can learn sign language, which many people still don't understand. Chances are that no one will get your message... unless someone knows how to get it.
 
-Cryptography is the field of study that considers ways of encrypting messages into *other messages* that aren't as easy to read. Such methods have been in use since at least the era of [classical antiquity](https://en.wikipedia.org/wiki/History_of_cryptography). One way of encrypting messages is by applying a **cypher**, i.e. substituting letters by different letters in a systematic fashion.
+Cryptography is the field of study that considers ways of encrypting messages into *other messages* that aren't as easy to read. Such methods have been in use since at least the era of [classical antiquity](https://en.wikipedia.org/wiki/History_of_cryptography) (one notable method is the subject of the extra assignment).
 
-The algorithm that you're going to implement is composed of two different cyphers:
+One way of encrypting messages is by applying a **cypher**, i.e. substituting letters by different letters in a systematic fashion. The algorithm that you're going to implement is composed of two different cyphers:
 
 1. Replace *each letter* in the text with matching letters on the other end of the alphabet. For example, the letter `a` might be replaced with `z` and `b` with `y`.
 
