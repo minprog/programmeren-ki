@@ -20,3 +20,13 @@ def encrypts_a():
 def encrypts_hello_world():
     """encrypts "hEllo wOrld" as "SvOOL DlIOW" """
     check50.run("./cypher").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*SvOOL DlIOW\n", "ciphertext: b\n").exit(0)
+
+@check50.check(encrypts_a)
+def encrypts_a():
+    """encrypts "a" as "z" with the -l flag"""
+    check50.run("./cypher").stdin("a").stdout("[Cc]iphertext:\s*Z\n", "ciphertext: b\n").exit(0)
+
+@check50.check(encrypts_hello_world)
+def encrypts_hello_world():
+    """encrypts "hEllo wOrld" as "svool dliow" with the -l flag"""
+    check50.run("./cypher").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*SvOOL DlIOW\n", "ciphertext: b\n").exit(0)

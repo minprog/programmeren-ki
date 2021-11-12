@@ -21,7 +21,7 @@ One way of encrypting messages is by applying a **cypher**, i.e. substituting le
 
 2. Switch each letter's *casing*: i.e. any lowercase letters will be uppercased in the output, and any uppercase letters will be lowercased.
 
-Implementing this cypher as a C program will yield output as per the example above.
+Implementing this cypher as a C program will yield output as per the example above. And note that your program must be able to show the output in lowercase, too, per the `-l` flag that might be added to the command line.
 
 
 ## Specification
@@ -32,7 +32,7 @@ Design and implement a program, `cypher`, that encrypts messages using the cyphe
 *   Your program must output `plaintext:` (without a newline) and then prompt the user for a `string` of plaintext (using `get_string`).
 *   Your program must output `cyphertext:` (without a newline) followed by the plaintext's corresponding cyphertext.
 *   After outputting cyphertext, you should print a newline. Your program should then exit by returning `0` from `main`.
-
+*   Your program must accept an optional command-line argument `-l` that forcibly prints the result in all lowercase letters.
 
 ## Getting Started
 
