@@ -1,7 +1,6 @@
 name: cypher
 files:
     required:
-        - pseudocode.txt
         - cypher.c
 check:
     tool: check50
