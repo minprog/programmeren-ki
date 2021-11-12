@@ -38,15 +38,16 @@ Design and implement a program, `cypher`, that encrypts messages using the cyphe
 
 *   Use a strategy of changing strings "in-place". This means that you store an input string in a variable, and then you consider each character in the string, changing it when applicable.
 
-    For example, to change every character in a string by 'a', you can use:
+    For example, to change every character in a string by `'a'`, you can use:
     
         for(int pos = 0; pos < strlen(s); pos++)
         {
             s[pos] = 'a';
         }
 
-    As soon as you have made all changes, you can then display the string to your user using `printf`.
+    As soon as you have made all necessary changes, you can then display the string to your user using `printf`.
 
+*   Take care to design the different steps of your program by sketching it out and writing pseudocode! This will help you understand the problem better.
 
 ## How to test your code
 
