@@ -19,15 +19,15 @@ Schrijf een programma dat op de command line een keten van DNA aanneemt van will
 
 ## Implementation Details
 
-*   Implement your program in a file called `caesar.c` in a directory called `caesar`.
+*   Implement your program in a file called `rna.c` in a directory called `rna`.
 
-*   Your program must accept a single command-line argument, a non-negative integer. Let's call it _k_ for the sake of discussion.
+*   Your program must accept a single command-line argument, which is a string of letters.
+
+*   Your program must be case-insensitive: capitalized letters must be interpreted the same as lowercase letters. RNA output, though, must be all capitalized.
 
 *   If your program is executed without any command-line arguments or with more than one command-line argument, your program should print an error message of your choice (with `printf`) and return from `main` a value of `1` (which tends to signify an error) immediately.
 
 *   If any of the characters of the command-line argument is not a valid DNA nucleotide letter, your program should print the message `Invalid DNA` and return from `main` a value of `1`.
-
-*   Your program must be case-insensitive: capitalized letters must be interpreted the same as lowercase letters. RNA output, though, must be all capitalized.
 
 *   So that we can automate some tests of your code, be sure that your program's output is exactly as specified in the examples, below. Don't forget to add `\n` after each line of output!
 
