@@ -5,4 +5,4 @@ files:
         - rna.c
 check:
     tool: check50
-    slug: minprog/programmeren-ki/2021/rna
+    slug: minprog/programmeren-ki/2021/other/rna

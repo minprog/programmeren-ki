@@ -5,4 +5,4 @@ files:
         - cypher.c
 check:
     tool: check50
-    slug: minprog/programmeren-ki/2021/cypher
+    slug: minprog/programmeren-ki/2021/other/cypher
