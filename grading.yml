@@ -90,11 +90,11 @@ grades:
     toef1: *optional-check
 
     # week 3:
+    strings: *check
     scrabble: *automatic
     rna: *automatic
     cypher: *automatic
-    # ???: *check
-    strings: *check
+    decryptor: *extra
 
     # week 4:
     functions: *check
@@ -199,13 +199,13 @@ opdrachten:
 
         conversion: 1
         caffeine: 1
-        goldbach: 1
+        goldbach: :bonus
 
         strings: 1
         scrabble: 1
         rna: 1
         cypher: 1
-        # crack: :bonus
+        decryptor: :bonus
 
         functions: 1
         linear: 1
