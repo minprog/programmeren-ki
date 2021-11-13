@@ -47,7 +47,7 @@ the letter `h` is most common. What if that letter is actually an `E`? Well, fro
 | - key        | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
 | = ciphertext | d | e | C | o | D | e | C | a | e | s | a | r |
 
-That seems to be English! Although the message wasn't so interesting, our algorithm does yield a correct result.
+That seems to be English! Although the message wasn't so interesting, our algorithm does yield a correct result. The message's decryption key is -3.
 
 
 ## Assignment
@@ -65,7 +65,9 @@ Write a program that decodes messages encrypted using a Caesar cypher without kn
 
 *   Your program must not try to decode non-letters, but instead print these unchanged.
 
-*   Your program must output all lowercase, even if some of the input is uppercase.
+*   Your program must preserve the input's casing.
+
+*   **Restriction:** You may not change the input string in-place or create a new string for storing the output. Instead, after deciding on the correct decryption key, you must decode each letter and print it to the screen immediately.
 
 
 ## How to Test Your Code
