@@ -24,9 +24,9 @@ def encrypts_hello_world():
 @check50.check(encrypts_a)
 def encrypts_a_lower():
     """encrypts "a" as "z" with the -l flag"""
-    check50.run("./cypher").stdin("a").stdout("[Cc]iphertext:\s*z\n", "ciphertext: z\n").exit(0)
+    check50.run("./cypher -l").stdin("a").stdout("[Cc]iphertext:\s*z\n", "ciphertext: z\n").exit(0)
 
 @check50.check(encrypts_hello_world)
 def encrypts_hello_world_lower():
     """encrypts "hEllo wOrld" as "svool dliow" with the -l flag"""
-    check50.run("./cypher").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*svool dliow\n", "ciphertext: svool dliow\n").exit(0)
+    check50.run("./cypher -l").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*svool dliow\n", "ciphertext: svool dliow\n").exit(0)
