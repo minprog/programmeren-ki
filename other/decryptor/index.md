@@ -42,9 +42,12 @@ So for messages in various languages, you could try assuming that the most frequ
 
 the letter `h` is most common. What if that letter should be translated into an `E`? Well, from `h` to `E` is 3 steps down. Let's try subtracting 3 from each of the letters, and we'll get:
 
-    decode caesar
+| plaintext    | g | h | F | r | G | h | F | d | h | v | d | u |
+| ------------ | - | - | - | - | - | - | - | - | - | - | - | - |
+| - key        | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| = ciphertext | d | e | C | o | D | e | C | a | e | s | a | r |
 
-That seems to be English! Although the message wasn't so interesting, our algorithm did work in this case.
+That seems to be English! Although the message wasn't so interesting, our algorithm does yield a correct result.
 
 
 ## Assignment
@@ -62,14 +65,14 @@ Write a program that decodes messages encrypted using a Caesar cypher without kn
 
 *   Your program must not try to decode non-letters, but instead print these unchanged.
 
-*   Your program must output all lowercase.
+*   Your program must output all lowercase, even if some of the input is uppercase.
 
 
 ## How to Test Your Code
 
-Gebruik de voorbeelden hierboven, en eigen voorbeelden, om te kijken of je programma tot in de puntjes correct werkt. Na inleveren op de website wordt een automatische test gedraaid. Controleer dus na inleveren of wij het eens zijn met de correcte werking!
+Use the examples above, and your own examples, to check whether your program works perfectly. After submitting your programma will also be automatically checked.
 
-En voor de netheid is het altijd goed om even `style50` te gebruiken:
+And for good measure, time permitting, use `style50` to eliminate basic style mistakes:
 
     style50 decryptor.c
 
