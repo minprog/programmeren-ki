@@ -8,19 +8,21 @@ import re
 
 @check50.check()
 def exists():
-    """goldbach.c exists"""
-    check50.exists("goldbach.c")
+    """decryptor.c exists"""
+    check50.exists("decryptor.c")
 
 @check50.check(exists)
 def compiles():
-    """goldbach.c compiles"""
-    check50.c.compile("goldbach.c", lcs50=True)
+    """decryptor.c compiles"""
+    check50.c.compile("decryptor.c", lcs50=True)
 
 @check50.check(compiles)
 def test_output():
     """handles printing the right numbers in the right format (we think)"""
-    with logged_check_factory("./goldbach") as create_check:
-        create_check().stdout()
+    with logged_check_factory("./decryptor") as decryptor_command:
+        decryptor_command("ghFrgh Fdhvdu").stdout()
+        decryptor_command("Lbsdscr dbyyzc oxdobon Mehrkfox 1400 yx 6 Wki").stdout()
+        decryptor_command("Rhyjyix jheefi udjuhut Sknxqlud qj 1400 ed 6 Cqo - vhec dem ed qbb hqtye jhqvvys mybb suqiu - myixydw oek qbb jxu ruij. Bj Akdaub 20").stdout()
 
 # helpers --------------------------------------------------------------------
 
@@ -51,8 +53,8 @@ def logged_check_factory(command):
     """
     stream = Stream()
 
-    def create_check():
-        check = check50.run(command)
+    def create_check(params):
+        check = check50.run(f"{command} {params}")
         check.process.logfile = stream
         return check
 

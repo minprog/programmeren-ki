@@ -36,11 +36,11 @@ Especially lengthier messages encoded using a Caesar cypher are suceptible to "f
 
 ![A list of languages, including for each language a bar from left to right divided in to sections. The width of the sections indicates the frequency of a particular letter in that language. In many languages, including English and Dutch, the letter E occurs most often, with A coming after.](frequencies.png)
 
-So for messages in various languages, you could try assuming that the most frequently used letter is the letter E. With that in mind, all you need to do is analyze the encrypted message to find the most commonly occuring letter. For example, in the message
+So for messages in various languages, you could try assuming that the most frequently used letter is the letter E. With that in mind, all you need to do is analyze the *encrypted* message to find the most commonly occuring letter. For example, in the message
 
     ghFrgh Fdhvdu
 
-the letter `h` is most common. What if that letter should be translated into an `E`? Well, from `h` to `E` is 3 steps down. Let's try subtracting 3 from each of the letters, and we'll get:
+the letter `h` is most common. What if that letter is actually an `E`? Well, from `h` to `E` is 3 steps down. Let's try subtracting 3 from each of the letters, and we'll get:
 
 | plaintext    | g | h | F | r | G | h | F | d | h | v | d | u |
 | ------------ | - | - | - | - | - | - | - | - | - | - | - | - |
