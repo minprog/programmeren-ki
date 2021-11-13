@@ -17,6 +17,11 @@ def compiles():
     check50.c.compile("decryptor.c", lcs50=True)
 
 @check50.check(compiles)
+def test_base_case():
+    """correctly decrypts "ghFrgh Fdhvdu" """
+    check50.run("./decryptor ghFrgh Fdhvdu").stdout("decode caesar\s?\n", "decode caesar\n").exit(0)
+
+@check50.check(test_base_case)
 def test_output():
     """handles automatic decryption of messsages (we think)"""
     with logged_check_factory("./decryptor") as decryptor_command:
