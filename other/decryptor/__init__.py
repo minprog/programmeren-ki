@@ -18,7 +18,7 @@ def compiles():
 
 @check50.check(compiles)
 def test_output():
-    """handles printing the right numbers in the right format (we think)"""
+    """handles automatic decryption of messsages (we think)"""
     with logged_check_factory("./decryptor") as decryptor_command:
         decryptor_command("ghFrgh Fdhvdu").stdout()
         decryptor_command("Lbsdscr dbyyzc oxdobon Mehrkfox 1400 yx 6 Wki").stdout()
