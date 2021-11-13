@@ -35,4 +35,4 @@ def testAAF():
 @check50.check(testAAF)
 def handles_no_argv():
     """handles lack of argv[1]"""
-    check50.run("./rna").stdout("[U|u]sage: ./dna ATGC", str_output="Usage: ./dna ATGC").exit(1)
+    check50.run("./rna").stdout("[U|u]sage: ./rna ATGC", str_output="Usage: ./rna ATGC").exit(1)
