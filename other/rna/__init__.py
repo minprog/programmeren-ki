@@ -36,3 +36,8 @@ def testAAF():
 def handles_no_argv():
     """handles lack of argv[1]"""
     check50.run("./rna").stdout("[U|u]sage: ./rna ATGC", str_output="Usage: ./rna ATGC").exit(1)
+
+@check50.check(testAAF)
+def handles_too_many_argv():
+    """handles having too many command-line arguments"""
+    check50.run("./rna ATGC ATGC").stdout("[U|u]sage: ./rna ATGC", str_output="Usage: ./rna ATGC").exit(1)
