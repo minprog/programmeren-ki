@@ -4,8 +4,8 @@
 
 Implement a program that decrypts messages using Caesar's cipher, per the below.
 
-    $ ./decryptor ghFrgh Fdhvdu
-    decode caesar
+    $ ./decryptor gHFrgh Fdhvdu
+    dECode Caesar
 
 
 ## Background
@@ -38,16 +38,16 @@ Especially lengthier messages encoded using a Caesar cypher are suceptible to "f
 
 So for messages in various languages, you could try assuming that the most frequently used letter is the letter E. With that in mind, all you need to do is analyze the *encrypted* message to find the most commonly occuring letter. For example, in the message
 
-    ghFrgh Fdhvdu
+    gHFrgh Fdhvdu
 
-the letter `h` is most common. What if that letter is actually an `E`? Well, from `h` to `E` is 3 steps down. Let's try subtracting 3 from each of the letters, and we'll get:
+the letter `h` is most common (when capital and lower case letters are counted indiscriminately). What if that letter is actually an `e`? Well, from `h` to `e` is 3 steps down. Let's try subtracting 3 from each of the letters, and we'll get:
 
-| plaintext    | g | h | F | r | G | h | F | d | h | v | d | u |
+| plaintext    | g | H | F | r | G | h | F | d | h | v | d | u |
 | ------------ | - | - | - | - | - | - | - | - | - | - | - | - |
 | - key        | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
-| = ciphertext | d | e | C | o | D | e | C | a | e | s | a | r |
+| = ciphertext | d | E | C | o | d | e | C | a | e | s | a | r |
 
-That seems to be English! Although the message wasn't so interesting, our algorithm does yield a correct result. The message's decryption key is -3.
+That seems to be English! Although the message wasn't so interesting, our algorithm does yield a correct result. Conclusion: the message's decryption key is -3.
 
 
 ## Assignment
