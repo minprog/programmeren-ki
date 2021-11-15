@@ -18,8 +18,8 @@ def compiles():
 
 @check50.check(compiles)
 def test_base_case():
-    """correctly decrypts "ghFrgh Fdhvdu" """
-    check50.run("./decryptor ghFrgh Fdhvdu").stdout("deCode Caesar\s?\n", "deCode Caesar\n").exit(0)
+    """correctly decrypts "gHFrgh Fdhvdu" """
+    check50.run("./decryptor gHFrgh Fdhvdu").stdout("dECode Caesar\s?\n", "dECode Caesar\n").exit(0)
 
 @check50.check(test_base_case)
 def test_output():
