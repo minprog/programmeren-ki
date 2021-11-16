@@ -1,4 +1,4 @@
-# Tentamen: oefening 1
+# Tentamen: Rechthoeken
 
 Dit is een oefenopdracht voor het tentamen. Je gaat hier maximaal 30 minuten aan besteden en dan lever je in wat je hebt. Na het laptopcollege ga je de opdracht afmaken.
 
