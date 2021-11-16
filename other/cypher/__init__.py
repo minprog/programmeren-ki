@@ -14,19 +14,19 @@ def compiles():
 @check50.check(compiles)
 def encrypts_a():
     """encrypts "a" as "Z" """
-    check50.run("./cypher").stdin("a").stdout("[Cc]iphertext:\s*Z\n", "ciphertext: Z\n").exit(0)
+    check50.run("./cypher").stdin("a").stdout("[Cc]iphertext:\s*Z\n", "cyphertext: Z\n").exit(0)
 
 @check50.check(compiles)
 def encrypts_hello_world():
     """encrypts "hEllo wOrld" as "SvOOL DlIOW" """
-    check50.run("./cypher").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*SvOOL DlIOW\n", "ciphertext: SvOOL DlIOW\n").exit(0)
+    check50.run("./cypher").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*SvOOL DlIOW\n", "cyphertext: SvOOL DlIOW\n").exit(0)
 
 @check50.check(encrypts_a)
 def encrypts_a_lower():
     """encrypts "a" as "z" with the -l flag"""
-    check50.run("./cypher -l").stdin("a").stdout("[Cc]iphertext:\s*z\n", "ciphertext: z\n").exit(0)
+    check50.run("./cypher -l").stdin("a").stdout("[Cc]iphertext:\s*z\n", "cyphertext: z\n").exit(0)
 
 @check50.check(encrypts_hello_world)
 def encrypts_hello_world_lower():
     """encrypts "hEllo wOrld" as "svool dliow" with the -l flag"""
-    check50.run("./cypher -l").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*svool dliow\n", "ciphertext: svool dliow\n").exit(0)
+    check50.run("./cypher -l").stdin("hEllo wOrld").stdout("[Cc]iphertext:\s*svool dliow\n", "cyphertext: svool dliow\n").exit(0)
