@@ -1,7 +1,7 @@
-name: toef1
+name: toef2
 files:
     required:
-        - rechthoeken.c
+        - regen.c
 check:
     tool: check50
-    slug: minprog/tentamen-checks/2021/los/rechthoeken
+    slug: minprog/tentamen-checks/2021/los/regen
