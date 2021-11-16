@@ -250,4 +250,5 @@ tentamen:
     required: true
     submits:
         toef1: 0
+        toef2: 0
         tentamen: 1
