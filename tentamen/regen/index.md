@@ -17,6 +17,8 @@ Later deze week kun je buiten de laptopcolleges de tentamenopdracht afmaken. Je 
 
 Schrijf een programma dat op basis van de invoer de gemiddelde hoeveelheid regen berekent over een aantal dagen. De gebruiker mag één of meer dagelijkse hoeveelheden regenval invullen. Als er geen invoer meer is, dan kan de gebruiker `999` intikken om af te sluiten.
 
+> Tip voor het oefententamen: Gebruik een `while`-loop of `do-while`-loop om invoer op te halen tot `999` wordt ingetikt. Tel de totalen meteen op en houd ook bij wat het aantal dagen is.
+
 Het gemiddelde hoeft geen cijfers achter de komma (punt) te hebben en er mag altijd naar beneden worden afgerond. Dat betekent dat je simpelweg de formule `totaal_regen / aantal_dagen` kunt gebruiken.
 
 Implementeer eerst een programma zoals hierboven beschreven. Dit zijn twee voorbeelden van hoe het (correct) werkt:
