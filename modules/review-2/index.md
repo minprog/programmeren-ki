@@ -1,4 +1,4 @@
-# Code review 2 (Readability)
+# Code review 2 (Conversion & Caffeine)
 
 > Warning: do not start code review until you **and** your partner are completely done and have submitted working versions of each program in the module. If you haven't finished your programs you should ask for help on that specifically and never look at someone else's code.
 > Additionaly, your mentor should assign a partner for you: each week, it will be a **different** one. This is make sure that you encounter as many insights as possible about writing good code.
@@ -9,24 +9,28 @@ In order to keep the task within reasonable limits, for each module we will prov
 
 ## What to do
 
-0.  You will only review the mandatory assignments for this module. The extra assignments will not be considered.
+1.  Before you start, use `style50` to automatically suggest corrections for indentation, whitespace and comments. However, `style50` is a very simple tool, so do not depend on it too much. Feel free to ignore the suggestions if you feel your code's layout is more consistent like it is.
 
-1.  For this module, you will assess and improve your code along the following aspects. Take your time to fully read and grasp the descriptions there before you contact your partner.
+2.  For this module, you will assess and improve your code along the following aspects. Take your time to fully read and grasp the descriptions there before you perform the review with your partner.
 
     - [Formatting](/quality/aspects/formatting)
     - [Comments](/quality/aspects/comments)
     - [Naming](/quality/aspects/naming) 🆕
     - [Cleanup](/quality/aspects/cleanup) 🆕
 
-2.  Before you start, don't forget to use `style50` to automatically suggest corrections for indentation and whitespace! However, `style50` is a very simple tool, so do not depend on it too much. And feel free to ignore the suggestions if you feel your code's layout is more consistent like it is.
+3.  Then, you should sit next to your assigned partner. You will take turns as reviewer. Generally, one person talks, the other listens.
 
-3.  Then, you should find your assigned partner to do code reviews with. You will **sit together** behind your computer or using screen sharing, and your partner will review your code on the criteria above. It is absolutely best if your partner can control your computer to browse through your code.
+    -   Participant #1 gets access to participant #2's computer.
+    
+    -   Participant #2 will think aloud while trying to understand the code, and ask questions about what they do not understand.
+    
+    -   Participant #2 focuses on listening and making notes, but may answer any questions.
+    
+    -   Participant #1 can also provide concrete advice if they feel that this is useful. Participant #2 freely decides what to do with this advice.
 
-4.  Your partner will think aloud and ask questions about what they do not understand. Feel free to explain your code, but do focus on **listening**. Your partner can also provide advice, but you can decide for yourself what to do with that. Take notes.
+    -   When done (after about 10 minutes), switch roles. Do NOT do the reviews of each other's code at the same time.
 
-5.  Now your partner will share their computer and you can browse through their code, ask questions and provide advice.
-
-6.  Finally, take an hour or so to **improve your programs** by considering the feedback that you got in the review. Don't forget to re-read the explanations of the aspects once more! In addition, it is completely acceptable to improve your programs in other ways.
+4.  Finally, take 30--60 minutes or so to improve your programs by considering the feedback that you got in the review. Don't forget to re-read the explanations of the aspects once more. In addition, it is completely acceptable to improve your programs in other ways.
 
 ## What to submit
 
