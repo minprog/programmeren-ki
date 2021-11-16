@@ -95,6 +95,7 @@ grades:
     rna: *automatic
     cypher: *automatic
     decryptor: *extra
+    toef2: *optional-check
 
     # week 4:
     functions: *check
