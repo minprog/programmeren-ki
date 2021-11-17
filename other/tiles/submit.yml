@@ -1,0 +1,11 @@
+name: tiles
+files:
+    required:
+        - tiles.c
+        - helpers.c
+        - helpers.h
+        - board.h
+        - Makefile
+check:
+    tool: check50
+    slug: minprog/programmeren-ki/2021/other/tiles
