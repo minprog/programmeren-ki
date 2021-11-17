@@ -34,24 +34,18 @@ Week 3:
         'Basisboek: Strings en Arrays': /exercises/book/arrays
 
 Week 4:
-    Werkcollege dinsdag:
-        'Review: RNA & Cypher': /modules/review-3
-        'Tentamenopdracht': '#'
     Huiswerk:
         'Oefenen: Functies [zelf, 2 uur]': /exercises/writing/functions
-        Caesar [individueel]: /cs50/caesar
+        Tiles [samen]: /other/tiles
         'Basisboek: Functies': /exercises/book/functions
-        Crack [extra]: /cs50/crack
-    Voorbereiding:
+        Calendar [individueel]: /other/individueel
+    Voorbereiding week 5:
         'Videocollege: Algorithms': /lectures/algorithms
 
 Week 5:
     Tijdens laptopcollege:
         'Oefenen: Linear Search [samen, 45 minuten]': /exercises/writing/linear
         Sort [samen, 45 minuten]: /cs50/sort
-    Werkcollege dinsdag:
-        'Review: Caesar': /modules/review-4
-        'Tentamenopdracht': '#'
     Huiswerk:
         Find [individueel]: /cs50/find/less
         Fifteen [extra]: /cs50/fifteen/random
@@ -64,14 +58,10 @@ Week 6:
         Readability [zelf]: /cs50/py/readability
     Tijdens laptopcollege:
         World Cup [samen]: /cs50/worldcup
-    Werkcollege dinsdag:
-        'Review: Find': /modules/review-5
     Huiswerk:
         DNA [individueel]: /cs50/dna
 
 Week 7:
-    Werkcollege dinsdag:
-        'Review: DNA': /modules/review-5
     Huiswerk:
         'Installeer Jupyter Notebook': /climate/install-local
         'Oefening: File I/O [zelf]': /climate/io
