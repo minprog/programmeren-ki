@@ -48,11 +48,9 @@ Anyhow, it appears that the game is at least partly functional. Granted, it's no
 
 ## The Board
 
-As you might see atop `tiles.c`, there is an included file `board.h`. This file defines the **board**, which is a data structure (a 2-D array, in this case) to store the game "state" as the game progresses.
+As you might see atop `tiles.c`, there is an included file `board.h`. This file defines the **board**, which is in our program a data structure (a 2-D array, in this case) to store the game "state" as the game progresses.
 
-Whenever a move is made in the game, this will first result in a change to the `board` variable to reflect the new game state (a tile that's been moved). Only then, the game state is re-drawn on the screen to *represent* this game state. So, what's on the screen is a representation of what's in memory.
-
-And in fact, one of your tasks is to implement the `draw_board` function to create that representation.
+Whenever a move is made in the game, this will first result in a change to the `board` variable to reflect the new game state (a tile that's been moved). Only then, the game state is re-drawn on the screen to represent this game state. So, what's on the screen is a *representation* of what's in memory.
 
 Given the above, it should come as no surprise that `board` is an important variable in the program. Every action that a player takes results in inspecting the `board` variable or even changing it. This way, the board variable is the central data structure of the whole program.
 
@@ -60,15 +58,15 @@ Given the above, it should come as no surprise that `board` is an important vari
 
 Read over the code and comments in `tiles.c` and then answer the questions below in `questions.txt`, which is a (nearly empty) text file that we included for you inside of the distribution's `tiles` directory. No worries if you're not quite sure how `fprintf` or `fflush` work; we're simply using those to automate some testing.
 
-1. Besides 4 × 4 (which are Tiles's default dimensions), what other dimensions does the framework allow?
+1. Besides 4 × 4, what other dimensions does the framework allow?
 1. With what sort of data structure is the game's board represented?
-1. What number is used in the board data structure to signify the empty tile?
+1. What number is used in the board data structure to signify the *empty* tile?
 1. What functions do you apparently need to implement?
 {: start="0"}
 
 ## Functions
 
-Within the framework, there are many functions that implement a part of the program. Some have been left to be implemented by you!
+Within the framework, there are many functions that implement a part of the program. Some have been left to be implemented by you! Let us guide you through them all. Part of this assignment is reading the code and making sense of it.
 
 ### `int validate_arguments(int argc, string argv[])`
 
@@ -80,7 +78,7 @@ This function sends special "ANSI control codes" to the screen via `printf`. The
 
 ### `void greet_user(void)`
 
-This function calls `clear_screen` first and then prints a welcome message. It uses `usleep`, about which you can find more information in the CS50 Manual.
+This function calls `clear_screen` first and then prints a welcome message. It uses `usleep`, about which you can find more information in the CS50 Manual (but you will need to switch off the "less comfortable" mode before being able to find it!).
 
 ### `void init_board(void)`
 
@@ -92,17 +90,17 @@ This function loops the `board` variable (which is a 2-D array, so we use two co
 
 ### `void draw_tile(int value)`
 
-This function draws (prints) the number for one tile to the screen. For most numbers it simply prints whatever's there. However, for the number 0, it prints an underscore `_`. This is the "empty tile".
+This function draws (prints) the number for one tile to the screen. For most numbers it simply prints whatever was in the `board`. However, when the number 0 is passed to this function, this signifies the "empty tile", and an underscore `_` is printed.
 
 ### `bool move(int tile)`
 
-And there's another `TODO`. This function moves one particular tile, but only if it is right next to the empty space. All you get to do this is the number of the tile that is to be moved. Here's an idea on how to approach this:
+And here we find another `TODO`. This function moves one particular tile, but only if it is right next to the empty tile. All you're provided is the number of the tile that is to be moved. Here's an idea on how to approach this:
 
-1. Find the coordinates of the tile that's to be moved
-2. Find the coordinates of the empty tile
+1. Find, in the `board`, the coordinates of the tile that's to be moved
+2. Find, in the `board`, the coordinates of the empty tile
 3. Check if the empty tile is above, below, to the left or to the right of the tile to be moved, and only move (i.e. swap tiles) if that's the case.
 
-Note that the function should `return true` when the move succeeds (i.e. the tile is indeed movable because it is next to the empty tile), and `return false` otherwise.
+Note that the function should `return true` when the move succeeds, and `return false` otherwise.
 
 ### `bool is_won(void)`
 
