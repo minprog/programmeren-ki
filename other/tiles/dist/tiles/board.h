@@ -1,5 +1,5 @@
 /*
- * Basic configuration for the Tiles game
+ * Data structure for the Tiles game
  */
 
 // Constants
