@@ -35,7 +35,8 @@ Although other configurations are possible, we shall assume that this game begin
     $ rm tiles.zip
     $ cd tiles
     $ ls
-    3x3.txt     4x4.txt     Makefile    tiles.c   questions.txt
+    3x3.txt     Makefile    helpers.c   questions.txt
+    4x4.txt     board.h     helpers.h   tiles.c
 
 ## Understanding
 
@@ -55,43 +56,65 @@ And in fact, one of your tasks is to implement the `draw_board` function to crea
 
 Given the above, it should come as no surprise that `board` is an important variable in the program. Every action that a player takes results in inspecting the `board` variable or even changing it. This way, the board variable is the central data structure of the whole program.
 
-## Specification
-
-1. Answer the questions below.
-
-2. Implement Tiles, per the comments in `tiles.c` and the information from this specification.
-
 ## Questions
 
 Read over the code and comments in `tiles.c` and then answer the questions below in `questions.txt`, which is a (nearly empty) text file that we included for you inside of the distribution's `tiles` directory. No worries if you're not quite sure how `fprintf` or `fflush` work; we're simply using those to automate some testing.
 
-1. Besides 4 × 4 (which are Tiles's dimensions), what other dimensions does the framework allow?
+1. Besides 4 × 4 (which are Tiles's default dimensions), what other dimensions does the framework allow?
 1. With what sort of data structure is the game's board represented?
-1. What function is called to greet the player at game's start?
+1. What number is used in the board data structure to signify the empty tile?
 1. What functions do you apparently need to implement?
 {: start="0"}
 
-## Hints
+## Functions
 
-Remember to take "baby steps." Don't try to bite off the entire game at once. Instead, implement one function at a time and be sure that it works before forging ahead. Any design decisions not explicitly prescribed herein (e.g., how much space you should leave between numbers when printing the board) are intentionally left to you. Presumably the board, when printed, should look something like the below.
+Within the framework, there are many functions that implement a part of the program. Some have been left to be implemented by you!
 
-    15 14 13 12
+### `int validate_arguments(int argc, string argv[])`
 
-    11 10  9  8
+This function implements a validity check for the command-line arguments. As usual, `main` gets these arguments first, but here it passes those directly to the `validate_arguments` function. That function `return`s an error code when needed --- and `main` then stops the program by also `return`ing that code.
 
-     7  6  5  4
+### `void clear_screen(void)`
 
-     3  1  2  _
+This function sends special "ANSI control codes" to the screen via `printf`. These codes can do more than just print letters or newlines. The control codes that we used here clear the screen and return the blinking text *cursor* to line 0, column 0.
 
-While a 3 × 3 board might look like the below:
+### `void greet_user(void)`
 
-    8  7  6
+This function calls `clear_screen` first and then prints a welcome message. It uses `usleep`, about which you can find more information in the CS50 Manual.
 
-    5  4  3
+### `void init_board(void)`
 
-    2  1  _
+Whoa, this one's `TODO`! The goal of the function is to fill the `board` variable with initial tiles in a solvable position (like you've read about above). How could you do this? Can you identify a few separate actions that have to be taken?
 
-You're welcome to write your own functions and even change the prototypes of functions we wrote. But you may not alter the flow of logic in `main` itself so that we can automate some tests of your program once submitted. In particular, `main` must only return `0` if and when the user has actually won the game; non-zero values should be returned in any cases of error, as implied by our distribution code.
+### `void draw_board(void)`
+
+This function loops the `board` variable (which is a 2-D array, so we use two coordinates to loop it). For each coordinate, we call the function `draw_tile`. To finish each line (but not each tile) two newlines are printed.
+
+### `void draw_tile(int value)`
+
+This function draws (prints) the number for one tile to the screen. For most numbers it simply prints whatever's there. However, for the number 0, it prints an underscore `_`. This is the "empty tile".
+
+### `bool move(int tile)`
+
+And there's another `TODO`. This function moves one particular tile, but only if it is right next to the empty space. All you get to do this is the number of the tile that is to be moved. Here's an idea on how to approach this:
+
+1. Find the coordinates of the tile that's to be moved
+2. Find the coordinates of the empty tile
+3. Check if the empty tile is above, below, to the left or to the right of the tile to be moved, and only move (i.e. swap tiles) if that's the case.
+
+Note that the function should `return true` when the move succeeds (i.e. the tile is indeed movable because it is next to the empty tile), and `return false` otherwise.
+
+### `bool is_won(void)`
+
+This function checks if the puzzle has been solved. To do this, we count all tiles in increasing order and finally check if the blank tile comes last, which means that it's in the bottom-right corner.
+
+## Specification
+
+So what to do?
+
+1. Answer the questions above in `questions.txt`.
+1. Implement Tiles, per the comments in `tiles.c` and the information from this specification.
+{: start="0"}
 
 ## Testing
 

@@ -1,6 +1,7 @@
 name: tiles
 files:
     required:
+        - questions.txt
         - tiles.c
         - helpers.c
         - helpers.h

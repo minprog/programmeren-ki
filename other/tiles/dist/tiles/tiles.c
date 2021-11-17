@@ -139,13 +139,27 @@ void init_board(void)
 // Prints the board in its current state
 void draw_board(void)
 {
-    // TODO
+    for (int i = 0; i < d; i++)
+    {
+        for (int j = 0; j < d; j++)
+        {
+            draw_tile(board[i][j]);
+        }
+        printf("\n\n");
+    }
 }
 
 // Prints a single tile's number, or _ in case of empty tile
 void draw_tile(int value)
 {
-    // TODO
+    if (value == 0)
+    {
+        printf("  _  ");
+    }
+    else
+    {
+        printf("%3d  ", value);
+    }
 }
 
 // If tile borders empty space, moves tile and returns true, else returns false
@@ -158,6 +172,24 @@ bool move(int tile)
 // Returns true if game is won (i.e., board is in winning configuration), else false
 bool is_won(void)
 {
-    // TODO
+    int number = 1;
+
+    for (int i = 0; i < d; i++)
+    {
+        for (int j = 0; j < d; j++)
+        {
+            if (number == d * d && board[i][j] == 0)
+            {
+                return true;
+            }
+            else if (board[i][j] != number)
+            {
+                return false;
+            }
+            number++;
+        }
+    }
+    
+    // if all else is correct, we should never reach this line
     return false;
 }
