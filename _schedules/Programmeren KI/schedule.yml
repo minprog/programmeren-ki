@@ -21,8 +21,6 @@ Week 2:
         'Videocollege: Arrays': /lectures/arrays
 
 Week 3:
-    Voorbereiding, dus in het weekend:
-        'Videocollege: Arrays': /lectures/arrays
     Zelfstandig:
         'Oefenen: Strings [zelf, 60 minuten]': /exercises/writing/strings
     Tijdens eerste laptopcollege:
@@ -43,13 +41,11 @@ Week 4:
         'Videocollege: Algorithms': /lectures/algorithms
 
 Week 5:
-    Tijdens laptopcollege:
+    Huiswerk:
         'Oefenen: Linear Search [samen, 45 minuten]': /exercises/writing/linear
         Sort [samen, 45 minuten]: /cs50/sort
-    Huiswerk:
         Find [individueel]: /cs50/find/less
-        Fifteen [extra]: /cs50/fifteen/random
-    Voorbereiding:
+    Voorbereiding week 6:
         'Videocollege: Python': /lectures/python-david
 
 Week 6:
