@@ -8,23 +8,26 @@ def exists():
 
 @check50.check(exists)
 def compiles():
-    """caffeine.c compiles"""
+    """rna.c compiles"""
     check50.c.compile("rna.c", "-lcs50")
 
 @check50.check(compiles)
 def testATGC():
+    """transcribes ATGC as UACG"""
     (check50.run("./rna ATGC")
         .stdout("UACG", str_output="UACG"))
 
 @check50.check(testATGC)
 def testAAGGTTCCAA():
+    """transcribes AAGGTTCCAA as UUCCAAGGUU"""
     (check50.run("./rna AAGGTTCCAA")
         .stdout("UUCCAAGGUU", str_output="UUCCAAGGUU"))
 
 @check50.check(testAAGGTTCCAA)
 def testCGaT():
+    """transcribes CGaT as GCUA"""
     (check50.run("./rna CGaT")
-        .stdout("GCUA", str_output="UUCCAAGGUU"))
+        .stdout("GCUA", str_output="GCUA"))
 
 @check50.check(testCGaT)
 def testAAF():
