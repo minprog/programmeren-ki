@@ -65,7 +65,7 @@ To count the *number of days from 1800*, you can first count the number of days 
 - 30 days for Apr, Jun, Sep, Nov.
 - February has 28 days, except in a leap year, where it has 29 days.
 
-So for a whole year we have 365 days, except for leap years, which have 366 days. So we need at least three more functions:
+So for a whole year we have 365 days, except for leap years, which have 366 days. In conclusion, we need at least three more functions:
 
     count number of days from 1800
      |---- count number of days from 1800 until year (f)
@@ -79,6 +79,22 @@ Incidentally, did you notice that **decomposition** is more or less the same as 
 ## Specification
 
 Implement the calendar program, using *at least* the functions that are implied in the diagrams in the Decomposition section, above (marked with `(f)`). You may decompose problems further to your liking.
+
+To get started, create a file called `calendar.c` and write a `main` function according to the specification. Then white the `display_calendar()` function that's used in `main`. And so on. Don't forget that you need to write function **prototypes** above main to be able to compile correctly.
+
+    // prototype
+    void display_calendar(...);
+    
+    int main(void)
+    {
+        // use the function
+        display_calendar(...);
+    }
+    
+    void display_calendar(...)
+    {
+        // actual implementation of this function
+    }
 
 ## Testing
 
