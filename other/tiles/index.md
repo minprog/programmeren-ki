@@ -15,7 +15,7 @@
 Implement Tiles, per the below.
 
     $ ./tiles 3
-    WELCOME TO GAME OF FIFTEEN
+    WELCOME TO TILES
 
     8  7  6
 

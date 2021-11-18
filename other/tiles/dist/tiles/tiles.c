@@ -125,7 +125,7 @@ void clear_screen(void)
 void greet_user(void)
 {
     clear_screen();
-    printf("WELCOME TO GAME OF FIFTEEN\n");
+    printf("WELCOME TO TILES\n");
     usleep(2000000);
 }
 
