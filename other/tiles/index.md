@@ -1,6 +1,12 @@
 # Tiles
 
-> Bij deze opdracht is het helemaal prima om samen te werken met één of twee medestudenten. Zorg dat je gezamenlijk op één scherm kunt kijken en echt samen het probleem probeert op te lossen. Heeft iemand een goed idee, dan moet die zorgen dat de anderen het ook begrijpen. De bedoeling is dat alle samenwerkers evenveel hebben bijgedragen aan de opdracht. Iedereen levert uiteindelijk een eigen versie in.
+> **Samenwerkopdracht.** Bij deze opdracht is het helemaal prima om samen te werken met één of twee medestudenten. Zorg dat je gezamenlijk op één scherm kunt kijken en echt samen het probleem probeert op te lossen. Heeft iemand een goed idee, dan moet die zorgen dat de anderen het ook begrijpen. De bedoeling is dat alle samenwerkers evenveel hebben bijgedragen aan de opdracht. Iedereen levert uiteindelijk een eigen versie in.
+>
+> **Je gebruikt deze opdracht om dit te leren:**
+>
+> - Goed begrijpen hoe 2D-arrays werken,
+> - hoe je ze concreet gebruikt, en
+> - hoe je nested for-loops kunt gebruiken om met 2D-arrays te werken.
 
 Implement Tiles, per the below.
 
