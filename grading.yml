@@ -99,8 +99,8 @@ grades:
 
     # week 4:
     functions: *check
-    tiles: *check
-    calendar: *check
+    tiles: *automatic
+    calendar: *automatic
 
     # week 5:
     linear: *check
