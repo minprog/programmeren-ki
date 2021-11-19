@@ -99,6 +99,8 @@ grades:
 
     # week 4:
     functions: *check
+    tiles: *check
+    calendar: *check
 
     # week 5:
     linear: *check
@@ -209,14 +211,20 @@ opdrachten:
         decryptor: :bonus
 
         functions: 1
+        tiles: 1
+        calendar: 1
+
         linear: 1
+        # algorithms: 1
         sort: 1
         find_less: 1
-        # fifteen_random: :bonus
+        # big_o: 1
+
         mario_py: 1
         readability_py: 1
         worldcup: 1
         dna: 1
+
         kopieer: 1
 
 basisboek:
