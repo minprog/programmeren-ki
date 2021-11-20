@@ -101,6 +101,7 @@ grades:
     functions: *check
     tiles: *automatic
     calendar: *automatic
+    calendar_extra: *check
 
     # week 5:
     linear: *check
@@ -213,6 +214,7 @@ opdrachten:
         functions: 1
         tiles: 1
         calendar: 1
+        calendar_extra: :bonus
 
         linear: 1
         # algorithms: 1

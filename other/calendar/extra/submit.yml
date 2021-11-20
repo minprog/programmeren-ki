@@ -1,0 +1,8 @@
+name: calendar_extra
+files:
+    required:
+        - analyse.txt
+        - calendar.c
+check:
+    tool: check50
+    slug: minprog/programmeren-ki/2021/other/calendar
