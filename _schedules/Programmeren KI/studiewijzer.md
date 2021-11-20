@@ -171,8 +171,8 @@ Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzz
 |---------------- | ------------------: |
 | Figure          | vr  5 nov  17:59    |
 | Goldbach        | vr 12 nov  17:59    |
-| nog niet bekend | vr 26 nov  17:59    |
-| nog niet bekend | vr  3 dec  17:59    |
+| Decryptor       | vr 19 nov  17:59    |
+| nog niet bekend | vr  ? ???  17:59    |
 
 Deze deadlines voor extra opdrachten zijn 100% strikt. Er worden geen uitzonderingen gegeven om welke reden dan ook.
 
