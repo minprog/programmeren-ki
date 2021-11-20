@@ -9,13 +9,15 @@ Week 1:
         Population [samen, 60 minuten]: /cs50/population
     Huiswerk rest van de week:
         Mario [individueel]: /cs50/mario/less
-        Figure [extra]: /other/figure
         'Basisboek: Control Flow': /exercises/book/control-flow
+    Extra opdracht:
+        Figure [extra]: /other/figure
 
 Week 2:
     Huiswerk rest van de week:
         Temperatuurtabellen [individueel]: /other/conversion
         Caffeine [individueel]: /other/caffeine
+    Extra opdracht:
         Goldbach [extra]: /other/goldbach
     Voorbereiding week 3:
         'Videocollege: Arrays': /lectures/arrays
@@ -28,8 +30,9 @@ Week 3:
     Huiswerk rest van de week:
         RNA [individueel]: /other/rna
         Cypher [individueel]: /other/cypher
-        Decryptor [extra]: /other/decryptor
         'Basisboek: Strings en Arrays': /exercises/book/arrays
+    Extra opdracht:
+        Decryptor [extra]: /other/decryptor
 
 Week 4:
     Voorbereiding:
@@ -39,6 +42,7 @@ Week 4:
         Tiles [samen]: /other/tiles
         'Basisboek: Functies': /exercises/book/functions
         Calendar [individueel]: /other/calendar
+    Extra opdracht:
         Ontwerpprincipes [extra]: /other/calendar/extra
     Voorbereiding week 5:
         'Videocollege: Algorithms': /lectures/algorithms
