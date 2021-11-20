@@ -1,4 +1,4 @@
-# Calendar (Extra opdracht)
+# Ontwerpprincipes
 
 > **Individuele opdracht.**
 >
