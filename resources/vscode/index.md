@@ -4,7 +4,9 @@ Aangezien de CS50 IDE problemen blijft geven, gaan we (voor één week) overscha
 
 > Zorg dat je deze week wel je oude uitwerkingen uit de CS50 IDE downloadt. Deze worden eind van het jaar verwijderd.
 
-Gebruik deze link om in te loggen. **Zorg dat je niet de desktop-versie opent als je de keuze krijgt.** Na inloggen krijg je een melding "Setting up your workspace". Dit kan even duren.
+Gebruik de volgende link om in te loggen. **Zorg dat je niet de desktop-versie opent als je de keuze krijgt.** Na inloggen krijg je een melding "Setting up your workspace". Dit kan even duren.
+
+<https://code.cs50.io>
 
 Je scherm ziet er ongeveer zo uit als in de CS50 IDE. Je kunt ook op dezelfde manier programma's schrijven, `make`n en `check50` gebruiken.
 
