@@ -102,6 +102,7 @@ grades:
     tiles: *automatic
     calendar: *automatic
     calendar_extra: *check
+    toef3: *optional-check
 
     # week 5:
     linear: *check
@@ -262,4 +263,5 @@ tentamen:
     submits:
         toef1: 0
         toef2: 0
+        toef3: 0
         tentamen: 1
