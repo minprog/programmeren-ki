@@ -76,4 +76,4 @@ def check_calendar_output(check, month_display, n_padding, n_days):
     # make sure nothing follows
     remainder = str(check.stdout())
     if len(remainder) > 0:
-        raise check50.Failure("expected end of output after last day")
+        raise check50.Failure("expected end of output after the last day of the month")
