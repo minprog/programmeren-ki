@@ -1,0 +1,7 @@
+name: toef3
+files:
+    required:
+        - driehoek.c
+check:
+    tool: check50
+    slug: minprog/tentamen-checks/2021/los/driehoek
