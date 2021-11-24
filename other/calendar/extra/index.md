@@ -18,7 +18,7 @@ Onderdeel van deze opdracht is het schrijven van een verslag over jouw aanpak. H
 
 ## Ontwerpprincipes
 
-Je opdracht is om je programma zoveel mogelijk te laten voldoen aan de volgende ontwerpprincipes:
+Je opdracht is om je programma **zo veel mogelijk** te laten voldoen aan de volgende ontwerpprincipes:
 
 - *Zo weinig mogelijk variabelen* --- Gebruik alleen variabelen wanneer strikt noodzakelijk, bijvoorbeeld als je een loop nodig hebt om een statistiek te berekenen. Gebruik wel *parameters* om informatie aan andere functies door te geven.
 
@@ -37,6 +37,8 @@ Hou daar bij ook de volgende richtlijnen in de gaten. De code die je eerder hebt
 - *Geen gedeelde variabelen* --- Gebruik geen globale variabelen om informatie tussen functies te delen, en gebruik geen pointers om variabelen door te geven aan andere functies.
 
 That's it!
+
+Om aan de opdracht te voldoen is het nodig om deze principes echt uit te proberen en te exploreren. Je moet hierin heel ver gaan, dus echt blijven kijken of het technisch lukt om functies nog een keer te splitsen, variabelen te elimineren enz.
 
 ## Testen
 
