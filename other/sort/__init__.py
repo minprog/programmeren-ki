@@ -10,9 +10,8 @@ def exists():
 @check50.check(exists)
 def compiles():
     """helpers.c compiles."""
-    check50.include("helpers.h", "find.c", "sort.c")
+    check50.include("helpers.h", "sort.c")
     check50.c.compile("sort.c", "helpers.c", exe_name="sort", lcs50=True)
-    check50.c.compile("wrong.c", "helpers.c", exe_name="wrong", lcs50=True)
 
 
 @check50.check(compiles)
