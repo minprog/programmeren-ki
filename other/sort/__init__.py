@@ -5,7 +5,6 @@ import check50.c
 def exists():
     """helpers.c exists."""
     check50.exists("helpers.c")
-    check50.include("wrong.c")
 
 
 @check50.check(exists)
