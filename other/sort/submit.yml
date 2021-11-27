@@ -1,0 +1,8 @@
+name: find_less
+files:
+    required:
+        - generate.c
+        - helpers.c
+check:
+    tool: check50
+    slug: minprog/cs50x/2021/find
