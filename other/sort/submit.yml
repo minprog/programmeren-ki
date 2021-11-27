@@ -1,8 +1,8 @@
-name: find_less
+name: sorter
 files:
     required:
         - generate.c
         - helpers.c
 check:
     tool: check50
-    slug: minprog/cs50x/2021/find
+    slug: minprog/programmeren-ki/2021/other/sort
