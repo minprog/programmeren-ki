@@ -105,11 +105,11 @@ grades:
     toef3: *optional-check
 
     # week 5:
-    linear: *check
+    # linear: *check
     algorithms: *check
     sort: *automatic
+    sorter: *automatic
     find_less: *automatic
-    big_o: *check
 
     # week 6:
     mario_py: *automatic
