@@ -34,7 +34,7 @@ def cal_leap_years():
 
     # not a leap year
     check = check50.run("./calendar 1900 2")
-    check_calendar_output(check, "Feb 1900", 2, 28)
+    check_calendar_output(check, "Feb 1900", 4, 28)
 
     # march in a leap year
     check = check50.run("./calendar 2016 3")
