@@ -64,10 +64,10 @@ def check_calendar_output(check, month_display, n_padding, n_days):
     check.stdout("Sun Mon Tue Wed Thu Fri Sat")
 
     # padding before first day
-    check.stdout("\n" + "    " * n_padding, "<padding>")
+    check.stdout("\n" + "    " * n_padding + format(1, "3d"), "<padding> 1")
 
     # all days but last
-    for daynum in range(1, n_days):
+    for daynum in range(2, n_days):
         check.stdout(format(daynum, "3d"), format(daynum, "d"))
 
     # final day + newline
