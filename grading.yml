@@ -109,7 +109,7 @@ grades:
     algorithms: *check
     sort: *automatic
     sorter: *automatic
-    find_less: *extra
+    find_extra: *extra
 
     # week 6:
     mario_py: *automatic
@@ -220,8 +220,7 @@ opdrachten:
         algorithms: 1
         sort: 1
         sorter: 1
-        # find_less: 1
-        # big_o: 1
+        find_extra: :bonus
 
         mario_py: 1
         readability_py: 1
