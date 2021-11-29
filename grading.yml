@@ -101,7 +101,7 @@ grades:
     functions: *check
     tiles: *automatic
     calendar: *automatic
-    calendar_extra: *check
+    calendar_extra: *extra
     toef3: *optional-check
 
     # week 5:
@@ -109,7 +109,7 @@ grades:
     algorithms: *check
     sort: *automatic
     sorter: *automatic
-    find_less: *automatic
+    find_less: *extra
 
     # week 6:
     mario_py: *automatic
