@@ -1,6 +1,8 @@
 # Find
 
 > Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+>
+> **LET OP. Van een andere versie van deze opdracht zijn talloze oplossingen beschikbaar op internet. Gebruik deze absoluut niet als bron, want dit gaat tot plagiaatmeldingen leiden. (Zelfs al kopieer je daarmee nog het verkeerde algoritme ook, want deze opdracht vraagt om specifieke algoritmen.)**
 
 Implement a program that finds a number among numbers, per the below.
 
