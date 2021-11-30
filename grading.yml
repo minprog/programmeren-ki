@@ -110,6 +110,7 @@ grades:
     sort: *automatic
     sorter: *automatic
     find_extra: *extra
+    toef4: *optional-check
 
     # week 6:
     mario_py: *automatic
@@ -263,4 +264,5 @@ tentamen:
         toef1: 0
         toef2: 0
         toef3: 0
+        toef4: 0
         tentamen: 1
