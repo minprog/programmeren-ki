@@ -1,7 +1,7 @@
 name: toef4
 files:
     required:
-        - hoofdletters.c
+        - teller.c
 check:
     tool: check50
     slug: minprog/tentamen-checks/2021/los/hoofdletters
