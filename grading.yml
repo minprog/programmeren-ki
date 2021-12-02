@@ -257,7 +257,7 @@ punten:
 #         retrospective_4: 1
 #         retrospective_5: 1
 
-tentamen:
+oefententamen:
     show_progress: true
     required: true
     submits:
@@ -265,4 +265,8 @@ tentamen:
         toef2: 0
         toef3: 0
         toef4: 0
+
+tentamen:
+    required: true
+    submits:
         tentamen: 1
