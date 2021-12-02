@@ -261,10 +261,10 @@ oefententamen:
     show_progress: true
     required: true
     submits:
-        toef1: 0
-        toef2: 0
-        toef3: 0
-        toef4: 0
+        toef1: 1
+        toef2: 1
+        toef3: 1
+        toef4: 1
 
 tentamen:
     required: true
