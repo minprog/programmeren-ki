@@ -223,12 +223,12 @@ opdrachten:
         sorter: 1
         find_extra: :bonus
 
-        mario_py: 1
-        readability_py: 1
-        worldcup: 1
-        dna: 1
+        # mario_py: 1
+        # readability_py: 1
+        # worldcup: 1
+        # dna: 1
 
-        kopieer: 1
+        # kopieer: 1
 
 basisboek:
     show_progress: true
@@ -246,7 +246,7 @@ punten:
         review_3: 1
         review_4: 1
         review_5: 1
-        climate: 1
+        # climate: 1
 
 # retrospectives:
 #     show_progress: true
