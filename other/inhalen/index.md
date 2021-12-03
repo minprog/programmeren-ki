@@ -36,8 +36,9 @@ Controleer in het [overzicht](/submissions) of er nog ontbrekende opdrachten zij
     - behalve de extra opdrachten Figure, Goldbach, Decryptor, Calendar-Extra, Find-Extra
 - De **toetsjes** van het basisboek
 - De **verbeterde versies** van je programma's die je inlevert na een code review
+- Let op: het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken. Die moet je dan ook verbeteren en opnieuw inleveren.
 
-Deze deadline geldt voor de studenten die her en der nog een vergeten opdracht hebben. Als je door omstandigheden flink achterloopt moet je een persoonlijke regeling treffen. Tentamenvoorbereiding is het allerbelangrijkst als je het vak nu wil halen.
+Deze deadline geldt voor de studenten die her en der nog een vergeten opdracht hebben. Als je door omstandigheden flink achterloopt moet je een persoonlijke regeling treffen en advies vragen via een mail naar <mailto:help@mprog.nl>.
 
 ## Tentamen-oefening
 

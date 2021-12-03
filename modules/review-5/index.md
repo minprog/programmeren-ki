@@ -1,4 +1,4 @@
-# Code review 5 (DNA)
+# Code RE-review 5 (Calendar)
 
 > Warning: do not start code review until you **and** your partner are completely done and have submitted working versions of each program in the module. If you haven't finished your programs you should ask for help on that specifically and never look at someone else's code.
 > Additionaly, your mentor should assign a partner for you: each week, it will be a **different** one. This is make sure that you encounter as many insights as possible about writing good code.
@@ -13,13 +13,11 @@ In order to keep the task within reasonable limits, for each module we will prov
 
 1.  For this module, you will assess and improve your code along the following aspects. Take your time to fully read and grasp the descriptions there before you contact your partner.
 
-    - [Formatting](/quality/aspects/python/formatting)
-    - [Comments](/quality/aspects/python/comments)
-    - [Naming](/quality/aspects/python/naming)
-    - [Cleanup](/quality/aspects/python/cleanup)
-    - [Nesting](/quality/aspects/python/nesting)
-    - [Loops](/quality/aspects/python/loops)
-    - [Scope](/quality/aspects/python/scope) 🆕
+    - [Formatting](/quality/aspects/formatting)
+    - [Comments](/quality/aspects/comments)
+    - [Naming](/quality/aspects/naming)
+    - [Cleanup](/quality/aspects/cleanup)
+    - [Nesting](/quality/aspects/nesting)
 
 2.  Before you start, don't forget to use `style50` to automatically suggest corrections for indentation and whitespace! However, `style50` is a very simple tool, so do not depend on it too much. And feel free to ignore the suggestions if you feel your code's layout is more consistent like it is.
 
@@ -35,10 +33,7 @@ In order to keep the task within reasonable limits, for each module we will prov
 
 Below, you will submit improved versions of your programs. In addition, you are going to document who helped you review your code and what changes you made in response to the review. That information is needed for grading!
 
-Which student(s) contributed to reviewing your code?
-<input name="form[reviewers]" type="text" required>
-
-What changes did you make to your code in response to the reviews, and why? Take into account all of the listed aspects.
+What changes did you make to your code compare to your earlier version, and why? Take into account all of the listed aspects.
 <textarea name="form[changes]" rows="8" required></textarea>
 
 What did you **not** change in response to the reviews, and why?
