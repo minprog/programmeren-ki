@@ -108,7 +108,7 @@ grades:
     # linear: *check
     algorithms: *check
     sort: *automatic
-    sorter: *automatic
+    sorter: *optional-check
     find_extra: *extra
     toef4: *optional-check
 
