@@ -37,7 +37,11 @@ Voordat je met Python aan de slag gaat moet je zorgen dat:
 
 Het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken.
 
-Die moet je dan ook verbeteren en opnieuw inleveren. Je mag wel eerst de code review doen voor Calendar! Hiervoor maakt het niet uit of deze perfect werkt, als deze maar compleet is.
+Die moet je dan ook verbeteren en opnieuw inleveren.
+
+Tip: bij Calendar mogen geen extra spaties staan aan de linkerkant van de kalender. De kalender moet helemaal tegen de linkerkant van het scherm aan staan dus. Dat kan al het probleem zijn. In andere gevallen is de datumberekening nog niet correct.
+
+Je mag wel eerst de code review doen voor Calendar! Hiervoor maakt het niet uit of deze perfect werkt, als deze maar compleet is.
 
 
 ## Opdrachten inleveren
