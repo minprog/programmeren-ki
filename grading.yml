@@ -116,7 +116,7 @@ grades:
     mario_py: *automatic
     readability_py: *automatic
     worldcup: *automatic
-    dna: *automatic
+    indexer: *automatic
 
     # week 7:
     kopieer: *check

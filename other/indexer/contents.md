@@ -1,0 +1,80 @@
+# Indexer
+
+> Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+
+Implement an indexing system for text research.
+
+    $ python indexer.py texts/austen.txt
+    Index built for texts/austen.txt. Type the word you want to look up.
+
+    Enter search term: dinner
+
+    The word "dinner" can be found on lines: 258, 289, 1096, 1166, 1186, 1885, 2142, 2302, 2307, 2321, 3598, 4187, 4261, 4871, 5031, 5344, 5449, 5463, 5524, 5698, 7073, 7412, 8709, 9406, 9513, 10484, 11246, 11320, 11401, 11538, 11654, 11770, 12816
+    ...
+
+## Getting started
+
+`cd` into your `problems` directory and then download the distro:
+
+    wget https://github.com/minprog/programmeren-ki/raw/2021/other/indexer/dist/indexer.zip
+
+Then unzip and get started!
+
+
+### Understanding
+
+In the distro you'll find two files and a directory:
+
+- `stopwords.txt` contains a list of words that can be ignored by the indexing system. (So, we don't have to index a gazillion occurrences of, for example, the word "the".)
+- `texts` contains various text files for testing your implementation.
+- `indexer.py` is your starting code.
+
+The code in `indexer.py` revolves around a **word index** that contains for each word in the text the position where the word occurs. A "dictionary" in Python is well-suited to store such an index. You can build your dictionary like so, linking each word to a *list* of line numbers:
+
+    {
+        "dinner": [ 258, 289, 1096, ... ],
+        "guest": [ ... ],
+        "table": [ ... ],
+        ...
+    }
+
+
+### Implementation details
+
+The code in `indexer.py` has several predefined functions:
+
+* `read_stopwords()` is partially implemented. You can complete it by reading all the stop words from the file `stopwords.txt` and returning a collection of those stop words.
+
+* `convert_word()` is already implemented for you. It strips a word from all punctuation, whitespace, and digits, and it converts the word to lowercase.
+
+* `create_index()` is a `TODO`. It should create an index for all words in the input file.
+
+    * For each word in the file, the index should contain a record of all line numbers where this word occurs.
+    * Words should be cleaned by `convert_words()` before being entered into the index.
+    * Empty strings and stop words should not be indexed.
+
+* `search_index()` is a `TODO`. Search the index on a specific word. Return a list of all the lines where the word occurs.
+
+    * The functions `create_index()` and `search_index()` depend on each other.
+
+* `show_search_results()` is a `TODO`. Print the search results like in the example above.
+
+* `user_input_search()` is already implemented for you. This function takes care of the user interaction. It repeatedly asks the user for a word and calls `search_index()` to find it. This function stops as soon as the user enters an empty string or the text "q", "Q", or "quit"
+
+
+## Testing your program
+
+- Test your code by running it on the example at the top of the page.
+
+- Try some examples for yourself.
+
+- What happens if you search a word that does not appear in the text?
+
+- What happens if you search the word "the"?
+
+
+## How to submit
+
+As soon as you're done, submit your `indexer.py` implementation, below! 
+
+Your program will then again be checked using `check50` and the result will be recorded on this website. Should the check fail unexpectedly, be sure to try if `check50` is still satisfied when you run it in your IDE's Terminal.
