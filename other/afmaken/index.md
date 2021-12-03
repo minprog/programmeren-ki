@@ -37,12 +37,21 @@ Voordat je met Python aan de slag gaat moet je zorgen dat:
 
 Het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken.
 
-Die moet je dan ook verbeteren en opnieuw inleveren. Dit zijn de inleverpagina's:
+Die moet je dan ook verbeteren en opnieuw inleveren.
 
-- [Calendar](/other/calendar)
-- [Sort](/other/sort)
+**Calendar**
 
-Tip: bij Calendar mogen geen extra spaties staan aan de linkerkant van de kalender. De kalender moet helemaal tegen de linkerkant van het scherm aan staan dus. Dat kan al het probleem zijn. In andere gevallen is de datumberekening nog niet correct.
+Bij Calendar mogen geen extra spaties staan aan de linkerkant van de kalender. De kalender moet helemaal tegen de linkerkant van het scherm aan staan dus. Dat kan al het (kleine) probleem zijn. In andere gevallen is de datumberekening meestal niet correct, en dat is dus een "echte" fout.
+
+Opnieuw inleveren: [Calendar](/other/calendar)
+
+**Sort**
+
+Bij Sort moest je een specifiek algoritme implementeren zoals in de opdracht uitgelegd. Heb je een ander algoritme geimplementeerd dan is het alsnog afgekeurd.
+
+Opnieuw inleveren: [Sort](/other/sort)
+
+Tip: 
 
 Je mag wel eerst de code review doen voor Calendar! Hiervoor maakt het niet uit of deze perfect werkt, als deze maar compleet is.
 
@@ -60,6 +69,7 @@ Controleer in het [overzicht](/submissions) of er nog ontbrekende opdrachten zij
 
 Deze deadline geldt voor de studenten die her en der nog een vergeten opdracht hebben. Als je door omstandigheden flink achterloopt moet je een persoonlijke regeling treffen en advies vragen via een mail naar <mailto:help@mprog.nl>.
 
+
 ## Tentamen-oefening
 
 **Geen deadline, dit is je eigen verantwoordelijkheid**
@@ -74,6 +84,7 @@ Zorg dat je zeker weet dat je goed genoeg kunt programmeren in C om het tentamen
 Als de website je inzending afkeurt moet je achterhalen waarom dit is. Vaak is het een kwestie van zéér precies zijn in de output. (En goed lezen van de opdracht.)
 
 Het is nog niet voldoende zolang de website je inzending afkeurt!
+
 
 ## Door met Python
 
