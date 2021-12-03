@@ -48,7 +48,7 @@ Deze deadline geldt voor de studenten die her en der nog een vergeten opdracht h
 
 **Geen deadline, dit is je eigen verantwoordelijkheid**
 
-Zorg dat je zeker weet dat je goed genoeg kunt programmeren in C om het tentamen te halen.
+Zorg dat je zeker weet dat je goed genoeg kunt programmeren in C om het tentamen te halen. Hiervoor ga je alle oefenopdrachten die niet **perfect** zijn alsnog afmaken.
 
 - Maak [rechthoeken](/tentamen/rechthoeken) helemaal af en lever opnieuw in
 - Maak [regen](/tentamen/regen) helemaal af en lever opnieuw in
