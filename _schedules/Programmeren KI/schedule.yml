@@ -53,12 +53,12 @@ Week 5:
         Measurements [samen, 45 minuten]: /cs50/sort
         Sort [individueel]: /other/sort
         Find [extra]: '/other/find'
-    Voorbereiding week 6:
-        'Videocollege: Python': /lectures/python-david
 
 Week 6-7:
     Inhalen:
         Instructies: /other/inhalen
+    Voorbereiding Python:
+        'Videocollege: Python': /lectures/python-david
     Huiswerk:
         Mario [zelf]: /cs50/py/mario
         Readability [zelf]: /cs50/py/readability
