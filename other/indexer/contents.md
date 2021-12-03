@@ -57,7 +57,7 @@ The code in `indexer.py` revolves around a **word index** that contains for each
 
 The code in `indexer.py` has several predefined functions:
 
-* `read_stopwords()` is partially implemented. You can complete it by reading all the stop words from the file `stopwords.txt` and returning a collection of those stop words.
+* `read_stopwords()` is partially implemented: it already reads the stop words from the file `stopwords.txt` and stores these in a list. You can complete the function by `return`ing the collection of those stop words.
 
 * `convert_word()` is already implemented for you. It strips a word from all punctuation, whitespace, and digits, and it converts the word to lowercase.
 
@@ -71,7 +71,7 @@ The code in `indexer.py` has several predefined functions:
 
     * The functions `create_index()` and `search_index()` depend on each other.
 
-* `show_search_results()` is a `TODO`. Print the search results like in the example above.
+* `show_search_results()` is a `TODO`. Print the search results like in the example above. You will need to change the function parameters for this, and that's fine!
 
 * `user_input_search()` is already implemented for you. This function takes care of the user interaction. It repeatedly asks the user for a word and calls `search_index()` to find it. This function stops as soon as the user enters an empty string or the text "q", "Q", or "quit"
 
