@@ -3,8 +3,9 @@
 Voordat je met Python aan de slag gaat moet je zorgen dat:
 
 1. De code re-review van Calendar is gedaan
-2. Alle eerdere opdrachten 100% goed zijn ingeleverd
-3. Je voldoende vaardig bent met C om het tentamen te halen
+2. Calendar en Sort zeker weten helemaal correct zijn
+3. Alle eerdere opdrachten 100% goed zijn ingeleverd
+4. Je voldoende vaardig bent met C om het tentamen te halen
 
 ## Code re-review
 
@@ -30,6 +31,15 @@ Voordat je met Python aan de slag gaat moet je zorgen dat:
 - De punten voor de vorige review van Calendar blijven gewoon staan. Deze review telt apart.
 
 
+## Dubbelcheck Calendar en Sort
+
+**Deadline 10 december 17:59**
+
+Het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken.
+
+Die moet je dan ook verbeteren en opnieuw inleveren. Je mag wel eerst de code review doen voor Calendar! Hiervoor maakt het niet uit of deze perfect werkt, als deze maar compleet is.
+
+
 ## Opdrachten inleveren
 
 **Deadline 10 december 17:59**
@@ -40,7 +50,6 @@ Controleer in het [overzicht](/submissions) of er nog ontbrekende opdrachten zij
     - behalve de extra opdrachten Figure, Goldbach, Decryptor, Calendar-Extra, Find-Extra
 - De **toetsjes** van het basisboek
 - De **verbeterde versies** van je programma's die je inlevert na een code review
-- Let op: het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken. Die moet je dan ook verbeteren en opnieuw inleveren. Je mag wel eerst de code review doen voor Calendar! Hiervoor maakt het niet uit of deze perfect werkt, als deze maar compleet is.
 
 Deze deadline geldt voor de studenten die her en der nog een vergeten opdracht hebben. Als je door omstandigheden flink achterloopt moet je een persoonlijke regeling treffen en advies vragen via een mail naar <mailto:help@mprog.nl>.
 
