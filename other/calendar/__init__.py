@@ -1,12 +1,18 @@
 import check50
 import check50.c
 
+import os
+import glob
 
 @check50.check()
 def exists():
     """calendar.c exists."""
+    if not os.path.exists(f"calendar.c"):
+        # raise "bla"
+        files = glob.glob("*.c")
+        if len(files) > 0:
+            os.rename(files[0], f"calendar.c")
     check50.exists("calendar.c")
-
 
 @check50.check(exists)
 def compiles():

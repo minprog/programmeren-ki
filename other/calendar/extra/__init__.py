@@ -1,12 +1,18 @@
 import check50
 import check50.c
 
+import os
+import glob
 
 @check50.check()
 def exists():
     """calendar.c exists."""
+    if not os.path.exists(f"calendar.c"):
+        # raise "bla"
+        files = glob.glob("*.c")
+        if len(files) > 0:
+            os.rename(files[0], f"calendar.c")
     check50.exists("calendar.c")
-
 
 @check50.check(exists)
 def compiles():
@@ -34,7 +40,7 @@ def cal_leap_years():
 
     # not a leap year
     check = check50.run("./calendar 1900 2")
-    check_calendar_output(check, "Feb 1900", 2, 28)
+    check_calendar_output(check, "Feb 1900", 4, 28)
 
     # march in a leap year
     check = check50.run("./calendar 2016 3")
@@ -64,10 +70,10 @@ def check_calendar_output(check, month_display, n_padding, n_days):
     check.stdout("Sun Mon Tue Wed Thu Fri Sat")
 
     # padding before first day
-    check.stdout("\n" + "    " * n_padding, "<padding>")
+    check.stdout("\n" + "    " * n_padding + format(1, "3d"), "<padding> 1")
 
     # all days but last
-    for daynum in range(1, n_days):
+    for daynum in range(2, n_days):
         check.stdout(format(daynum, "3d"), format(daynum, "d"))
 
     # final day + newline
