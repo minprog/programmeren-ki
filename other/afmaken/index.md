@@ -37,7 +37,10 @@ Voordat je met Python aan de slag gaat moet je zorgen dat:
 
 Het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken.
 
-Die moet je dan ook verbeteren en opnieuw inleveren.
+Die moet je dan ook verbeteren en opnieuw inleveren. Dit zijn de inleverpagina's:
+
+- [Calendar](/other/calendar)
+- [Sort](/other/sort)
 
 Tip: bij Calendar mogen geen extra spaties staan aan de linkerkant van de kalender. De kalender moet helemaal tegen de linkerkant van het scherm aan staan dus. Dat kan al het probleem zijn. In andere gevallen is de datumberekening nog niet correct.
 
