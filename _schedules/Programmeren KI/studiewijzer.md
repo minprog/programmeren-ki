@@ -131,8 +131,10 @@ Dit is een overzicht van de deadlines per week. Op de deadline "werkend" moet je
 | Week 3       | vr 19 nov  17:59 | di 23 nov  17:59   |
 | Week 4       | vr 26 nov  17:59 | di 30 nov  17:59   |
 | Week 5       | vr  3 dec  17:59 | di  7 dec  17:59   |
-| Week 6       | vr 10 dec  17:59 | di 14 dec  17:59   |
+| Week 6       | vr 10 dec  17:59 | -                  |
 | Week 7       | vr 17 dec  17:59 | -                  |
+
+De opdrachten van week 6 en 7 kunnen punten opleveren als ze goed werken én netjes van stijl zijn.
 
 ### Ziekte en inhalen
 

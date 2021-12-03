@@ -67,6 +67,8 @@ Als je bovenstaande 100% onder controle hebt mag je door met Python. Sommige stu
 
 Je kunt zo punten verdienen bij de Python-opdrachten:
 
+- Mario, Readability en World Cup zijn optioneel. Je hebt ze nodig om Python te leren maar je hoeft ze niet in te leveren.
+
 - Voor de opdracht **Indexer** kun je 2 punten verdienen voor een zorgvuldig geschreven en correct programma. De stijl moet op orde zijn, maar hoeft niet perfect. Als het slordig is wordt het afgekeurd en kun je de punten niet halen. De deadline is hard en kan niet worden uitgesteld
 
 - Voor de opdracht **Climate** kun je 4 punten verdienen voor een zorgvuldig geschreven en correct programma. De stijl moet op orde zijn, maar hoeft niet perfect. Als het slordig is wordt het afgekeurd en kun je de punten niet halen. De deadline is hard en kan niet worden uitgesteld.
