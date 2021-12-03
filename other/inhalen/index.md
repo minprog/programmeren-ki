@@ -10,22 +10,24 @@ Voordat je met Python aan de slag gaat moet je zorgen dat:
 
 **Deadline 7 december 19:59** (maar zorg dat je hier maandag gewoon klaar mee bent)
 
-Er is geen review voor de opdracht Sort, omdat deze veel te weinig regels code heeft.
+- Er is geen review voor de opdracht Sort, omdat deze veel te weinig regels code heeft.
 
-Voor deze week ga daarom je _nogmaals_ de opdracht Calendar reviewen. Je hoeft dit niet met z'n tweeën te doen. Gebruik deze input voor de code review:
+- Voor deze week ga daarom je _nogmaals_ de opdracht Calendar reviewen. Je hoeft dit niet met z'n tweeën te doen.
 
-- NOGMAALS goed lezen van de uitleg over Comments, Naming, Formatting, Cleanup en Nesting
-- En je hebt feedback gehad toen je Calendar vorige keer hebt ingeleverd
+- Gebruik deze input voor de code review:
 
-[Dit is de review-pagina](/modules/review-5)
+    - NOGMAALS goed lezen van de uitleg over Comments, Naming, Formatting, Cleanup en Nesting
+    - En je hebt feedback gehad toen je Calendar vorige keer hebt ingeleverd
 
-Je hebt een enorme voorsprong ten opzichte van vorige keer in verband met je feedback. Dus hiermee kun je hoger scoren. Maar we kijken wel weer gewoon streng na!
+- [Dit is de review-pagina](/modules/review-5)
 
-De eerder gekregen feedback is **géén** checklist. Dus als je alle feedback "verwerkt" is dat absoluut geen garantie voor 6 punten. Grote kans dat vorige keer niet zomaar alle belangrijke punten genoemd konden worden.
+- Je hebt een enorme voorsprong ten opzichte van vorige keer in verband met je feedback. Dus hiermee kun je hoger scoren. Maar we kijken wel weer gewoon streng na!
 
-Er ligt dus echt een verantwoordelijkheid bij jou om weer een studie te maken van het verbeteren van je programma.
+    De eerder gekregen feedback is **géén** checklist. Dus als je alle feedback "verwerkt" is dat absoluut geen garantie voor 6 punten. Grote kans dat vorige keer niet zomaar alle belangrijke punten genoemd konden worden.
 
-De punten voor de vorige review van Calendar blijven gewoon staan. Deze review telt apart.
+    Er ligt dus echt een verantwoordelijkheid bij jou om weer een studie te maken van het verbeteren van je programma.
+
+- De punten voor de vorige review van Calendar blijven gewoon staan. Deze review telt apart.
 
 
 ## Opdrachten inleveren
