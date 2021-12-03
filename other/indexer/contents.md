@@ -4,13 +4,14 @@
 
 Implement an indexing system for text research.
 
-    $ python indexer.py texts/austen.txt
-    Index built for texts/austen.txt. Type the word you want to look up.
+    $ python indexer.py texts/birdman.txt
+    Index built for texts/birdman.txt. Type the word you want to look up.
 
     Enter search term: dinner
 
-    The word "dinner" can be found on lines: 258, 289, 1096, 1166, 1186, 1885, 2142, 2302, 2307, 2321, 3598, 4187, 4261, 4871, 5031, 5344, 5449, 5463, 5524, 5698, 7073, 7412, 8709, 9406, 9513, 10484, 11246, 11320, 11401, 11538, 11654, 11770, 12816
-    ...
+    The word "dinner" can be found on lines: 549, 1542.
+    
+    Enter search term: quit
 
 Such an indexing system is efficient to use because it builds an index of search terms. For each possible search term, some relevant data is stored in the index. So in a way, the index is a representation of the input file. In this assignment, we store the *line numbers* where the word occurs in the text.
 
