@@ -17,6 +17,8 @@ Voor deze week ga daarom je _nogmaals_ de opdracht Calendar reviewen. Je hoeft d
 - NOGMAALS goed lezen van de uitleg over Comments, Naming, Formatting, Cleanup en Nesting
 - En je hebt feedback gehad toen je Calendar vorige keer hebt ingeleverd
 
+[Dit is de review-pagina](/modules/review-5)
+
 Je hebt een enorme voorsprong ten opzichte van vorige keer in verband met je feedback. Dus hiermee kun je hoger scoren. Maar we kijken wel weer gewoon streng na!
 
 De eerder gekregen feedback is **géén** checklist. Dus als je alle feedback "verwerkt" is dat absoluut geen garantie voor 6 punten. Grote kans dat vorige keer niet zomaar alle belangrijke punten genoemd konden worden.
