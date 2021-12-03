@@ -14,6 +14,7 @@ Implement an indexing system for text research.
 
 Such an indexing system is efficient to use because it builds an index of search terms. For each possible search term, some relevant data is stored in the index. So in a way, the index is a representation of the input file. In this assignment, we store the *line numbers* where the word occurs in the text.
 
+       original text                        index                           searches
     |-----------------|              |-----------------|              |-----------------|
     |                 |              | written: 7, 502 |------------->| written?        |
     |   birdman.txt   |------------->| little: 27, 281 | search many  |-----------------|
