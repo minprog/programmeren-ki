@@ -40,7 +40,7 @@ Controleer in het [overzicht](/submissions) of er nog ontbrekende opdrachten zij
     - behalve de extra opdrachten Figure, Goldbach, Decryptor, Calendar-Extra, Find-Extra
 - De **toetsjes** van het basisboek
 - De **verbeterde versies** van je programma's die je inlevert na een code review
-- Let op: het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken. Die moet je dan ook verbeteren en opnieuw inleveren.
+- Let op: het kan zijn dat je **Calendar**-opdracht of **Sort**-opdracht nog worden afgekeurd (uiterlijk vrijdagavond 3 december hoor je dit) omdat ze niet 100% exact goed werken. Die moet je dan ook verbeteren en opnieuw inleveren. Je mag wel eerst de code review doen voor Calendar! Hiervoor maakt het niet uit of deze perfect werkt, als deze maar compleet is.
 
 Deze deadline geldt voor de studenten die her en der nog een vergeten opdracht hebben. Als je door omstandigheden flink achterloopt moet je een persoonlijke regeling treffen en advies vragen via een mail naar <mailto:help@mprog.nl>.
 
