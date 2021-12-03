@@ -1,4 +1,4 @@
-# Inhalen
+# Afmaken
 
 Voordat je met Python aan de slag gaat moet je zorgen dat:
 
