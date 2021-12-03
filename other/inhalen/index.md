@@ -58,14 +58,14 @@ Het is nog niet voldoende zolang de website je inzending afkeurt!
 
 **Deadline 17 december 17:59**
 
-Als je bovenstaande 100% onder controle hebt mag je door met Python.
+Als je bovenstaande 100% onder controle hebt mag je door met Python. Sommige studenten zullen al in week 6 beginnen, andere studenten misschien pas in week 7. Het is ook mogelijk de opdrachten over te slaan. Voor latere vakken is het wel belangrijk om dan nog Python-kennis op te bouwen.
 
 Je kunt zo punten verdienen bij de Python-opdrachten:
 
-- Voor de opdracht **Indexer** kun je 1 punt verdienen voor een 100% zorgvuldig geschreven en correct programma. De stijl moet op orde zijn, maar hoeft niet perfect. Als het slordig is wordt het afgekeurd.
+- Voor de opdracht **Indexer** kun je 2 punten verdienen voor een zorgvuldig geschreven en correct programma. De stijl moet op orde zijn, maar hoeft niet perfect. Als het slordig is wordt het afgekeurd en kun je de punten niet halen. De deadline is hard en kan niet worden uitgesteld
 
-- Voor de opdracht **Climate** kun je 5 punten verdienen voor een 100% zorgvuldig geschreven en correct programma. De stijl moet op orde zijn, maar hoeft niet perfect. Als het slordig is wordt het afgekeurd.
+- Voor de opdracht **Climate** kun je 4 punten verdienen voor een zorgvuldig geschreven en correct programma. De stijl moet op orde zijn, maar hoeft niet perfect. Als het slordig is wordt het afgekeurd en kun je de punten niet halen. De deadline is hard en kan niet worden uitgesteld.
 
 Deze opdrachten worden dus niet beoordeeld op stijl, alleen afgekeurd. Als de stijl is goedgekeurd verdien je simpelweg punten door de opdracht goed af te maken. Een halve opdracht inleveren mag dus ook, dit kan je een deel van de punten opleveren.
 
-Er is geen uitstel mogelijk, maar je kunt het vak gewoon halen als je de opdrachten niet doet, mits je natuurlijk voldoende punten haalt in totaal.
+Er is geen uitstel mogelijk, ook niet als je eerder al achterliep. Maar je kunt het vak gewoon halen als je de opdrachten niet doet, mits je natuurlijk voldoende punten haalt in totaal.
