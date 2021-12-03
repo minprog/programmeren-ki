@@ -12,6 +12,18 @@ Implement an indexing system for text research.
     The word "dinner" can be found on lines: 258, 289, 1096, 1166, 1186, 1885, 2142, 2302, 2307, 2321, 3598, 4187, 4261, 4871, 5031, 5344, 5449, 5463, 5524, 5698, 7073, 7412, 8709, 9406, 9513, 10484, 11246, 11320, 11401, 11538, 11654, 11770, 12816
     ...
 
+Such an indexing system is efficient to use because it builds an index of search terms. For each possible search term, some relevant data is stored in the index. So in a way, the index is a representation of the input file. In this assignment, we store the *line numbers* where the word occurs in the text.
+
+    |-----------------|              |-----------------|              |-----------------|
+    |                 |              | written: 7, 502 |------------->| written?        |
+    |   birdman.txt   |------------->| little: 27, 281 | search many  |-----------------|
+    |  ~22000 words   |  build once  | slowly: 24, 303 |------------->| dump?           |
+    |                 |              | dump: 34        |              |-----------------|
+    |-----------------|              | twitch: 42      |------------->| embrace?        |
+                                     |-----------------|              |-----------------|
+
+When that index is loaded into memory, it allows us to quickly search the text without re-loading the text or literally searching it from beginning to end. As you might imagine, such a system is very efficient when the index can be loaded once, after which many searches will be run.
+
 ## Getting started
 
 `cd` into your `problems` directory and then download the distro:
