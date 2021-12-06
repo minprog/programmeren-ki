@@ -223,12 +223,15 @@ opdrachten:
         sorter: 1
         find_extra: :bonus
 
-        # mario_py: 1
-        # readability_py: 1
-        # worldcup: 1
-        # dna: 1
-
-        # kopieer: 1
+python:
+    show_progress: true
+    submits:
+        mario_py: 1
+        readability_py: 1
+        worldcup: 1
+        indexer: 1
+        kopieer: 1
+        climate: 1
 
 basisboek:
     show_progress: true
