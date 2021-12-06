@@ -11,9 +11,9 @@ def exists():
 @check50.check(exists)
 def test_dinner():
     """correctly identifies \"dinner\" in birdman.txt"""
-    check50.run("python3 indexer.py texts/birdman.txt").stdin("dinner").stdout("^The word \"dinner\" can be found on lines: 549, 1542.\n", "The word \"dinner\" can be found on lines: 549, 1542.\n", timeout=5)
+    check50.run("python3 indexer.py texts/birdman.txt").stdin("dinner").stdout("The word \"dinner\" can be found on lines: 549, 1542.\n", "The word \"dinner\" can be found on lines: 549, 1542.\n", timeout=5)
 
 @check50.check(test_dinner)
 def test_crash():
     """handles nonexistent words gracefully (i.e. does not crash)"""
-    check50.run("python3 indexer.py texts/birdman.txt").stdin("women").stdout("^Enter search term: ", "Enter search term:", timeout=5)
+    check50.run("python3 indexer.py texts/birdman.txt").stdin("women").stdout("Enter search term: ", "Enter search term:", timeout=5)
