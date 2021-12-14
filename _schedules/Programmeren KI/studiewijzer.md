@@ -22,11 +22,11 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
     - *Samenwerkopdrachten* doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
     - *Basisboek-oefeningen* doe je liefst gezamenlijk, maar er zijn individuele toetsjes om te checken of je het al voldoende beheerst.
     
-    **Cijfer:** Als je dus alle opdrachten hebt gedaan krijg je een 10 voor dit deel.
+    **Cijfer:** Als je dus alle opdrachten hebt gedaan krijg je een 10 voor dit deel. De Python-opdrachten zijn optioneel en niet van invloed hier.
 
 - Beoordeling individuele programmeeropdrachten (75%). Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback. Deze opdrachten doe je alleen, omdat je er een beoordeling voor krijgt. Je kunt wel altijd hulp krijgen van de docenten en assistenten.
 
-    **Cijfer:** Je kunt 6 x 6 punten halen, dus `cijfer = punten / 36 * 9 + 1`.
+    **Cijfer:** Je kunt 6 x 6 punten halen, dus `cijfer = punten / 36 * 9 + 1`. De eerste 30 punten kun je halen via de reviews, de laatste 6 punten via de Python-opdrachten.
 
 - Beoordeling tentamen (0%). We checken hier in gecontroleerde omstandigheden je programmeerskills. Het telt niet mee voor je eindcijfer, maar je moet een voldoende halen om het vak af te kunnen ronden.
 
