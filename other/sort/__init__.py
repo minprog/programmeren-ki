@@ -26,6 +26,12 @@ def sort_shuffled():
     test_sorted([5, 3, 1, 2, 4, 6])
 
 
+@check50.check(compiles)
+def sort_last():
+    """sorts {5,3,6,1,2,4}"""
+    test_sorted([5, 3, 6, 1, 2, 4])
+
+
 def test_sorted(items):
     check = check50.run("./sort")
     for i in items:

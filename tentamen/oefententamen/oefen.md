@@ -2,7 +2,7 @@
 
 > Regels voor het tentamen:
 > 
-> - Ga naar de zaal die in jouw persoonlijke rooster op Datanose staat.
+> - Ga naar de zaal die in jouw **persoonlijke** rooster op Datanose staat. Niet iedereen zit in dezelfde zaal.
 > - Je mag tot uiterlijk 30 minuten na de begintijd starten.
 > - Je moet minimaal tot 30 minuten na de begintijd in de zaal blijven.
 > - Leg je collegekaart klaar op tafel (of een andere ID met foto).
@@ -12,6 +12,8 @@
 > - Voor inleveren steek je je hand op, de surveillant komt controleren voordat je inlevert.
 
 Hieronder vind je vijf opdrachten. Het doel van het tentamen is te demonstreren dat je zelfstandig een oplossing voor een probleem kunt ontwikkelen, en daarbij gebruik kunt maken van de basistechnieken van programmeren, zoals bijvoorbeeld de verschillende soorten loops, if-else-constructies, enzovoort.
+
+Je hoeft niet alle opdrachten goed te hebben om het tentamen te halen. Je moet wel genoeg werkende code produceren van enige complexiteit om zonder twijfel te kunnen concluderen dat je de basis voldoende beheerst. Elke opdracht geeft een kans om dit voor een deel te doen.
 
 Op dit moment in de cursus zou je alle opdrachten goed moeten kunnen maken zonder begeleiding. Door de tijdsbeperking kan het best zijn dat je een opdracht niet kunt maken! Dat hoeft geen probleem te zijn, als maar overtuigend zichtbaar is dat je het programmeren beheerst.
 
@@ -108,27 +110,27 @@ Schrijf een programma dat de caffeïne-inname van de gebruiker berekent en een w
     Kijk uit, dat is te veel caffeïne!
 
 
-## RNA
+## Spraaksynthese
 
-Eiwitsynthese is het proces waarbij eiwitten worden gemaakt op basis van de informatie in het DNA. Simpel gezegd is eiwitsynthese het maken van een eiwit in een menselijke cel. De eerste stap van eiwitsynthese is de transcriptie van DNA naar RNA. (Je hoeft voorgaande niet te begrijpen.)
+Een getal kan worden opgedeeld in cijfers. Het getal 423 bijvoorbeeld, bestaat uit de cijfers 4, 2 en 3. Men wil een spraaksynthesizer gebruiken om getallen uit te spreken, en wel cijfer na cijfer. Het getal 423 moet dus worden uitgesproken als 'vier', 'twee', 'drie'.
 
-DNA bestaat uit verschillende moleculen, waaronder 4 nucleotiden die de DNA-code vormen: Adenine (A), Guanine (G), Cytosine (C) en Thymine (T). RNA is een zogenaamde *complementaire* transcriptie van DNA. De complementaire nucleotide van Adenine is Uracil (U), van Guanine is Cytosine, van Cysotine is Guanine en van Thymine is Adenine.
+Schrijf een programma dat een getal cijfer na cijfer, als woord, naar het scherm schrijft zó dat elk woord op een nieuwe regel komt. De invoer komt via een command-line argument.
 
-Een complementaire RNA-keten kan dus volgens een vast patroon beredeneerd worden uit de DNA-keten. Zo geeft een DNA-keten `ATGC` altijd de RNA-keten `UACG` als je bovenstaande regels toepast.
+Is de invoer ongeldig (dus bestaat niet uit cijfers)? Print dan *alleen* de melding `Verkeerde invoer` en stop het programma.
 
-Schrijf een programma dat een keten van DNA aanneemt en de complementaire RNA-keten print. Je mag aannemen dat de DNA-keten altijd in hoofdletters wordt ingevuld. Het programma print een error message als deze een ongeldige nucleotide bevat (dus een andere letter dan A, G, C of T).
+    $ ./spraaksynthese 123
+    een
+    twee
+    drie
 
-    $ ./rna
-    DNA-keten: ATGC
-    Dit is de bijbehorende RNA-keten: UACG
+    $ ./spraaksynthese 4210
+    vier
+    twee
+    een
+    nul
 
-    $ ./rna
-    DNA-keten: AAF
-    Ongeldige DNA-keten
-
-    $ ./rna
-    DNA-keten: AAGGTTCCAA
-    Dit is de bijbehorende RNA-keten: UUCCAAGGUU
+    $ ./spraaksynthese 4a10
+    Verkeerde invoer
 
 
 ## Driehoek
@@ -162,61 +164,41 @@ Schrijf een programma dat een driehoek uitprint. De gebruiker mag een hoogte opg
     ##############################
 
 
-## Temperaturen
+## Email-validator
 
-Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18C + 320) / 10` en andersom `C = (10F - 320) / 18`. Schrijf een programma dat de gebruiker vraagt om de eenheid van temperatuur, of C van Celsius of F van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapsgrootte. Waarna een nette tabel wordt uitgeprint met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
+Mensen hebben nogal eens de neiging om een niet-bestaande waarde in te voeren in de computer, bijvoorbeeld als om hun mailadres gevraagd wordt. Of ze begrijpen het gewoon niet.
 
-Vraag de gebruiker opnieuw om input als er iets anders dan C of F wordt gekozen voor de eenheid van temperatuur. Vraag de gebruiker ook opnieuw om input als er een stapgrootte kleiner dan 1 wordt ingevuld. 
+Daarom gebruiken websites vaak een email-validator om te controleren of de invoer **redelijk OK** is. De validator is niet compleet, maar voorkomt een aantal fouten.
 
-    $ ./temperaturen
-    Welke eenheid van temperatuur (C of F)? C
-    Wat is de begintemperatuur? 0
-    Wat is de eindtemperatuur? 20
-    Wat is de stapgrootte? 5
-      C |   F
-      0 |  32
-      5 |  41
-     10 |  50
-     15 |  59
-     20 |  68
+Schrijf een email-validator op basis van de volgende regels:
 
-    $ ./temperaturen
-    Welke eenheid van temperatuur (C of F)? F
-    Wat is de begintemperatuur? 0
-    Wat is de eindtemperatuur? 10
-    Wat is de stapgrootte? 2
-      F |   C
-      0 | -17
-      2 | -16
-      4 | -15
-      6 | -14
-      8 | -13
-     10 | -12
+- Er moet een `@` in zitten
+- Vóór de `@` moet minstens één letter staan (A-Z of a-z)
+- Na de `@` moet tenminste één `.` staan.
 
-    $ ./temperaturen 
-    Welke eenheid van temperatuur (C of F)? F
-    Wat is de begintemperatuur? 100
-    Wat is de eindtemperatuur? 0
-    Wat is de stapgrootte? 3
-      F |   C
+Begin simpel:
 
-     $ ./temperaturen 
-    Welke eenheid van temperatuur (C of F)? c
-    Welke eenheid van temperatuur (C of F)? v
-    Welke eenheid van temperatuur (C of F)? F
-    Wat is de begintemperatuur? 0
-    Wat is de eindtemperatuur? 9
-    Wat is de stapgrootte? -3
-    Wat is de stapgrootte? 0
-    Wat is de stapgrootte? 3
-      F |   C
-      0 | -17
-      3 | -16
-      6 | -14
-      9 | -12
+    $ ./mail
+    Adres: mdaks@gmail.com
+    Geldig
+    
+    $ ./mail
+    Adres: a@gmail.nl
+    Geldig
 
-> Tip: zo print je een waarde uit met een vaste lengte `printf("%3d", getal)`. Is `getal` hier bijvoorbeeld `9`, dan worden er twee spaties uitgeprint voor de `9` om zo toch de opgegeven lengte 3 te krijgen.
+En dan wat minder goed gaat:
 
+    $ ./mail
+    Adres: @
+    Ongeldig
+    
+    $ ./mail
+    Adres: me.@com
+    Ongeldig
+
+    $ ./mail
+    Adres: m.raak@student.uva.nl
+    Geldig
 
 
 ## Inleveren
@@ -225,3 +207,4 @@ Heb je één van de opdrachten niet gedaan? Maak dan een leeg bestand aan met de
 
 Let op dat de website een automatische check doet (exact op de input/output die ook hierboven in de voorbeelden staat), maar deze kan nog geen Python-uitwerkingen checken. 
 
+**Let op: dit oefententamen wordt niet nagekeken. Je hoeft het dus ook niet in te leveren.**
