@@ -205,6 +205,4 @@ En dan wat minder goed gaat:
 
 Heb je één van de opdrachten niet gedaan? Maak dan een leeg bestand aan met de juiste naam, en gebruik dit om hieronder in te leveren.
 
-Let op dat de website een automatische check doet (exact op de input/output die ook hierboven in de voorbeelden staat), maar deze kan nog geen Python-uitwerkingen checken. 
-
 **Let op: dit oefententamen wordt niet nagekeken. Je hoeft het dus ook niet in te leveren.**
