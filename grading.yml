@@ -169,7 +169,7 @@ calculation:
         basisboek: 0
         reviews: 75
         # retrospectives: 0
-        tentamens: 0
+        tentamen: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
