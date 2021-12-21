@@ -1,17 +1,11 @@
 name: tentamen
 files:
     c:
-        - rechthoeken.c
-        - teller.c
-        - regen.c
-        - spraaksynthese.c
-        - mail.c
-    python:
-        - rechthoeken.py
-        - teller.py
-        - regen.py
-        - spraaksynthese.py
-        - mail.py
+        - dobbelsteen.c
+        - absoluut.c
+        - samenvatten.c
+        - splits.c
+        - arrays.c
 check:
     tool: check50
-    slug: minprog/tentamen-checks/2021/tentamen2
+    slug: minprog/tentamen-checks/2021/tentamen6
