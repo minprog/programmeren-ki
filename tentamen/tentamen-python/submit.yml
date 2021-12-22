@@ -1,6 +1,6 @@
 name: tentamen-python
 files:
-    c:
+    python:
         - dobbelsteen.py
         - absoluut.py
         - samenvatten.py
