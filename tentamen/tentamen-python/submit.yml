@@ -1,0 +1,11 @@
+name: tentamen-python
+files:
+    c:
+        - dobbelsteen.py
+        - absoluut.py
+        - samenvatten.py
+        - splits.py
+        - arrays.py
+check:
+    tool: check50
+    slug: minprog/tentamen-checks/2021/tentamen6
