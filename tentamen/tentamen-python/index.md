@@ -1,7 +1,6 @@
 # Tentamen
 
-TENTAMEN IN PYTHON MAKEN MAG ALLEEN DOOR STUDENTEN DIE ALLEEN DE OPDRACHT CLIMATE HEBBEN GEMAAKT (herkansingsgroep).
-
+**TENTAMEN IN PYTHON MAKEN MAG ALLEEN DOOR STUDENTEN DIE <u>ALLEEN</u> DE OPDRACHT CLIMATE HEBBEN GEMAAKT (herkansingsgroep).**
 
 Hier inleveren. Dit mag alleen als de surveillant erbij is om de inlevertijd te noteren.
 
