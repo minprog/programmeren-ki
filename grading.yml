@@ -167,7 +167,7 @@ calculation:
     eindcijfer:
         opdrachten: 25
         basisboek: 0
-        reviews: 75
+        punten: 75
         # retrospectives: 0
         tentamen: 0
 
