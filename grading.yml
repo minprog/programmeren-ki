@@ -201,27 +201,22 @@ opdrachten:
         hello: 1
         population: 1
         mario_less: 1
-        figure: :bonus
 
         conversion: 1
         caffeine: 1
-        goldbach: :bonus
 
         strings: 1
         scrabble: 1
         rna: 1
         cypher: 1
-        decryptor: :bonus
 
         functions: 1
         tiles: 1
         calendar: 1
-        calendar_extra: :bonus
 
         algorithms: 1
         sort: 1
         sorter: 1
-        find_extra: :bonus
 
 python:
     show_progress: true
@@ -250,6 +245,11 @@ punten:
         review_4: 1
         review_5: 1
         climate: 1
+        figure: :bonus
+        goldbach: :bonus
+        decryptor: :bonus
+        calendar_extra: :bonus
+        find_extra: :bonus
 
 # retrospectives:
 #     show_progress: true
