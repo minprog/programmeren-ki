@@ -9,8 +9,8 @@ links:
     '[journal-text] Manual': https://man.cs50.io/
     '[book] Boek': http://www.beej.us/guide/bgc/html/split/
     '[people-fill] Afspraak': 'https://balie.mprog.nl/planner/1-programmeerbalie'
-    '[] Tentamen C': '/tentamen/tentamen'
-    '[] Tentamen Py': '/tentamen/tentamen-python'
+    # '[] Tentamen C': '/tentamen/tentamen'
+    # '[] Tentamen Py': '/tentamen/tentamen-python'
 
 acknowledgements:
     - 'Based on CS50 from https://cs50.harvard.edu/ -- Copyright 2011--2021, David J. Malan.'
