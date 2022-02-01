@@ -1,0 +1,17 @@
+name: hertentamen1
+files:
+    c:
+        - convert.c
+        - filter.c
+        - autocorrect.c
+        - wachtwoord.c
+        - maskers.c
+    py:
+        - convert.py
+        - filter.py
+        - autocorrect.py
+        - wachtwoord.py
+        - maskers.py
+check:
+    tool: check50
+    slug: minprog/tentamen-checks/2021/tentamen7
