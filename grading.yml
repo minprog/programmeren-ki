@@ -146,6 +146,7 @@ grades:
 
     oefententamen: *check
     tentamen: *check
+    hertentamen1: *check
     tentamen-python: *check
 
 # CALCULATIONS - define the final grades for the course and the weights between
