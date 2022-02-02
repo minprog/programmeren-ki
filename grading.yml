@@ -176,6 +176,11 @@ calculation:
         basisboek: 0
         punten: 75
         tentamen-py: 0
+    eindcijfer-hertentamen1:
+        opdrachten: 25
+        basisboek: 0
+        punten: 75
+        hertentamen1: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -286,3 +291,9 @@ tentamen-py:
     required: true
     submits:
         tentamen-python: 1
+
+hertentamen1:
+    show_progress: true
+    required: true
+    submits:
+        hertentamen: 1
