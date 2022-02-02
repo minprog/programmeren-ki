@@ -292,7 +292,7 @@ tentamen-py:
     submits:
         tentamen-python: 1
 
-hertentamen1:
+eindcijfer-hertentamen1:
     show_progress: true
     required: true
     submits:
