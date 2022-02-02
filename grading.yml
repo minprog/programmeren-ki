@@ -292,8 +292,8 @@ tentamen-py:
     submits:
         tentamen-python: 1
 
-eindcijfer-hertentamen1:
+hertentamen1:
     show_progress: true
     required: true
     submits:
-        hertentamen: 1
+        hertentamen1: 1
