@@ -1,0 +1,11 @@
+name: hertentamen2
+files:
+    c:
+        - collatz.c
+        - makelaar.c
+        - morse.c
+        - korting.c
+        - alfa.c
+check:
+    tool: check50
+    slug: minprog/tentamen-checks/2021/tentamen8
