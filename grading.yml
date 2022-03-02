@@ -147,6 +147,7 @@ grades:
     oefententamen: *check
     tentamen: *check
     hertentamen1: *check
+    hertentamen2: *check
     tentamen-python: *check
 
 # CALCULATIONS - define the final grades for the course and the weights between
@@ -181,6 +182,11 @@ calculation:
         basisboek: 0
         punten: 75
         hertentamen1: 0
+    eindcijfer-hertentamen2:
+        opdrachten: 25
+        basisboek: 0
+        punten: 75
+        hertentamen2: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -297,3 +303,9 @@ hertentamen1:
     required: true
     submits:
         hertentamen1: 1
+
+hertentamen2:
+    show_progress: true
+    required: true
+    submits:
+        hertentamen2: 1
